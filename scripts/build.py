@@ -343,9 +343,13 @@ def copy_photos(root, output):
             target.parent.mkdir(parents=True, exist_ok=True)
             # Decode and reencode to drop EXIF, comments, and source metadata. Lossy formats keep
             # high quality, because the exporter already produced one lossy generation.
-            clean = Image.new("RGB", image.size)
-            clean.paste(image.convert("RGB"))
             fmt = {".jpg": "JPEG", ".jpeg": "JPEG", ".png": "PNG", ".webp": "WEBP"}[path.suffix.lower()]
+            # Keep transparency for formats that support it, because flattening a white-on-clear logo
+            # onto RGB turns its transparent pixels into a solid white box on a dark header.
+            has_alpha = image.mode in {"RGBA", "LA", "PA"} or (image.mode == "P" and "transparency" in image.info)
+            mode = "RGBA" if has_alpha and fmt in {"PNG", "WEBP"} else "RGB"
+            clean = Image.new(mode, image.size)
+            clean.paste(image.convert(mode))
             options = {"JPEG": {"quality": 95, "optimize": True}, "WEBP": {"quality": 95}, "PNG": {"optimize": True}}[fmt]
             clean.save(target, format=fmt, **options)
         photos.add(url)

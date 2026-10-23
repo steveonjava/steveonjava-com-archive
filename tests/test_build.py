@@ -13,7 +13,7 @@ import unittest
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import build
 import check_videos
-from PIL import Image
+from PIL import Image, PngImagePlugin
 
 TEMPLATE = Path(__file__).resolve().parents[1]
 
@@ -371,6 +371,28 @@ class ArchiveTests(unittest.TestCase):
         with patch('urllib.request.build_opener', side_effect=AssertionError('No network setup before validation')):
             with self.assertRaisesRegex(ValueError, 'YouTube ID'):
                 check_videos.check(self.root)
+
+    def test_transparent_png_keeps_alpha_and_loses_metadata(self):
+        source = self.root / "assets/wp-content/uploads/2014/01/clear-logo.png"
+        logo = Image.new("RGBA", (40, 10), (255, 255, 255, 0))
+        for x in range(10, 30):
+            logo.putpixel((x, 5), (255, 255, 255, 255))
+        meta = PngImagePlugin.PngInfo()
+        meta.add_text("Comment", "SOURCE-METADATA-MARKER")
+        logo.save(source, pnginfo=meta)
+        self.compile()
+        built = self.root / "_site/wp-content/uploads/2014/01/clear-logo.png"
+        self.assertNotIn(b"SOURCE-METADATA-MARKER", built.read_bytes())
+        with Image.open(built) as image:
+            self.assertEqual(image.mode, "RGBA")
+            self.assertEqual(image.getpixel((0, 0))[3], 0)
+            self.assertEqual(image.getpixel((15, 5)), (255, 255, 255, 255))
+            self.assertFalse(image.info.get("Comment"))
+
+    def test_opaque_photo_stays_rgb(self):
+        self.compile()
+        with Image.open(self.root / "_site/wp-content/uploads/2014/01/synthetic.jpg") as image:
+            self.assertEqual(image.mode, "RGB")
 
     def test_original_theme_structure(self):
         self.compile()
