@@ -1,0 +1,42 @@
+[
+  {
+    "path": "/wp-content/uploads/2010/10/2scapigl-254x300.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Found among the owner's own WordPress uploads. Not independently cleared.",
+    "note": "Reproduction of a painting attributed to Leonardo da Vinci. The source of this reproduction is unknown.",
+    "export_sha256": "658094c0d7888a7d96b217c2e807783cb8790195ca96c8d12d42515934e2f1fa"
+  },
+  {
+    "path": "/wp-content/uploads/2011/02/DSC_0035-650x435.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Found among the owner's own WordPress uploads. Not independently cleared.",
+    "note": "Event photograph. The photographer is unknown, and authorship is owner-asserted only.",
+    "export_sha256": "90fb2b39c13f1010b3d2aadde46548fcb5743930e3d73c50d602bf615dcac5d5"
+  },
+  {
+    "path": "/wp-content/uploads/2011/02/DSC_0035.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Found among the owner's own WordPress uploads. Not independently cleared.",
+    "note": "Event photograph. The photographer is unknown, and authorship is owner-asserted only.",
+    "export_sha256": "7715e7b07f88f5465450f9b7da91ecf61f82a71849748649070d51d16b404c0c"
+  },
+  {
+    "path": "/wp-content/uploads/2011/02/DSC_0037-650x435.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Found among the owner's own WordPress uploads. Not independently cleared.",
+    "note": "Event photograph. The photographer is unknown, and authorship is owner-asserted only.",
+    "export_sha256": "85816029819d8ed4a6534c3c8239390b23dc51588b53051e4b57345d35d580ad"
+  },
+  {
+    "path": "/wp-content/uploads/2011/02/DSC_0037.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Found among the owner's own WordPress uploads. Not independently cleared.",
+    "note": "Event photograph. The photographer is unknown, and authorship is owner-asserted only.",
+    "export_sha256": "0fde936e248df49b40d00ffd7ac5ad814ca2fd675ce8ccd8617285445df27673"
+  }
+]

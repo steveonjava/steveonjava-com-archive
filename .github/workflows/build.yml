@@ -1,0 +1,46 @@
+name: Archive prototype preview
+on:
+  push:
+    branches: ['**']
+  pull_request:
+permissions:
+  contents: read
+concurrency:
+  group: archive-preview-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      # Actions are pinned to reviewed commit hashes (checkout v7.0.1, setup-python v7.1.0,
+      # upload-artifact v7.0.2). The hashes were resolved with the GitHub API. The code behind
+      # them has not been read, and the workflow has not run yet. The first CI run is the test.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+        with:
+          python-version: '3.13'
+          cache: pip
+      - name: Install pinned build and preview dependencies
+        run: python -m pip install -r requirements-preview.txt
+      - name: Unit tests with malicious synthetic fixtures
+        run: python -m unittest discover -s tests -v
+      - name: Compile and audit real export inputs
+        run: |
+          python scripts/build.py
+          python scripts/build.py --check-only
+      - name: Install local screenshot browser
+        run: python -m playwright install --with-deps chromium
+      - name: Exercise browser and capture desktop and mobile previews
+        run: python scripts/screenshots.py
+      - name: Upload prototype preview only
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: archive-prototype-preview
+          path: |
+            _site/
+            screenshots/
+          if-no-files-found: error
+          retention-days: 7

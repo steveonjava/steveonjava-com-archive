@@ -1,0 +1,64 @@
+{
+  "exporter_version": "prototype-export-1",
+  "approved_post_ids": [
+    1503,
+    1801
+  ],
+  "media": [
+    {
+      "path": "/wp-content/uploads/2010/10/2scapigl-254x300.jpg",
+      "source_sha256": "74388d47252569e4137268c2aae29c9300442c7b19498e178cdf7b030dedc8ef",
+      "export_sha256": "658094c0d7888a7d96b217c2e807783cb8790195ca96c8d12d42515934e2f1fa",
+      "bytes": 31295,
+      "width": 254,
+      "height": 300,
+      "transformation": "Decode to pixels, apply orientation, encode fresh pixels without metadata"
+    },
+    {
+      "path": "/wp-content/uploads/2011/02/DSC_0035-650x435.jpg",
+      "source_sha256": "d63e55fe2f1687d5aeff26b298f3fa7b0fe2063690676c013274e81f04281787",
+      "export_sha256": "90fb2b39c13f1010b3d2aadde46548fcb5743930e3d73c50d602bf615dcac5d5",
+      "bytes": 73785,
+      "width": 650,
+      "height": 435,
+      "transformation": "Decode to pixels, apply orientation, encode fresh pixels without metadata"
+    },
+    {
+      "path": "/wp-content/uploads/2011/02/DSC_0035.jpg",
+      "source_sha256": "cf3796dc546db63e7185f9b112d8c5850ca7a8837c0ac587033764f81042cdca",
+      "export_sha256": "7715e7b07f88f5465450f9b7da91ecf61f82a71849748649070d51d16b404c0c",
+      "bytes": 1912900,
+      "width": 3872,
+      "height": 2592,
+      "transformation": "Decode to pixels, apply orientation, encode fresh pixels without metadata"
+    },
+    {
+      "path": "/wp-content/uploads/2011/02/DSC_0037-650x435.jpg",
+      "source_sha256": "a6cd13bed1eacae91c70320d9ce3d0c6cbee5ef2e1178f753f2d43070564b2af",
+      "export_sha256": "85816029819d8ed4a6534c3c8239390b23dc51588b53051e4b57345d35d580ad",
+      "bytes": 75649,
+      "width": 650,
+      "height": 435,
+      "transformation": "Decode to pixels, apply orientation, encode fresh pixels without metadata"
+    },
+    {
+      "path": "/wp-content/uploads/2011/02/DSC_0037.jpg",
+      "source_sha256": "4222d3fc354dbd42024fbcff49c30bdef6521b25b315f7e2a5b1322ebfe75e80",
+      "export_sha256": "0fde936e248df49b40d00ffd7ac5ad814ca2fd675ce8ccd8617285445df27673",
+      "bytes": 2218113,
+      "width": 3872,
+      "height": 2592,
+      "transformation": "Decode to pixels, apply orientation, encode fresh pixels without metadata"
+    }
+  ],
+  "excluded": [
+    "Comments",
+    "Users",
+    "Draft/private/password-protected posts",
+    "Executable code",
+    "Original image bytes",
+    "DSC00151.jpg"
+  ],
+  "video_availability": "Not checked: no provider URL was fetched",
+  "review_status": "unreviewed"
+}

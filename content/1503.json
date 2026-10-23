@@ -1,0 +1,42 @@
+{
+  "id": 1503,
+  "type": "post",
+  "title": "JavaFX 2.0 With Alternative Languages at the SvJugFx",
+  "slug": "javafx-2-0-with-alternative-languages-at-the-svjugfx",
+  "date": "2010-10-14 03:19:36",
+  "categories": [
+    {
+      "slug": "events",
+      "name": "Events"
+    },
+    {
+      "slug": "javafx",
+      "name": "JavaFX"
+    },
+    {
+      "slug": "presentation",
+      "name": "Presentation"
+    },
+    {
+      "slug": "visage",
+      "name": "Visage"
+    }
+  ],
+  "excerpt": "It is kind of ironic, but after a year running I have never spoken at my own user group.  In November I am going to break the trend and present an updated version of the JavaFX Alternative Language talk that I gave at JavaOne.  You can sign-up for the event here:",
+  "original_urls": [
+    "http://steveonjava.com/javafx-2-0-with-alternative-languages-at-the-svjugfx/"
+  ],
+  "video_id": null,
+  "thumbnail": null,
+  "review_status": "unreviewed",
+  "provenance": {
+    "database": "steveonjava_wordpress",
+    "post_id": 1503,
+    "source_content_sha256": "d38562f8e9eea1111e82baf98ff0b08c6014028d420da8384d88191e1682fed5",
+    "exporter_version": "prototype-export-1",
+    "authorship": "Original published text, not newly generated first-person prose"
+  },
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}
