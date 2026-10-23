@@ -1,0 +1,17 @@
+[
+  {
+    "site": "steveonjava",
+    "path": "/wp-content/uploads/2010/03/racer3.1.jpg",
+    "source": "https://web.archive.org/web/20120609010313im_/http://steveonjava.com/wp-content/uploads/2010/03/racer3.1.jpg",
+    "final_url": "https://web.archive.org/web/20120501143945im_/http://steveonjava.com/wp-content/uploads/2010/03/racer3.1.jpg",
+    "checked_at": "2026-10-23T21:30:57.386600+00:00",
+    "content_type": "image/jpeg",
+    "source_sha256": "2f46d8accc219f3351d69d4ff44429bb7003cb5922b0b50cdf1c7ee4befb5a12",
+    "export_sha256": "083c852ecf658068ca232f3cb46560ec0464726be92b879b2dcb08d559f5951d",
+    "width": 880,
+    "height": 200,
+    "bytes": 58988,
+    "transformation": "Fully decoded and encoded from fresh pixels without inherited metadata",
+    "rights": "Owner-site historical branding, owner-asserted; no independent license confirmation"
+  }
+]

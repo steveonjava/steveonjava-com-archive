@@ -1,67 +1,1022 @@
-/* Fresh archive styling. No remote fonts, images, or imports. */
-:root { color-scheme: light; --ink: #24272a; --navy: #002f7d; --accent: #627579; }
-* { box-sizing: border-box; }
-body { margin: 0; color: var(--ink); background: repeating-linear-gradient(135deg, #27292b 0 8px, #303235 8px 16px); font: 17px/1.65 Georgia, serif; }
-a { color: var(--navy); text-underline-offset: .18em; overflow-wrap: anywhere; }
-a:hover { text-decoration-thickness: .16em; }
-:focus-visible { outline: 3px solid #ce6600; outline-offset: 4px; }
-.skip-link { position: absolute; left: 1rem; top: -8rem; padding: .5rem 1rem; background: white; z-index: 10; }
-.skip-link:focus { top: 1rem; }
-.site-shell { max-width: 900px; margin: 32px auto; background: #fafafa; box-shadow: 0 12px 50px #1118; }
-.prototype { background: #fff3ce; color: #3c3014; border-bottom: 3px solid #b97d26; padding: 16px 26px; font: 14px/1.55 system-ui, sans-serif; }
-.prototype strong { display: block; letter-spacing: .08em; text-transform: uppercase; }
-.prototype p { margin: .4rem 0 0; }
-.masthead { background: linear-gradient(125deg, #dce2e4, #f4f5f5 55%, #bac8ca); padding: 38px 30px 24px; border-bottom: 7px solid var(--accent); }
-.wordmark { font-size: clamp(2rem, 6vw, 3.1rem); line-height: 1.15; margin: 0; font-style: italic; font-weight: bold; color: #273337; }
-.tagline { font-style: italic; margin: 10px 0; }
-.header-note { font: 12px/1.5 system-ui, sans-serif; color: #455256; max-width: 32rem; }
-nav { display: flex; flex-wrap: wrap; gap: 1.5rem; padding: 12px 30px; background: #e7e9e9; font: 15px/1.6 system-ui, sans-serif; }
-.columns { display: grid; grid-template-columns: minmax(0, 1fr) 180px; gap: 32px; padding: 26px 30px 42px; }
-main { min-width: 0; }
-h1, h2, h3 { color: var(--navy); line-height: 1.25; }
-h1 { margin: 0 0 1.4rem; font-size: 2rem; }
-h2 { font-size: 1.4rem; }
-aside { border-left: 1px solid #d3d8d9; padding-left: 20px; font: 14px/1.7 system-ui, sans-serif; }
-aside h2 { color: #485b60; font-size: 1.05rem; }
-aside ul { padding-left: 1rem; }
-img { max-width: 100%; height: auto; display: block; }
-pre { max-width: 100%; overflow: auto; padding: 1rem; background: #e9eded; font-size: .8rem; white-space: pre-wrap; overflow-wrap: anywhere; }
-.post-meta, time { color: #536267; font-size: .88rem; }
-.post-list, .video-grid { list-style: none; padding: 0; margin: 0; }
-.post-list .card { border-bottom: 1px solid #d6dddd; padding: 8px 0 24px; margin-bottom: 24px; }
-.post-list h2 { margin-bottom: 8px; }
-.intro { color: #4e5d61; }
-[data-unrecovered] { text-decoration-style: dotted; }
-details { margin-top: 2rem; font-size: .9rem; border-top: 1px solid #ccd4d6; padding-top: 1rem; }
-summary { cursor: pointer; font-weight: bold; }
-footer { background: #e7e9e9; border-top: 1px solid #cbd2d3; padding: 18px 30px; font: 13px/1.6 system-ui, sans-serif; }
-#legacy-status:not(:empty), .no-js { padding: 12px 30px; background: #f8edce; margin: 0; }
-.nighthacking { font-family: Arial, Helvetica, sans-serif; background: #17191b; }
-.nighthacking .site-shell { max-width: 1100px; background: #fff; }
-.nighthacking .masthead { background: linear-gradient(115deg, #17191c, #353b41); border-bottom: 5px solid #718d9a; color: #fff; }
-.nighthacking .wordmark { color: #fff; font-style: normal; letter-spacing: -.06em; }
-.nighthacking .tagline, .nighthacking .header-note { color: #d0d8dc; }
-.nighthacking .columns { grid-template-columns: minmax(0, 1fr) 175px; }
-.nighthacking .video-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
-.video-grid .card { background: #303438; color: #e9edef; padding: 16px; }
-.video-grid h2 { font-size: 1.1rem; }
-.video-grid a { color: #b6d7ff; }
-.video-grid time { color: #c9d2d7; }
-.video-grid img { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
-.no-image { display: grid; place-items: center; aspect-ratio: 16/9; background: #22272b; color: #cbd4d8; font-size: .8rem; text-align: center; padding: 12px; }
-.player { padding: 20px; background: #22272c; color: #e6ecf0; margin-bottom: 24px; }
-.player a { color: #b6d7ff; }
-.player img { max-height: 420px; margin: auto; object-fit: contain; }
-@media (max-width: 700px) {
- .site-shell { margin: 0; box-shadow: none; }
- .columns, .nighthacking .columns { display: block; padding: 22px 20px; }
- aside { border-left: 0; border-top: 1px solid #cbd2d3; padding: 18px 0 0; margin-top: 30px; }
- .masthead { padding: 28px 20px 20px; }
- .prototype, footer { padding-left: 20px; padding-right: 20px; }
- nav { padding: 12px 20px; }
- .nighthacking .video-grid { grid-template-columns: 1fr; }
+/* Independently authored from visual references; artwork is supplied in HTML. */
+:root {
+  color-scheme: light;
+  --navy: #002f7d;
+  --slate: #627579;
 }
-@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
 
-.dead-link { text-decoration: underline dotted; text-underline-offset: 3px; cursor: help; }
-.dead-note { font-size: .85em; color: #5a6568; font-style: italic; }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+:focus-visible {
+  outline: 2px solid #627579;
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 100;
+  transform: translateY(calc(-100% - 16px));
+  padding: 8px 12px;
+  background: #fff;
+  color: #002f7d;
+  font: 13px/20px Arial, sans-serif;
+}
+
+.skip-link:focus {
+  transform: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+main,
+article,
+section,
+aside,
+.entry-content {
+  min-width: 0;
+}
+
+p {
+  margin: 0 0 12px;
+}
+
+figure {
+  max-width: 100%;
+  margin: 20px 0;
+}
+
+figure img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+figcaption {
+  margin-top: 6px;
+  font-size: 0.9em;
+  color: #707070;
+}
+
+.entry-content {
+  overflow-wrap: anywhere;
+}
+
+.entry-content ul,
+.entry-content ol {
+  margin: 0 0 14px;
+  padding-left: 25px;
+}
+
+.entry-content li > ul,
+.entry-content li > ol {
+  margin-bottom: 0;
+}
+
+.entry-content iframe,
+.entry-content video,
+.entry-content object,
+.entry-content embed {
+  max-width: 100%;
+}
+
+.entry-content table {
+  display: block;
+  max-width: 100%;
+  margin: 16px 0;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+.entry-content th,
+.entry-content td {
+  padding: 5px 8px;
+  border: 1px solid #d0d0d0;
+  text-align: left;
+  vertical-align: top;
+}
+
+code,
+pre,
+kbd,
+samp {
+  font-family: Consolas, "Liberation Mono", monospace;
+  font-size: 0.95em;
+}
+
+pre {
+  max-width: 100%;
+  margin: 16px 0;
+  padding: 12px;
+  overflow: auto;
+  border: 1px solid #d0d0d0;
+  background: #f2f2f2;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  tab-size: 4;
+}
+
+pre code {
+  font-size: inherit;
+}
+
+hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #d0d0d0;
+}
+
+.dead-link {
+  color: inherit;
+  text-decoration: none;
+  cursor: inherit;
+}
+
+#legacy-status:empty {
+  display: none;
+}
+
+.no-js {
+  margin: 0;
+  padding: 8px 20px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* Steve On Java: compact Freshy-era shell, photograph, and glass navigation. */
+body.steveonjava {
+  color: #232323;
+  background-color: #373737;
+  background-image: repeating-linear-gradient(
+    135deg,
+    #404040 0,
+    #404040 70.7107px,
+    #373737 70.7107px,
+    #373737 141.4214px
+  );
+  font: 12.16px/20.67px Arial, Verdana, sans-serif;
+}
+
+.steveonjava > .site-shell {
+  width: 880px;
+  max-width: 100%;
+  margin: 10px auto;
+  background: linear-gradient(to right, #fff 0%, #fff 45%, #ebebeb 90%, #ebebeb 100%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.65);
+}
+
+.steveonjava a {
+  color: var(--slate);
+}
+
+.steveonjava .masthead {
+  position: relative;
+  height: 77px;
+  padding: 18px 18px 0;
+}
+
+.steveonjava .wordmark {
+  display: inline-block;
+  color: #3d3d3d;
+  font: italic 400 26.75px/28px "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+  letter-spacing: -2px;
+  text-decoration: none;
+}
+
+.steveonjava .tagline {
+  margin: 0;
+  color: #8d8d8d;
+  font: italic 700 12.16px/15px Arial, sans-serif;
+}
+
+.steveonjava .header-current {
+  position: absolute;
+  top: 29px;
+  right: 28px;
+  max-width: 40%;
+  font: 11px/18px Arial, sans-serif;
+  text-align: right;
+}
+
+.steveonjava .header-scene {
+  position: relative;
+  height: 200px;
+  background: #263039;
+}
+
+.steveonjava .header-photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.steveonjava .header-scene::before {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.6);
+  content: "";
+  pointer-events: none;
+}
+
+.steveonjava .site-nav {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  z-index: 2;
+  display: flex;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.36) 0%,
+    rgba(255, 255, 255, 0.15) 49%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(0, 0, 0, 0.08) 100%
+  );
+}
+
+.steveonjava .site-nav a {
+  display: flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0 10px;
+  color: #fff;
+  font: 400 11px/16px Arial, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.steveonjava .site-nav a[aria-current="page"] {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.17), transparent 52%), #627579;
+}
+
+.steveonjava .site-nav a:hover {
+  background-color: rgba(98, 117, 121, 0.75);
+}
+
+.steveonjava .site-nav a:focus-visible {
+  position: relative;
+  outline-color: #fff;
+  outline-offset: -4px;
+}
+
+.steveonjava .columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 180px;
+  align-items: stretch;
+}
+
+.steveonjava #main {
+  padding: 30px 20px 24px;
+}
+
+.steveonjava h1,
+.steveonjava h2 {
+  color: var(--navy);
+  font: 400 23.1px/25.4px "Trebuchet MS", Arial, sans-serif;
+  letter-spacing: -1px;
+}
+
+.steveonjava .page-title {
+  margin: 0 0 3px;
+}
+
+.steveonjava .page-title a,
+.steveonjava .post-list h2 a {
+  color: inherit;
+}
+
+.steveonjava .post-meta {
+  margin: 3px 0 14px;
+  color: var(--navy);
+  font: 11px/15.4px Arial, sans-serif;
+}
+
+.steveonjava .post-meta a,
+.steveonjava .post-meta time {
+  color: inherit;
+  font: inherit;
+}
+
+.steveonjava .entry-content p {
+  margin: 0 0 9px;
+}
+
+.steveonjava .entry-content h2 {
+  margin: 22px 0 10px;
+}
+
+.steveonjava .entry-content h3 {
+  margin: 14px 0 8px;
+  color: var(--slate);
+  font: 700 13.4px/20.67px Arial, sans-serif;
+}
+
+.steveonjava .entry-content h4 {
+  margin: 12px 0 7px;
+  font-size: inherit;
+}
+
+.steveonjava blockquote {
+  margin: 18px 12px 18px 20px;
+  padding: 0 0 0 15px;
+  border-left: 3px solid var(--navy);
+  color: var(--navy);
+  font: italic 13.4px/22px Georgia, serif;
+}
+
+.steveonjava aside {
+  padding: 10px;
+  border-left: 1px solid #d0d0d0;
+}
+
+.steveonjava aside h2 {
+  margin: 18px 0 9px -10px;
+  padding: 15px 10px;
+  border-left: 2px solid var(--slate);
+  color: var(--slate);
+  font: 400 18.24px/21px "Trebuchet MS", Arial, sans-serif;
+  letter-spacing: -1px;
+}
+
+.steveonjava aside h2:first-child {
+  margin-top: 0;
+}
+
+.steveonjava aside ul {
+  margin: 0 0 15px;
+  padding: 0;
+  list-style: none;
+}
+
+.steveonjava aside li {
+  margin: 0;
+}
+
+.steveonjava .post-taxonomy {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 2px 8px;
+  margin: 20px 0 0;
+  padding: 7px 10px;
+  border: 1px solid #c6c6c6;
+  background: #fff;
+  font: 11px/18px Arial, sans-serif;
+}
+
+.steveonjava .post-taxonomy dt {
+  color: #828282;
+  font-weight: 400;
+}
+
+.steveonjava .post-taxonomy dd {
+  min-width: 0;
+  margin: 0;
+}
+
+.steveonjava .post-taxonomy a {
+  color: #000;
+  font-weight: 700;
+}
+
+.steveonjava .post-list {
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.steveonjava .post-list .card {
+  margin: 0 0 26px;
+  padding: 0 0 24px;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.steveonjava .post-list .card:last-child {
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+
+.steveonjava .post-list h2 {
+  margin: 0 0 3px;
+}
+
+.steveonjava .post-list .excerpt {
+  margin: 0;
+}
+
+.steveonjava footer {
+  min-height: 38px;
+  padding: 10px 18px;
+  border-top: 1px solid #d0d0d0;
+  background: linear-gradient(to bottom, #f8f8f8, #ebebeb);
+  color: #627579;
+  font: 11px/17px Arial, sans-serif;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* NightHacking: the Focus-style full-width masthead and cinema stage. */
+body.nighthacking {
+  color: #404040;
+  background: #f6f4f2;
+  font: 13px/19.5px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.nighthacking > .site-shell {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  background: transparent;
+}
+
+.nighthacking a {
+  color: #333;
+}
+
+.nighthacking .masthead {
+  min-height: 48px;
+  background: linear-gradient(to bottom, #181818, #212326);
+}
+
+.nighthacking .masthead-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 960px;
+  max-width: calc(100% - 32px);
+  height: 48px;
+  margin: 0 auto;
+}
+
+.nighthacking .wordmark {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 1 214px;
+  color: #fff;
+  font: 700 23px/26px "Arial Narrow", Arial, sans-serif;
+  letter-spacing: -1px;
+  text-decoration: none;
+}
+
+.nighthacking .site-logo {
+  display: block;
+  width: 214px;
+  height: auto;
+}
+
+.nighthacking .site-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+  color: #c5c5c5;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.nighthacking .site-nav a {
+  display: flex;
+  align-items: center;
+  min-height: 48px;
+  color: inherit;
+  white-space: nowrap;
+}
+
+.nighthacking .site-nav a:hover,
+.nighthacking .site-nav a[aria-current="page"] {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nighthacking .masthead :focus-visible,
+.nighthacking .video-stage :focus-visible {
+  outline-color: #fff;
+}
+
+.nighthacking .night-main {
+  width: 100%;
+  padding: 0;
+}
+
+.nighthacking .page-title {
+  margin: 0 0 18px;
+  color: #393939;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.nighthacking .video-stage {
+  padding: 30px 0 48px;
+  background: #070707;
+  color: #fff;
+}
+
+.nighthacking .stage-inner {
+  width: 960px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.nighthacking .video-stage .page-title {
+  margin: 0 0 20px;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 200;
+  line-height: 42px;
+  text-align: center;
+  text-shadow: 0 1px 2px #000;
+}
+
+.nighthacking .player {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+
+.nighthacking .video-poster {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #000;
+  color: #fff;
+  line-height: 0;
+}
+
+.nighthacking .video-poster img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nighthacking .watch-link {
+  margin: 0;
+  padding: 9px 16px 12px;
+  color: #ccc;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.nighthacking .watch-link a {
+  color: #ddd;
+}
+
+.nighthacking .watch-link a:hover {
+  color: #fff;
+}
+
+.nighthacking .columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 248px;
+  align-items: start;
+  gap: 30px;
+  width: 960px;
+  max-width: calc(100% - 32px);
+  margin: 0 auto 28px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.nighthacking .post-columns {
+  position: relative;
+  margin-top: -24px;
+}
+
+.nighthacking .entry-content p {
+  margin: 0 0 16px;
+}
+
+.nighthacking .entry-content a {
+  text-decoration: underline;
+}
+
+.nighthacking .entry-content h2 {
+  margin: 24px 0 16px;
+  color: #404040;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.nighthacking .entry-content h3 {
+  margin: 22px 0 12px;
+  color: #404040;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.nighthacking blockquote {
+  margin: 18px 0;
+  padding: 0 0 0 16px;
+  border-left: 3px solid #ccc;
+  color: #707070;
+}
+
+.nighthacking aside {
+  padding: 0;
+  border: 0;
+}
+
+.nighthacking aside h2 {
+  margin: 24px 0 10px;
+  color: #393939;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.nighthacking aside h2:first-child {
+  margin-top: 0;
+}
+
+.nighthacking aside ul {
+  margin: 0 0 24px;
+  padding: 0;
+  list-style: none;
+}
+
+.nighthacking aside li {
+  margin: 0;
+}
+
+.nighthacking .video-meta p {
+  margin: 0 0 14px;
+  color: #777;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.nighthacking .video-meta p:first-child {
+  font-size: 13px;
+  line-height: 19.5px;
+}
+
+.nighthacking .video-meta strong {
+  color: #393939;
+  font-weight: 500;
+}
+
+.nighthacking .video-meta time {
+  color: inherit;
+  font: inherit;
+}
+
+.nighthacking .post-taxonomy {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 2px 6px;
+  margin: 14px 0 20px;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.nighthacking .post-taxonomy dt {
+  color: #777;
+}
+
+.nighthacking .post-taxonomy dd {
+  min-width: 0;
+  margin: 0;
+}
+
+/* Gallery pages retain the original three-column panel, without index widgets. */
+.nighthacking .gallery-heading {
+  width: 960px;
+  max-width: calc(100% - 32px);
+  margin: 30px auto 14px;
+}
+
+.nighthacking .gallery-heading .page-title {
+  margin: 0;
+  color: #303438;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.nighthacking .gallery-columns {
+  display: block;
+  margin-bottom: 30px;
+  border-color: #ddd;
+}
+
+.nighthacking .gallery-columns > aside {
+  display: none;
+}
+
+.nighthacking .video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 15px 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nighthacking .video-grid .card {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  background: #181b1d;
+}
+
+.nighthacking .video-card {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 301 / 162;
+  overflow: hidden;
+  background: #181b1d;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nighthacking .video-card img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nighthacking .video-card h2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 11px 7px;
+  background: rgba(21, 24, 26, 0.88);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 21px;
+  text-align: center;
+}
+
+.nighthacking .video-card:hover {
+  text-decoration: none;
+}
+
+.nighthacking .video-card:hover h2 {
+  background: rgba(21, 24, 26, 0.96);
+}
+
+.nighthacking .archive-content h2 {
+  margin: 0 0 14px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.nighthacking .archive-content ul,
+.nighthacking .post-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nighthacking .archive-content li,
+.nighthacking .post-list .card {
+  margin: 0 0 12px;
+  padding: 0 0 12px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.nighthacking .post-list h2 {
+  margin: 0 0 5px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.nighthacking .post-meta {
+  margin: 0 0 10px;
+  color: #777;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.nighthacking .night-main > .page-title {
+  width: 960px;
+  max-width: calc(100% - 32px);
+  margin: 30px auto 18px;
+}
+
+.nighthacking footer {
+  min-height: 70px;
+  padding: 25px 16px;
+  background: #2a2b2f;
+  color: #ccc;
+  font-size: 11px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.nighthacking footer a {
+  color: #ddd;
+}
+
+@media (max-width: 700px) {
+  body.steveonjava {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .steveonjava > .site-shell {
+    width: 100%;
+    margin: 0;
+    box-shadow: none;
+  }
+
+  .steveonjava .header-current {
+    top: 20px;
+    right: 12px;
+    max-width: 28%;
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .steveonjava .header-scene::before {
+    height: 114px;
+  }
+
+  .steveonjava .site-nav {
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
+    flex-wrap: wrap;
+    height: auto;
+    min-height: 40px;
+  }
+
+  .steveonjava .site-nav a {
+    min-height: 30px;
+    padding: 7px 9px;
+    font-size: 10px;
+  }
+
+  .steveonjava .columns {
+    display: block;
+  }
+
+  .steveonjava #main {
+    padding: 24px 20px;
+  }
+
+  .steveonjava aside {
+    padding: 18px 20px;
+    border-top: 1px solid #d0d0d0;
+    border-left: 0;
+  }
+
+  .steveonjava aside h2 {
+    margin-left: 0;
+    padding: 12px 10px;
+  }
+
+  .steveonjava blockquote {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+
+  .nighthacking .masthead-inner {
+    flex-wrap: wrap;
+    gap: 0 14px;
+    width: auto;
+    max-width: none;
+    height: auto;
+    min-height: 48px;
+    margin: 0 16px;
+    padding: 10px 0;
+  }
+
+  .nighthacking .site-nav {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0 16px;
+    max-width: 100%;
+  }
+
+  .nighthacking .site-nav a {
+    min-height: 28px;
+  }
+
+  .nighthacking .video-stage {
+    padding-top: 24px;
+    padding-bottom: 38px;
+  }
+
+  .nighthacking .video-stage .page-title {
+    margin-bottom: 18px;
+    padding: 0 16px;
+    font-size: clamp(26px, 5.5vw, 36px);
+    line-height: 1.08;
+  }
+
+  .nighthacking .columns {
+    display: block;
+    max-width: calc(100% - 24px);
+  }
+
+  .nighthacking .post-columns {
+    margin-top: -20px;
+  }
+
+  .nighthacking aside {
+    margin-top: 24px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+  }
+
+  .nighthacking .gallery-heading,
+  .nighthacking .night-main > .page-title {
+    max-width: calc(100% - 24px);
+  }
+
+  .nighthacking .gallery-columns {
+    padding: 12px;
+  }
+
+  .nighthacking .video-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nighthacking .video-grid {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 15px;
+  }
+}
+
+@media (max-width: 420px) {
+  .steveonjava .header-scene {
+    height: 160px;
+  }
+
+  .steveonjava .tagline {
+    font-size: 11px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+  }
+}

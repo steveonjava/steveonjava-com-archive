@@ -1,7 +1,7 @@
 name: Publish prototype to GitHub Pages
 # Runs only after a reviewed pull request is merged to main (or when the owner starts it by hand).
 # The site is served at https://<owner>.github.io/<repo>/, so the build adds the repository name
-# as a path prefix. Every page keeps noindex,nofollow, and the pages are labelled as an unreviewed prototype.
+# as a path prefix. Every page keeps noindex,nofollow. Review caveats stay in Git, not rendered pages.
 on:
   push:
     branches: [main]

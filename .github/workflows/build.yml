@@ -35,6 +35,8 @@ jobs:
         run: |
           python scripts/build.py --base-path "/${GITHUB_REPOSITORY#*/}"
           python scripts/build.py --check-only --base-path "/${GITHUB_REPOSITORY#*/}"
+      - name: Check public video metadata separately from the offline build
+        run: python scripts/check_videos.py --output video-checks.json
       - name: Install local screenshot browser
         # One run stalled at this step for over seven minutes, against 29 seconds on a normal run.
         timeout-minutes: 6
@@ -48,5 +50,7 @@ jobs:
           path: |
             _site/
             screenshots/
+            build-report.json
+            video-checks.json
           if-no-files-found: error
           retention-days: 7

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Exercise the actual built archive with a loopback-only browser preview."""
+"""Exercise the built archive in the GitHub Actions runner with nonlocal requests blocked."""
 import argparse
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
@@ -11,95 +11,127 @@ from urllib.parse import urlsplit
 from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[1]
+CAVEATS = ['Only the posts listed here are included', 'A limited selection of recovered posts',
+           'Archival source material is unreviewed', 'Unreviewed source transcription',
+           'Video archive prototype', 'Availability is unknown', 'Opening this link visits YouTube',
+           'Historical motorcycle photograph is not included', 'Archive note:', 'Source and review notes']
 
 
-def main(root=ROOT, base="", out="screenshots"):
-    output = root / "_site"
-    report = json.loads((output / "build-report.json").read_text())
-    records = [json.loads(path.read_text()) for path in sorted((root / "content").glob("*.json"))]
+def main(root=ROOT, base='', out='screenshots'):
+    output = root / '_site'
+    report = json.loads((root / 'build-report.json').read_text())
+    records = [json.loads(path.read_text()) for path in sorted((root / 'content').glob('*.json'))]
+    site = json.loads((root / 'archive.json').read_text())['site']
     first = records[0]
-    missing_id = next(str(value) for value in range(1, len(records) + 2) if value not in {p["id"] for p in records})
+    missing_id = next(str(value) for value in range(1, len(records) + 2) if value not in {p['id'] for p in records})
     screenshots = root / out
     screenshots.mkdir(exist_ok=True)
 
     class Handler(SimpleHTTPRequestHandler):
-        """Serve the build under the project prefix only, as GitHub Pages does for a project site."""
         def translate_path(self, path):
             clean = urlsplit(path).path
             if base:
-                if not clean.startswith(base + "/"):
-                    return str(output / "__outside_base_path__")  # does not exist, so the browser sees a 404
+                if not clean.startswith(base + '/'):
+                    return str(output / '__outside_base_path__')
                 clean = clean[len(base):]
             return super().translate_path(clean)
 
-    handler = partial(Handler, directory=str(output))
-    server = ThreadingHTTPServer(("127.0.0.1", 0), handler)
+    server = ThreadingHTTPServer(('127.0.0.1', 0), partial(Handler, directory=str(output)))
     thread = Thread(target=server.serve_forever, daemon=True)
     thread.start()
-    origin = f"http://127.0.0.1:{server.server_port}" + base
-    blocked, errors, failed = [], [], []
+    origin = f'http://127.0.0.1:{server.server_port}' + base
+    blocked, errors, failed, metrics = [], [], [], []
+    paths = [('home', '/'), ('post', '/' + first['slug'] + '/')]
+    paths += [('post-' + str(post['id']), '/' + post['slug'] + '/') for post in records[1:]]
+    paths += [('archive', '/archive/'), ('404', '/404.html')]
+    if site == 'nighthacking':
+        paths.append(('videos', '/videos/'))
+    count = 0
 
     def watch(page):
-        page.on("pageerror", lambda error: errors.append(str(error)))
-        page.on("response", lambda response: failed.append(f"{response.status} {response.url}")
-                if response.status >= 400 and not response.url.endswith("/favicon.ico") else None)
+        page.on('pageerror', lambda error: errors.append(str(error)))
+        page.on('response', lambda response: failed.append(f'{response.status} {response.url}')
+                if response.status >= 400 and not response.url.endswith('/favicon.ico') else None)
+
     try:
         with sync_playwright() as playwright:
             browser = playwright.chromium.launch()
             def route_request(route):
                 parsed = urlsplit(route.request.url)
-                if parsed.scheme == "http" and parsed.netloc == f"127.0.0.1:{server.server_port}":
+                if parsed.scheme == 'http' and parsed.netloc == f'127.0.0.1:{server.server_port}':
                     route.continue_()
                 else:
                     blocked.append(route.request.url)
                     route.abort()
-            for label, viewport in [("desktop", {"width": 1440, "height": 1000}), ("mobile", {"width": 390, "height": 844})]:
-                context = browser.new_context(viewport=viewport, service_workers="block")
-                context.route("**/*", route_request)
+            for label, viewport in [('desktop', {'width': 1280, 'height': 900}), ('mobile', {'width': 390, 'height': 844})]:
+                context = browser.new_context(viewport=viewport, service_workers='block')
+                context.route('**/*', route_request)
                 page = context.new_page()
                 watch(page)
-                for name, path in [("home", "/"), ("post", "/" + first["slug"] + "/"), ("404", "/404.html")]:
-                    page.goto(origin + path, wait_until="networkidle")
-                    assert page.locator(".prototype").count() == 1
-                    assert page.locator("iframe, form").count() == 0
-                    assert page.evaluate("document.documentElement.scrollWidth <= window.innerWidth"), "Horizontal overflow"
-                    page.screenshot(path=str(screenshots / f"{label}-{name}.png"), full_page=True)
-                page.goto(origin + "/?p=" + str(first["id"]), wait_until="networkidle")
-                page.wait_for_url(origin + "/" + first["slug"] + "/")
-                for query in ["?p=" + missing_id, "?p=1&p=2", "?p=https%3A%2F%2Fevil.example", "?p=__proto__", "?p=01"]:
-                    page.goto(origin + "/" + query, wait_until="networkidle")
-                    assert page.locator("#legacy-status").inner_text()
-                    assert page.url.startswith(origin + "/?")
+                for name, path in paths:
+                    page.goto(origin + path, wait_until='networkidle')
+                    assert page.locator('.prototype, .header-note, .dead-note, details').count() == 0
+                    assert page.locator('iframe, form').count() == 0
+                    assert page.locator('main h1').count() == 1
+                    for phrase in CAVEATS:
+                        assert phrase not in page.content(), (path, phrase)
+                    assert page.evaluate('document.documentElement.scrollWidth <= window.innerWidth'), f'Horizontal overflow: {path}'
+                    # Trigger lazy images and verify decoded pixels, then return to the initial viewport.
+                    for image in page.locator('img').all():
+                        image.scroll_into_view_if_needed()
+                        image.evaluate("img => img.decode()")
+                        assert image.evaluate('img => img.complete && img.naturalWidth > 0'), f'Broken image: {path}'
+                    page.evaluate('window.scrollTo(0, 0)')
+                    if label == 'desktop' and name == 'home':
+                        if site == 'steveonjava':
+                            box = page.locator('.site-shell').bounding_box()
+                            assert abs(box['width'] - 880) < 2, box
+                            photo = page.locator('.header-photo').bounding_box()
+                            assert abs(photo['y'] - 87) < 3 and abs(photo['height'] - 200) < 2, photo
+                            metrics.append({'shell': box, 'header_photo': photo})
+                        else:
+                            box = page.locator('.masthead-inner').bounding_box()
+                            assert abs(box['width'] - 960) < 2, box
+                            assert page.locator('.video-grid').evaluate("el => getComputedStyle(el).gridTemplateColumns.split(' ').length") == 3
+                            metrics.append({'masthead_inner': box})
+                    page.screenshot(path=str(screenshots / f'{label}-{name}.png'), full_page=True)
+                    count += 1
+                page.goto(origin + '/?p=' + str(first['id']), wait_until='networkidle')
+                page.wait_for_url(origin + '/' + first['slug'] + '/')
+                for query in ['?p=' + missing_id, '?p=1&p=2', '?p=https%3A%2F%2Fevil.example', '?p=__proto__', '?p=01']:
+                    page.goto(origin + '/' + query, wait_until='networkidle')
+                    assert page.locator('#legacy-status').inner_text()
+                    assert 'prototype' not in page.locator('#legacy-status').inner_text()
+                    assert page.url.startswith(origin + '/?')
                 context.close()
-            context = browser.new_context(java_script_enabled=False, service_workers="block")
-            context.route("**/*", route_request)
+            context = browser.new_context(java_script_enabled=False, service_workers='block')
+            context.route('**/*', route_request)
             page = context.new_page()
             watch(page)
-            paths = ["/", "/archive/", "/" + first["slug"] + "/", "/archive/" + first["date"][:4] + "/"]
-            if first["categories"]:
-                paths.append("/category/" + first["categories"][0]["slug"] + "/")
-            for path in paths:
+            for _, path in paths:
                 page.goto(origin + path)
-                assert page.locator("main h1").count() == 1
-            page.goto(origin + "/")
-            page.keyboard.press("Tab")
-            assert page.locator(".skip-link").evaluate("el => el === document.activeElement")
+                assert page.locator('main h1').count() == 1
+            page.goto(origin + '/')
+            page.keyboard.press('Tab')
+            assert page.locator('.skip-link').evaluate('el => el === document.activeElement')
             context.close()
             browser.close()
         assert not errors, errors
-        assert not blocked, f"Unexpected external resource requests: {blocked}"
-        assert not failed, f"Local requests that returned an HTTP error: {failed}"
-        print(json.dumps({"screenshots": 6, "base_path": base, "posts": report["posts"], "javascript_errors": errors, "external_requests": blocked, "failed_local_requests": failed, "no_js": "passed", "legacy_ids": "passed"}))
+        assert not blocked, f'Unexpected external resource requests: {blocked}'
+        assert not failed, f'HTTP errors: {failed}'
+        print(json.dumps({'screenshots': count, 'base_path': base, 'posts': report['posts'], 'javascript_errors': errors,
+                          'external_requests': blocked, 'failed_local_requests': failed, 'no_js': 'passed',
+                          'legacy_ids': 'passed', 'original_theme_geometry': metrics}))
     finally:
         server.shutdown()
         server.server_close()
         thread.join(timeout=5)
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--root", type=Path, default=ROOT)
-    parser.add_argument("--base-path", default="", help="serve under this prefix, as a project site")
-    parser.add_argument("--out", default="screenshots", help="screenshot directory inside the root")
+    parser.add_argument('--root', type=Path, default=ROOT)
+    parser.add_argument('--base-path', default='')
+    parser.add_argument('--out', default='screenshots')
     args = parser.parse_args()
     main(args.root, args.base_path, args.out)
