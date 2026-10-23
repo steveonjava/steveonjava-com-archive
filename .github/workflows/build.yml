@@ -15,7 +15,7 @@ jobs:
     steps:
       # Actions are pinned to reviewed commit hashes (checkout v7.0.1, setup-python v7.1.0,
       # upload-artifact v7.0.2). The hashes were resolved with the GitHub API. The code behind
-      # them has not been read, and the workflow has not run yet. The first CI run is the test.
+      # them has not been read.
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           persist-credentials: false
@@ -27,14 +27,20 @@ jobs:
         run: python -m pip install -r requirements-preview.txt
       - name: Unit tests with malicious synthetic fixtures
         run: python -m unittest discover -s tests -v
-      - name: Compile and audit real export inputs
+      - name: Compile and audit real export inputs for a domain root
         run: |
           python scripts/build.py
           python scripts/build.py --check-only
+      - name: Compile and audit again for the project URL path used by GitHub Pages
+        run: |
+          python scripts/build.py --base-path "/${GITHUB_REPOSITORY#*/}"
+          python scripts/build.py --check-only --base-path "/${GITHUB_REPOSITORY#*/}"
       - name: Install local screenshot browser
+        # One run stalled at this step for over seven minutes, against 29 seconds on a normal run.
+        timeout-minutes: 6
         run: python -m playwright install --with-deps chromium
-      - name: Exercise browser and capture desktop and mobile previews
-        run: python scripts/screenshots.py
+      - name: Exercise the project-path build in a browser and capture desktop and mobile previews
+        run: python scripts/screenshots.py --base-path "/${GITHUB_REPOSITORY#*/}"
       - name: Upload prototype preview only
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
         with:

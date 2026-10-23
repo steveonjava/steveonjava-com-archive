@@ -1,0 +1,52 @@
+name: Publish prototype to GitHub Pages
+# Runs only after a reviewed pull request is merged to main (or when the owner starts it by hand).
+# The site is served at https://<owner>.github.io/<repo>/, so the build adds the repository name
+# as a path prefix. Every page keeps noindex,nofollow, and the pages are labelled as an unreviewed prototype.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # Pins: checkout v7.0.1, setup-python v7.1.0, upload-pages-artifact v5.0.0 (a composite action that
+      # tars the folder and calls upload-artifact v7.0.0). Hashes were resolved with the GitHub API.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+        with:
+          python-version: '3.13'
+          cache: pip
+      - name: Install pinned build dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Build for the project URL path and audit every page
+        run: python scripts/build.py --base-path "/${GITHUB_REPOSITORY#*/}"
+      - name: Package the built site
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9
+        with:
+          path: _site/
+          retention-days: 3
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # deploy-pages v5.0.1 (a node24 action). The code behind this hash has not been read.
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346

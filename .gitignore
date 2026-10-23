@@ -4,3 +4,4 @@ screenshots/
 __pycache__/
 *.py[cod]
 .pytest_cache/
+screenshots-project/

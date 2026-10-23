@@ -1,6 +1,7 @@
 "use strict";
 (() => {
   const posts = Object.freeze(__POST_MAP__);
+  const base = __BASE_PATH__;
   const params = new URLSearchParams(window.location.search);
   if (!params.has("p")) return;
   const ids = params.getAll("p");
@@ -16,5 +17,5 @@
   }
   const path = posts[id];
   if (!/^\/[a-z0-9]+(?:-[a-z0-9]+)*\/$/.test(path)) return;
-  window.location.replace(path);
+  window.location.replace(base + path);
 })();

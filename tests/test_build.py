@@ -225,6 +225,50 @@ class ArchiveTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 self.compile()
 
+    def test_project_base_path_prefixes_every_local_url(self):
+        self.markdown = "[Missing](/not-exported/) [Gone](/wp-content/uploads/2014/01/absent.jpg) Text: href=\"/literal\"\n\n```\nsrc=\"/code\"\n```\n"
+        self.save()
+        with contextlib.redirect_stdout(io.StringIO()):
+            report = build.build(self.root, "/my-repo")
+        self.assertEqual(report["base_path"], "/my-repo")
+        self.assertEqual(report["unrecovered_links"], [{"page": "/synthetic-one/", "target": "/not-exported/"}, {"page": "/synthetic-one/", "target": "/wp-content/uploads/2014/01/absent.jpg"}])
+        pages = list((self.root / "_site").rglob("*.html"))
+        self.assertGreater(len(pages), 5)
+        for file in pages:
+            html = file.read_text()
+            for match in __import__("re").findall(r'\b(?:href|src)="(/[^"]*)"', html):
+                self.assertTrue(match.startswith("/my-repo/"), f"{file.name}: {match}")
+        post = (self.root / "_site/synthetic-one/index.html").read_text()
+        self.assertIn('href="/my-repo/not-exported/"', post)
+        self.assertIn("href=&quot;/literal&quot;", post)
+        self.assertIn("src=&quot;/code&quot;", post)
+        self.assertNotIn("/my-repo/literal", post)
+        self.assertNotIn("/my-repo/code", post)
+        script = (self.root / "_site/assets/legacy.js").read_text()
+        self.assertIn('const base = "/my-repo";', script)
+        self.assertNotIn("__BASE_PATH__", script)
+        self.assertIn('src="/my-repo/assets/legacy.js"', post)
+        build.check(self.root / "_site", "/my-repo")
+
+    def test_audit_rejects_a_build_checked_against_the_wrong_base_path(self):
+        with contextlib.redirect_stdout(io.StringIO()):
+            build.build(self.root, "/my-repo")
+        for wrong in ["", "/other-repo"]:
+            with self.assertRaises(ValueError):
+                build.check(self.root / "_site", wrong)
+
+    def test_domain_root_build_is_unchanged_by_the_base_path_option(self):
+        self.compile()
+        post = (self.root / "_site/synthetic-one/index.html").read_text()
+        self.assertIn('href="/assets/archive.css"', post)
+        self.assertIn('const base = "";', (self.root / "_site/assets/legacy.js").read_text())
+
+    def test_invalid_base_paths_are_rejected(self):
+        for bad in ["my-repo", "/My-Repo", "/a/b", "/x/", "//evil.example", '/a"b', "/a b", "/-x", "/x_y", "/"]:
+            with self.subTest(base=bad), self.assertRaises(ValueError):
+                with contextlib.redirect_stdout(io.StringIO()):
+                    build.build(self.root, bad)
+
     def test_reencode_strips_exif(self):
         photo = self.root / "assets/wp-content/uploads/2014/01/synthetic.jpg"
         exif = Image.Exif()

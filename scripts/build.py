@@ -28,6 +28,8 @@ REL = "nofollow noopener noreferrer"
 ALIASES = {"steveonjava": {"steveonjava.com", "www.steveonjava.com"},
            "nighthacking": {"nighthacking.tv", "www.nighthacking.tv", "nighthacking.com", "www.nighthacking.com"}}
 LINK_STATES = {"live", "dead", "unverified"}
+# Optional project-site prefix such as /steveonjava-com-archive. Empty means the site is served from a domain root.
+BASE_PATH = re.compile(r"(?:/[a-z0-9]+(?:-[a-z0-9]+)*)?")
 CSP = "default-src 'none'; img-src 'self'; style-src 'self'; script-src 'self'; connect-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'"
 
 
@@ -242,6 +244,17 @@ def post_list(posts, night=False):
     return '<ul class="video-grid" role="list">' + ''.join(cards) + '</ul>' if night else '<ul class="post-list" role="list">' + ''.join(cards) + '</ul>'
 
 
+def rebase(html, base):
+    """Prefix every root-relative href and src with the project path.
+
+    The generator emits only double-quoted attributes, and every text node is escaped, so a literal
+    href="/..." inside post text appears as href=&quot;/...&quot; and is never matched here.
+    """
+    if not base:
+        return html
+    return re.sub(r'(\b(?:href|src)=")/(?!/)', lambda match: match.group(1) + base + "/", html)
+
+
 def page(config, title, body, route, sidebar):
     night = config["site"] == "nighthacking"
     wordmark = "NightHacking" if night else config["title"]
@@ -290,9 +303,9 @@ def copy_photos(root, output):
 
 
 class Audit(HTMLParser):
-    def __init__(self, output, route):
+    def __init__(self, output, route, base=""):
         super().__init__(convert_charrefs=True)
-        self.output, self.route = output, route
+        self.output, self.route, self.base = output, route, base
         self.unrecovered = []
         self.has_notice = False
         self.has_csp = False
@@ -306,7 +319,7 @@ class Audit(HTMLParser):
         if tag == "meta" and attrs.get("http-equiv", "").lower() == "content-security-policy":
             self.has_csp = attrs.get("content") == CSP
         if tag == "script":
-            require(attrs.get("src") == "/assets/legacy.js", "Inline or unexpected script")
+            require(attrs.get("src") == self.base + "/assets/legacy.js", "Inline or unexpected script")
         for key in ["href", "src"]:
             if key not in attrs:
                 continue
@@ -319,6 +332,9 @@ class Audit(HTMLParser):
                 require(not external, "Remote resource")
             if external or url.startswith("#"):
                 continue
+            if self.base and url.startswith("/"):
+                require(url.startswith(self.base + "/"), f"Local URL outside base path on {self.route}: {url}")
+                url = url[len(self.base):]
             target = local_target(url, self.route)
             path = self.output / target.lstrip("/")
             if target.endswith("/"):
@@ -329,7 +345,8 @@ class Audit(HTMLParser):
                 require(path.is_file(), f"Broken local link on {self.route}: {url}")
 
 
-def check(output):
+def check(output, base=""):
+    require(isinstance(base, str) and BASE_PATH.fullmatch(base) is not None, "Invalid base path")
     stylesheet = (output / "assets/archive.css").read_text(encoding="utf-8")
     require(not re.search(r"url\s*\(|@import|expression\s*\(", stylesheet, re.I), "Unexpected CSS resource or active expression")
     unresolved = []
@@ -337,7 +354,7 @@ def check(output):
         route = "/" + file.relative_to(output).as_posix()
         if route.endswith("index.html"):
             route = route[:-10]
-        audit = Audit(output, route)
+        audit = Audit(output, route, base)
         audit.feed(file.read_text(encoding="utf-8"))
         require(audit.has_notice and audit.has_csp, f"Missing prototype notice or CSP: {route}")
         unresolved.extend({"page": route, "target": url} for url in audit.unrecovered)
@@ -345,7 +362,8 @@ def check(output):
     return unresolved
 
 
-def build(root):
+def build(root, base=""):
+    require(isinstance(base, str) and BASE_PATH.fullmatch(base) is not None, "Invalid base path")
     root = Path(root).absolute()
     config, posts = validate(root)
     output = root / "_site"
@@ -391,17 +409,18 @@ def build(root):
     (output / "assets").mkdir(exist_ok=True)
     shutil.copyfile(root / "theme" / "archive.css", output / "assets" / "archive.css")
     script = (root / "theme" / "legacy.js").read_text(encoding="utf-8")
-    require(script.count("__POST_MAP__") == 1, "Invalid legacy script template")
+    require(script.count("__POST_MAP__") == 1 and script.count("__BASE_PATH__") == 1, "Invalid legacy script template")
     mapping = {str(p["id"]): '/' + p['slug'] + '/' for p in posts}
-    (output / "assets" / "legacy.js").write_text(script.replace("__POST_MAP__", json.dumps(mapping, sort_keys=True)), encoding="utf-8")
+    script = script.replace("__POST_MAP__", json.dumps(mapping, sort_keys=True)).replace("__BASE_PATH__", json.dumps(base))
+    (output / "assets" / "legacy.js").write_text(script, encoding="utf-8")
     for route, (title, body) in pages.items():
         target = output / route.lstrip("/")
         if route.endswith("/"):
             target /= "index.html"
         target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(page(config, title, body, route, sidebar), encoding="utf-8")
-    unresolved = check(output)
-    report = {"status": "prototype", "review_status": "unreviewed", "posts": len(posts), "pages": len(pages), "photos": len(photos), "unrecovered_links": unresolved}
+        target.write_text(rebase(page(config, title, body, route, sidebar), base), encoding="utf-8")
+    unresolved = check(output, base)
+    report = {"status": "prototype", "review_status": "unreviewed", "base_path": base, "posts": len(posts), "pages": len(pages), "photos": len(photos), "unrecovered_links": unresolved}
     (output / "build-report.json").write_text(json.dumps(report, indent=2) + '\n', encoding="utf-8")
     print(json.dumps(report, sort_keys=True))
     return report
@@ -411,11 +430,12 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--check-only", action="store_true")
+    parser.add_argument("--base-path", default="", help="project-site prefix such as /my-repo, empty for a domain root")
     args = parser.parse_args()
     try:
         if args.check_only:
-            print(json.dumps({"unrecovered_links": check(args.root / "_site")}))
+            print(json.dumps({"unrecovered_links": check(args.root / "_site", args.base_path)}))
         else:
-            build(args.root)
+            build(args.root, args.base_path)
     except (ValueError, OSError, json.JSONDecodeError) as error:
         parser.exit(1, f"Archive build rejected: {error}\n")
