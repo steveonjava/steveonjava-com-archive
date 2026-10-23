@@ -2,7 +2,7 @@
 
 A read-only static rebuild of **steveonjava.com**, a site that ran on WordPress and was later compromised. Text and a small set of cleared images were exported from a forensic copy of the old site. The pages here are rebuilt from that export by a Python script. Nothing is copied from the old theme, plugins or database.
 
-**Status: prototype, unreviewed.** This repository has no deploy workflow, GitHub Pages is not enabled, and every page carries `noindex,nofollow`. steveonjava.com does not serve this build.
+**Status: prototype, unreviewed.** A preview is published at https://steveonjava.github.io/steveonjava-com-archive/ by `.github/workflows/pages.yml`, only after a pull request is merged to `main`. Every page carries `noindex,nofollow`. steveonjava.com does not serve this build. The preview lives only at the github.io address above.
 
 ## What is in the prototype
 
@@ -19,7 +19,7 @@ Two recovered posts: JavaFX 2.0 With Alternative Languages at the SvJugFx (2010-
 
 ## How it is built and checked
 
-GitHub Actions only (`.github/workflows/build.yml`, read-only permissions, no secrets, actions pinned to commit hashes). It runs the unit tests, builds the site, audits links, drives a headless browser through the pages (including with JavaScript off) and uploads a 7-day preview artifact. See `docs/BUILD.md` for the input format.
+GitHub Actions only. `build.yml` has read-only permissions, no secrets, and pinned actions. `pages.yml` runs on merge to `main`, rebuilds with the project path prefix, and deploys with the minimum extra permissions (`pages: write`, `id-token: write`) in its deploy job only. It runs the unit tests, builds the site, audits links, drives a headless browser through the pages (including with JavaScript off) and uploads a 7-day preview artifact. See `docs/BUILD.md` for the input format.
 
 ## Records kept next to the content
 

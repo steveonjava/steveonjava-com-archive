@@ -66,3 +66,7 @@ The screenshot helper serves only localhost, blocks nonlocal requests, checks Ja
 The GitHub Actions workflow runs unit tests, builds `_site/`, audits it, and creates preview screenshots on Python 3.13. It uploads static files and screenshots as an expiring artifact. Repository permissions are read-only. It has no deployment, Pages configuration, credentials, secrets, privileged PR trigger, publishing, or merge step.
 
 Review source provenance, content accuracy, images, links, privacy, rights, and browser screenshots before any future production proposal. Publishing is outside this prototype. Do not treat a passing build as editorial approval or evidence that a video still exists.
+
+## Project-site builds
+
+GitHub Pages serves a project repository at `https://<owner>.github.io/<repo>/`, not at a domain root. `python scripts/build.py --base-path /<repo>` prefixes every local `href` and `src` with that path and writes the same prefix into `assets/legacy.js`. The audit then checks every local URL against the prefix and fails on any URL outside it. Without the option, the build is for a domain root, which is what a custom domain gives. `python scripts/screenshots.py --base-path /<repo>` serves the build only under that prefix, so any URL that escapes the prefix returns 404 and fails the run. The prefix is one lowercase path segment.

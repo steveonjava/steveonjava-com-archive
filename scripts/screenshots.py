@@ -13,20 +13,36 @@ from playwright.sync_api import sync_playwright
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def main(root=ROOT):
+def main(root=ROOT, base="", out="screenshots"):
     output = root / "_site"
     report = json.loads((output / "build-report.json").read_text())
     records = [json.loads(path.read_text()) for path in sorted((root / "content").glob("*.json"))]
     first = records[0]
     missing_id = next(str(value) for value in range(1, len(records) + 2) if value not in {p["id"] for p in records})
-    screenshots = root / "screenshots"
+    screenshots = root / out
     screenshots.mkdir(exist_ok=True)
-    handler = partial(SimpleHTTPRequestHandler, directory=str(output))
+
+    class Handler(SimpleHTTPRequestHandler):
+        """Serve the build under the project prefix only, as GitHub Pages does for a project site."""
+        def translate_path(self, path):
+            clean = urlsplit(path).path
+            if base:
+                if not clean.startswith(base + "/"):
+                    return str(output / "__outside_base_path__")  # does not exist, so the browser sees a 404
+                clean = clean[len(base):]
+            return super().translate_path(clean)
+
+    handler = partial(Handler, directory=str(output))
     server = ThreadingHTTPServer(("127.0.0.1", 0), handler)
     thread = Thread(target=server.serve_forever, daemon=True)
     thread.start()
-    origin = f"http://127.0.0.1:{server.server_port}"
-    blocked, errors = [], []
+    origin = f"http://127.0.0.1:{server.server_port}" + base
+    blocked, errors, failed = [], [], []
+
+    def watch(page):
+        page.on("pageerror", lambda error: errors.append(str(error)))
+        page.on("response", lambda response: failed.append(f"{response.status} {response.url}")
+                if response.status >= 400 and not response.url.endswith("/favicon.ico") else None)
     try:
         with sync_playwright() as playwright:
             browser = playwright.chromium.launch()
@@ -41,7 +57,7 @@ def main(root=ROOT):
                 context = browser.new_context(viewport=viewport, service_workers="block")
                 context.route("**/*", route_request)
                 page = context.new_page()
-                page.on("pageerror", lambda error: errors.append(str(error)))
+                watch(page)
                 for name, path in [("home", "/"), ("post", "/" + first["slug"] + "/"), ("404", "/404.html")]:
                     page.goto(origin + path, wait_until="networkidle")
                     assert page.locator(".prototype").count() == 1
@@ -58,6 +74,7 @@ def main(root=ROOT):
             context = browser.new_context(java_script_enabled=False, service_workers="block")
             context.route("**/*", route_request)
             page = context.new_page()
+            watch(page)
             paths = ["/", "/archive/", "/" + first["slug"] + "/", "/archive/" + first["date"][:4] + "/"]
             if first["categories"]:
                 paths.append("/category/" + first["categories"][0]["slug"] + "/")
@@ -71,7 +88,8 @@ def main(root=ROOT):
             browser.close()
         assert not errors, errors
         assert not blocked, f"Unexpected external resource requests: {blocked}"
-        print(json.dumps({"screenshots": 6, "posts": report["posts"], "javascript_errors": errors, "external_requests": blocked, "no_js": "passed", "legacy_ids": "passed"}))
+        assert not failed, f"Local requests that returned an HTTP error: {failed}"
+        print(json.dumps({"screenshots": 6, "base_path": base, "posts": report["posts"], "javascript_errors": errors, "external_requests": blocked, "failed_local_requests": failed, "no_js": "passed", "legacy_ids": "passed"}))
     finally:
         server.shutdown()
         server.server_close()
@@ -81,4 +99,7 @@ def main(root=ROOT):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=ROOT)
-    main(parser.parse_args().root)
+    parser.add_argument("--base-path", default="", help="serve under this prefix, as a project site")
+    parser.add_argument("--out", default="screenshots", help="screenshot directory inside the root")
+    args = parser.parse_args()
+    main(args.root, args.base_path, args.out)
