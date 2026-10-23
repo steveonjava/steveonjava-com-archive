@@ -1,0 +1,40 @@
+{
+  "id": 1801,
+  "type": "post",
+  "title": "JavaFX 2.0 at the Chennai JUG",
+  "slug": "javafx-2-0-at-the-chennai-jug",
+  "date": "2011-02-21 12:10:41",
+  "categories": [
+    {
+      "slug": "events",
+      "name": "Events"
+    },
+    {
+      "slug": "javafx",
+      "name": "JavaFX"
+    },
+    {
+      "slug": "presentation",
+      "name": "Presentation"
+    }
+  ],
+  "excerpt": "I was fortunate enough to be invited to speak at the Chennai Java User Group during my trip to India.  I was expecting a small group of very devoted Java fans; however, I was surprised to walk into a room of over 200 developers eager to learn about JavaFX 2.0.  The venue was very impressive with rows of workstations that we later used for a lab, as well as plenty of seating.",
+  "original_urls": [
+    "http://steveonjava.com/javafx-2-0-at-the-chennai-jug/",
+    "http://javafx.steveonjava.com/javafx-2-0-at-the-chennai-jug/"
+  ],
+  "video_id": null,
+  "thumbnail": null,
+  "review_status": "unreviewed",
+  "provenance": {
+    "database": "steveonjava_wordpress",
+    "post_id": 1801,
+    "source_content_sha256": "8fa75c97c60d39970717c4e58d5265458e7c7e7e55c10d08f0f31a1df9e3434b",
+    "exporter_version": "prototype-export-1",
+    "authorship": "Original published text, not newly generated first-person prose"
+  },
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "An obsolete or active embed was replaced by an archive notice."
+  ]
+}

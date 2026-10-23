@@ -1,0 +1,67 @@
+/* Fresh archive styling. No remote fonts, images, or imports. */
+:root { color-scheme: light; --ink: #24272a; --navy: #002f7d; --accent: #627579; }
+* { box-sizing: border-box; }
+body { margin: 0; color: var(--ink); background: repeating-linear-gradient(135deg, #27292b 0 8px, #303235 8px 16px); font: 17px/1.65 Georgia, serif; }
+a { color: var(--navy); text-underline-offset: .18em; overflow-wrap: anywhere; }
+a:hover { text-decoration-thickness: .16em; }
+:focus-visible { outline: 3px solid #ce6600; outline-offset: 4px; }
+.skip-link { position: absolute; left: 1rem; top: -8rem; padding: .5rem 1rem; background: white; z-index: 10; }
+.skip-link:focus { top: 1rem; }
+.site-shell { max-width: 900px; margin: 32px auto; background: #fafafa; box-shadow: 0 12px 50px #1118; }
+.prototype { background: #fff3ce; color: #3c3014; border-bottom: 3px solid #b97d26; padding: 16px 26px; font: 14px/1.55 system-ui, sans-serif; }
+.prototype strong { display: block; letter-spacing: .08em; text-transform: uppercase; }
+.prototype p { margin: .4rem 0 0; }
+.masthead { background: linear-gradient(125deg, #dce2e4, #f4f5f5 55%, #bac8ca); padding: 38px 30px 24px; border-bottom: 7px solid var(--accent); }
+.wordmark { font-size: clamp(2rem, 6vw, 3.1rem); line-height: 1.15; margin: 0; font-style: italic; font-weight: bold; color: #273337; }
+.tagline { font-style: italic; margin: 10px 0; }
+.header-note { font: 12px/1.5 system-ui, sans-serif; color: #455256; max-width: 32rem; }
+nav { display: flex; flex-wrap: wrap; gap: 1.5rem; padding: 12px 30px; background: #e7e9e9; font: 15px/1.6 system-ui, sans-serif; }
+.columns { display: grid; grid-template-columns: minmax(0, 1fr) 180px; gap: 32px; padding: 26px 30px 42px; }
+main { min-width: 0; }
+h1, h2, h3 { color: var(--navy); line-height: 1.25; }
+h1 { margin: 0 0 1.4rem; font-size: 2rem; }
+h2 { font-size: 1.4rem; }
+aside { border-left: 1px solid #d3d8d9; padding-left: 20px; font: 14px/1.7 system-ui, sans-serif; }
+aside h2 { color: #485b60; font-size: 1.05rem; }
+aside ul { padding-left: 1rem; }
+img { max-width: 100%; height: auto; display: block; }
+pre { max-width: 100%; overflow: auto; padding: 1rem; background: #e9eded; font-size: .8rem; white-space: pre-wrap; overflow-wrap: anywhere; }
+.post-meta, time { color: #536267; font-size: .88rem; }
+.post-list, .video-grid { list-style: none; padding: 0; margin: 0; }
+.post-list .card { border-bottom: 1px solid #d6dddd; padding: 8px 0 24px; margin-bottom: 24px; }
+.post-list h2 { margin-bottom: 8px; }
+.intro { color: #4e5d61; }
+[data-unrecovered] { text-decoration-style: dotted; }
+details { margin-top: 2rem; font-size: .9rem; border-top: 1px solid #ccd4d6; padding-top: 1rem; }
+summary { cursor: pointer; font-weight: bold; }
+footer { background: #e7e9e9; border-top: 1px solid #cbd2d3; padding: 18px 30px; font: 13px/1.6 system-ui, sans-serif; }
+#legacy-status:not(:empty), .no-js { padding: 12px 30px; background: #f8edce; margin: 0; }
+.nighthacking { font-family: Arial, Helvetica, sans-serif; background: #17191b; }
+.nighthacking .site-shell { max-width: 1100px; background: #fff; }
+.nighthacking .masthead { background: linear-gradient(115deg, #17191c, #353b41); border-bottom: 5px solid #718d9a; color: #fff; }
+.nighthacking .wordmark { color: #fff; font-style: normal; letter-spacing: -.06em; }
+.nighthacking .tagline, .nighthacking .header-note { color: #d0d8dc; }
+.nighthacking .columns { grid-template-columns: minmax(0, 1fr) 175px; }
+.nighthacking .video-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.video-grid .card { background: #303438; color: #e9edef; padding: 16px; }
+.video-grid h2 { font-size: 1.1rem; }
+.video-grid a { color: #b6d7ff; }
+.video-grid time { color: #c9d2d7; }
+.video-grid img { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
+.no-image { display: grid; place-items: center; aspect-ratio: 16/9; background: #22272b; color: #cbd4d8; font-size: .8rem; text-align: center; padding: 12px; }
+.player { padding: 20px; background: #22272c; color: #e6ecf0; margin-bottom: 24px; }
+.player a { color: #b6d7ff; }
+.player img { max-height: 420px; margin: auto; object-fit: contain; }
+@media (max-width: 700px) {
+ .site-shell { margin: 0; box-shadow: none; }
+ .columns, .nighthacking .columns { display: block; padding: 22px 20px; }
+ aside { border-left: 0; border-top: 1px solid #cbd2d3; padding: 18px 0 0; margin-top: 30px; }
+ .masthead { padding: 28px 20px 20px; }
+ .prototype, footer { padding-left: 20px; padding-right: 20px; }
+ nav { padding: 12px 20px; }
+ .nighthacking .video-grid { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+
+.dead-link { text-decoration: underline dotted; text-underline-offset: 3px; cursor: help; }
+.dead-note { font-size: .85em; color: #5a6568; font-style: italic; }
