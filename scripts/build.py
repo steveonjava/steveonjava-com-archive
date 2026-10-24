@@ -107,6 +107,14 @@ def validate(root):
     require(config["canonical_base"] == f"https://{host}", "Unexpected canonical_base")
     require(config["main_site"] == "https://stephenchin.com", "Unexpected main_site")
     require(config["status"] == "prototype", "Only prototype builds are permitted")
+    # A CNAME file at the repository root marks a site that is bound to its own domain. GitHub ignores the file
+    # for workflow deployments, so here it only tells the build to serve from the domain root.
+    config["custom_domain"] = None
+    marker = root / "CNAME"
+    if marker.exists() or marker.is_symlink():
+        require(marker.is_file() and not marker.is_symlink(), "CNAME must be a regular file")
+        require(marker.read_text(encoding="utf-8") in {host, host + "\n"}, f"CNAME must name exactly {host}")
+        config["custom_domain"] = host
     for key in ["title", "period_label"]:
         require(bool(text(config[key], key, 300).strip()), f"Empty {key}")
     # Optional owner-reviewed record of external link checks. Dead links render as plain text.
@@ -485,6 +493,7 @@ def build(root, base=""):
     require(isinstance(base, str) and BASE_PATH.fullmatch(base) is not None, "Invalid base path")
     root = Path(root).absolute()
     config, posts = validate(root)
+    require(not (config["custom_domain"] and base), "A site bound to a custom domain must be built for the domain root")
     output = root / "_site"
     require(not output.is_symlink(), "Output cannot be a symlink")
     if output.exists():
@@ -547,7 +556,7 @@ def build(root, base=""):
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(rebase(page(config, title, body, route, sidebar, layout, video, meta), base), encoding="utf-8")
     unresolved = check(output, base)
-    report = {"status": "prototype", "review_status": "unreviewed", "base_path": base, "posts": len(posts), "pages": len(pages), "photos": len(photos), "unrecovered_links": unresolved, "missing_images": config["missing_images"]}
+    report = {"status": "prototype", "review_status": "unreviewed", "base_path": base, "custom_domain": config["custom_domain"], "posts": len(posts), "pages": len(pages), "photos": len(photos), "unrecovered_links": unresolved, "missing_images": config["missing_images"]}
     (root / "build-report.json").write_text(json.dumps(report, indent=2) + '\n', encoding="utf-8")
     print(json.dumps(report, sort_keys=True))
     return report

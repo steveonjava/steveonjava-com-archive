@@ -267,6 +267,47 @@ class ArchiveTests(unittest.TestCase):
         self.assertIn('href="/assets/archive.css"', post)
         self.assertIn('const base = "";', (self.root / "_site/assets/legacy.js").read_text())
 
+    def test_cname_marker_selects_the_domain_root_build(self):
+        self.assertIsNone(self.compile()["custom_domain"])
+        (self.root / "CNAME").write_text("steveonjava.com\n")
+        report = self.compile()
+        self.assertEqual(report["custom_domain"], "steveonjava.com")
+        self.assertIn('href="/assets/archive.css"', (self.root / "_site/index.html").read_text())
+        self.assertIn('href="https://steveonjava.com/"', (self.root / "_site/index.html").read_text())
+        self.assertFalse((self.root / "_site/CNAME").exists())
+        with self.assertRaisesRegex(ValueError, "domain root"):
+            with contextlib.redirect_stdout(io.StringIO()):
+                build.build(self.root, "/my-repo")
+
+    def test_cname_marker_must_name_this_archives_own_domain(self):
+        for content in ["nighthacking.tv\n", "steveonjava.com.evil.example\n", "www.steveonjava.com\n", "steveonjava.com\nextra.example\n", "", " steveonjava.com"]:
+            with self.subTest(content=content):
+                (self.root / "CNAME").write_text(content)
+                with self.assertRaisesRegex(ValueError, "CNAME must name exactly"):
+                    self.compile()
+        (self.root / "CNAME").unlink()
+        (self.root / "CNAME").symlink_to(self.root / "archive.json")
+        with self.assertRaisesRegex(ValueError, "CNAME must be a regular file"):
+            self.compile()
+
+    def test_nighthacking_cname_names_nighthacking_tv(self):
+        self.config.update(site="nighthacking", canonical_base="https://nighthacking.tv")
+        self.save()
+        (self.root / "CNAME").write_text("nighthacking.tv\n")
+        self.assertEqual(self.compile()["custom_domain"], "nighthacking.tv")
+        (self.root / "CNAME").write_text("steveonjava.com\n")
+        with self.assertRaisesRegex(ValueError, "CNAME must name exactly"):
+            self.compile()
+
+    def test_workflows_switch_to_the_root_path_only_when_cname_exists(self):
+        for name in ["build.yml", "pages.yml"]:
+            with self.subTest(workflow=name):
+                text = (TEMPLATE / ".github/workflows" / name).read_text()
+                self.assertIn("if [ -f CNAME ]; then", text)
+                self.assertIn('--base-path "$SERVED_PATH"', text)
+                self.assertNotIn('--base-path "/${GITHUB_REPOSITORY#*/}"', text)
+                self.assertIn("SERVED_PATH: ${{ steps.served.outputs.path }}", text)
+
     def test_invalid_base_paths_are_rejected(self):
         for bad in ["my-repo", "/My-Repo", "/a/b", "/x/", "//evil.example", '/a"b', "/a b", "/-x", "/x_y", "/"]:
             with self.subTest(base=bad), self.assertRaises(ValueError):
