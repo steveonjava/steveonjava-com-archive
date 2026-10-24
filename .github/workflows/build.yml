@@ -31,18 +31,32 @@ jobs:
         run: |
           python scripts/build.py
           python scripts/build.py --check-only
-      - name: Compile and audit again for the project URL path used by GitHub Pages
+      - name: Choose the URL path this site is served from
+        id: served
+        # A CNAME file at the repository root means the site is bound to its own domain and is served from the root.
+        # Otherwise it is a project site under /<repository name>.
         run: |
-          python scripts/build.py --base-path "/${GITHUB_REPOSITORY#*/}"
-          python scripts/build.py --check-only --base-path "/${GITHUB_REPOSITORY#*/}"
+          if [ -f CNAME ]; then
+            echo "path=" >> "$GITHUB_OUTPUT"
+          else
+            echo "path=/${GITHUB_REPOSITORY#*/}" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Compile and audit again for the path this site is served from
+        env:
+          SERVED_PATH: ${{ steps.served.outputs.path }}
+        run: |
+          python scripts/build.py --base-path "$SERVED_PATH"
+          python scripts/build.py --check-only --base-path "$SERVED_PATH"
       - name: Check public video metadata separately from the offline build
         run: python scripts/check_videos.py --output video-checks.json
       - name: Install local screenshot browser
         # One run stalled at this step for over seven minutes, against 29 seconds on a normal run.
         timeout-minutes: 6
         run: python -m playwright install --with-deps chromium
-      - name: Exercise the project-path build in a browser and capture desktop and mobile previews
-        run: python scripts/screenshots.py --base-path "/${GITHUB_REPOSITORY#*/}"
+      - name: Exercise the served build in a browser and capture desktop and mobile previews
+        env:
+          SERVED_PATH: ${{ steps.served.outputs.path }}
+        run: python scripts/screenshots.py --base-path "$SERVED_PATH"
       - name: Upload prototype preview only
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
         with:

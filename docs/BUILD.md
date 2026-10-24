@@ -43,4 +43,8 @@ The `archive-prototype-preview` artifact contains `_site/`, `screenshots/`, `bui
 
 GitHub Pages project sites live at `https://<owner>.github.io/<repo>/`. `python scripts/build.py --base-path /<repo>` prefixes every local `href` and `src` and the ID translator, while `--check-only --base-path /<repo>` audits them. Without the option, output serves a domain root. The browser-test server answers only under the selected prefix so escaping URLs fail.
 
+### Binding a custom domain
+
+A `CNAME` file at the repository root switches both workflows to the domain-root build. It must contain exactly this archive's own host (`steveonjava.com` or `nighthacking.tv`), and the build rejects anything else, including a symlink. GitHub ignores `CNAME` for workflow deployments, so the file does not bind the domain. The domain is set in the repository's Pages settings by the owner. Add the file in the same change that the owner makes the setting, never earlier, because a root-path build served under `/<repo>/` has no working stylesheet or links. Without the file, the build keeps the `/<repo>/` prefix. A build with both a `CNAME` file and `--base-path` is rejected.
+
 The separate `pages.yml` runs only on `main` or explicit manual dispatch. Its build job is read-only, with `pages: write` and `id-token: write` granted only to the deploy job. Feature-branch PRs only produce review artifacts. Merge and publication require owner approval independently of branch preparation.
