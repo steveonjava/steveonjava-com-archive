@@ -411,6 +411,83 @@ class ArchiveTests(unittest.TestCase):
         self.assertIn('class="video-meta"', html)
         self.assertIn('Recent Videos', html)
 
+    def add_posts(self, count):
+        for number in range(2, count + 2):
+            record = dict(self.post, id=number, slug=f"synthetic-{number}", title=f"Synthetic post {number}",
+                          date=f"2014-01-{number:02d} 12:30:00", original_urls=[f"http://steveonjava.com/?p={number}"])
+            (self.root / f"content/{number}.json").write_text(json.dumps(record))
+            (self.root / f"content/{number}.md").write_text(f"Body number {number} with **emphasis**.\n")
+
+    def add_art(self, *paths):
+        for path in paths:
+            target = self.root / "assets" / path.lstrip("/")
+            target.parent.mkdir(parents=True, exist_ok=True)
+            Image.new("RGBA" if path.endswith(".png") else "RGB", (20, 20), "navy").save(target)
+
+    def test_steveonjava_home_is_a_river_of_full_posts(self):
+        self.compile()
+        html = (self.root / "_site/index.html").read_text()
+        self.assertIn("<strong>emphasis</strong>", html)
+        self.assertIn('class="post-taxonomy"', html)
+        self.assertNotIn("Previous Entries", html)
+        self.assertIn('class="page-title visually-hidden"', html)
+        self.add_posts(11)
+        self.compile()
+        html = (self.root / "_site/index.html").read_text()
+        self.assertEqual(html.count('class="entry"'), build.HOME_POSTS)
+        self.assertIn("Body number 12", html)
+        self.assertNotIn("Synthetic post one", html)
+        self.assertIn("\u00ab Previous Entries", html)
+        self.assertTrue((self.root / "_site/archive/index.html").is_file())
+
+    def test_unrecovered_links_are_reported_on_the_post_only(self):
+        result = self.compile()
+        self.assertEqual([item["page"] for item in result["unrecovered_links"]], ["/synthetic-one/"])
+
+    def test_steveonjava_widgets_appear_only_with_supplied_art(self):
+        self.compile()
+        html = (self.root / "_site/index.html").read_text()
+        for heading in ["Steve On\u2026", "Archives", "Disclaimer"]:
+            self.assertIn(f"<h2>{heading}</h2>", html)
+        for heading in ["Publications", "Affiliations", "Awards", "Upcoming Talks"]:
+            self.assertNotIn(f"<h2>{heading}</h2>", html)
+        self.add_art(build.PUBLICATIONS[0][0], build.CHAMPIONS, build.AWARDS[1][0])
+        self.compile()
+        html = (self.root / "_site/index.html").read_text()
+        for heading in ["Publications", "Affiliations", "Awards"]:
+            self.assertIn(f"<h2>{heading}</h2>", html)
+        self.assertEqual(html.count("alt=\"Pro JavaFX Platform\""), 1)
+        self.assertNotIn("Pro Android Flash", html)
+        self.assertIn("2009 JavaOne Rock Star!", html)
+        self.assertNotIn("DZone", html)
+        self.assertIn('rel="nofollow noopener noreferrer"', html)
+
+    def test_nighthacking_home_has_featured_stage_without_a_player(self):
+        self.config.update(site="nighthacking", canonical_base="https://nighthacking.tv")
+        self.save()
+        self.compile()
+        html = (self.root / "_site/index.html").read_text()
+        self.assertIn('class="home-stage"', html)
+        self.assertIn('href="/synthetic-one/"', html.split('class="home-stage"')[1].split("</section>")[0])
+        self.assertNotIn("<iframe", html)
+        self.assertNotIn("youtube.com", html)
+        self.assertNotIn("Older posts", html)
+        self.post["thumbnail"] = None
+        self.save()
+        self.compile()
+        html = (self.root / "_site/index.html").read_text()
+        self.assertNotIn('class="home-stage"', html)
+        self.assertIn('class="video-grid"', html)
+
+    def test_nighthacking_home_pager_points_at_the_videos_page(self):
+        self.config.update(site="nighthacking", canonical_base="https://nighthacking.tv")
+        self.save()
+        self.add_posts(build.HOME_VIDEOS)
+        self.compile()
+        html = (self.root / "_site/index.html").read_text()
+        self.assertEqual(html.count('class="video-card"'), build.HOME_VIDEOS)
+        self.assertIn('href="/videos/">\u2190 Older posts', html)
+
     def test_reencode_strips_exif(self):
         photo = self.root / "assets/wp-content/uploads/2014/01/synthetic.jpg"
         exif = Image.Exif()

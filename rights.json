@@ -48,5 +48,55 @@
     "source_url": "https://web.archive.org/web/20120609010313im_/http://steveonjava.com/wp-content/uploads/2010/03/racer3.1.jpg",
     "source_sha256": "2f46d8accc219f3351d69d4ff44429bb7003cb5922b0b50cdf1c7ee4befb5a12",
     "export_sha256": "083c852ecf658068ca232f3cb46560ec0464726be92b879b2dcb08d559f5951d"
+  },
+  {
+    "path": "/wp-content/uploads/2009/06/cover-100.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Sidebar artwork captured on the owner site; recovered from public Wayback, not the lab.",
+    "note": "Book cover art for Pro JavaFX Platform (Apress, 2009). The cover is the publisher's artwork and the book's co-authors are Weaver, Chin, Gao and Iverson. Reencoded from fresh pixels. Public visibility does not independently establish a reuse license. Included for owner review only; no launch approval implied.",
+    "source_url": "https://web.archive.org/web/20120609010313im_/http://steveonjava.com/wp-content/uploads/2009/06/cover-100.jpg",
+    "source_sha256": "24920335185ac925f08220730a600571d7f10747240955e75945295b15083b16",
+    "export_sha256": "fd53a541240d5fc0a82314dc39e1d52b56f83b558186b8eebcb8e570ca6bd227"
+  },
+  {
+    "path": "/wp-content/uploads/2011/03/proandroidflash-100.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Sidebar artwork captured on the owner site; recovered from public Wayback, not the lab.",
+    "note": "Book cover art for Pro Android Flash (Apress, 2011). The cover is the publisher's artwork. Reencoded from fresh pixels. Public visibility does not independently establish a reuse license. Included for owner review only; no launch approval implied.",
+    "source_url": "https://web.archive.org/web/20120609010313im_/http://steveonjava.com/wp-content/uploads/2011/03/proandroidflash-100.jpg",
+    "source_sha256": "7fb125018304ac7f8e0efd5d07e6b7bd806008b5a3933bc85a0acef8c39b99fb",
+    "export_sha256": "25280b3c892e6a8479f9ce22159fcfc5baccd2a5aad754fc096f126789d5f219"
+  },
+  {
+    "path": "/wp-content/uploads/2010/07/Java_Champions_Transparent.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Sidebar artwork captured on the owner site; recovered from public Wayback, not the lab.",
+    "note": "Java Champions logo, which combines Oracle Java marks and the Duke character. Trademark rights are held by others. Reencoded from fresh pixels. Public visibility does not independently establish a reuse license. Included for owner review only; no launch approval implied.",
+    "source_url": "https://web.archive.org/web/20120609010313im_/http://steveonjava.com/wp-content/uploads/2010/07/Java_Champions_Transparent.png",
+    "source_sha256": "007b5ba1a974e5cbd53d9007a35ce550c8a605b2621cc48f7b7809e0791df87a",
+    "export_sha256": "0820ba8e99209597c7fce1a6a7ad2879046c6aa4ae2d0b893db69ae21bab0315"
+  },
+  {
+    "path": "/wp-content/uploads/2011/08/big-mvbbutton1.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Sidebar artwork captured on the owner site; recovered from public Wayback, not the lab.",
+    "note": "DZone Most Valuable Blogger badge. The badge is DZone's artwork. Reencoded from fresh pixels. Public visibility does not independently establish a reuse license. Included for owner review only; no launch approval implied.",
+    "source_url": "https://web.archive.org/web/20120609010313im_/http://steveonjava.com/wp-content/uploads/2011/08/big-mvbbutton1.png",
+    "source_sha256": "765df891ec5618cb50d518a7a0956dfdbc06198332e33b0beef3205924f60b48",
+    "export_sha256": "262c358895753df6db398d53db923dfa1cbd9f1264dad9ca910e73c43793b52b"
+  },
+  {
+    "path": "/wp-content/uploads/2009/07/rockstar_dukewithguitar_small.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Sidebar artwork captured on the owner site; recovered from public Wayback, not the lab.",
+    "note": "Duke mascot playing a guitar, from the JavaOne Rock Star program. Source GIF converted to PNG; first frame only. Reencoded from fresh pixels. Public visibility does not independently establish a reuse license. Included for owner review only; no launch approval implied.",
+    "source_url": "https://web.archive.org/web/20120609010313im_/http://steveonjava.com/wp-content/uploads/2009/07/rockstar_dukewithguitar_small.gif",
+    "source_sha256": "d931e07da2fbf008dd8167abd31ea4d23e0a3bca3d90ab504dbea1de1a7d5663",
+    "export_sha256": "4692eb4bfc922ca10a66f42f954f1a03a3cfd6de36b8f784130441730991e326"
   }
 ]

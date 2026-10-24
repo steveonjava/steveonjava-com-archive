@@ -88,12 +88,24 @@ def main(root=ROOT, base='', out='screenshots'):
                             assert abs(box['width'] - 880) < 2, box
                             photo = page.locator('.header-photo').bounding_box()
                             assert abs(photo['y'] - 87) < 3 and abs(photo['height'] - 200) < 2, photo
-                            metrics.append({'shell': box, 'header_photo': photo})
+                            column = page.locator('#main').bounding_box()
+                            side = page.locator('aside').bounding_box()
+                            assert abs(column['width'] - 700) < 2 and abs(side['width'] - 180) < 2, (column, side)
+                            entries = page.locator('#main > .entry').count()
+                            assert entries == min(10, len(records)), entries
+                            widgets = page.locator('aside h2').all_inner_texts()
+                            assert widgets[-1] == 'Disclaimer' and 'Archives' in widgets, widgets
+                            metrics.append({'shell': box, 'header_photo': photo, 'main': column, 'sidebar': side,
+                                            'entries': entries, 'sidebar_headings': widgets})
                         else:
                             box = page.locator('.masthead-inner').bounding_box()
                             assert abs(box['width'] - 960) < 2, box
                             assert page.locator('.video-grid').evaluate("el => getComputedStyle(el).gridTemplateColumns.split(' ').length") == 3
-                            metrics.append({'masthead_inner': box})
+                            stage = page.locator('.home-player').bounding_box()
+                            assert abs(stage['width'] - 777) < 2, stage
+                            panel = page.locator('.gallery-columns').bounding_box()
+                            assert abs(panel['width'] - 960) < 2 and panel['y'] > stage['y'] + stage['height'], (stage, panel)
+                            metrics.append({'masthead_inner': box, 'stage': stage, 'panel': panel})
                     page.screenshot(path=str(screenshots / f'{label}-{name}.png'), full_page=True)
                     count += 1
                 page.goto(origin + '/?p=' + str(first['id']), wait_until='networkidle')

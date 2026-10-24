@@ -32,6 +32,16 @@ LINK_STATES = {"live", "dead", "unverified"}
 BASE_PATH = re.compile(r"(?:/[a-z0-9]+(?:-[a-z0-9]+)*)?")
 THEME_IMAGES = {"steveonjava": "/wp-content/uploads/2010/03/racer3.1.jpg",
                 "nighthacking": "/wp-content/uploads/2013/10/NightHacking-Header.png"}
+# Home pages show the newest entries, as the originals did. Older material stays one click away in the archive.
+HOME_POSTS = 10
+HOME_VIDEOS = 15
+# Sidebar art of the original SteveOnJava theme. Each widget appears only when its image was supplied.
+PUBLICATIONS = [("/wp-content/uploads/2009/06/cover-100.jpg", "Pro JavaFX Platform", "https://www.apress.com/9781430218753"),
+                ("/wp-content/uploads/2011/03/proandroidflash-100.jpg", "Pro Android Flash", "https://www.oreilly.com/library/view/pro-android-flash/9781430232315/")]
+CHAMPIONS = "/wp-content/uploads/2010/07/Java_Champions_Transparent.png"
+AWARDS = [("/wp-content/uploads/2011/08/big-mvbbutton1.png", "DZone Most Valuable Blogger", 150, 68),
+          ("/wp-content/uploads/2009/07/rockstar_dukewithguitar_small.png", "Duke playing an electric guitar", 150, 128)]
+DISCLAIMER = "Views and opinions expressed here are all my fault... complain to me, not my employer. :)"
 # These exact standalone lines were written by the exporter, not the author.
 EXPORT_NOTICES = {"[Archive note: the original embedded player is not included in this static recovery.]",
                   "[Archive note: this image was not recovered.]"}
@@ -278,6 +288,55 @@ def video_reference(post):
     return '<div class="player">' + poster + '<p class="watch-link">' + anchor(url, 'Watch on YouTube') + '</p></div>'
 
 
+def entry_html(post, content):
+    route = '/' + post['slug'] + '/'
+    video = video_reference(post) if post['video_id'] else ''
+    return ('<article class="entry"><h2 class="entry-title">' + anchor(route, post['title']) + '</h2>' + post_meta(post) + video
+            + '<div class="entry-content">' + content + '</div>' + taxonomy(post) + '</article>')
+
+
+def pager(url, label):
+    return '<nav class="pager" aria-label="More posts">' + anchor(url, label) + '</nav>'
+
+
+def home_stage(post):
+    """Featured player area. It links to the local page and never embeds or contacts a player."""
+    label = escape(post['title'], quote=True)
+    return ('<div class="home-player"><a class="video-poster" href="/' + post['slug'] + '/" aria-label="Watch ' + label + '">'
+            '<img src="' + escape(post['thumbnail'], quote=True) + '" alt="">'
+            '<span class="stage-title">' + escape(post['title']) + '</span><span class="play-button" aria-hidden="true"></span></a></div>')
+
+
+def home_page(posts, rendered, night):
+    if night:
+        hero = next((p for p in posts if p['video_id'] and p['thumbnail']), None)
+        more = pager('/videos/', '\u2190 Older posts') if len(posts) > HOME_VIDEOS else ''
+        return ('Latest Videos', post_list(posts[:HOME_VIDEOS], True) + more, 'home' if hero else 'gallery', home_stage(hero) if hero else '', '')
+    more = pager('/archive/', '\u00ab Previous Entries') if len(posts) > HOME_POSTS else ''
+    return ('Latest Posts', ''.join(entry_html(p, rendered[p['id']]) for p in posts[:HOME_POSTS]) + more, 'home', '', '')
+
+
+def widget_image(photos, path, alt, width, height, href=None):
+    if path not in photos:
+        return ''
+    image = f'<img src="{path}" alt="{escape(alt, quote=True)}" width="{width}" height="{height}" loading="lazy">'
+    return f'<a href="{escape(href, quote=True)}" rel="{REL}">{image}</a>' if href else image
+
+
+def steveonjava_sidebar(year_links, categories, names, photos):
+    covers = ''.join(widget_image(photos, path, alt, 75, 99, href) for path, alt, href in PUBLICATIONS)
+    html = '<h2>Publications</h2><p class="widget-covers">' + covers + '</p>' if covers else ''
+    topics = ''.join(f'<li>{anchor(f"/category/{slug}/", names[slug])}</li>' for slug in sorted(categories, key=lambda slug: names[slug].lower()))
+    html += '<h2>Steve On\u2026</h2><ul><li>' + anchor('/archive/', 'Everything') + '</li>' + topics + '</ul><h2>Archives</h2><ul>' + year_links + '</ul>'
+    affiliation = widget_image(photos, CHAMPIONS, 'Java Champions', 160, 68)
+    if affiliation:
+        html += '<h2>Affiliations</h2><p class="widget-art">' + affiliation + '</p>'
+    badges = ''.join('<p class="widget-art">' + widget_image(photos, path, alt, w, h) + '</p>' for path, alt, w, h in AWARDS if path in photos)
+    if badges:
+        html += '<h2>Awards</h2>' + badges + ('<p>2009 JavaOne Rock Star!</p>' if AWARDS[1][0] in photos else '')
+    return html + '<h2>Disclaimer</h2><p>' + escape(DISCLAIMER) + '</p>'
+
+
 def rebase(html, base):
     """Prefix every root-relative href and src with the project path.
 
@@ -304,16 +363,19 @@ def page(config, title, body, route, sidebar, layout="index", video="", meta="")
         header = '<header class="masthead"><a class="wordmark" href="/">Steve On Java</a><p class="tagline">Hacking Java, JavaFX, and Flash with Agility</p><a class="header-current" href="' + config['main_site'] + f'" rel="{REL}">Stephen Chin</a></header>'
         image = f'<img class="header-photo" src="{theme_image}" alt="" width="880" height="200">' if theme_image else ''
         header += '<div class="header-scene">' + image + nav + '</div>'
-    heading = f'<h1 class="page-title">{escape(title)}</h1>'
+    hidden = ' visually-hidden' if layout == 'home' and not night else ''
+    heading = f'<h1 class="page-title{hidden}">{escape(title)}</h1>'
     aside = '<aside aria-label="Archive navigation">' + meta + sidebar + '</aside>'
     if not night:
         content = '<div class="columns"><main id="main" tabindex="-1">' + heading + body + '</main>' + aside + '</div>'
     elif layout == "post":
         content = '<main id="main" class="night-main" tabindex="-1"><section class="video-stage"><div class="stage-inner">' + heading + video + '</div></section><div class="columns post-columns">' + body + aside + '</div></main>'
     else:
-        panel = 'gallery-panel' if layout == 'gallery' else 'archive-content'
-        cols = 'columns gallery-columns' if layout == 'gallery' else 'columns'
-        content = '<main id="main" class="night-main" tabindex="-1"><div class="gallery-heading">' + heading + '</div><div class="' + cols + '"><section class="' + panel + '">' + body + '</section>' + aside + '</div></main>'
+        gallery = layout in {'gallery', 'home'}
+        panel = 'gallery-panel' if gallery else 'archive-content'
+        cols = 'columns gallery-columns' if gallery else 'columns'
+        stage = '<section class="home-stage"><div class="stage-inner">' + video + '</div></section>' if layout == 'home' else ''
+        content = '<main id="main" class="night-main" tabindex="-1">' + stage + '<div class="gallery-heading">' + heading + '</div><div class="' + cols + '"><section class="' + panel + '">' + body + '</section>' + aside + '</div></main>'
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex,nofollow"><meta http-equiv="Content-Security-Policy" content="{escape(CSP, quote=True)}">
@@ -412,7 +474,9 @@ def check(output, base=""):
         audit = Audit(output, route, base)
         audit.feed(file.read_text(encoding="utf-8"))
         require(audit.has_robots and audit.has_csp, f"Missing robots policy or CSP: {route}")
-        unresolved.extend({"page": route, "target": url} for url in audit.unrecovered)
+        # The home page repeats post bodies that have their own pages. Report each unrecovered link once, on the post.
+        if route != "/":
+            unresolved.extend({"page": route, "target": url} for url in audit.unrecovered)
     require(bool(list(output.rglob("*.html"))), "No generated pages")
     return unresolved
 
@@ -437,15 +501,21 @@ def build(root, base=""):
     if config["site"] == "nighthacking":
         routes.add("/videos/")
     night = config["site"] == "nighthacking"
-    recent = '<h2>Recent Videos</h2><ul>' + ''.join('<li>' + anchor('/' + p['slug'] + '/', p['title']) + '</li>' for p in posts[:5]) + '</ul>' if night else ''
-    sidebar = recent + '<h2>Archives</h2><ul>' + ''.join(f'<li>{anchor(f"/archive/{year}/", year)}</li>' for year in sorted(years, reverse=True)) + '</ul><h2>Categories</h2><ul>'
     names = {c["slug"]: c["name"] for p in posts for c in p["categories"]}
-    sidebar += ''.join(f'<li>{anchor(f"/category/{slug}/", names[slug])}</li>' for slug in sorted(categories)) + '</ul>'
+    year_links = ''.join(f'<li>{anchor(f"/archive/{year}/", year)}</li>' for year in sorted(years, reverse=True))
+    if night:
+        recent = '<h2>Recent Videos</h2><ul>' + ''.join('<li>' + anchor('/' + p['slug'] + '/', p['title']) + '</li>' for p in posts[:5]) + '</ul>'
+        sidebar = recent + '<h2>Archives</h2><ul>' + year_links + '</ul><h2>Categories</h2><ul>'
+        sidebar += ''.join(f'<li>{anchor(f"/category/{slug}/", names[slug])}</li>' for slug in sorted(categories)) + '</ul>'
+    else:
+        sidebar = steveonjava_sidebar(year_links, categories, names, photos)
     image = THEME_IMAGES[config['site']]
     config['theme_image'] = image if image in photos else None
     gallery = 'gallery' if night else 'index'
+    # Render each post once. The home page and the post page share the same output, so missing images are reported once.
+    rendered = {p["id"]: render_markdown(p["markdown"], config, routes, '/' + p["slug"] + '/', photos) for p in posts}
     # Each page holds its heading, content, layout, video-stage markup and sidebar metadata.
-    pages = {"/": ("Latest Videos" if night else "Latest Posts", post_list(posts, night), gallery, '', ''),
+    pages = {"/": home_page(posts, rendered, night),
              "/archive/": ("Archive by year", ''.join(f'<section><h2>{anchor(f"/archive/{year}/", year)}</h2>{post_list(years[year])}</section>' for year in sorted(years, reverse=True)), 'index', '', ''),
              "/404.html": ("Page not found", '<p>' + anchor('/archive/', 'Browse the archive') + ' or ' + anchor('/', 'return home') + '.</p>', 'index', '', '')}
     if night:
@@ -457,7 +527,7 @@ def build(root, base=""):
     for post in posts:
         route = '/' + post['slug'] + '/'
         video = video_reference(post) if post['video_id'] else ''
-        content = render_markdown(post['markdown'], config, routes, route, photos)
+        content = rendered[post['id']]
         body = '<article class="entry">' + ('' if night else post_meta(post) + video)
         body += '<div class="entry-content">' + content + '</div>'
         body += ('' if night else taxonomy(post)) + '</article>'
