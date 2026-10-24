@@ -12,7 +12,7 @@
     return;
   }
   if (!Object.prototype.hasOwnProperty.call(posts, id)) {
-    status.textContent = "This post ID is not included in this prototype. Browse the archive list instead.";
+    status.textContent = "Post not found. Browse the archive list instead.";
     return;
   }
   const path = posts[id];

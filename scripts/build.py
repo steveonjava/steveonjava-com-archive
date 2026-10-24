@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Compile a small, offline, unreviewed historical archive. Never fetch content."""
+"""Compile a historical archive from local inert records. Never fetch content."""
 from __future__ import annotations
 
 import argparse
@@ -30,6 +30,11 @@ ALIASES = {"steveonjava": {"steveonjava.com", "www.steveonjava.com"},
 LINK_STATES = {"live", "dead", "unverified"}
 # Optional project-site prefix such as /steveonjava-com-archive. Empty means the site is served from a domain root.
 BASE_PATH = re.compile(r"(?:/[a-z0-9]+(?:-[a-z0-9]+)*)?")
+THEME_IMAGES = {"steveonjava": "/wp-content/uploads/2010/03/racer3.1.jpg",
+                "nighthacking": "/wp-content/uploads/2013/10/NightHacking-Header.png"}
+# These exact standalone lines were written by the exporter, not the author.
+EXPORT_NOTICES = {"[Archive note: the original embedded player is not included in this static recovery.]",
+                  "[Archive note: this image was not recovered.]"}
 CSP = "default-src 'none'; img-src 'self'; style-src 'self'; script-src 'self'; connect-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'"
 
 
@@ -106,6 +111,7 @@ def validate(root):
             if state == "dead":
                 dead.add(url)
     config["dead_links"] = dead
+    config["missing_images"] = []
     posts = []
     slugs, ids, category_names = set(), set(), {}
     content = root / "content"
@@ -179,6 +185,8 @@ def local_target(url, current):
 def render_markdown(source, config, routes, current, photos):
     md = MarkdownIt("commonmark", {"html": False, "linkify": False, "typographer": False})
     md.validateLink = lambda value: bool(safe_url(value))
+    source = "".join(line for line in source.splitlines(keepends=True)
+                     if line.strip().replace("\\[", "[").replace("\\]", "]") not in EXPORT_NOTICES)
     tokens = md.parse(source)
     # commonmark has no raw HTML renderer when html=False. URL checks run on
     # every parsed link, including links the upstream default would suppress.
@@ -193,7 +201,7 @@ def render_markdown(source, config, routes, current, photos):
                     url = "/" + url
                 if url in config["dead_links"]:
                     # Constant markup only. The dead address is never emitted as an href. Link text stays as plain text.
-                    token.type, token.tag, token.attrs, token.content = "html_inline", "", {}, '<span class="dead-link" title="The original link is no longer available">'
+                    token.type, token.tag, token.attrs, token.content = "html_inline", "", {}, '<span class="dead-link">'
                     in_dead_link = True
                     continue
                 token.attrSet("href", url)
@@ -201,9 +209,8 @@ def render_markdown(source, config, routes, current, photos):
                     token.attrSet("rel", REL)
                 elif local_target(url, current) not in routes and local_target(url, current) not in photos and not url.startswith(("#", "?p=")):
                     token.attrSet("data-unrecovered", "true")
-                    token.attrSet("title", "Historical target is not included in this prototype")
             if token.type == "link_close" and in_dead_link:
-                token.type, token.tag, token.attrs, token.content = "html_inline", "", {}, '</span><span class="dead-note"> (original link no longer available)</span>'
+                token.type, token.tag, token.attrs, token.content = "html_inline", "", {}, '</span>'
                 in_dead_link = False
                 continue
             if token.type == "image":
@@ -213,7 +220,8 @@ def render_markdown(source, config, routes, current, photos):
                 if url not in photos:
                     token.type = "text"
                     token.tag = ""
-                    token.content = f"[Image not included in this prototype: {alt}]"
+                    config["missing_images"].append({"page": current, "target": url, "alt": alt})
+                    token.content = ""
                     token.children = None
                     token.attrs = {}
                 else:
@@ -236,12 +244,38 @@ def anchor(url, label):
     return f'<a href="{escape(url, quote=True)}"' + (f' rel="{REL}"' if external else '') + f'>{escape(label)}</a>'
 
 
+def readable_date(value):
+    date = datetime.strptime(value, "%Y-%m-%d %H:%M:%S")
+    return f"{date:%B} {date.day}, {date.year}"
+
+
+def post_meta(post):
+    return f'<p class="post-meta">steveonjava | <time datetime="{post["date"][:10]}">{readable_date(post["date"])}</time></p>'
+
+
+def taxonomy(post):
+    links = ', '.join(anchor('/category/' + c['slug'] + '/', c['name']) for c in post['categories'])
+    return '<dl class="post-taxonomy"><dt>Categories</dt><dd>' + links + '</dd></dl>' if links else ''
+
+
 def post_list(posts, night=False):
     cards = []
-    for p in posts:
-        image = f'<img src="{escape(p["thumbnail"], quote=True)}" alt="{escape(p["title"], quote=True)}" loading="lazy">' if p["thumbnail"] else '<span class="no-image">No approved thumbnail available</span>'
-        cards.append(f'<li class="card">{image if night else ""}<h2>{anchor("/" + p["slug"] + "/", p["title"])}</h2><time datetime="{p["date"][:10]}">{p["date"][:10]}</time><p>{escape(p["excerpt"])}</p></li>')
-    return '<ul class="video-grid" role="list">' + ''.join(cards) + '</ul>' if night else '<ul class="post-list" role="list">' + ''.join(cards) + '</ul>'
+    for post in posts:
+        route = '/' + post['slug'] + '/'
+        if night:
+            image = f'<img src="{escape(post["thumbnail"], quote=True)}" alt="" loading="lazy">' if post['thumbnail'] else ''
+            cards.append(f'<li class="card"><a class="video-card" href="{route}">{image}<h2>{escape(post["title"])}</h2></a></li>')
+        else:
+            cards.append(f'<li class="card"><h2>{anchor(route, post["title"])}</h2>{post_meta(post)}<p class="excerpt">{escape(post["excerpt"])}</p></li>')
+    cls = 'video-grid' if night else 'post-list'
+    return f'<ul class="{cls}" role="list">' + ''.join(cards) + '</ul>'
+
+
+def video_reference(post):
+    image = f'<img src="{escape(post["thumbnail"], quote=True)}" alt="{escape(post["title"], quote=True)}">' if post['thumbnail'] else ''
+    url = 'https://www.youtube.com/watch?v=' + post['video_id']
+    poster = f'<a class="video-poster" href="{url}" rel="{REL}" aria-label="{escape(post["title"], quote=True)}">{image}</a>' if image else ''
+    return '<div class="player">' + poster + '<p class="watch-link">' + anchor(url, 'Watch on YouTube') + '</p></div>'
 
 
 def rebase(html, base):
@@ -255,23 +289,39 @@ def rebase(html, base):
     return re.sub(r'(\b(?:href|src)=")/(?!/)', lambda match: match.group(1) + base + "/", html)
 
 
-def page(config, title, body, route, sidebar):
+def page(config, title, body, route, sidebar, layout="index", video="", meta=""):
     night = config["site"] == "nighthacking"
-    wordmark = "NightHacking" if night else config["title"]
-    nav = anchor("/", "Home") + anchor("/archive/", "Archive") + (anchor("/videos/", "Videos") if night else "")
-    canonical = config["canonical_base"] + route
-    header_note = "Video archive prototype" if night else "Prototype header treatment. Historical motorcycle photograph is not included."
+    nav_items = [("/", "Watch" if night else "Home"), ("/archive/", "Archive")]
+    if night:
+        nav_items.append(("/videos/", "Videos"))
+    nav = ''.join(f'<a href="{url}"' + (' aria-current="page"' if route == url else '') + f'>{label}</a>' for url, label in nav_items)
+    nav = '<nav class="site-nav" aria-label="Main navigation">' + nav + '</nav>'
+    theme_image = config.get("theme_image")
+    if night:
+        logo = f'<img class="site-logo" src="{theme_image}" alt="NightHacking" width="230" height="28">' if theme_image else 'NightHacking'
+        header = '<header class="masthead"><div class="masthead-inner"><a class="wordmark" href="/">' + logo + '</a>' + nav + '</div></header>'
+    else:
+        header = '<header class="masthead"><a class="wordmark" href="/">Steve On Java</a><p class="tagline">Hacking Java, JavaFX, and Flash with Agility</p><a class="header-current" href="' + config['main_site'] + f'" rel="{REL}">Stephen Chin</a></header>'
+        image = f'<img class="header-photo" src="{theme_image}" alt="" width="880" height="200">' if theme_image else ''
+        header += '<div class="header-scene">' + image + nav + '</div>'
+    heading = f'<h1 class="page-title">{escape(title)}</h1>'
+    aside = '<aside aria-label="Archive navigation">' + meta + sidebar + '</aside>'
+    if not night:
+        content = '<div class="columns"><main id="main" tabindex="-1">' + heading + body + '</main>' + aside + '</div>'
+    elif layout == "post":
+        content = '<main id="main" class="night-main" tabindex="-1"><section class="video-stage"><div class="stage-inner">' + heading + video + '</div></section><div class="columns post-columns">' + body + aside + '</div></main>'
+    else:
+        panel = 'gallery-panel' if layout == 'gallery' else 'archive-content'
+        cols = 'columns gallery-columns' if layout == 'gallery' else 'columns'
+        content = '<main id="main" class="night-main" tabindex="-1"><div class="gallery-heading">' + heading + '</div><div class="' + cols + '"><section class="' + panel + '">' + body + '</section>' + aside + '</div></main>'
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex,nofollow"><meta http-equiv="Content-Security-Policy" content="{escape(CSP, quote=True)}">
-<meta name="description" content="{escape(title + ' | Unreviewed archive prototype', quote=True)}"><title>{escape(title)} | {escape(config['title'])}</title>
-<link rel="canonical" href="{escape(canonical, quote=True)}"><link rel="stylesheet" href="/assets/archive.css"><script src="/assets/legacy.js" defer></script></head>
+<meta name="description" content="{escape(title + ' | ' + config['title'], quote=True)}"><title>{escape(title)} | {escape(config['title'])}</title>
+<link rel="canonical" href="{escape(config['canonical_base'] + route, quote=True)}"><link rel="stylesheet" href="/assets/archive.css"><script src="/assets/legacy.js" defer></script></head>
 <body class="{config['site']}"><a class="skip-link" href="#main">Skip to content</a><div class="site-shell">
-<div class="prototype" role="note"><strong>Prototype / unreviewed archive</strong><p>Only the posts listed here are included. Historical links may point to material not yet recovered. Dates and source text have not been fully reviewed. {anchor(config['main_site'], 'Visit Stephen Chin’s current site')}</p></div>
-<header class="masthead"><p class="wordmark">{escape(wordmark)}</p><p class="tagline">Technology Hacking and Community Building</p><p class="header-note">{header_note}</p></header>
-<nav aria-label="Main navigation">{nav}</nav><p id="legacy-status" role="status"></p><noscript><p class="no-js">All listed posts are available without JavaScript. Old ?p=ID links need JavaScript to translate. Use {anchor('/archive/', 'the archive list')} instead.</p></noscript>
-<div class="columns"><main id="main" tabindex="-1"><h1>{escape(title)}</h1>{body}</main><aside aria-label="Archive navigation">{sidebar}</aside></div>
-<footer><p>{escape(config['period_label'])}. Archival source material is unreviewed. No comments, search, or contact forms are active.</p><p>{anchor(config['main_site'], 'Current work at stephenchin.com')}</p></footer></div></body></html>'''
+{header}<p id="legacy-status" role="status"></p><noscript><p class="no-js">{anchor('/archive/', 'Browse all posts')}</p></noscript>
+{content}<footer><p>{anchor(config['main_site'], 'Current work at stephenchin.com')}</p></footer></div></body></html>'''
 
 
 def copy_photos(root, output):
@@ -293,9 +343,13 @@ def copy_photos(root, output):
             target.parent.mkdir(parents=True, exist_ok=True)
             # Decode and reencode to drop EXIF, comments, and source metadata. Lossy formats keep
             # high quality, because the exporter already produced one lossy generation.
-            clean = Image.new("RGB", image.size)
-            clean.paste(image.convert("RGB"))
             fmt = {".jpg": "JPEG", ".jpeg": "JPEG", ".png": "PNG", ".webp": "WEBP"}[path.suffix.lower()]
+            # Keep transparency for formats that support it, because flattening a white-on-clear logo
+            # onto RGB turns its transparent pixels into a solid white box on a dark header.
+            has_alpha = image.mode in {"RGBA", "LA", "PA"} or (image.mode == "P" and "transparency" in image.info)
+            mode = "RGBA" if has_alpha and fmt in {"PNG", "WEBP"} else "RGB"
+            clean = Image.new(mode, image.size)
+            clean.paste(image.convert(mode))
             options = {"JPEG": {"quality": 95, "optimize": True}, "WEBP": {"quality": 95}, "PNG": {"optimize": True}}[fmt]
             clean.save(target, format=fmt, **options)
         photos.add(url)
@@ -307,15 +361,16 @@ class Audit(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.output, self.route, self.base = output, route, base
         self.unrecovered = []
-        self.has_notice = False
+        self.has_robots = False
         self.has_csp = False
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         require(tag not in {"iframe", "object", "embed", "form", "base", "style"}, f"Forbidden HTML element: {tag}")
         require(not any(k.startswith("on") or k in {"style", "srcdoc", "srcset"} for k in attrs), "Active HTML attribute")
-        if attrs.get("class") == "prototype":
-            self.has_notice = True
+        require("prototype" not in attrs.get("class", "").split(), "Reader-facing prototype notice")
+        if tag == "meta" and attrs.get("name") == "robots":
+            self.has_robots = attrs.get("content") == "noindex,nofollow"
         if tag == "meta" and attrs.get("http-equiv", "").lower() == "content-security-policy":
             self.has_csp = attrs.get("content") == CSP
         if tag == "script":
@@ -356,7 +411,7 @@ def check(output, base=""):
             route = route[:-10]
         audit = Audit(output, route, base)
         audit.feed(file.read_text(encoding="utf-8"))
-        require(audit.has_notice and audit.has_csp, f"Missing prototype notice or CSP: {route}")
+        require(audit.has_robots and audit.has_csp, f"Missing robots policy or CSP: {route}")
         unresolved.extend({"page": route, "target": url} for url in audit.unrecovered)
     require(bool(list(output.rglob("*.html"))), "No generated pages")
     return unresolved
@@ -381,31 +436,33 @@ def build(root, base=""):
     routes |= {f"/archive/{year}/" for year in years} | {f"/category/{slug}/" for slug in categories}
     if config["site"] == "nighthacking":
         routes.add("/videos/")
-    sidebar = '<h2>Archives</h2><ul>' + ''.join(f'<li>{anchor(f"/archive/{year}/", year)}</li>' for year in sorted(years, reverse=True)) + '</ul><h2>Categories</h2><ul>'
+    night = config["site"] == "nighthacking"
+    recent = '<h2>Recent Videos</h2><ul>' + ''.join('<li>' + anchor('/' + p['slug'] + '/', p['title']) + '</li>' for p in posts[:5]) + '</ul>' if night else ''
+    sidebar = recent + '<h2>Archives</h2><ul>' + ''.join(f'<li>{anchor(f"/archive/{year}/", year)}</li>' for year in sorted(years, reverse=True)) + '</ul><h2>Categories</h2><ul>'
     names = {c["slug"]: c["name"] for p in posts for c in p["categories"]}
     sidebar += ''.join(f'<li>{anchor(f"/category/{slug}/", names[slug])}</li>' for slug in sorted(categories)) + '</ul>'
-    night = config["site"] == "nighthacking"
-    pages = {"/": (config["title"], '<p class="intro">A limited selection of recovered posts. This is not a complete restoration.</p>' + post_list(posts, night)),
-             "/archive/": ("Archive by year", ''.join(f'<section><h2>{anchor(f"/archive/{year}/", year)}</h2>{post_list(years[year])}</section>' for year in sorted(years, reverse=True))),
-             "/404.html": ("This page is not included", '<p>This prototype includes only the exported posts listed in the archive. The requested historical URL may not have been recovered. A missing page here does not establish that the original never existed.</p><p>' + anchor('/archive/', 'Browse the recovered archive') + ' or ' + anchor('/', 'return home') + '.</p>')}
+    image = THEME_IMAGES[config['site']]
+    config['theme_image'] = image if image in photos else None
+    gallery = 'gallery' if night else 'index'
+    # Each page holds its heading, content, layout, video-stage markup and sidebar metadata.
+    pages = {"/": ("Latest Videos" if night else "Latest Posts", post_list(posts, night), gallery, '', ''),
+             "/archive/": ("Archive by year", ''.join(f'<section><h2>{anchor(f"/archive/{year}/", year)}</h2>{post_list(years[year])}</section>' for year in sorted(years, reverse=True)), 'index', '', ''),
+             "/404.html": ("Page not found", '<p>' + anchor('/archive/', 'Browse the archive') + ' or ' + anchor('/', 'return home') + '.</p>', 'index', '', '')}
     if night:
-        pages["/videos/"] = ("Videos", '<p>Links are historical references. YouTube availability is unknown.</p>' + post_list([p for p in posts if p["video_id"]], True))
+        pages["/videos/"] = ("Videos", post_list([p for p in posts if p["video_id"]], True), 'gallery', '', '')
     for year, records in years.items():
-        pages[f"/archive/{year}/"] = (year, post_list(records, night))
+        pages[f"/archive/{year}/"] = (year, post_list(records, night), gallery, '', '')
     for slug, records in categories.items():
-        pages[f"/category/{slug}/"] = (names[slug], post_list(records, night))
-    for p in posts:
-        route = f'/{p["slug"]}/'
-        body = f'<article><p class="post-meta"><time datetime="{p["date"][:10]}">{p["date"]}</time> · Unreviewed source transcription</p>'
-        if p["video_id"]:
-            thumbnail = f'<img src="{p["thumbnail"]}" alt="{escape(p["title"], quote=True)}">' if p["thumbnail"] else '<p>No approved local thumbnail is available.</p>'
-            body += '<section class="player" aria-label="Historical video reference">' + thumbnail + '<p>' + anchor('https://www.youtube.com/watch?v=' + p["video_id"], 'Watch on YouTube') + '</p><p>Availability is unknown. Opening this link visits YouTube. No video is loaded on this page.</p></section>'
-        body += render_markdown(p["markdown"], config, routes, route, photos)
-        body += '<p>Categories: ' + ', '.join(anchor('/category/' + c['slug'] + '/', c['name']) for c in p['categories']) + '</p>'
-        # Original addresses are plain text, never links. Several of those hosts now serve other content.
-        # Provenance stays in content/<id>.json in the repository and is not rendered on the page.
-        body += '<details><summary>Source and review notes</summary><p>Original address' + ('es' if len(p['original_urls']) > 1 else '') + ' (text only):</p><ul>' + ''.join('<li><code>' + escape(url) + '</code></li>' for url in p['original_urls']) + '</ul>' + ('<p>Recovery notes:</p><ul>' + ''.join('<li>' + escape(w) + '</li>' for w in p['warnings']) + '</ul>' if p['warnings'] else '') + '</details></article>'
-        pages[route] = (p["title"], body)
+        pages[f"/category/{slug}/"] = (names[slug], post_list(records, night), gallery, '', '')
+    for post in posts:
+        route = '/' + post['slug'] + '/'
+        video = video_reference(post) if post['video_id'] else ''
+        content = render_markdown(post['markdown'], config, routes, route, photos)
+        body = '<article class="entry">' + ('' if night else post_meta(post) + video)
+        body += '<div class="entry-content">' + content + '</div>'
+        body += ('' if night else taxonomy(post)) + '</article>'
+        meta = '<div class="video-meta"><p>Video By <strong>steveonjava</strong></p><p>Posted On <time datetime="' + post['date'][:10] + '">' + readable_date(post['date']) + '</time></p>' + taxonomy(post) + '</div>' if night else ''
+        pages[route] = (post['title'], body, 'post', video if night else '', meta)
     (output / "assets").mkdir(exist_ok=True)
     shutil.copyfile(root / "theme" / "archive.css", output / "assets" / "archive.css")
     script = (root / "theme" / "legacy.js").read_text(encoding="utf-8")
@@ -413,15 +470,15 @@ def build(root, base=""):
     mapping = {str(p["id"]): '/' + p['slug'] + '/' for p in posts}
     script = script.replace("__POST_MAP__", json.dumps(mapping, sort_keys=True)).replace("__BASE_PATH__", json.dumps(base))
     (output / "assets" / "legacy.js").write_text(script, encoding="utf-8")
-    for route, (title, body) in pages.items():
+    for route, (title, body, layout, video, meta) in pages.items():
         target = output / route.lstrip("/")
         if route.endswith("/"):
             target /= "index.html"
         target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(rebase(page(config, title, body, route, sidebar), base), encoding="utf-8")
+        target.write_text(rebase(page(config, title, body, route, sidebar, layout, video, meta), base), encoding="utf-8")
     unresolved = check(output, base)
-    report = {"status": "prototype", "review_status": "unreviewed", "base_path": base, "posts": len(posts), "pages": len(pages), "photos": len(photos), "unrecovered_links": unresolved}
-    (output / "build-report.json").write_text(json.dumps(report, indent=2) + '\n', encoding="utf-8")
+    report = {"status": "prototype", "review_status": "unreviewed", "base_path": base, "posts": len(posts), "pages": len(pages), "photos": len(photos), "unrecovered_links": unresolved, "missing_images": config["missing_images"]}
+    (root / "build-report.json").write_text(json.dumps(report, indent=2) + '\n', encoding="utf-8")
     print(json.dumps(report, sort_keys=True))
     return report
 

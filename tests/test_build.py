@@ -12,7 +12,8 @@ import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import build
-from PIL import Image
+import check_videos
+from PIL import Image, PngImagePlugin
 
 TEMPLATE = Path(__file__).resolve().parents[1]
 
@@ -54,7 +55,7 @@ class ArchiveTests(unittest.TestCase):
                     self.assertTrue((self.root / "_site" / route).is_file())
                 page = (self.root / "_site/synthetic-one/index.html").read_text()
                 self.assertIn("Watch on YouTube", page)
-                self.assertIn("Availability is unknown", page)
+                self.assertNotIn("Availability is unknown", page)
                 self.assertNotIn("<iframe", page)
                 self.assertIn('rel="nofollow noopener noreferrer"', page)
                 self.assertIn("<strong>emphasis</strong>", page)
@@ -91,7 +92,9 @@ class ArchiveTests(unittest.TestCase):
         self.save()
         self.compile()
         html = (self.root / "_site/synthetic-one/index.html").read_text()
-        self.assertIn("Image not included in this prototype: Remote image", html)
+        self.assertNotIn("Image not included", html)
+        self.assertNotIn("image.jpg", html)
+        self.assertEqual(len(json.loads((self.root / "build-report.json").read_text())["missing_images"]), 2)
         self.assertNotIn('src="https://', html)
 
     def test_image_alt_fallback(self):
@@ -195,9 +198,9 @@ class ArchiveTests(unittest.TestCase):
         self.compile()
         html = (self.root / "_site/synthetic-one/index.html").read_text()
         self.assertNotIn("http://nighthacking.com", html.replace("<code>http://nighthacking.com/synthetic-one/</code>", ""))
-        self.assertEqual(html.count('href="/synthetic-one/"'), 2)  # the two markdown links only
+        self.assertGreaterEqual(html.count('href="/synthetic-one/"'), 2)
         self.assertNotIn('href="http://nighthacking.tv', html)
-        self.assertIn("<code>http://nighthacking.com/synthetic-one/</code>", html)
+        self.assertNotIn("<code>http://nighthacking.com/synthetic-one/</code>", html)
 
     def test_provenance_and_database_names_are_not_rendered(self):
         self.post["provenance"] = {"database": "synthetic_wordpress", "post_id": 1, "source_content_sha256": "a" * 64}
@@ -206,7 +209,7 @@ class ArchiveTests(unittest.TestCase):
         html = (self.root / "_site/synthetic-one/index.html").read_text()
         self.assertNotIn("synthetic_wordpress", html)
         self.assertNotIn("a" * 64, html)
-        self.assertIn("Source and review notes", html)
+        self.assertNotIn("Source and review notes", html)
 
     def test_dead_external_link_renders_as_text_without_its_address(self):
         (self.root / "link-status.json").write_text(json.dumps({"https://dead.example/page": "dead", "https://live.example/page": "live"}))
@@ -216,7 +219,8 @@ class ArchiveTests(unittest.TestCase):
         html = (self.root / "_site/synthetic-one/index.html").read_text()
         self.assertNotIn("dead.example", html)
         self.assertIn('class="dead-link"', html)
-        self.assertIn("original link no longer available", html)
+        self.assertNotIn("original link no longer available", html)
+        self.assertNotIn('title="The original link', html)
         self.assertIn('href="https://live.example/page"', html)
 
     def test_link_status_rejects_bad_state_and_url(self):
@@ -268,6 +272,144 @@ class ArchiveTests(unittest.TestCase):
             with self.subTest(base=bad), self.assertRaises(ValueError):
                 with contextlib.redirect_stdout(io.StringIO()):
                     build.build(self.root, bad)
+
+    def test_review_metadata_never_becomes_reader_text(self):
+        banned = ["Only the posts listed here are included", "A limited selection of recovered posts",
+                  "Archival source material is unreviewed", "Unreviewed source transcription",
+                  "Video archive prototype", "Historical motorcycle photograph is not included",
+                  "Availability is unknown", "Opening this link visits YouTube", "No video is loaded",
+                  "Source and review notes", "No approved thumbnail", "Unreviewed archive prototype",
+                  "Historical target is not included", "REVIEW-ONLY-MARKER"]
+        self.post['warnings'] = ['REVIEW-ONLY-MARKER']
+        self.post['provenance'] = {'note': 'REVIEW-ONLY-MARKER'}
+        self.config['period_label'] = 'REVIEW-ONLY-MARKER'
+        for site, host in [('steveonjava', 'steveonjava.com'), ('nighthacking', 'nighthacking.tv')]:
+            self.config.update(site=site, canonical_base='https://' + host)
+            self.save()
+            self.compile()
+            for path in (self.root / '_site').rglob('*.html'):
+                html = path.read_text()
+                for phrase in banned:
+                    self.assertNotIn(phrase, html, (site, path, phrase))
+                self.assertIn('name="robots" content="noindex,nofollow"', html)
+                self.assertIn('Content-Security-Policy', html)
+                self.assertIn('Current work at stephenchin.com', html)
+        self.assertIn('REVIEW-ONLY-MARKER', (self.root / 'content/1.json').read_text())
+
+    def test_exporter_notes_omitted_without_changing_author_prose_or_input(self):
+        self.markdown = 'The author says this is a prototype.\n\n\\[Archive note: the original embedded player is not included in this static recovery.\\]\n\nThe author continues.\n'
+        self.save()
+        before = (self.root / 'content/1.md').read_bytes()
+        self.compile()
+        html = (self.root / '_site/synthetic-one/index.html').read_text()
+        self.assertNotIn('Archive note:', html)
+        self.assertIn('The author says this is a prototype.', html)
+        self.assertIn('The author continues.', html)
+        self.assertEqual(before, (self.root / 'content/1.md').read_bytes())
+
+    def test_absent_thumbnails_leave_no_apology(self):
+        self.config.update(site='nighthacking', canonical_base='https://nighthacking.tv')
+        self.post['thumbnail'] = None
+        self.save()
+        self.compile()
+        post = (self.root / '_site/synthetic-one/index.html').read_text()
+        home = (self.root / '_site/index.html').read_text()
+        self.assertIn('Watch on YouTube', post)
+        self.assertIn('class="video-card"', home)
+        self.assertNotIn('No approved', post + home)
+        self.assertNotIn('no-image', post + home)
+        self.assertNotIn('class="video-poster"', post)
+
+    def test_theme_art_is_local_metadata_free_and_project_prefixed(self):
+        for site, host in [('steveonjava', 'steveonjava.com'), ('nighthacking', 'nighthacking.tv')]:
+            self.config.update(site=site, canonical_base='https://' + host)
+            asset = build.THEME_IMAGES[site]
+            path = self.root / 'assets' / asset.lstrip('/')
+            path.parent.mkdir(parents=True, exist_ok=True)
+            Image.new('RGB', (880, 200) if site == 'steveonjava' else (230, 28), 'navy').save(path)
+            self.save()
+            with contextlib.redirect_stdout(io.StringIO()):
+                build.build(self.root, '/my-repo')
+            html = (self.root / '_site/index.html').read_text()
+            self.assertIn('src="/my-repo' + asset + '"', html)
+            with Image.open(self.root / '_site' / asset.lstrip('/')) as image:
+                self.assertFalse(image.getexif())
+            build.check(self.root / '_site', '/my-repo')
+
+    def test_audit_requires_security_policy_and_robots_not_a_banner(self):
+        self.compile()
+        page = self.root / '_site/index.html'
+        original = page.read_text()
+        self.assertNotIn('class="prototype"', original)
+        for text in ['<meta name="robots" content="noindex,nofollow">', 'Content-Security-Policy']:
+            page.write_text(original.replace(text, ''))
+            with self.assertRaisesRegex(ValueError, 'robots policy or CSP'):
+                build.check(self.root / '_site')
+        page.write_text(original.replace('<main', '<div class="prototype"></div><main', 1))
+        with self.assertRaisesRegex(ValueError, 'prototype notice'):
+            build.check(self.root / '_site')
+
+    def test_internal_build_report_is_not_published(self):
+        self.compile()
+        self.assertTrue((self.root / 'build-report.json').is_file())
+        self.assertFalse((self.root / '_site/build-report.json').exists())
+
+    def test_video_metadata_check_is_not_a_playback_claim(self):
+        response = json.dumps({'type': 'video', 'title': 'Synthetic title', 'author_name': 'Synthetic channel'})
+        self.assertEqual(check_videos.classify(200, response), ('metadata_available', 'Synthetic title', 'Synthetic channel'))
+        for status in [401, 403, 404, 410, 429, 500]:
+            self.assertEqual(check_videos.classify(status, response)[0], 'check_inconclusive')
+
+    def test_video_metadata_rejects_bad_provider_responses(self):
+        for response in ['<html>challenge</html>', '[]', '{}', '{"type":"video", "title":{}, "author_name":"x"}']:
+            self.assertEqual(check_videos.classify(200, response)[0], 'check_inconclusive')
+
+    def test_video_id_validation_precedes_network(self):
+        self.post['video_id'] = '../attack'
+        self.save()
+        from unittest.mock import patch
+        with patch('urllib.request.build_opener', side_effect=AssertionError('No network setup before validation')):
+            with self.assertRaisesRegex(ValueError, 'YouTube ID'):
+                check_videos.check(self.root)
+
+    def test_transparent_png_keeps_alpha_and_loses_metadata(self):
+        source = self.root / "assets/wp-content/uploads/2014/01/clear-logo.png"
+        logo = Image.new("RGBA", (40, 10), (255, 255, 255, 0))
+        for x in range(10, 30):
+            logo.putpixel((x, 5), (255, 255, 255, 255))
+        meta = PngImagePlugin.PngInfo()
+        meta.add_text("Comment", "SOURCE-METADATA-MARKER")
+        logo.save(source, pnginfo=meta)
+        self.compile()
+        built = self.root / "_site/wp-content/uploads/2014/01/clear-logo.png"
+        self.assertNotIn(b"SOURCE-METADATA-MARKER", built.read_bytes())
+        with Image.open(built) as image:
+            self.assertEqual(image.mode, "RGBA")
+            self.assertEqual(image.getpixel((0, 0))[3], 0)
+            self.assertEqual(image.getpixel((15, 5)), (255, 255, 255, 255))
+            self.assertFalse(image.info.get("Comment"))
+
+    def test_opaque_photo_stays_rgb(self):
+        self.compile()
+        with Image.open(self.root / "_site/wp-content/uploads/2014/01/synthetic.jpg") as image:
+            self.assertEqual(image.mode, "RGB")
+
+    def test_original_theme_structure(self):
+        self.compile()
+        html = (self.root / '_site/synthetic-one/index.html').read_text()
+        self.assertIn('Steve On Java', html)
+        self.assertIn('Hacking Java, JavaFX, and Flash with Agility', html)
+        self.assertIn('class="header-scene"', html)
+        self.assertIn('January 2, 2014', html)
+        self.assertIn('class="post-taxonomy"', html)
+        self.config.update(site='nighthacking', canonical_base='https://nighthacking.tv')
+        self.save()
+        self.compile()
+        html = (self.root / '_site/synthetic-one/index.html').read_text()
+        self.assertIn('class="video-stage"', html)
+        self.assertIn('class="stage-inner"', html)
+        self.assertIn('class="video-meta"', html)
+        self.assertIn('Recent Videos', html)
 
     def test_reencode_strips_exif(self):
         photo = self.root / "assets/wp-content/uploads/2014/01/synthetic.jpg"

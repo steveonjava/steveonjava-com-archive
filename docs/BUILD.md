@@ -1,72 +1,46 @@
-# Historical archive prototype
+# Historical static archive builder
 
-This reusable template builds either SteveOnJava or NightHacking from supplied historical exports. It contains no historical sample records. Synthetic records exist only in isolated unit tests. This is an unreviewed prototype, not a complete recovery or a deployable production archive.
+This template builds either SteveOnJava or NightHacking from validated local historical exports. Records belong in each archive repository, while synthetic records exist only in isolated unit tests.
 
 ## Inputs
 
-Create `archive.json` with exactly these keys:
+`archive.json` has exactly these keys: `site` (`steveonjava` or `nighthacking`), `title`, `canonical_base` (the matching original HTTPS domain), `main_site` (`https://stephenchin.com`), `status` (`prototype`), and `period_label`. Status and period labels are repository metadata, not page copy.
 
-- `site`: `steveonjava` or `nighthacking`
-- `title`: the archive title
-- `canonical_base`: `https://steveonjava.com` or `https://nighthacking.tv`, matching the site
-- `main_site`: `https://stephenchin.com`
-- `status`: `prototype`
-- `period_label`: a truthful description of the period covered
+Each record has `content/<id>.json` and `content/<id>.md`. JSON fields are `id`, `type`, `title`, `slug`, `date`, `categories`, `excerpt`, `original_urls`, `video_id`, `thumbnail`, `review_status`, `provenance`, and `warnings`. Unknown or duplicate keys fail validation.
 
-Add each exported record as `content/<id>.json` and its inert Markdown transcription as `content/<id>.md`. JSON fields are `id`, `type`, `title`, `slug`, `date`, `categories`, `excerpt`, `original_urls`, `video_id`, `thumbnail`, `review_status`, `provenance`, and `warnings`. Unknown keys and duplicate JSON keys fail validation.
+- IDs are positive integers matching filenames. Type is `post`, with review state kept in JSON.
+- Slugs are lowercase ASCII words separated by single hyphens. Routes remain `/slug/`.
+- Dates use `YYYY-MM-DD HH:MM:SS`, without inferring a source timezone.
+- Categories contain consistent `slug` and `name` fields.
+- Video IDs are null or validated 11-character YouTube IDs.
+- Thumbnails are null or approved local upload paths.
+- Excerpts are plain text. Provenance, original addresses and warnings are retained in Git, never rendered as review notes.
 
-- IDs are positive integers and match filenames. Type is `post`. Review status is `unreviewed`.
-- Slugs contain lowercase ASCII letters, digits, and single hyphens. Routes remain `/slug/`.
-- Dates use `YYYY-MM-DD HH:MM:SS`. No source timezone is inferred.
-- Categories are lists of objects with `slug` and `name`. Names must agree for shared slugs.
-- Original URLs are nonempty lists of explicit HTTP or HTTPS links.
-- Video IDs are null or 11-character YouTube IDs. Availability is unknown.
-- Thumbnails are null or approved local paths under `/wp-content/uploads/YYYY/MM/`.
-- Provenance is a nonempty JSON object. Preserve source evidence and export details.
-- Warnings are lists of strings. Excerpts are plain text, not HTML.
+Optional `link-status.json` maps absolute external URLs to `live`, `dead`, or `unverified`. Dead or hijacked links become plain text without commentary or a tooltip. Other external links retain `nofollow noopener noreferrer`. Retired site hosts become local routes, and unresolved historical targets are reported in the build artifact without inserted disclaimers.
 
-Optionally add `link-status.json`, an object that maps each absolute external URL to `live`, `dead` or `unverified`. A `dead` link renders as plain text with a note, and its address is not emitted as an `href`. `live` and `unverified` links stay clickable with `nofollow noopener noreferrer`. Record the date and method of each check in the pull request, because a reachable address does not prove the same owner still runs it. Links to the retired hosts of the archived site itself (for NightHacking, both `nighthacking.tv` and `nighthacking.com`) become local routes. The original addresses appear on each post as plain text only, and provenance data stays in `content/<id>.json` and is never rendered.
+Approved raster assets live under `assets/wp-content/uploads/YYYY/MM/`, with `.jpg`, `.jpeg`, `.png`, or `.webp` extensions. Builds decode and encode fresh pixels without inherited metadata, reject animation and bound dimensions and file size. Header artwork uses the same safety path as post images. Source locators, transformations, hashes and rights states are recorded in Git.
 
-Place only approved raster photos in `assets/wp-content/uploads/YYYY/MM/`. Supported extensions are `.jpg`, `.jpeg`, `.png`, and `.webp`. Builds decode and reencode photos to strip metadata. Images are bounded and animation is rejected. No original theme artwork is included. The SteveOnJava header uses an explicitly labeled gradient because the historical motorcycle photo is unavailable.
+## Presentation
 
-Markdown supports paragraphs, emphasis, links, images, lists, and fenced code. Raw HTML is escaped. Dangerous schemes, URL credentials, protocol-relative links, traversal, and symlinks fail validation. Remote images and unavailable local images become honest omission notes. External links have `nofollow noopener noreferrer`. Source prose is not rewritten.
+Fresh CSS recreates the original rendered Freshy 2 (SteveOnJava) and Focus (NightHacking) layouts. No original stylesheet, theme code, plugin or CMS runs here. The visual references and measurements are in `docs/theme-reference.md`.
 
-## Local verification
+Review previews show the intended reader experience, with no prototype banners, unreviewed labels, source-review details, missing-artwork apologies, recovery explanations, or provider-opening boilerplate. Keep qualifications in commit messages and PR descriptions. Original prose is preserved. The renderer omits only exact standalone omission notices inserted by the exporter and suppresses missing-image placeholders without rewriting surrounding prose.
 
-Use Python 3.13. Install dependencies in a virtual environment:
+Home, archive, year, category and post routes work without JavaScript. NightHacking also has `/videos/`. The strict local `?p=ID` translator uses only validated routes. The 404 and unknown-ID fallback provide concise navigation. Every page keeps CSP and `noindex,nofollow` until a separate launch decision, and the footer links to the current site.
 
-```sh
-python -m venv .venv
-. .venv/bin/activate
-python -m pip install -r requirements.txt
-python -m unittest discover -s tests -v
-python scripts/build.py
-python scripts/build.py --check-only
-python -m http.server 8000 --directory _site --bind 127.0.0.1
-```
+## GitHub Actions verification
 
-The build performs no network retrieval. Dependency installation is a separate setup step. The build rejects empty content rather than inventing archive records. Unit tests construct temporary synthetic roots and do not need real exports.
+`build.yml` has read-only permissions and no deploy step or secrets. On Python 3.13 it runs:
 
-All pages carry a prototype banner and current-site link. Browse without JavaScript through the home, archive, year, category, and post pages. NightHacking also has `/videos/`. Old `?p=ID` links translate only through the strict generated local map when JavaScript is enabled. Without JavaScript, the archive remains usable and explains the limitation.
+1. Pinned dependencies and unit tests covering both themes, hostile synthetic input, metadata separation, artwork, and provider-response classification.
+2. Offline compilation and audit for a domain root, then for the project's GitHub Pages path.
+3. A separate public YouTube oEmbed metadata check. It makes no playback, captions, viewing or reuse claim. Rejected requests and transport failures remain inconclusive rather than declaring a video deleted.
+4. Chromium browser tests with every nonlocal resource request blocked. All supplied posts, home, archive, videos and 404 routes get desktop and mobile screenshots. Tests check images decode, original desktop geometry, overflow, keyboard access, no-JavaScript browsing and legacy IDs.
 
-Unknown historical links are marked as not included. `404.html` gives an accurate recovery notice and routes back to the archive. `build-report.json` records posts, pages, photos, and unrecovered historical links. The compiler checks generated navigation, local resources, unsafe HTML, and external link attributes. Unknown historical destinations are reported, not falsely declared recovered.
+The `archive-prototype-preview` artifact contains `_site/`, `screenshots/`, `build-report.json`, and `video-checks.json`. Reports remain outside `_site/` so review evidence is not published with reader pages. `build-report.json` lists missing images and unresolved historical links. Passing CI does not authorize merging or deployment.
 
-## Preview screenshots
+## Project-site builds and deployment
 
-```sh
-python -m pip install -r requirements-preview.txt
-python -m playwright install chromium
-python scripts/screenshots.py
-```
+GitHub Pages project sites live at `https://<owner>.github.io/<repo>/`. `python scripts/build.py --base-path /<repo>` prefixes every local `href` and `src` and the ID translator, while `--check-only --base-path /<repo>` audits them. Without the option, output serves a domain root. The browser-test server answers only under the selected prefix so escaping URLs fail.
 
-The screenshot helper serves only localhost, blocks nonlocal requests, checks JavaScript and no-JavaScript browsing, exercises the ID translator, and captures desktop and mobile home and post pages. It does not contact YouTube. No iframe, tracking, remote fonts, external image loading, or live forms are included.
-
-## CI and no-deploy policy
-
-The GitHub Actions workflow runs unit tests, builds `_site/`, audits it, and creates preview screenshots on Python 3.13. It uploads static files and screenshots as an expiring artifact. Repository permissions are read-only. It has no deployment, Pages configuration, credentials, secrets, privileged PR trigger, publishing, or merge step.
-
-Review source provenance, content accuracy, images, links, privacy, rights, and browser screenshots before any future production proposal. Publishing is outside this prototype. Do not treat a passing build as editorial approval or evidence that a video still exists.
-
-## Project-site builds
-
-GitHub Pages serves a project repository at `https://<owner>.github.io/<repo>/`, not at a domain root. `python scripts/build.py --base-path /<repo>` prefixes every local `href` and `src` with that path and writes the same prefix into `assets/legacy.js`. The audit then checks every local URL against the prefix and fails on any URL outside it. Without the option, the build is for a domain root, which is what a custom domain gives. `python scripts/screenshots.py --base-path /<repo>` serves the build only under that prefix, so any URL that escapes the prefix returns 404 and fails the run. The prefix is one lowercase path segment.
+The separate `pages.yml` runs only on `main` or explicit manual dispatch. Its build job is read-only, with `pages: write` and `id-token: write` granted only to the deploy job. Feature-branch PRs only produce review artifacts. Merge and publication require owner approval independently of branch preparation.
