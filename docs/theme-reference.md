@@ -23,6 +23,18 @@ Measured visual tokens (Source: the same rendered capture and screenshot pixels)
 - Sidebar headings: 18.24px regular with a 2px slate left rule.
 - Category box: white, 1px `#c6c6c6` border, 11px labels and bold black links.
 
+### SteveOnJava home page
+
+Measured from the June 2012 home capture (Source: the capture above, rendered at 1280 pixels):
+
+- The home page is a river of the ten newest posts, each with its full body, byline and the bordered Comments/Categories/Tags box, followed by a "Previous Entries" pager. This is the largest departure of the first reconstruction, which listed two excerpts under a "Latest Posts" heading.
+- Post paragraphs use an 8.5px vertical margin. A post's categories box is 31px tall for one line, with a 1px `#c6c6c6` border on white.
+- The pager link is 12.16px slate `#627579`, placed under the last post at the left edge of the column.
+- The title band carries an orange `#ee7700` italic "rss" link and a search box at the right. Neither is reproduced, because the feed and search no longer exist.
+- Sidebar widgets, in order: Twitter button, location badge and Travel Map links (not reproduced), then Publications (two 75x99 book covers, 10px apart), Upcoming Talks (event badges, not reproduced because the events passed), "Steve On..." (a plain link list of category archives), Archives (a dropdown, rendered as the year list), Affiliations (Java Champions logo, 160x68), Awards (DZone MVB badge and the 2009 JavaOne Rock Star Duke) and Disclaimer.
+- Widget headings share the 18.24px slate style with a 2px left rule. Widget bodies are 12px, with a 23px list line height.
+- The footer is a 48px band at the bottom of the shell.
+
 The motorcycle image is a separate historical upload, not a screenshot or stylesheet fragment. Its exact public capture and transformation are in `theme-art.json`. It is decoded and reencoded without inherited metadata before inclusion.
 
 ## NightHacking: Focus
@@ -45,6 +57,17 @@ Measured visual tokens (Source: rendered captures above and screenshot pixels):
 - Card titles: centered 15px light white type over a translucent black band at the thumbnail's lower edge.
 - Sidebar: 14px medium-weight headings and plain 13px dark-gray links.
 - Footer: full-width `#2a2b2f`, about 70px high.
+
+### NightHacking home page
+
+Measured from the October 2019 home capture (Source: the capture above, rendered at 1280 pixels):
+
+- A 777x437 featured stage sits directly under the 48px header on a `#1c1c1c` band that ends about 9px below the stage. The original was a live-stream embed, so the reconstruction uses the newest video's thumbnail as a local poster with a play button that links to the archive page.
+- Below the stage the page returns to the warm `#f6f4f2` background. The original then showed a line of announcement text and a row of 320x165 event banners. Neither is reproduced, because the announcement is out of date and the banners are not in the export.
+- The "Latest Videos" heading sits above the panel on the page background, left-aligned with it, in 18px light-weight type, color about `#2d3033`.
+- The panel is 960px wide with a 1px light border and about 16px of padding. Thumbnails are 301x162 in three columns, with 12px column gaps and 15px row gaps.
+- Fifteen videos appear per page, followed by an "Older posts" link at 13px `#404040`.
+- The Follow button and the "Labs" menu item are not reproduced. Neither has a working destination.
 
 ## Deliberate functional differences
 
