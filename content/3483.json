@@ -1,0 +1,98 @@
+{
+  "categories": [
+    {
+      "name": "Community",
+      "slug": "community-2"
+    },
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "Kids",
+      "slug": "kids"
+    },
+    {
+      "name": "Raspberry Pi",
+      "slug": "raspberry-pi"
+    }
+  ],
+  "date": "2013-10-09 01:15:56",
+  "excerpt": "I did a successful workshop this past weekend at Silicon Valley Code Camp with 50 very enthusiastic future developers.  They were ages 10 and up, and everyone in the class got a Java game running on their Pis, and made 2 or more improvements in the span of a few hours.",
+  "id": 3483,
+  "original_urls": [
+    "http://steveonjava.com/diy-raspberry-pi-workshop-for-kids/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "391c622f386a9eb012aebf8cad1a6fcc9b96306521d76c8f3d85da098c85b29f",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "object:codebase"
+        ],
+        "fetched": false,
+        "host": "download.macromedia.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"
+      },
+      {
+        "contexts": [
+          "embed:src",
+          "param:value"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.flickr.com/apps/slideshow/show.swf?v=124984"
+      },
+      {
+        "contexts": [
+          "iframe:src"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.slideshare.net/slideshow/embed_code/26989411"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "github.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://github.com/steveonjava/MaryHadALittleLambda"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/diy-raspberry-pi-workshop-for-kids/",
+    "post_id": 3483,
+    "rejected_urls": [],
+    "source_content_sha256": "0a8127ebe5e86b58d1ba307627a80af72b4d74a94c064c8b85d1df840b7fb049",
+    "source_date_sha256": "856c654006c536c3bee0f3389fd8fea0035c6ea0ed6be096c04b3548dce9e431",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "79cca4595b1c52f60d4e6cc121aab0c05f23894af7dd2b440af63e8293cccf28",
+    "source_title_sha256": "a65a6b4d94b5e4681ddd87036ff7e3c53107bab05a7b1ea859757d6bdb3518b0",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "diy-raspberry-pi-workshop-for-kids",
+  "thumbnail": null,
+  "title": "DIY Raspberry Pi Workshop for Kids",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "An active or embedded source element was omitted."
+  ]
+}

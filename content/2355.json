@@ -1,0 +1,78 @@
+{
+  "categories": [
+    {
+      "name": "Agile",
+      "slug": "agile"
+    },
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "Presentation",
+      "slug": "presentation"
+    }
+  ],
+  "date": "2012-08-16 16:48:30",
+  "excerpt": "I did a presentation at the Agile 2012 conference in Dallas on how to do Agile release planning with distributed teams.  This is something that we struggled with at my last company since we had 300 developers split into 40+ teams in 5 different countries.",
+  "id": 2355,
+  "original_urls": [
+    "http://steveonjava.com/taking-it-virtual/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "3bfd68df8fbec2afdfee3efb59fc04596d426b3c918ed62709f00d8e9154ffd1",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/apropos/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.meetup.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.meetup.com/hydjug/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/taking-it-virtual/",
+    "post_id": 2355,
+    "rejected_urls": [],
+    "source_content_sha256": "24cc8bde1426d359cf1ddd80d1b0c10d62294ddb8cc31f03e098d4fe8361d697",
+    "source_date_sha256": "b084d4d6737fabe5aee22efb60a7c7a6df98d3ecb7afe229e621407ddba6da13",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "0c61035da741b85e3ccca3388beea6fa562a0a4e8a701450ac641e0b9d64e0dd",
+    "source_title_sha256": "b148132bdd0c88a98e2bec4a5318f5b2caa7aac512a8df564d22a2b0f57ef0f8",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "taking-it-virtual",
+  "thumbnail": null,
+  "title": "Taking it Virtual!",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

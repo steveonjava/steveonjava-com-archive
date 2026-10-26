@@ -1,0 +1,82 @@
+{
+  "categories": [
+    {
+      "name": "Agile",
+      "slug": "agile"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2010-10-08 00:40:26",
+  "excerpt": "Followers of my blog have probably heard about the Apropos project that I built in JavaFX and released as open-source.  It is an Agile Project Portfolio Planning tool that I developed for work to help manage our large Agile rollout. Apropos is a perfect application of rich client technology, because it sits on top of the web services exposed by Rally, and provides a higher level of visibility and planning.",
+  "id": 1473,
+  "original_urls": [
+    "http://steveonjava.com/apropos-launches-into-the-stratus/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "3742763b785db59501583608353f80c4d14a72a22e3e2f81fec3c8faf94f3e4c",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/apropos/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "rallydev.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://rallydev.com/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/apropos-launches-into-the-stratus/",
+    "post_id": 1473,
+    "rejected_urls": [
+      {
+        "context": "a:href",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "bf0e97e6873140a9eeaa6d1692ba66bc46730e5db263e312150695d3bb7089db"
+      },
+      {
+        "context": "link",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "bf0e97e6873140a9eeaa6d1692ba66bc46730e5db263e312150695d3bb7089db"
+      }
+    ],
+    "source_content_sha256": "cb97e93c15efcf40ba6bb25e9eeacdae593322c74e58c3e264d8f1723853cbf0",
+    "source_date_sha256": "c8558c79a5a50bbb318dcd601bfd876008d970d7cad6f46676415a7ac694f15e",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "96551ef938b446488eb7d85828962581acf6e01fea15158818a0eb864ba069be"
+    },
+    "source_slug_sha256": "59212989af2a1a451a69852c5c0158682b0f4f31a0fdff66a134e1e19cba2290",
+    "source_title_sha256": "b648af3f6eeaa7fb34e327610ebbd5d057ff61b4833f3652eb4e261bb4579b2e",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "apropos-launches-into-the-stratus",
+  "thumbnail": null,
+  "title": "Apropos Launches into the Stratus",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

@@ -1,32 +1,22 @@
-# SteveOnJava archive (prototype)
+# SteveOnJava archive
 
-A read-only static rebuild of **steveonjava.com**, a site that ran on WordPress and was later compromised. Text and a small set of selected images were exported from a forensic copy of the old site. The pages here are rebuilt from that export by a Python script. No old theme code, stylesheets, plugins or database files are copied. Fresh CSS follows inspected public Wayback renderings, and historical header artwork is decoded and reencoded as local pixels.
+A read-only static rebuild of **steveonjava.com**, preserving 143 published posts and 4 static pages from Stephen Chin's historical WordPress site. Post dates range from 2008-12-06 through 2019-12-11. Recovered text keeps the original wording, subject to the documented sanitizer and encoding losses.
 
-**Status: prototype, unreviewed.** A preview is published at https://steveonjava.github.io/steveonjava-com-archive/ by `.github/workflows/pages.yml`, only after a pull request is merged to `main`. Every page carries `noindex,nofollow`. steveonjava.com does not serve this build. The preview lives only at the github.io address above.
+Records remain unreviewed, and every rendered page retains `noindex,nofollow`. Full content conversion, source verification, rights clearance, merge approval, deployment and public indexing are separate gates.
 
-## What is in the prototype
+## Content and evidence
 
-Two recovered posts: JavaFX 2.0 With Alternative Languages at the SvJugFx (2010-10-14) and JavaFX 2.0 at the Chennai JUG (2011-02-21). Review state stays in JSON and Git discussion, not on pages. The original prose remains intact, while exact omission notices inserted by the exporter are suppressed.
+- `content/`: inert JSON metadata and Markdown, including source hashes and conversion warnings.
+- `assets/`: approved raster images decoded and reencoded without inherited metadata.
+- `recovery-manifest.json`: source coverage, transformed image hashes, omissions and the offline outbound-host inventory.
+- `rights.json`: one rights entry per raster, with owner-asserted rights explicitly distinguished from independent clearance.
+- `link-status.json` and `docs/link-checks.md`: current offline review state and previous dated checks.
+- `docs/bulk-review.md` and `docs/bulk-coverage.json`: batch scope, exclusions, encoding gaps and review boundaries.
+- `docs/BUILD.md`: input schema, offline builder and CI review workflow.
+- `AGENTS.md`: repository rules.
 
-## What is deliberately not here
+Comments, personal-data tables, drafts, private/password-protected material, form submissions, booking data, source executables and original image bytes are excluded. Third-party videos are linked, not copied or transcribed. Missing media and source losses are recorded in review metadata rather than on-page notices.
 
-- Comments and user data
-- Drafts, private and password-protected posts
-- Executable code, plugins and theme code of the old site
-- Original image files (the export re-encodes the pixels without metadata)
-- Material from the old subdomains (the owner chose to ignore them)
-- A transcript or copy of any video. Video posts link to YouTube.
+Builds and browser verification run in GitHub Actions. PR workflows are read-only and artifact-only, while the separate approved main-branch workflow handles Pages publication. Production changes require a reviewed PR. Content work does not authorize changes to domains, TLS, Pages settings or public indexing.
 
-## How it is built and checked
-
-GitHub Actions only. `build.yml` has read-only permissions, no secrets, and pinned actions. `pages.yml` runs on merge to `main`, rebuilds with the project path prefix, and deploys with the minimum extra permissions (`pages: write`, `id-token: write`) in its deploy job only. It runs the unit tests, builds the site, audits links, drives a headless browser through the pages (including with JavaScript off) and uploads a 7-day preview artifact. See `docs/BUILD.md` for the input format.
-
-## Records kept next to the content
-
-- `recovery-manifest.json`: which posts and images the export contains, with hashes and what was excluded
-- `rights.json`: one rights entry per image. Every entry is "owner-asserted, unreviewed" until a person clears it.
-- `link-status.json` and `docs/link-checks.md`: the external link and video checks, with date and method
-- `docs/theme-reference.md` and `docs/theme-art.json`: visual references, measured design tokens, public artwork locators and transformations
-- `AGENTS.md`: the rules for any agent that works on this repository
-
-Part of the work to rebuild Stephen Chin's public record around [stephenchin.com](https://stephenchin.com).
+Part of Stephen Chin's public professional archive around [stephenchin.com](https://stephenchin.com).

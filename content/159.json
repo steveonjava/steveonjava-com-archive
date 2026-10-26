@@ -1,0 +1,87 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JFXtras",
+      "slug": "jfxtras"
+    }
+  ],
+  "date": "2009-01-23 06:22:32",
+  "excerpt": "I am pleased to announce the JFXtras 0.2 Release!  This release features a new custom shape library that came out of a joint effort with the jSilhouette Project.  Thanks to Andres Almiray and Dean Iverson for making this happen in time for the release!",
+  "id": 159,
+  "original_urls": [
+    "http://steveonjava.com/jfxtras-02-release-shapes-shapes-and-more/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "69a81db2ea0d433141046b18011897f487dcc63a982d60b9eaa0c758b03f8d4e",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jsilhouette/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "groups.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://groups.google.com/group/jfxtras-users"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/jfxtras-02-release-shapes-shapes-and-more/",
+    "post_id": 159,
+    "rejected_urls": [],
+    "source_content_sha256": "8818d06e005ecd4cb6160262d8b418ef8bfbe750d7cc3a55f9d148508bf7ad6c",
+    "source_date_sha256": "7b4fb5a6634c1345e646118b665a5e787af907e68a73cc8202d5904b00ba71b7",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "b47f2bc2c352823c4d200b97912ac8638e25b06fdc0c10a5060c40ad52818f79"
+    },
+    "source_slug_sha256": "a18bfa943d95b1a57fd98e8fe739487bbce53c33d0b9172a380502ce7df0402f",
+    "source_title_sha256": "8114da7ea8e1358ae33c9843bba1df955931a246ed9e9f3f10c22b8a60476480",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "jfxtras-02-release-shapes-shapes-and-more",
+  "thumbnail": null,
+  "title": "JFXtras 0.2 Release - Shapes, Shapes, and More!",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

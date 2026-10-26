@@ -1,0 +1,105 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JFXtras",
+      "slug": "jfxtras"
+    },
+    {
+      "name": "Presentation",
+      "slug": "presentation"
+    },
+    {
+      "name": "Pro JavaFX",
+      "slug": "pro-javafx"
+    },
+    {
+      "name": "Visage",
+      "slug": "visage"
+    }
+  ],
+  "date": "2010-09-26 03:09:12",
+  "excerpt": "Download Pro JavaFX Platform Presentation as a PDF",
+  "id": 1446,
+  "original_urls": [
+    "http://steveonjava.com/javaone-enterprise-javafx-and-jfxtras-presentations/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "bd50014530dd40530b2cc21cccef7f4c367256e13d475aeb8a396e88320f08ef",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "object:codebase"
+        ],
+        "fetched": false,
+        "host": "download.macromedia.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"
+      },
+      {
+        "contexts": [
+          "embed:src",
+          "param:value"
+        ],
+        "fetched": false,
+        "host": "static.slidesharecdn.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=jfxtras-javafxcontrolslayoutsservicesandmore-100926054230-phpapp02&rel=0&stripped_title=jfxtras-javafx-controls-layout-services-and-more&userName=steveonjava"
+      },
+      {
+        "contexts": [
+          "embed:src",
+          "param:value"
+        ],
+        "fetched": false,
+        "host": "static.slidesharecdn.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=projavafx-enterprise-final-100926053735-phpapp01&rel=0&stripped_title=pro-javafx-enterprisefinal&userName=steveonjava"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "unsafe-or-unsupported-image-path",
+        "source_url_sha256": "0f1aca891572102372400c6ef48862ffebffb7be8fd09fddb83bca0e6f95e263"
+      },
+      {
+        "path": null,
+        "reason": "unsafe-or-unsupported-image-path",
+        "source_url_sha256": "98b214c02efe4ac0117d8a92cfe797528a6a53ab57edfc09b08965e52a6094ae"
+      }
+    ],
+    "original_root_route": "/javaone-enterprise-javafx-and-jfxtras-presentations/",
+    "post_id": 1446,
+    "rejected_urls": [],
+    "source_content_sha256": "db194d3c383ddeac4c8824f125e28247b3cef1adcd6050f76d725d84f4367a15",
+    "source_date_sha256": "15d6c9f7c675247263d934355a98c2a17033b9947ff4550a702df251a86878bd",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "373a180ab54e772cb1793749917b1b23de3ed1d0bb033c5bf576f7e898c42e0d"
+    },
+    "source_slug_sha256": "bb5cb23d10145085413d877183310d7bb67faa1fe47040b080ca1ba9e962cc85",
+    "source_title_sha256": "c1755a1cd36251dd9f8019d492504b445c8892696f3279970c9c9e8a40924b68",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "javaone-enterprise-javafx-and-jfxtras-presentations",
+  "thumbnail": null,
+  "title": "JavaOne Enterprise JavaFX and JFXtras Presentations",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "An active or embedded source element was omitted."
+  ]
+}

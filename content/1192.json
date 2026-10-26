@@ -1,0 +1,79 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JFXtras",
+      "slug": "jfxtras"
+    }
+  ],
+  "date": "2010-05-22 22:46:25",
+  "excerpt": "I am honored to be accepted by some great conferences to speak on JavaFX.  Each of the talks I am giving is unique, which means more work for me, but is a great opportunity to talk about some different topics that I think are important for folks using JavaFX.",
+  "id": 1192,
+  "original_urls": [
+    "http://steveonjava.com/javafx-talks-accepted/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "c07941f4b5f6175faca37944c62414846ee54a674c2a76dc64bfc4bead4c2296",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jazoon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jazoon.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oracle.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oracle.com/us/javaonedevelop/index.html"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/javafx-talks-accepted/",
+    "post_id": 1192,
+    "rejected_urls": [],
+    "source_content_sha256": "7666cd09d4c0d57c5e76c77eda12d6778a841589901804ea45409ff1e8f65b40",
+    "source_date_sha256": "b85d08f1538f906aeb727554d03b24f8cd5e5c67a5b310f99c04df53c4d47b72",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "4e4df75c4befe82b84ca88194688a4e0d6514262429ffb97750d41b60a6784db"
+    },
+    "source_slug_sha256": "8ab253a16dc16abb0d418fc85388507cce8e0f111305934939e659c47fef3d53",
+    "source_title_sha256": "878d547315162ea5d9c0e1ee722531caff7ed85e20270da2609241dd1d4a77a8",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "javafx-talks-accepted",
+  "thumbnail": null,
+  "title": "JavaFX Talks Accepted",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "Oracle",
+      "slug": "oracle-2"
+    }
+  ],
+  "date": "2012-04-02 06:00:56",
+  "excerpt": "I put out an April Fools' post yesterday about joining NASA to help with exploration of the big red planet.  That post was not far from the truth...  all the details about technologies developed by NASA were 100% accurate.  Heck, even the fact that I quit my job was the truth!  The only part that was not true was the company that I will be joining.",
+  "id": 2132,
+  "original_urls": [
+    "http://steveonjava.com/oracle-propels-javafx-forward-by-enlisting-weaver-and-chin/",
+    "http://javafx.steveonjava.com/oracle-propels-javafx-forward-by-enlisting-weaver-and-chin/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "2db24fd5610f5013af15c9e9b8f7b736727efb8333e76ff0ad4a16fbe2164e7f",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "docs.oracle.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://docs.oracle.com/javafx/2.0/swing/jfxpub-swing.htm"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "java.dzone.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://java.dzone.com/articles/javaone-2011-javafx-20"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.apress.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.apress.com/9781430268727"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/oracle-propels-javafx-forward-by-enlisting-weaver-and-chin/",
+    "post_id": 2132,
+    "rejected_urls": [],
+    "source_content_sha256": "50bdb709df31602bdd7e540b82363027876dfd5668e2302d13c4e845c56af986",
+    "source_date_sha256": "de35560f0d77f19d3c629d5b9b205ef431191ee2b42d9a66daa839c39c02daff",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "a845febb59817772cb8aff838485a7cd5acf872914d05df797ba8f60559d6899"
+    },
+    "source_slug_sha256": "76f4795d11647d6c2f9e37c844831c0934a960a67c2f9c0a6a995e6e964cb2c6",
+    "source_title_sha256": "9d73ad1b3b4a495559b061a384f2dc8b513a31ed503f851e2d0e6db70b4578a0",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "oracle-propels-javafx-forward-by-enlisting-weaver-and-chin",
+  "thumbnail": null,
+  "title": "Oracle Propels JavaFX Forward by Enlisting Weaver and Chin",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

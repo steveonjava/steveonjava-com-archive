@@ -1,0 +1,140 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JFXtras",
+      "slug": "jfxtras"
+    },
+    {
+      "name": "WidgetFX",
+      "slug": "widgetfx"
+    }
+  ],
+  "date": "2009-10-07 01:58:45",
+  "excerpt": "Keith Combs and I did a presentation on JavaFX and WidgetFX at Silicon Valley Code Camp this past weekend to a packed room (see below for the slides).  This was my first time visiting SVCodeCamp and I was very impressed...  With a 2 day total of over 1700 attendees, it was the place to be in the Bay Area!",
+  "id": 640,
+  "original_urls": [
+    "http://steveonjava.com/jugspinner-premieres-at-svcodecamp/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "6aac7980d6086eab9543a730c572ef640f7f2ee203b4060658a4eb9fd3e4ef11",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://jfxtras.org/JUGSpinner/JUG_SpinnerWheel.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "learnjavafx.typepad.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://learnjavafx.typepad.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "meetup.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://meetup.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "projavafx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://projavafx.com/"
+      },
+      {
+        "contexts": [
+          "embed:src",
+          "param:value"
+        ],
+        "fetched": false,
+        "host": "static.slidesharecdn.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=svcodecamp-javafxandwidgetfx-091004191739-phpapp02&stripped_title=javafx-and-widgetfx-at-svcodecamp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.siliconvalley-codecamp.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.siliconvalley-codecamp.com/"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": "2009/10/webstartsmall2.gif",
+        "reason": "unsupported-format-no-gif-or-document-export",
+        "source_url_sha256": "7efc7f4b661f82568326617c2bded01e22cb8a198a0046d678c335a73e9f6336"
+      }
+    ],
+    "original_root_route": "/jugspinner-premieres-at-svcodecamp/",
+    "post_id": 640,
+    "rejected_urls": [],
+    "source_content_sha256": "f59958a6e7f4f3ffe8a5f9a320c906043ff5a6ebe4787da0cd0a7d3ac0463732",
+    "source_date_sha256": "d5777ac757249f6b5aab7a89bd4c406dca5e0ece8ef96a582e5cd5f1a3ff2ea3",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "45e1f9c89afee241c18fbf803ff4bb82b1e63cc6f61f5032f85162d49cc90e20"
+    },
+    "source_slug_sha256": "5d43d7d07ce762f9ac26073bf9fc3a2a164537148773854a8ec2feae00182ea1",
+    "source_title_sha256": "2bf628363d8b3fc3960cdf974bf3ebbf3fff5e71d47c6078178f9393762e5134",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "jugspinner-premieres-at-svcodecamp",
+  "thumbnail": null,
+  "title": "JUGSpinner Premieres at SVCodeCamp",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "An active or embedded source element was omitted."
+  ]
+}

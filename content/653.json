@@ -1,0 +1,113 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "WidgetFX",
+      "slug": "widgetfx"
+    }
+  ],
+  "date": "2009-10-24 23:05:47",
+  "excerpt": "We have an early Halloween treat from the WidgetFX team... a new software release!  The 1.2.4 version of WidgetFX includes some new functionality and fixes a number of issues that our user community has requested.\nNew SlideShow Widget\nThe SlideShow widget was completely rewritten from scratch for this release.  It makes use of the pre-release JFXtras XShelf component for transitions and paging forward and back.  Simply click on the side images to scroll forwards and backwards through your library.",
+  "id": 653,
+  "original_urls": [
+    "http://steveonjava.com/widgetfx-1-2-4-released-happy-halloween/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "0b8c608e3ce57c3d2cbae45847b3a3e2331c1f8f9fa59fa1f9b61bf9aac2ddc2",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/widgetfx/issues/list"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/core/xshelf"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "translate.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://translate.google.com/translate?js=y&prev=_t&hl=en&ie=UTF-8&u=http%3A%2F%2Fwww.atmarkit.co.jp%2Ffjava%2Fspecial%2Fwidgetfx01%2Fwidgetfx01_1.html&sl=ja&tl=en&history_state0="
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "widgetfx.googlecode.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.googlecode.com/svn/site/images/WidgetFX-launch-icon.png"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/dock/launch.jnlp"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "71fe65703a5f57ee9c2fd0af1d3a393bc8dfa6aaa0e418837897d917a1b8843c"
+      }
+    ],
+    "original_root_route": "/widgetfx-1-2-4-released-happy-halloween/",
+    "post_id": 653,
+    "rejected_urls": [],
+    "source_content_sha256": "831aae2810c59a8d5e5b8216483c26ac77722924c929adf5b9e771aaa6ab38a4",
+    "source_date_sha256": "47d4de739518975195ef0bbf542382cc39f160dfa972b7e79fb2d26770852dee",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "136c2d646df0050d9200cdd76109a5dca2ca565705aa4b5a0af12976b7368dd8"
+    },
+    "source_slug_sha256": "4a408dabf9adcce2540ab91e9d666e1a025bd21476797f5e77d3aae0209cf871",
+    "source_title_sha256": "15607e363360ee0957d9c714586d82e4a81090bc4d2c193d78c24b6b2ae46f40",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "widgetfx-1-2-4-released-happy-halloween",
+  "thumbnail": null,
+  "title": "WidgetFX 1.2.4 Released - Happy Halloween!",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

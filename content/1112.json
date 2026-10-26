@@ -1,0 +1,194 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2010-04-22 13:45:40",
+  "excerpt": "JavaFX 1.3 has just gone live on JavaFX.com.  This release is deceptively small, but has an enormous number of changes under the hood.  In this post I will take you through the Top 10 major features, giving you background information I learned from working with the JavaFX team, and flooding you with details on interesting tidbits you might otherwise miss.\nJavaFX 1.3 Top 10 Features\n\n1. New Controls\nJavaFX 1.3 comes with several new controls that are extremely useful when designing user interfaces.  For building forms you have the new PasswordBox, ChoiceBox, and Separator classes.  The PasswordBox is similar to the TextBox control, except it automatically hides input as it is typed.  The ChoiceBox control is long overdue, but surprisingly simple to use.  The interface is similar to the ListView control, both of which take a sequence of items.",
+  "id": 1112,
+  "original_urls": [
+    "http://steveonjava.com/javafx-1-3-top-10/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "ffd614a69c42bd6e5c111dd5dd04d114731e47303847fc2ca08f05011ba5722c",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "java.sun.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://java.sun.com/javafx/1.3/docs/api/javafx.scene/javafx.scene.Node.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "javafx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://javafx.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "javafx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://javafx.com/docs/articles/javafx1-3.jsp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "javafx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://javafx.com/docs/articles/porting-guide-javafx1-3.jsp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jonathangiles.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jonathangiles.net/blog/?p=566"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "learnjavafx.typepad.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://learnjavafx.typepad.com/weblog/2010/04/your-calendar-pwn3d-leveraging-the-javafx-scene3d-conditionalfeature.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "piccolo2d.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://piccolo2d.org/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "pleasingsoftware.blogspot.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://pleasingsoftware.blogspot.com/2010/04/advanced-javafx-control-styling.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "stuartmarks.wordpress.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://stuartmarks.wordpress.com/2009/12/04/that-infernal-scene-graph-warning-message-ii/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "today.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://today.java.net/article/2009/07/27/introducing-custom-paints-javafx"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.java.net/blogs/aim/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.svjugfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.svjugfx.org/calendar/13260637/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/javafx-1-3-top-10/",
+    "post_id": 1112,
+    "rejected_urls": [],
+    "source_content_sha256": "2feefd534770ea81dc687789ce9b462b33fd5ae394e8c4697d95754faba8f443",
+    "source_date_sha256": "5749591c05f029cde4e9d50088b5d3a6a870dadf7d6f9d285c4f8f0b27f180dd",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "068b900524287a7a6ccd3621c16a8fa669240637df78a1845c7075d9aa933218"
+    },
+    "source_slug_sha256": "840a66b40835c1b792408f83b32f314b74dd52dd26b3b164380f334abe507937",
+    "source_title_sha256": "9eaff4c5693edf48965dc5a13c0006024e4d9e58315c6f1942e2c57468df4860",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "javafx-1-3-top-10",
+  "thumbnail": null,
+  "title": "JavaFX 1.3 Top 10",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "A known legacy Windows-1252 byte 0x85 was decoded explicitly as U+2026.",
+    "Hidden source markup was removed."
+  ]
+}

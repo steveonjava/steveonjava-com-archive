@@ -1,0 +1,75 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "Mobile",
+      "slug": "mobile"
+    },
+    {
+      "name": "NightHacking",
+      "slug": "nighthacking"
+    }
+  ],
+  "date": "2013-10-23 03:57:44",
+  "excerpt": "I got quite a lot of great photos the past couple days while hanging out with James Gosling and the rest of the Liquid Robotics staff in Hawaii.  Some of these will make it in to the live video stream a few hours from now, but it is interesting to see the aquatic robots up close.",
+  "id": 3522,
+  "original_urls": [
+    "http://steveonjava.com/nighthacking-photos-of-robots-boats-and-the-father-of-java/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "b60b313e4145db5b1e69f6a0184c8c58e1490073c78577e2938c86fd6e1182c7",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "nighthacking.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://nighthacking.com/"
+      },
+      {
+        "contexts": [
+          "embed:src",
+          "param:value"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.flickr.com/apps/slideshow/show.swf?v=124984"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/nighthacking-photos-of-robots-boats-and-the-father-of-java/",
+    "post_id": 3522,
+    "rejected_urls": [],
+    "source_content_sha256": "471659f2d49d52ec920d77fe8ee64c86e71d3ca37a2df4696a688f4e326cf71f",
+    "source_date_sha256": "322fd4a48f08bed8f6d1a66065d21956ca72a33f09572653045f4417d75e917d",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "0fa288ed6c1d9d37c5c94b4b81804bf11496dcbb9f9e9bdb1fe7a554c929c019",
+    "source_title_sha256": "f6763a163d8cf133691aee87a34de1179b64a3cdd8289c39e2909c993193dfd1",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "nighthacking-photos-of-robots-boats-and-the-father-of-java",
+  "thumbnail": null,
+  "title": "NightHacking Photos of Robots, Boats, and the Father of Java",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "An active or embedded source element was omitted."
+  ]
+}

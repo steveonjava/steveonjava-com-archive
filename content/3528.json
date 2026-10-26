@@ -1,0 +1,117 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "NightHacking",
+      "slug": "nighthacking"
+    },
+    {
+      "name": "Video",
+      "slug": "video"
+    }
+  ],
+  "date": "2013-10-23 19:58:27",
+  "excerpt": "Finished the live stream with James Gosling this morning, and have posted it in all the usual places including the new NightHacking website and the Java Youtube channel.  I ended up editing out a few small portions due to feedback in the audio recording, but overall it came out pretty good.",
+  "id": 3528,
+  "original_urls": [
+    "http://steveonjava.com/nighthacking-gosling-recording-wrap-up/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "68ec6f113b9b40f3a2733aa87b4164c8182b0275b61ea842f0ed63ca7e969b4b",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "nighthacking.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://nighthacking.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "nighthacking.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://nighthacking.com/wp-login.php?action=register"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.nljug.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.nljug.org/jfall/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.youtube.com/user/java"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/nighthackingtv"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/nighthacking-gosling-recording-wrap-up/",
+    "post_id": 3528,
+    "rejected_urls": [
+      {
+        "context": "iframe:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "fec1fccbba3792a6c9c4d9d88283e4ce9f7803e6e46e3ddc198ed8e360784146"
+      }
+    ],
+    "source_content_sha256": "85a094b4114a87cf5bd1ef2c6cede4d31c4ce05c3331aa8cf0a88c85206ecb93",
+    "source_date_sha256": "5c1d26a0b91fd21b112d67a051f741e2fd1d02d16b2cc3838f8c906465f32eb9",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "001134f6698195cd01586e40deddb2025ec5ec23da5948477fab7d2be35d46e5",
+    "source_title_sha256": "2000c86e86776168f435ed2f69cc8c4cfa2e22efb2fc4a2876ce190effb5418e",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "nighthacking-gosling-recording-wrap-up",
+  "thumbnail": null,
+  "title": "NightHacking Gosling Recording Wrap-up",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "An active or embedded source element was omitted."
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "WidgetFX",
+      "slug": "widgetfx"
+    }
+  ],
+  "date": "2009-08-18 23:55:32",
+  "excerpt": "With only 12 days left in the WidgetFX contest, there are a bunch of new entrants.  You can see them all on the Widget Library page:\nhttp://widgetfx.org/portal/library",
+  "id": 564,
+  "original_urls": [
+    "http://steveonjava.com/widgetfx-contest-heating-up/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "4a130c81e9f1b2905ae21103b1212b0a946a861e5e685791b8cfd5b4b6c7c9bd",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/dock/launch.jnlp?arg=http://tadotter.sourceforge.jp/Bookmark.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/dock/launch.jnlp?arg=http://tadotter.sourceforge.jp/ColorPalet.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/dock/launch.jnlp?arg=http://www.infix-systems.com/weatherwidget/InfixWeatherWidget.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/dock/launch.jnlp?arg=http://www.infix-systems.com/widgets/infixcalendarwidget/InfixCalendarWidget.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/dock/launch.jnlp?arg=http://www.infix-systems.com/widgets/infixclockwidget/InfixClockWidget.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/dock/launch.jnlp?arg=http://www.infix-systems.com/widgets/infixgmailwidget/InfixGMailWidget.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.org/dock/launch.jnlp?arg=http://www.javafxgame.com/articles/widget/jfxgamepacmanwidget.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/dock/launch.jnlp?arg=http://www.tillballendat.de/javafx/widgets/twitterfx/launch.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/contest"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/image/journal/article?img_id=14709&t=1250251934503"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/image/journal/article?img_id=14831&t=1250317216668"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/image/journal/article?img_id=15008&t=1250475776878"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/image/journal/article?img_id=15039&t=1250492634087"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/image/journal/article?img_id=15084&t=1250601688514"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/image/journal/article?img_id=15091&t=1250603298051"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/image/journal/article?img_id=15097&t=1250604210874"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/image/journal/article?img_id=15103&t=1250604906386"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/library"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "1acebbbd69cf60b13f1a066c517125d44e168fd39759c137786e60fdc3039f6c"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "5c5e6d61c5da7b96d09f6fe333040a2a64d1a0bf4c8f609da8e4b753796e3b4e"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "2774c20df85d4db4a2a2fec5bcbe83563cbb77a30d59cfd303a55149818e1420"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "5ac0733f5db6e0f3ad2607904e73d1938eda99d28f75cf18adea0bd32b379eb9"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "82ba7945c5a7de03270fc02a21bb04e29de325172e61259057e1f55f35240ef2"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "d6b8f981babccb5e356c6f1fe497fbd54b60e917598c3b9ef3a3d3a1158c00d1"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "8db5379444a866cef18bf504371dc6a2a48fd6b7c06e7d8fbfba4aaa5271222c"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "7a252f3787c885ec1c9d4941a2ecbc9c003d606de545bc2c5c084dc376a36522"
+      }
+    ],
+    "original_root_route": "/widgetfx-contest-heating-up/",
+    "post_id": 564,
+    "rejected_urls": [],
+    "source_content_sha256": "18968366eb5403d01d5a082287c34297f1790acc34fa4245c6037ff762554192",
+    "source_date_sha256": "1f3731921c03c386990d7d4cfbd50b3fe22f2e2030774c851be502e5590c7f74",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "58b0308ffd8d651e61d39ea1562cf82bf14b9a73eeb895deccba711767fc380a"
+    },
+    "source_slug_sha256": "d22c11a62426a3f1c1db3310d01a8bb032e502e427fac3635104f1ba19da1168",
+    "source_title_sha256": "4a0d3e34e678def3f3083ce8223b909a5e00e3278fda1d2a71387e760305f8b5",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "widgetfx-contest-heating-up",
+  "thumbnail": null,
+  "title": "WidgetFX Contest Heating Up!",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

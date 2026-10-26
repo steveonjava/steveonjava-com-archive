@@ -1,0 +1,93 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JFXtras",
+      "slug": "jfxtras"
+    },
+    {
+      "name": "Presentation",
+      "slug": "presentation"
+    },
+    {
+      "name": "Visage",
+      "slug": "visage"
+    }
+  ],
+  "date": "2011-09-01 02:10:56",
+  "excerpt": "The JavaOne Session Builder is now up and available for setting up your sessions.  If you are not used to the JavaOne ritual, it is always a good idea to sign-up for sessions well in advance so you don't get bumped out of the more popular ones.  This also helps them fix the room allocation so popular talks get the right size room.",
+  "id": 2011,
+  "original_urls": [
+    "http://steveonjava.com/steveonjava-track-at-javaone/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "ecd4eee00b3be2fa7635e7191dbd07b85839fa59c19759df3935b7ac7e382600",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "oracleus.wingateweb.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://oracleus.wingateweb.com/scheduler/eventcatalog/eventCatalogJavaOne.do?ts=1314863228804"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "oracleus.wingateweb.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://oracleus.wingateweb.com/scheduler/home.jsp"
+      },
+      {
+        "contexts": [
+          "iframe:src"
+        ],
+        "fetched": false,
+        "host": "www.google.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.google.com/calendar/embed?title=JavaOne%20Schedule&showTitle=0&showNav=0&showDate=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&mode=AGENDA&height=870&wkst=1&bgcolor=%23FFFFFF&src=slsl4fn4gnm6tq1kqrec4ptu64%40group.calendar.google.com&color=%23856508&src=5d4cejj2d80q77betbl9mpedm8%40group.calendar.google.com&color=%23125A12&ctz=America%2FLos_Angeles&dates=20111002%2F20111006"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/steveonjava-track-at-javaone/",
+    "post_id": 2011,
+    "rejected_urls": [],
+    "source_content_sha256": "d8a26fee7fbea111c4ee4800c3b0f2e2eb7451844a749c5b75de6f4ba4fc3bfb",
+    "source_date_sha256": "bae87d6a763660f9ff2d17eb95795e802235d70f907b1e18b8aea634dccbaf3a",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "b19f9f5823726fcb9120fde1af824a5caa089bff2d1653518e5e390ba271350f"
+    },
+    "source_slug_sha256": "c7bb086037f5ca2da92dbe60653b12c5572166761539c8b6915fa0dcd8238ea3",
+    "source_title_sha256": "a8e05a1aa7c7b58e029f63eec9516ea3256ad7272aafd2345405ad1b6b51c9d9",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "steveonjava-track-at-javaone",
+  "thumbnail": null,
+  "title": "Steveonjava Track at JavaOne",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "An active or embedded source element was omitted."
+  ]
+}

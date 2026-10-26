@@ -1,11 +1,915 @@
 [
   {
+    "path": "/wp-content/uploads/2008/12/067.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "e030c8146300bf3a76b53a74bdd3b760b114ef77c94c3a89bc0f08aa217eb4c7"
+  },
+  {
+    "path": "/wp-content/uploads/2008/12/072.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "adcdc3b976337ab4286767ab5d6d431d155c389cf7a5cc21e46eeaa158b6cff2"
+  },
+  {
+    "path": "/wp-content/uploads/2008/12/jfxtras-grid.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "6bc3d283d2c4245be55da1d6debf3a877f8b90a54493aa1f14d19ccfe4e9a4a4"
+  },
+  {
+    "path": "/wp-content/uploads/2009/01/calendarwidget-configdialog.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "ab9217dc0bb8aef59b88010c003647b802a6191b353d9dc6f9d1984f4a4dbc39"
+  },
+  {
+    "path": "/wp-content/uploads/2009/01/calendarwidget-configuration.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "2c148fae01b46fd0ef9d56047c1130f17f2077657f65815f45fb2e63766fd626"
+  },
+  {
+    "path": "/wp-content/uploads/2009/01/calendarwidget-greek.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "8bd4a4196dd5b71e6167d6032ef0defe8b04d83798f8bd5d1cfa0120d5381472"
+  },
+  {
+    "path": "/wp-content/uploads/2009/01/calendarwidget-pages.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "4b5990d630fcfe7c97a4308360bbe79167ca0b940366bc4862072e3420df0726"
+  },
+  {
+    "path": "/wp-content/uploads/2009/01/calendarwidget-spiral.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "765546ef964caa6c3989ff5a39bb70c8cb0e69620c5d2b3bd05e29cac2dcf831"
+  },
+  {
+    "path": "/wp-content/uploads/2009/01/calendarwidget.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "e3134a607d5a77cfec836a4b760ddef98032c47982c85c008ead336d2f7a498b"
+  },
+  {
+    "path": "/wp-content/uploads/2009/01/dsc_0001.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "df82152aeb973fb7bcba1f77d1c512e1c779cbd7833399d09270bbfc5b2e309d"
+  },
+  {
+    "path": "/wp-content/uploads/2009/01/dsc_0008.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "353198e925b8853c354b201de6c87f81703bcc0f32ffeb6c1f1daa7cbb957f4c"
+  },
+  {
+    "path": "/wp-content/uploads/2009/01/dsc_0013_edited.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "0773b401553253f2d113899a0dd60626a80828aa04e601946aff59ef7a31b1b9"
+  },
+  {
+    "path": "/wp-content/uploads/2009/01/jfxtrasshapes.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "78aea85a164755b6965d8dfeddbce30badea6775e041010f753e38df44944670"
+  },
+  {
+    "path": "/wp-content/uploads/2009/01/widgetfx-101.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "cff8d3e7f6b7c346a1f90c7529bd6ff926234dc617e811b6c83bd6e05ff7aebf"
+  },
+  {
+    "path": "/wp-content/uploads/2009/02/migdockingtest1.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "286b85a9e2cb6b786f69b55de78f882ed9fc935c9c280d32a1032518473f8001"
+  },
+  {
+    "path": "/wp-content/uploads/2009/02/widgetfx-11.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "468b2abe501beb3e6d063baf229307e36416943e576fd09362c6469c50236432"
+  },
+  {
+    "path": "/wp-content/uploads/2009/03/dsc_0009_edited.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "cbca40bb13f2c39df0c5e8178f4967a699859b481edd2276e8a3aa54ab4270b1"
+  },
+  {
+    "path": "/wp-content/uploads/2009/03/webstartcontrolpanel.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "c4c6a4ceee60f08b05482ddd058af0465470724a74bbeb4ad8ebddaeb2c6d7d9"
+  },
+  {
+    "path": "/wp-content/uploads/2009/03/webstartsettings.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "11ee013d004bf5241904d4666e1ab1e4c450bd691e3e4e7f71f676cafed58d13"
+  },
+  {
+    "path": "/wp-content/uploads/2009/04/borders.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "9f50752bf553d1a4afc013bf20a060565f2d1aa8e7bc92cfae74f564d84f277f"
+  },
+  {
+    "path": "/wp-content/uploads/2009/04/javaone-widgetfx.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "d02a89846428f3c42cde75295f17755a58247062a9dbead25c9576a15bef7240"
+  },
+  {
+    "path": "/wp-content/uploads/2009/06/article.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "e3d863dc09dc0842e3acb1ff0ce332715869b8ff558d01bcdb4fe50ce9747ab0"
+  },
+  {
+    "path": "/wp-content/uploads/2009/06/borderensemble.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "ea673f2b6d6e4b03ffdd9b32fd438ee576cff97795ecb5b92c03c09579967a5a"
+  },
+  {
+    "path": "/wp-content/uploads/2009/06/cover-100.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Sidebar artwork captured on the owner site; recovered from public Wayback, not the lab.",
+    "note": "Book cover art for Pro JavaFX Platform (Apress, 2009). The cover is the publisher's artwork and the book's co-authors are Weaver, Chin, Gao and Iverson. Reencoded from fresh pixels. Public visibility does not independently establish a reuse license. Included for owner review only; no launch approval implied.",
+    "source_url": "https://web.archive.org/web/20120609010313im_/http://steveonjava.com/wp-content/uploads/2009/06/cover-100.jpg",
+    "source_sha256": "24920335185ac925f08220730a600571d7f10747240955e75945295b15083b16",
+    "export_sha256": "fd53a541240d5fc0a82314dc39e1d52b56f83b558186b8eebcb8e570ca6bd227"
+  },
+  {
+    "path": "/wp-content/uploads/2009/06/img_2333.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "7a4435e9561e5798c58632908c28b3a3b548a1d1f699d1c3b376f25c8c758de3"
+  },
+  {
+    "path": "/wp-content/uploads/2009/06/img_2359.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "06e5197e45e6246bd30bc7817ce1bfc7a13aa43797d4a7b8742854fbcbe69a94"
+  },
+  {
+    "path": "/wp-content/uploads/2009/06/img_2362.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "c5b02915ce292c3520590c4b4e76c67f9962bb66c4729cb607b039223a1c682a"
+  },
+  {
+    "path": "/wp-content/uploads/2009/06/info.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "cb4dab3c399a0d2b7c8cf1567d9679090f9c74a46de2cf8a8e23db65ce286f01"
+  },
+  {
+    "path": "/wp-content/uploads/2009/06/javaone_authors.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "dbef0241455c93f36f5a00f8852c7079da22030223d9ece9ef2c441c6d4dab90"
+  },
+  {
+    "path": "/wp-content/uploads/2009/06/mangadesu_screenshot.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "634af759ba2f19438a48c2433b43a274d5a8b28d0f5c242edaf34cc3298bdc40"
+  },
+  {
+    "path": "/wp-content/uploads/2009/06/screenshot.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "83412c4d3e6ca85e2313533ccbbf2cd44fee2fac448ff33224f6c9f111c07c2d"
+  },
+  {
+    "path": "/wp-content/uploads/2009/06/screenshot1.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "d1b4aed3b351f95c8b16db5872077226359efb331db4abe3be2c397289bac3de"
+  },
+  {
+    "path": "/wp-content/uploads/2009/06/university_session_collage.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "8a08dafece87da83e5c5fa68acedf1c9a60636884590aff1ab1daffd80dbd28f"
+  },
+  {
+    "path": "/wp-content/uploads/2009/06/warning.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "06fc12c40e2d7ad4437cd6bac95f190d2c0c447cc1d257e98637356133b0b633"
+  },
+  {
+    "path": "/wp-content/uploads/2009/06/widget-contest-banner.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "b109e401df1593aef28b0bff30d4ce6c52aea641df8f26649c930eb94828c9cc"
+  },
+  {
+    "path": "/wp-content/uploads/2009/06/widgetfx1-2dock-wide1.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "ec922db7cc8b53c302cb50b88d8e3b6896b85f8447d13e1da744261e9a98f0cf"
+  },
+  {
+    "path": "/wp-content/uploads/2009/07/boundisizer-screenshot-300.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "72f536f1df9df9eaa1382b85542e9b42a039d2cc7c90fa2109969564dc9cae30"
+  },
+  {
+    "path": "/wp-content/uploads/2009/07/essentialjavafx-cover-100.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "d426e1698c8b0fc72ee08eccf9b9a951126fa65119f0d71e87863f20e51852f5"
+  },
+  {
+    "path": "/wp-content/uploads/2009/07/helloearthrise-htc.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "1fc7af0462f5f0f0441fc5e92d5cb658cf5d85c2001e859f2c599b0de3b988d0"
+  },
+  {
+    "path": "/wp-content/uploads/2009/07/javafxdevguide-cover-100.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "f437abe7be1f22d2c1cc9a7d68d6f8fe87ece3a305eb4c8912d23fe92d9f68c7"
+  },
+  {
+    "path": "/wp-content/uploads/2009/07/javafxinaction-cover-100.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "285c4e2e7cf1453a76ccb9088b450f14cd872dfc5e7a45e7225a8a34f5a495f3"
+  },
+  {
+    "path": "/wp-content/uploads/2009/07/javafxria-cover-100.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "302e7bd7a9d632638b985e3851e5c1347247fdc101192ce584200c7568511002"
+  },
+  {
+    "path": "/wp-content/uploads/2009/07/jfxtras_portal_mockup_community_version_031.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "b6ddeada410c03bf22f11eac09dce0698c57e12b5873d8cb45235cf5e5972392"
+  },
+  {
+    "path": "/wp-content/uploads/2009/07/jfxtras_portal_mockup_community_version_22.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "5db06f885111e028e86b0e8f950841157452e8ddd85cedaef613de57b554d4f5"
+  },
+  {
+    "path": "/wp-content/uploads/2009/07/rockstar_dukewithguitar_small.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Sidebar artwork captured on the owner site; recovered from public Wayback, not the lab.",
+    "note": "Duke mascot playing a guitar, from the JavaOne Rock Star program. Source GIF converted to PNG; first frame only. Reencoded from fresh pixels. Public visibility does not independently establish a reuse license. Included for owner review only; no launch approval implied.",
+    "source_url": "https://web.archive.org/web/20120609010313im_/http://steveonjava.com/wp-content/uploads/2009/07/rockstar_dukewithguitar_small.gif",
+    "source_sha256": "d931e07da2fbf008dd8167abd31ea4d23e0a3bca3d90ab504dbea1de1a7d5663",
+    "export_sha256": "4692eb4bfc922ca10a66f42f954f1a03a3cfd6de36b8f784130441730991e326"
+  },
+  {
+    "path": "/wp-content/uploads/2009/07/shelf-screenshot.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "2f1ea98608a7329a2e241d61f668dcdb2e153b1ef58d8c49576671f5114e07a6"
+  },
+  {
+    "path": "/wp-content/uploads/2009/08/ttt-big-winner.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "724341441fcd0d57b7e5232f405d7cbcdf3eb5378228247f3a4e8b2678b7f534"
+  },
+  {
+    "path": "/wp-content/uploads/2009/10/halloweenslideshow.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "f4841a9d7d9024e54bf142ff1ad59cd9db1a56ef031b75fddf15d4dd0585b82d"
+  },
+  {
+    "path": "/wp-content/uploads/2009/10/java-web-start-application.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "35a06f0e1bde24bd59f60ed80c0a7eb553c325b0e713a6d5e27072c89aa0958c"
+  },
+  {
+    "path": "/wp-content/uploads/2009/10/javafxusersgroup.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "08ff03de369022f66ff2ff322ac037839e310c6176a980f22b24537675b22edd"
+  },
+  {
+    "path": "/wp-content/uploads/2009/10/jugspinnerwheel-510.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "00652abc520d98189b7dae0983804c8e5f3e75da3c8dd5dbd517eebdb3a9d5a4"
+  },
+  {
+    "path": "/wp-content/uploads/2009/10/svjugfx.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "e9ddb57a4b55ca82fddcc8dcd88e6d309310fb3a6630be41d98a4b2e1df7493d"
+  },
+  {
+    "path": "/wp-content/uploads/2009/10/widgetfx-japan.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "c96bd274cb97a9730c868b6607ec8db8a4f94b25777c91c48ab7c5158cb68e86"
+  },
+  {
+    "path": "/wp-content/uploads/2009/11/dsc_4887.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "c3a43d83c9e9fcd4fa60f939c1982b44b44ad1532c8bcdb66f1b5673d188ce80"
+  },
+  {
+    "path": "/wp-content/uploads/2009/11/javafxgroup.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "aa1e431b0ccfcfe3fe8461785c68017ff19a362e3179fd39cc3703a39f10a593"
+  },
+  {
+    "path": "/wp-content/uploads/2009/11/javastorebeta1.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "10207353432a4f4ddcb8e675d939346103c7a42c5396fbe4cd14ac4e471da101"
+  },
+  {
+    "path": "/wp-content/uploads/2009/11/javastorebeta2.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "24e380c7254568f184239b581f61ea9985697d16100373d363ed022feb050781"
+  },
+  {
+    "path": "/wp-content/uploads/2009/11/learnfx.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "9673eacccfc821e435bc63ba13315f47fd3803ee0db94ba3512074af0a8538f3"
+  },
+  {
+    "path": "/wp-content/uploads/2009/11/mockup3.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "60853a946b4548ce23f8ec4e9dea66198af5b2fed583a7d19c7219c23e7de79f"
+  },
+  {
+    "path": "/wp-content/uploads/2009/12/aim.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "b4681a0cf51cee173e4d10994c23da63d6f6f94b53b0d2a6b5b6bccb7e679bd3"
+  },
+  {
+    "path": "/wp-content/uploads/2009/12/bair.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "f814d1e51e5593efa56dec356b970b8a65ad7bc610c16e41be7878974b3b694c"
+  },
+  {
+    "path": "/wp-content/uploads/2009/12/bairparleys.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "ef2666c31d419ab349a21514683ff6ac9e7e1306517a109de8f1a7fa86451a0c"
+  },
+  {
+    "path": "/wp-content/uploads/2009/12/devoxx-enterprise.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "0b5f32ead5525e875ce1de7f38af52f5866947607293c7c3326da926fe75a6ef"
+  },
+  {
+    "path": "/wp-content/uploads/2009/12/netbeans.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "c615a00acc1c815e995d2693bc16b59f33ee0c203fe048eb61bf73e3fd70e544"
+  },
+  {
+    "path": "/wp-content/uploads/2010/01/2018-steveonjava-portrait-300x.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "82b0a53ba8168406e8206679ec242e0aa0369985cd9d9c93d786be792b846d0c"
+  },
+  {
+    "path": "/wp-content/uploads/2010/01/fireworks.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "5027d12f7a5d81923af97dbc6e16bc458d6df03e6ec181a1b639339b1607422d"
+  },
+  {
+    "path": "/wp-content/uploads/2010/02/image_gallery.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "5db06f885111e028e86b0e8f950841157452e8ddd85cedaef613de57b554d4f5"
+  },
+  {
+    "path": "/wp-content/uploads/2010/02/video-setup.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "6bc6dea05ba147b45926a3f314cc63b2dbf4230c4a733ee8269e677e651dd035"
+  },
+  {
+    "path": "/wp-content/uploads/2010/03/31VN6HkxFKL._SL160_.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "bfe73aa3be02c5bcda0487675aa9f3a584ee59426882b3c79130d9cea75790bc"
+  },
+  {
+    "path": "/wp-content/uploads/2010/03/41Ok8NL9CFL._SL160_.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "392efd9f13e6a6507901c9ce9105f5a2129bae4810d157d089757cdd76e23abd"
+  },
+  {
+    "path": "/wp-content/uploads/2010/03/Blackmagic-Intensity-Pro.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "83ad584663c2c85d8b915e0b432063adce584831456388840ac60ab3cdd297ea"
+  },
+  {
+    "path": "/wp-content/uploads/2010/03/JavaStore.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "fa29585135f373f2879406393459313ac2a89bab2ff8d064eb40b11d2c40f80a"
+  },
+  {
+    "path": "/wp-content/uploads/2010/03/SW-7563_lg.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "41db11cdaaa7db235d051ba39ff8c5f50b42da6490d9d82f148a17c18bc2a91c"
+  },
+  {
+    "path": "/wp-content/uploads/2010/03/SW-8715_lg.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "a650e1260972e44b61bc0d24cb5768190013608f35578be37385acd4376c766d"
+  },
+  {
+    "path": "/wp-content/uploads/2010/03/SvJugFxVideoLanding.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "a9fbd7ba926f2f2aae672cdc8329c02014460d62d5b5fb4b25f2c3033d206653"
+  },
+  {
+    "path": "/wp-content/uploads/2010/03/Ubivent.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "3367d2bbda089091c29ff86505cee7ffde921676840bde017544c1188a27a9ff"
+  },
+  {
+    "path": "/wp-content/uploads/2010/03/canon.hv40.accessoryshoe.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "5177eb71ba1ce0e12c03a6e058ba1281a055f01a2f6ac09a0757c44ec890fc62"
+  },
+  {
+    "path": "/wp-content/uploads/2010/03/ew112pg3.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "d9ed0a2eb39696fba9f7c2cac2f96335ac2b16df365bcfcdd58ca81a7848d351"
+  },
+  {
+    "path": "/wp-content/uploads/2010/03/mxo2_mini_tif.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "7ae1a270a0eec6cf039265188c25f827d6120b8c9bce36c3a29cd5eb17114b87"
+  },
+  {
+    "path": "/wp-content/uploads/2010/03/pRS1-5806847w345.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "4c2599f40b6648ff465c3b6fb40ab7b20bbf9df281fd222f8deeaa9086d1d6de"
+  },
+  {
+    "path": "/wp-content/uploads/2010/03/racer3.1.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Historical header artwork captured on the owner site; recovered from public Wayback, not the lab.",
+    "note": "Reencoded from fresh pixels. Public visibility does not independently establish a reuse license. Included for owner review only; no launch approval implied.",
+    "source_url": "https://web.archive.org/web/20120609010313im_/http://steveonjava.com/wp-content/uploads/2010/03/racer3.1.jpg",
+    "source_sha256": "2f46d8accc219f3351d69d4ff44429bb7003cb5922b0b50cdf1c7ee4befb5a12",
+    "export_sha256": "083c852ecf658068ca232f3cb46560ec0464726be92b879b2dcb08d559f5951d"
+  },
+  {
+    "path": "/wp-content/uploads/2010/03/videomic_side_sml.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "764f8dc1240ab56df28321bcd801a1653918023904b8a82a09582f082a1fd607"
+  },
+  {
+    "path": "/wp-content/uploads/2010/04/CalendarCube3D-150x150.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "e88a86320ed4873050ea63c3c6b8052411ad98a226fa2509b41aefa96dfe0710"
+  },
+  {
+    "path": "/wp-content/uploads/2010/04/ControlDemo.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "ad0e4fdf262f97314e967f102e9a4d85a0ac4dba42be83dc598b44e5e98ededc"
+  },
+  {
+    "path": "/wp-content/uploads/2010/04/DisplayShelfTV.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "3cb89b4eabe9bdde28a7766192e5c27e02aad4016851d216cbb0d499b4b66d33"
+  },
+  {
+    "path": "/wp-content/uploads/2010/04/borders-demo1.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "f3bc5c6b730d14d522a319c547cfe353f68ff84d871455fce5206c7b75ce709e"
+  },
+  {
+    "path": "/wp-content/uploads/2010/04/chartBeforeAndAfter.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "e49447a06014a5cca8edd3e7fb87fd67c335de1acc9b2db385806fef1e68f796"
+  },
+  {
+    "path": "/wp-content/uploads/2010/04/download-button1.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "e7d5c0f8cee278dad812b4ecb0e9ac17eae4dac432b0cf00a059c2f72b8136aa"
+  },
+  {
+    "path": "/wp-content/uploads/2010/04/grid.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "49390dc50863642a7ad1e22e68fdc5aa297f4aa810534ef914adceb21156f246"
+  },
+  {
+    "path": "/wp-content/uploads/2010/04/javafx1.3-top-ten.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "4ddfa46b6fdec21fefe9fdbb8366b6b63c1e4020440d403cdb7c1b6ec6366bab"
+  },
+  {
+    "path": "/wp-content/uploads/2010/04/jazoon.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "e492b65d62c6d641de7bd594189d14d11983f357c3b201db605289e9b46c1e08"
+  },
+  {
+    "path": "/wp-content/uploads/2010/04/shape-demo2.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "ed057f454c2bf35e7c1baf1827cfc844c9564488d6694aab0dfb35eece9dae40"
+  },
+  {
+    "path": "/wp-content/uploads/2010/04/shelf1.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "8cbae51b3c0d1e36193219fd7badf127494e6e74423518d501702e30d81e3549"
+  },
+  {
+    "path": "/wp-content/uploads/2010/04/table.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "f53f7dfb791eaeefc1391e2f5cd138960dba233e7c06f92c1afd99274e03b416"
+  },
+  {
+    "path": "/wp-content/uploads/2010/04/wiki1.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "41b558c357e8cc16589b9024b16ad3af1810397e1253c6bd4679e2ea152d8f17"
+  },
+  {
+    "path": "/wp-content/uploads/2010/04/wipe.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "eafcced8028ea2ddbf0678e66450751723830a5ac17e00bd5370d1a9a425e126"
+  },
+  {
+    "path": "/wp-content/uploads/2010/04/xpicker.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "228f86609022de57947b4c07593d1526aa5e0cbd483bb4d0d5802cde988660fe"
+  },
+  {
+    "path": "/wp-content/uploads/2010/05/Oracle-Tent.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "d98a08ac73fdf86d991073978c283cc07ad7cd993b168f879fd5676f3035e555"
+  },
+  {
+    "path": "/wp-content/uploads/2010/05/apropos-portfolio-650x430.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "7b58fba62cf0958ee6c4592804f9d70d7eec60c3b9b00ad970498ad973b1913e"
+  },
+  {
+    "path": "/wp-content/uploads/2010/06/0_mkatz.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "390d645b3018ba66629b8342738ba739c5ef623de2107b26bbaaee69fe5d1145"
+  },
+  {
+    "path": "/wp-content/uploads/2010/06/posse-round-up-650x345.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "a60e59ca78072c58c1fa611b48e5b58fa209fe29d444b90bdde7112bfe791c47"
+  },
+  {
+    "path": "/wp-content/uploads/2010/06/stuart-handson-650x339.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "6f8462458da5de5c410d4896849e8adf6461926a88d3d5f83d57df770a2b582a"
+  },
+  {
+    "path": "/wp-content/uploads/2010/07/117053-matte-blue-and-white-square-icon-business-signature1-150x150.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "7c9b94b53b068f603ec4a55799e4518d517935d33eb9a24616fd1897cce28723"
+  },
+  {
+    "path": "/wp-content/uploads/2010/07/Java_Champions_Transparent.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Sidebar artwork captured on the owner site; recovered from public Wayback, not the lab.",
+    "note": "Java Champions logo, which combines Oracle Java marks and the Duke character. Trademark rights are held by others. Reencoded from fresh pixels. Public visibility does not independently establish a reuse license. Included for owner review only; no launch approval implied.",
+    "source_url": "https://web.archive.org/web/20120609010313im_/http://steveonjava.com/wp-content/uploads/2010/07/Java_Champions_Transparent.png",
+    "source_sha256": "007b5ba1a974e5cbd53d9007a35ce550c8a605b2621cc48f7b7809e0791df87a",
+    "export_sha256": "0820ba8e99209597c7fce1a6a7ad2879046c6aa4ae2d0b893db69ae21bab0315"
+  },
+  {
+    "path": "/wp-content/uploads/2010/07/Peter_Pilgrim_SFO_Cropped_bigger.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "d0602c3db2f8bd7152039156f669ef4933951e4c06af603c1c5afa8ce4ae91bb"
+  },
+  {
+    "path": "/wp-content/uploads/2010/09/trackdays-650x433.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "b010924854b9770c2ef897ce515330073f3bdb4dd52bebac50a659d6a8e951d0"
+  },
+  {
     "path": "/wp-content/uploads/2010/10/2scapigl-254x300.jpg",
     "rights_holder": "unreviewed",
     "status": "owner-asserted, unreviewed",
     "basis": "Found among the owner's own WordPress uploads. Not independently cleared.",
     "note": "Reproduction of a painting attributed to Leonardo da Vinci. The source of this reproduction is unknown.",
     "export_sha256": "658094c0d7888a7d96b217c2e807783cb8790195ca96c8d12d42515934e2f1fa"
+  },
+  {
+    "path": "/wp-content/uploads/2010/10/Viking2_launch-650x256.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "e816d3d05f15fc5ddc01d77741fa168c9e09bb819fa0b1546ac937dc4cd3d986"
+  },
+  {
+    "path": "/wp-content/uploads/2010/10/javaone-keynote.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "745575e00e6cdf7a3117288ddc6af3d4e168ef0da648e93eea7485196a826b5d"
+  },
+  {
+    "path": "/wp-content/uploads/2010/11/JavaFXYourWay-Devoxx_172-650x487.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "12692613e0633d72424beff74c123eddf442ecc5d77fde1e4854ad77c43b81f5"
+  },
+  {
+    "path": "/wp-content/uploads/2010/11/Javafx-logo.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "72bbac23b061c1d0ae2af7d043b1a572002af30f704ff945eb9ccc63a36dfe28"
+  },
+  {
+    "path": "/wp-content/uploads/2010/11/flash_flex_air-300x131.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "b011f57e2a6a7de72211d8422122efb9aff1c647cd7336d84939ef3ff1bc7c40"
+  },
+  {
+    "path": "/wp-content/uploads/2011/01/ConnDroid-Screenshot-302x500.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "26e5a78350deabbd3cc8b9796ea55e9df36e3553333d9d9d6ed2ce084355bffd"
   },
   {
     "path": "/wp-content/uploads/2011/02/DSC_0035-650x435.jpg",
@@ -40,24 +944,76 @@
     "export_sha256": "0fde936e248df49b40d00ffd7ac5ad814ca2fd675ce8ccd8617285445df27673"
   },
   {
-    "path": "/wp-content/uploads/2010/03/racer3.1.jpg",
+    "path": "/wp-content/uploads/2011/02/airforandroidtemplate-650x424.png",
     "rights_holder": "unreviewed",
     "status": "owner-asserted, unreviewed",
-    "basis": "Historical header artwork captured on the owner site; recovered from public Wayback, not the lab.",
-    "note": "Reencoded from fresh pixels. Public visibility does not independently establish a reuse license. Included for owner review only; no launch approval implied.",
-    "source_url": "https://web.archive.org/web/20120609010313im_/http://steveonjava.com/wp-content/uploads/2010/03/racer3.1.jpg",
-    "source_sha256": "2f46d8accc219f3351d69d4ff44429bb7003cb5922b0b50cdf1c7ee4befb5a12",
-    "export_sha256": "083c852ecf658068ca232f3cb46560ec0464726be92b879b2dcb08d559f5951d"
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "57bdcb512bdc17f312efa662748a99d5f40ecaf560f59b2f34570d36be6a6ee7"
   },
   {
-    "path": "/wp-content/uploads/2009/06/cover-100.jpg",
+    "path": "/wp-content/uploads/2011/02/airforandroidtemplate.png",
     "rights_holder": "unreviewed",
     "status": "owner-asserted, unreviewed",
-    "basis": "Sidebar artwork captured on the owner site; recovered from public Wayback, not the lab.",
-    "note": "Book cover art for Pro JavaFX Platform (Apress, 2009). The cover is the publisher's artwork and the book's co-authors are Weaver, Chin, Gao and Iverson. Reencoded from fresh pixels. Public visibility does not independently establish a reuse license. Included for owner review only; no launch approval implied.",
-    "source_url": "https://web.archive.org/web/20120609010313im_/http://steveonjava.com/wp-content/uploads/2009/06/cover-100.jpg",
-    "source_sha256": "24920335185ac925f08220730a600571d7f10747240955e75945295b15083b16",
-    "export_sha256": "fd53a541240d5fc0a82314dc39e1d52b56f83b558186b8eebcb8e570ca6bd227"
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "fd23d93c221389d5cf0dce4f9e37057873867f5275770ec3b0a402562a9df446"
+  },
+  {
+    "path": "/wp-content/uploads/2011/02/flashcapabilityreporter-295x499.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "032c64c9fe0780333b57d2aeb0116a01762dad4cc4063ed2960d8edc13eb3175"
+  },
+  {
+    "path": "/wp-content/uploads/2011/02/flashcapabilityreporter.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "7205dd5aa383ab39e3b44f1dab460021ced3c1873b738b1cda2c2434d754d7da"
+  },
+  {
+    "path": "/wp-content/uploads/2011/02/flashcapabilityreporteronnexusone-300x500.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "d8d85778dc02adf58e3a7eb5cfd7fff67cda00f258fe50621c5873298c25fe5d"
+  },
+  {
+    "path": "/wp-content/uploads/2011/02/flashcapabilityreporteronnexusone.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "e6cd09a6fc8684a57061a8d76616ed7499477b91ecd93226b95570d27ff27433"
+  },
+  {
+    "path": "/wp-content/uploads/2011/02/flashcs5extension-650x487.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "6852dc462828555ce4e3988fddb816c7b81d00e5c8ae63941b854baf0d1403aa"
+  },
+  {
+    "path": "/wp-content/uploads/2011/02/flashcs5extension.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "d3ff75ff9c947df0f25aea4c0b466b45214baf30089b1be228e56f7a7e15e59a"
+  },
+  {
+    "path": "/wp-content/uploads/2011/03/Open-source-platform-comparison.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "08151af492da75a8ccee5308f13165c7549205832c5f6888e901f491eb1896a7"
   },
   {
     "path": "/wp-content/uploads/2011/03/proandroidflash-100.jpg",
@@ -70,14 +1026,108 @@
     "export_sha256": "25280b3c892e6a8479f9ce22159fcfc5baccd2a5aad754fc096f126789d5f219"
   },
   {
-    "path": "/wp-content/uploads/2010/07/Java_Champions_Transparent.png",
+    "path": "/wp-content/uploads/2011/06/32315f0112.png",
     "rights_holder": "unreviewed",
     "status": "owner-asserted, unreviewed",
-    "basis": "Sidebar artwork captured on the owner site; recovered from public Wayback, not the lab.",
-    "note": "Java Champions logo, which combines Oracle Java marks and the Duke character. Trademark rights are held by others. Reencoded from fresh pixels. Public visibility does not independently establish a reuse license. Included for owner review only; no launch approval implied.",
-    "source_url": "https://web.archive.org/web/20120609010313im_/http://steveonjava.com/wp-content/uploads/2010/07/Java_Champions_Transparent.png",
-    "source_sha256": "007b5ba1a974e5cbd53d9007a35ce550c8a605b2621cc48f7b7809e0791df87a",
-    "export_sha256": "0820ba8e99209597c7fce1a6a7ad2879046c6aa4ae2d0b893db69ae21bab0315"
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "3602b6d865e87f4bcd36d26303662d49396b66554ea5bc28c139e5333f9753cf"
+  },
+  {
+    "path": "/wp-content/uploads/2011/06/pan.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "ce31961ba4e62112745a78dd51cb874eb9c623eee8186f18816c4cf28ef049e3"
+  },
+  {
+    "path": "/wp-content/uploads/2011/06/rotate.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "ce95167ca30b7b828ddd052e8d8c563b5e4be5283e30f95258c05c87b0fb95e2"
+  },
+  {
+    "path": "/wp-content/uploads/2011/06/swipe.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "a3ff7399bcdf0e1900893bd163ec54a6c4c159faea34808f842cef31753a8813"
+  },
+  {
+    "path": "/wp-content/uploads/2011/06/two-finger-tap.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "5584ae9c2a56dce84405e6dd591037220197d64d47e841257e83bb035095b743"
+  },
+  {
+    "path": "/wp-content/uploads/2011/06/zoom.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "c9ef1fe64411a1f2a4a853474815787eccbd7b7b1055d4f2a80e816e45fb08da"
+  },
+  {
+    "path": "/wp-content/uploads/2011/07/32315f0313.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "d16cb8d920db2b58f6f0e6be389c525fb07c70c20a504b66bba88e1ae4478de0"
+  },
+  {
+    "path": "/wp-content/uploads/2011/07/32315f1005-650x229.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "bf00a12f22f0b92059fe8d70ca716caa01a8b6071ce6d2f208f3f715bf36fa74"
+  },
+  {
+    "path": "/wp-content/uploads/2011/07/32315f1005.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "adda00e6372b1d7fd56f2ca7f152d3f66c2b17aca777372f7d15174d6ce33083"
+  },
+  {
+    "path": "/wp-content/uploads/2011/07/32315f1006.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "94b893eb6a31201c8b49a20395ebad030622b3f4d8d480fadee93ce5224ab40f"
+  },
+  {
+    "path": "/wp-content/uploads/2011/07/oscon-carnival.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "c0fec21e8ce1a804471d2481eb19f98699f03fd823bec32ecd77b9cf6b2a8ae8"
+  },
+  {
+    "path": "/wp-content/uploads/2011/07/threat-level.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "534b8feb4629395168edbbdbfb0001a4377c1211ca61c3a936e5cb32e7e8fb1a"
+  },
+  {
+    "path": "/wp-content/uploads/2011/07/voodoo-doll-doughnut.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "c6f5e08028f8af378ea4f0703355a4c1fb219aab8e674aeb8c20ef69965e2fdb"
   },
   {
     "path": "/wp-content/uploads/2011/08/big-mvbbutton1.png",
@@ -90,13 +1140,507 @@
     "export_sha256": "262c358895753df6db398d53db923dfa1cbd9f1264dad9ca910e73c43793b52b"
   },
   {
-    "path": "/wp-content/uploads/2009/07/rockstar_dukewithguitar_small.png",
+    "path": "/wp-content/uploads/2011/09/colorfulcircles.png",
     "rights_holder": "unreviewed",
     "status": "owner-asserted, unreviewed",
-    "basis": "Sidebar artwork captured on the owner site; recovered from public Wayback, not the lab.",
-    "note": "Duke mascot playing a guitar, from the JavaOne Rock Star program. Source GIF converted to PNG; first frame only. Reencoded from fresh pixels. Public visibility does not independently establish a reuse license. Included for owner review only; no launch approval implied.",
-    "source_url": "https://web.archive.org/web/20120609010313im_/http://steveonjava.com/wp-content/uploads/2009/07/rockstar_dukewithguitar_small.gif",
-    "source_sha256": "d931e07da2fbf008dd8167abd31ea4d23e0a3bca3d90ab504dbea1de1a7d5663",
-    "export_sha256": "4692eb4bfc922ca10a66f42f954f1a03a3cfd6de36b8f784130441730991e326"
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "14ec54c61de0f4cd3ad6f096ea1b2ac85f2a32d3d6f79b2b8eb37584f319fd67"
+  },
+  {
+    "path": "/wp-content/uploads/2012/04/404-497x500.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "3224ebd23918acc6dafa75813d4bc92c2ce3d7ab05cb50040c161f40b794e232"
+  },
+  {
+    "path": "/wp-content/uploads/2012/04/68695main_subpage_k9rover.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "40e49d01032cf6bc5fbed5785e0ff1e6a936251eaf87bb7f90ed76069297e9e8"
+  },
+  {
+    "path": "/wp-content/uploads/2012/04/oracle.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "7a7fe1d367269b72d548668e8d64dad43fe52555ac0064ddfd542aed8b61ac79"
+  },
+  {
+    "path": "/wp-content/uploads/2012/05/Screen-Shot-2012-05-04-at-3.17.39-PM1-650x450.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "90d9d4b8bce41e458c55f676d31bfc0a406f4bc6341eba5d4ed6428e1da31e18"
+  },
+  {
+    "path": "/wp-content/uploads/2012/07/cover.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "3f5c699bf862ba22a2ba21b1d58dc7e5adec1d760e5dd7ddf85c19ce327afa76"
+  },
+  {
+    "path": "/wp-content/uploads/2012/08/200px-Sad_panda.svg_-150x150.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "bebcafb861c2e4ae471bdc2c88f6499d58ac36a759095d0cb2b09012368e87df"
+  },
+  {
+    "path": "/wp-content/uploads/2012/08/IMG_0523-650x487.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "c189667a7f4717a8dac19d7ca0ed6adb3d31238499497742367eec49ad4063c1"
+  },
+  {
+    "path": "/wp-content/uploads/2012/08/IMG_0530-650x487.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "c1662fc34dfd75a30380ce76431c57dcecdf281e73c49420c9256fcebc7f37bb"
+  },
+  {
+    "path": "/wp-content/uploads/2012/08/IMG_0562.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "4d36e239fbb13da41cba7e69659a1544b5a504b6497816af253ae1ac60260517"
+  },
+  {
+    "path": "/wp-content/uploads/2012/08/Screen-Shot-2012-08-20-at-02.41.48-.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "25bea6c30dd80417434078a1e3111eae1f19401dd717aff5542b482c622b35db"
+  },
+  {
+    "path": "/wp-content/uploads/2012/08/Screen-Shot-2012-08-21-at-03.10.28-.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "c44f5625eacd36f2714d1a0b4715ac1ad391b772f6b4d46467c10495b3876485"
+  },
+  {
+    "path": "/wp-content/uploads/2012/08/Screen-Shot-2012-08-23-at-10.44.34-.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "c53f7fd7c0d99925f4f2338fcfb4681548916928349eb270468f79575425e7ee"
+  },
+  {
+    "path": "/wp-content/uploads/2012/08/customerDataApp.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "d207d056ca7db8aff054194ce63c3a7f8dcab197d4a4cfd30fbcd8e659be6031"
+  },
+  {
+    "path": "/wp-content/uploads/2012/08/photo-300x225.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "72a45637611e3de52db15bd40afe59f86c06c9483dbd4b9264c38f520dd066bf"
+  },
+  {
+    "path": "/wp-content/uploads/2012/08/photo2-300x225.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "84ea6f81d0ad44551a5c61a42511eb0483c0b94171c9cd9d5b233f595ff04d25"
+  },
+  {
+    "path": "/wp-content/uploads/2012/08/securityError.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "a088f2b23ff9ca9e58c19bcecbbbf81d3d0dab1f2ab3d42e677c1a569880d356"
+  },
+  {
+    "path": "/wp-content/uploads/2012/09/11_speaker-150x150.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "d70ca1df6ddd9cb85f8df03fa763aebc8d8ca391210a5d7c1ed230de86566da2"
+  },
+  {
+    "path": "/wp-content/uploads/2012/09/BertErtman1.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "c67ae1234e388217f840db5201d76b2b2d752cb04871dafafa1030638ebebec1"
+  },
+  {
+    "path": "/wp-content/uploads/2012/09/Stephen_Colebourne100.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "edd040e5039c17f9a52df1f4858da24cd4a98f15335788491517d4d2de3463b9"
+  },
+  {
+    "path": "/wp-content/uploads/2012/09/SvenReimers-150x150.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "0198aa9e6882f4f5842721aec87562975d4a8b4a2485dc7f9a5a904d6163ff9f"
+  },
+  {
+    "path": "/wp-content/uploads/2012/09/Trisha_Gee-150x150.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "09e1336c1dfcdde2ead8cee3550e5e99aa64e03150e7c54032e8df22279b4314"
+  },
+  {
+    "path": "/wp-content/uploads/2012/09/image_reasonably_small1.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "ad914164e599725a39a3c65086aaec47679bcc289fd6a7d01e8b8bebc460dee5"
+  },
+  {
+    "path": "/wp-content/uploads/2012/09/jfokus_nighthacker-258x300.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "24235bbd3a5f28cf408b3f3dbe65fb8402f2143e3a5d39f44e9e1a5c1518d3f2"
+  },
+  {
+    "path": "/wp-content/uploads/2012/09/luc-150x150.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "2c7df24ad7aba5acaa1336b7ab696777a9b6a5695b8753fcca2ae87359a48a76"
+  },
+  {
+    "path": "/wp-content/uploads/2012/09/toni-epple.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "125952270e27e5709a4ebdb64c4c68fc7619d6ec9bb16e0e942efe0a60d3d770"
+  },
+  {
+    "path": "/wp-content/uploads/2012/10/8057216330_5138be27ba-e1350943060227.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "862b5978025d7697566c91c1d31b84660a7474ff30d190ff2dd094ba389094f8"
+  },
+  {
+    "path": "/wp-content/uploads/2012/11/8141136300_7fb2a7fe00_z-e1351813436210-300x198.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "28c68cc45581d8b6b5f052610d25f42b139f9a65e467ca4d6d9108d223adec13"
+  },
+  {
+    "path": "/wp-content/uploads/2012/12/A7b3mGgCUAI4sMF.jpg-large-300x225.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "4d886eb119ff3726e7488b332be33e79f948bd9c1f365da0dbbee9813cd5eaec"
+  },
+  {
+    "path": "/wp-content/uploads/2012/12/A7cD8OrCIAAC6iA.jpg-large-300x225.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "cebd01c305221dac599849cb64bd29c6405056542fea173e10fbc659b53e748d"
+  },
+  {
+    "path": "/wp-content/uploads/2012/12/DSC_1924-300x200.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "6d20d264183cb4168c0a2d40f74107014663f166c7df19ad96e80ddb2a5e23f9"
+  },
+  {
+    "path": "/wp-content/uploads/2012/12/DSC_1931-300x200.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "6ad19e2cba7e8a266615dc048cdfb860ac7f1c6b853af80ec2394e77fbee3468"
+  },
+  {
+    "path": "/wp-content/uploads/2013/01/7996880922_0f4f81b7d7_b-300x225.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "5c339670eb10953eabfa83d2a447d61debe1ce88b7021f17a849e18eea3204c1"
+  },
+  {
+    "path": "/wp-content/uploads/2013/02/Scenprogram-utkast-20130130_utf.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "ede17580a8981aa9815b1c7d02cc3742d8668423bdd80e91e889db951fd4c4f9"
+  },
+  {
+    "path": "/wp-content/uploads/2013/04/Duke3DprogressionSmall.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "cf8fc6566fd4e2150c92d9970599c3088fa50f3cf1d0ca25efaddc3862a20873"
+  },
+  {
+    "path": "/wp-content/uploads/2013/07/DSC_6796.jpeg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "1460ea169e5ac1d3478c47c93a214da20c9d80a2c7520c29a7357c4a32cc297e"
+  },
+  {
+    "path": "/wp-content/uploads/2013/07/DSC_6846.jpeg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "7648ee035c41b906e23bc838e33c75c14cfab9c585038336b9800b9b12f6b5c8"
+  },
+  {
+    "path": "/wp-content/uploads/2013/07/DSC_6884.jpeg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "873bca89f4e76972b94917c7c11d514a57af2da10a28b7fed6730e711f161408"
+  },
+  {
+    "path": "/wp-content/uploads/2013/10/NightHacking-on-the-Big-Island-Banner.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "565026f4908e812843287c60e2d04487f6c010014991a50d33155a70c3521f6b"
+  },
+  {
+    "path": "/wp-content/uploads/2013/10/liquid-robotics-wave-glider-underwater-1321671777424-231x300.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "7dd42fa1986dd8428e4bf9cad05970e4a7a0f51b81d2f809782e2aebb7a883d7"
+  },
+  {
+    "path": "/wp-content/uploads/2013/11/classic_logo.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "f6b5cfb75b06ed823c592d0c6747572e330b62dd44d82650c12cebc97d11731a"
+  },
+  {
+    "path": "/wp-content/uploads/2013/12/wordlwideregister.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "b841f9096ccad405c553fa6697e4e21154fbc97d5a76bcfc85950b4d56b0167d"
+  },
+  {
+    "path": "/wp-content/uploads/2013/12/worldwideevent.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "d3bf767f79be0565c9c56ff68cf01ab10714857fe290f31b3cb1bef54915a91e"
+  },
+  {
+    "path": "/wp-content/uploads/2014/03/NightHacking-Java-8-Tour-Badge.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "7a48b77f0fa17e505c42ff2f090055bfe7d155fb6099f74f7346849db72921ad"
+  },
+  {
+    "path": "/wp-content/uploads/2014/03/pic1.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "0fa580a89b4183811b503d481c1bdeb6f5a216994743fd23183d5310630665f0"
+  },
+  {
+    "path": "/wp-content/uploads/2014/03/pic2.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "51aad3def8881ab445e89344f13856a525f39989bb2601dd50559c203e6f62ab"
+  },
+  {
+    "path": "/wp-content/uploads/2014/03/pic3.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "2145b9de1b71813b0e206a888e5146d6cd837094b5bc54685456c343ccfcb4b3"
+  },
+  {
+    "path": "/wp-content/uploads/2014/03/pic4.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "454ea50df26b3b55f337321f5a32efa19f456359fd01ebb2c97c09314726a126"
+  },
+  {
+    "path": "/wp-content/uploads/2014/03/pic5.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "301539308a09cf26e44b2ac74ab5f892372097aa1b10c5f1f2435064b2f0a84d"
+  },
+  {
+    "path": "/wp-content/uploads/2014/03/pic6.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "78bde0084a69a1f3280cb75da84b314732eab4bda2edb91547cf0cd63add25ec"
+  },
+  {
+    "path": "/wp-content/uploads/2014/03/pic7.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "9c86d4680dd26f9d79bffbc27bd857ef62d4daf499ae7aa95a82be11064f44b3"
+  },
+  {
+    "path": "/wp-content/uploads/2014/03/pic8.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "d48b5b907fddd8a0320ba2a21894158cbbfae1c3868a0390fc6b71a1af2a8102"
+  },
+  {
+    "path": "/wp-content/uploads/2014/03/pic9.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "1a224a03c3c4eeda4dead815fa5c4c402247fb87b995a595d5ce0c13eefe53cb"
+  },
+  {
+    "path": "/wp-content/uploads/2014/04/11_speaker.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "4ddfcc28bfee3d24e01651b9e1167433f85cc292a0eb30a46b12cb0369513860"
+  },
+  {
+    "path": "/wp-content/uploads/2014/04/Trisha_Gee.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "0601724db639069960c40343838ed64a5acd263da7d0066e163a64dc98f56200"
+  },
+  {
+    "path": "/wp-content/uploads/2014/04/artworks-000067309626-ur19q7-t500x500.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "57e90a85f4cc8f6432876a314b32d6ddbbd54fe824222d01ee39072477913981"
+  },
+  {
+    "path": "/wp-content/uploads/2014/04/david_blevins.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "4e91baecc6973e1665c5b7c0c200ff734348d81e83d07abda35c110a1ba0b90a"
+  },
+  {
+    "path": "/wp-content/uploads/2014/04/thoughtworks_1.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "c4b28d61a741e029eb6704a1913685878abbbfef5587f31e1089fbc5ffeaa773"
+  },
+  {
+    "path": "/wp-content/uploads/2015/05/17393937992_ac1e5cea64_z.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "349f20a103ff6ce8b2c7d9d71b01f9a39ba672de70e02b6527c94386eaf670ce"
+  },
+  {
+    "path": "/wp-content/uploads/2019/09/Frog_in_pond_0547-650x436.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "6393ffcb1568a192a0cba2fb4ecf2f57e738062ccbb655aa164f4b4ca3c02684"
+  },
+  {
+    "path": "/wp-content/uploads/2019/11/DSC05323-cropped.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "80ac2d41f13dae7a34495d8a1027757153bdd2a8b435997caf246de9a4b83e7a"
+  },
+  {
+    "path": "/wp-content/uploads/2019/12/JavaFX-Mobile-App.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "0dd71a54f4e40c8ad75cea1f2bc7c2402f6740099a1d9ac6eb4dfa72524eb398"
+  },
+  {
+    "path": "/wp-content/uploads/2019/12/The-Definitive-Guide-to-Modern-Java-Clients-with-JavaFX-1.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
+    "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
+    "export_sha256": "0044826d63594426e0e26bfd89ca78dac05e7fc36506d688543c2baa805e7783"
   }
 ]

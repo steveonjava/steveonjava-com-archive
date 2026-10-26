@@ -1,0 +1,130 @@
+{
+  "categories": [
+    {
+      "name": "Uncategorized",
+      "slug": "uncategorized"
+    }
+  ],
+  "date": "2014-02-17 00:31:38",
+  "excerpt": "",
+  "id": 3657,
+  "original_urls": [
+    "http://steveonjava.com/nao-robotics-hacking/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "7be42e4e69da30fc0179e2573dd98715194c2eaca28a356ecf297418ab74026e",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "nighthacking.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://nighthacking.com/"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "nighthacking.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://nighthacking.com/wp-content/uploads/2014/02/nao-robot-nextgen-222x300.jpg"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://twitter.com/_nighthacking"
+      },
+      {
+        "contexts": [
+          "iframe:src"
+        ],
+        "fetched": false,
+        "host": "www.meetup.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.meetup.com/everywhere/widget3/nighthackingworldwide?width=300&bg=light"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.meetup.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.meetup.com/nighthackingworldwide/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "github.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://github.com/NightHacking/NaoHacking"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.dropbox.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://www.dropbox.com/sh/l0chrm3o4o9qw0z/Swh43aaqQY"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "cf6e335936916dc175485c29bd2c5342fed26f817263d39f16a949029bc51c2b"
+      }
+    ],
+    "original_root_route": "/nao-robotics-hacking/",
+    "post_id": 3657,
+    "rejected_urls": [],
+    "source_content_sha256": "9b8393a7318c1b5ef3d8e9a3e53a4a3668c5a39f636aaa406737c12c9dbda39d",
+    "source_date_sha256": "8ccd8aac52a7e690780b1062053e24897fc3ed22002f30a85251ad9a5a99f4f8",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "09fd826824ca6d8d23331d18b5085b632d307f6099fb4d946012f7defbca6bc8",
+    "source_title_sha256": "e364d95e616d58dbb5a93d759d1848cd737c99b0038f14dbb66d37eb9514f41d",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "nao-robotics-hacking",
+  "thumbnail": null,
+  "title": "NAO Robotics Hacking",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "An active or embedded source element was omitted."
+  ]
+}

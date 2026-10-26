@@ -1,0 +1,175 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "NightHacking",
+      "slug": "nighthacking"
+    }
+  ],
+  "date": "2012-09-24 11:24:39",
+  "excerpt": "From October 28th through November 11th I am going to be traveling by motorcycle across Europe and live-streaming events and interviews along the way. This includes the J-Fall and Devoxx conferences as well as an all-star line-up of interviews, including the following geeks:",
+  "id": 2566,
+  "original_urls": [
+    "http://steveonjava.com/nighthacking-tour-the-road-to-devoxx/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "7ecd845a6b1c8e922b01837acde161ba12143ecf76652ca3ad9505500202d13d",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "nighthacking.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://nighthacking.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.ustream.tv",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.ustream.tv/channel/nighthacking"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://twitter.com/AdamBien"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://twitter.com/BertErtman"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://twitter.com/LucDup"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://twitter.com/Stephan007"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://twitter.com/SvenNB"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/i/#!/search/realtime/%23nighthacking"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://twitter.com/jodastephen"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://twitter.com/kittylyst"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://twitter.com/monacotoni"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://twitter.com/trisha_gee"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": "2012/09/thumbnail.gif",
+        "reason": "unsupported-format-no-gif-or-document-export",
+        "source_url_sha256": "ff62413ebe814837366456d6740782775bc9ae00fc1249fd183dd2a2ee966e82"
+      }
+    ],
+    "original_root_route": "/nighthacking-tour-the-road-to-devoxx/",
+    "post_id": 2566,
+    "rejected_urls": [],
+    "source_content_sha256": "175d92429a831b8e9549a481aa9d462a2f72094fee57204235452853b4317ad5",
+    "source_date_sha256": "a06e36a93c2a2e236a2e848ac3361e181915f2c2478cf6f164941addecb98ea7",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "deaa78ce407aedcfe44664e20faa5103e0d60f80b327636ef09866b806cdaa13",
+    "source_title_sha256": "69f1ffadfc5c033043fea551c5905adb51a61fd308d07a278d29724bf94c5c97",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "nighthacking-tour-the-road-to-devoxx",
+  "thumbnail": null,
+  "title": "NightHacking Tour - The Road to Devoxx",
+  "type": "post",
+  "video_id": null,
+  "warnings": []
+}

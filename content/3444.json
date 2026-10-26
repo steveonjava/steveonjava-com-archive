@@ -1,0 +1,127 @@
+{
+  "categories": [
+    {
+      "name": "JavaOne",
+      "slug": "javaone-2"
+    },
+    {
+      "name": "Uncategorized",
+      "slug": "uncategorized"
+    },
+    {
+      "name": "Video",
+      "slug": "video"
+    }
+  ],
+  "date": "2013-08-29 02:04:59",
+  "excerpt": "I am doing live interviews with many of the JavaOne speakers this week and next.  All of this will be broadcast on my NightHacking UStream channel, so please check it out.  As a dry run, I did the first interview with Gerrit Grunwald (who is now a Java Champion -- congrats!)",
+  "id": 3444,
+  "original_urls": [
+    "http://steveonjava.com/chat-with-the-javaone-speakers/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "74610a6c7b5c7a720ae24c40dfc6cc85a83f824751269947a6d0d6c7bca02430",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.ustream.tv",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.ustream.tv/channel/nighthacking"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.ustream.tv",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.ustream.tv/recorded/37964677"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.ustream.tv",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.ustream.tv/recorded/37965903"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.ustream.tv",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.ustream.tv/recorded/37969887"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.ustream.tv",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.ustream.tv/recorded/37971919"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.ustream.tv",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.ustream.tv/recorded/37978657"
+      },
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.youtube.com/watch?v=LNitmLKWZmA"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/chat-with-the-javaone-speakers/",
+    "post_id": 3444,
+    "rejected_urls": [],
+    "source_content_sha256": "f2567d9370992d5522673b6e21893d0e7b07770b3aca1d868139195c977702df",
+    "source_date_sha256": "bb708b3585129fc93c082089393c3efe5903a793fc6ad776b259d8e73edde70e",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "b36c911019f3d14c73c1f67446c333dc54183f32d7738f4dffc25f13496a3606",
+    "source_title_sha256": "8da57fbc763c6ca2092ffbb7c2548fab037f8050a56f74444b3b642b3466141d",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "chat-with-the-javaone-speakers",
+  "thumbnail": null,
+  "title": "Chat with the JavaOne Speakers",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

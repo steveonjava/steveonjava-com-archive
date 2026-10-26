@@ -1,0 +1,165 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "Presentation",
+      "slug": "presentation"
+    },
+    {
+      "name": "SvJugFx",
+      "slug": "svjugfx"
+    },
+    {
+      "name": "Video",
+      "slug": "video"
+    }
+  ],
+  "date": "2010-06-17 04:50:28",
+  "excerpt": "I am pleased to announce that we have a couple new videos available on the Silicon Valley JavaFX User Group (SvJugFx) video site.  Here is a link to the landing page where you can watch these videos as well as all our previous sessions:",
+  "id": 1226,
+  "original_urls": [
+    "http://steveonjava.com/bay-area-jug-round-up-and-stuarts-hands-on-javafx-videos-available/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "ead4d1db5431574604df6e3b7d118362eb8dc464a66377770a9d2faf2f702ce3",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "javaposse.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://javaposse.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "jnlp.ubivent.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jnlp.ubivent.com/jnlp/eventid=10/guest=1/path=doc:129,doc:128,doc:210"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "jnlp.ubivent.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://jnlp.ubivent.com/jnlp/eventid=10/guest=1/path=doc:129,doc:128,doc:217"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "jnlp.ubivent.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jnlp.ubivent.com/jnlp/eventid=10/guest=1/path=doc:129,doc:128,doc:217,goto:v:-0"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "jnlp.ubivent.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jnlp.ubivent.com/jnlp/eventid=10/guest=1/path=doc:129,doc:128,doc:217,goto:v:-1"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "jnlp.ubivent.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jnlp.ubivent.com/jnlp/eventid=10/guest=1/path=doc:129,doc:128,doc:217,goto:v:-2"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "web.ubivent.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://web.ubivent.com/svjugfx.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.smarks.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.smarks.org/svjugfx20100414/flood.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.svjugfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.svjugfx.org/calendar/13605800/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/bay-area-jug-round-up-and-stuarts-hands-on-javafx-videos-available/",
+    "post_id": 1226,
+    "rejected_urls": [],
+    "source_content_sha256": "ab2f47692abb43c41c2eca92445590bcd446e2c51b8fd93c9d71408bf2cf0dd1",
+    "source_date_sha256": "4504f4b1f248ce488d37a226cb960f0f258a10e0ab39c52733f536523133b7b9",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "3e1a937da097a35b0b921673180af390f75d824adbed1f7a9780f0042b7483d3"
+    },
+    "source_slug_sha256": "ab6ece981a383e2e930381c8d6728b0810329e24b6f2b61610f4d2d23b0d5853",
+    "source_title_sha256": "71be5b4d4cfca5c320bac2df889ae61c89cf232ecb4f7c9a4f07779c05a7d046",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "bay-area-jug-round-up-and-stuarts-hands-on-javafx-videos-available",
+  "thumbnail": null,
+  "title": "Bay Area JUG Round-Up and Stuart's Hands-on JavaFX Videos Available",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

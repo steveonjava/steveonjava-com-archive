@@ -1,0 +1,76 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "WidgetFX",
+      "slug": "widgetfx"
+    }
+  ],
+  "date": "2009-01-06 07:54:33",
+  "excerpt": "The WidgetFX project reached a huge milestone today, hitting a production 1.0 release!",
+  "id": 85,
+  "original_urls": [
+    "http://steveonjava.com/widgetfx-10-release/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "daeded4152469339fb00d86465ad62f39f95afcb85a04cf9d1aec2ec397ed8a0",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/widgetfx/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.org/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/widgetfx-10-release/",
+    "post_id": 85,
+    "rejected_urls": [],
+    "source_content_sha256": "2df1af5af10be6054a5679d5babea7afb51a37750a9e9e17e8fbee2e09854b9e",
+    "source_date_sha256": "76966ddac8a0bf01f38b429d54ac6191be17b4de8bd591a9a6e278663458bc1a",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "d8f92c4001a717a252d4b5be0d8e5c31814bce122eae5181a07b0407f107cbf5"
+    },
+    "source_slug_sha256": "29db747c59bdc717f5fc2e4d405e7b211458666b2eee8d3c61920286b335f183",
+    "source_title_sha256": "da7e3ec76e164a98eaf6b75a30bb366647991252b0e78981000a2be34731efd8",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "widgetfx-10-release",
+  "thumbnail": null,
+  "title": "WidgetFX 1.0 Release",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

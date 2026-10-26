@@ -1,0 +1,54 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2012-07-18 10:27:48",
+  "excerpt": "",
+  "id": 2313,
+  "original_urls": [
+    "http://steveonjava.com/dzone-refcard-discussion-thread/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "e4e465be3345c116345824e56ccb3c20ec65c6da9e257ae8856f00f0877786c3",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "refcardz.dzone.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://refcardz.dzone.com/refcardz/javafx-20"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/dzone-refcard-discussion-thread/",
+    "post_id": 2313,
+    "rejected_urls": [],
+    "source_content_sha256": "a8304c43e21c42c6c53a8703a2b19fd559f2e97b5269b01a9b8d3be09da753cf",
+    "source_date_sha256": "1311dfc3d85e4b4052ad604fd7f90ee7a63e577a3790e592561f81fa94ec99a4",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "5f49fc500cdaa2269e7c57f03ef8564a0469757ae09a3ae7fe9112ba3466f8c0"
+    },
+    "source_slug_sha256": "56044fc4f0b478db1c3681aefa03fb63a264c32d832e14ae1781e8d65e05d92d",
+    "source_title_sha256": "ed7ec1bd4d197b7072f5ddd62e80d62a8e1eadaa7078412839140dedb1a6478d",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "dzone-refcard-discussion-thread",
+  "thumbnail": null,
+  "title": "DZone Refcard Discussion Thread",
+  "type": "post",
+  "video_id": null,
+  "warnings": []
+}

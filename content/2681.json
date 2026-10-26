@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "NightHacking",
+      "slug": "nighthacking"
+    }
+  ],
+  "date": "2012-11-13 10:25:36",
+  "excerpt": "In addition to the sessions I am giving at Devoxx, I also lined up an all-star set of speakers to have interviews with at Devoxx.  I will be running these Wednesday afternoon and Thursday morning (CET).",
+  "id": 2681,
+  "original_urls": [
+    "http://steveonjava.com/nighthacking-at-devoxx-schedule/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "e9c132bf61b9c92eb410dbdf465235c8efc300f3d5462c51f25021bf30c32718",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "nighthacking.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://nighthacking.com/"
+      },
+      {
+        "contexts": [
+          "iframe:src"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.youtube.com/embed/s3b236MfDTE?list=UUmRtPmgnQ04CMUpSUqPfhxQ&hl=en_US"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/nighthacking-at-devoxx-schedule/",
+    "post_id": 2681,
+    "rejected_urls": [],
+    "source_content_sha256": "a676f5b9daead05c2994c1f7253e2f8074a885b66b23ed24269bea570e83d4cc",
+    "source_date_sha256": "dbecac55a29c1120a2b630bb4bebdcbf4fe8bdc55f0ddd8107cc26c94fd1f29f",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "588495b4c1753570f51e374defd664a33937736af0d5fa883e8f3db4bb54e8ac",
+    "source_title_sha256": "7f22bcb762edf2933dd62c578eac538070c0805ef761cda22b7a1a3926d5f544",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "nighthacking-at-devoxx-schedule",
+  "thumbnail": null,
+  "title": "NightHacking at Devoxx Schedule",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "An active or embedded source element was omitted."
+  ]
+}

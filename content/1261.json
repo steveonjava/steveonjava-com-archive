@@ -1,0 +1,94 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2010-07-16 00:38:46",
+  "excerpt": "At last night's Silicon Valley JavaFX User Group event, I announced a petition to Open Source the JavaFX Platform.  This is a petition from the Java and JavaFX Community directed to the management of Oracle Corporation.  The goal of the petition is to increase the viability of the JavaFX platform to the benefit of both the community and Oracle.\nTo the Leaders, Management, and Board of Directors at Oracle Corporation,",
+  "id": 1261,
+  "original_urls": [
+    "http://steveonjava.com/petition-to-open-source-javafx/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "daea5ffd3cf21681238db9dcc2dad21c9b7311197a6a2248772d186433453bba",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "learnjavafx.typepad.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://learnjavafx.typepad.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "svjugfx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://svjugfx.com/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.jroller.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.jroller.com/peter_pilgrim/"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": "2010/07/jim_weaver.gif",
+        "reason": "unsupported-format-no-gif-or-document-export",
+        "source_url_sha256": "6ce22c8a5584d9470fafba093e553300a020be645aef1bee5000358cf10cd8f2"
+      }
+    ],
+    "original_root_route": "/petition-to-open-source-javafx/",
+    "post_id": 1261,
+    "rejected_urls": [
+      {
+        "context": "img:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "6ce22c8a5584d9470fafba093e553300a020be645aef1bee5000358cf10cd8f2"
+      },
+      {
+        "context": "image",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "6ce22c8a5584d9470fafba093e553300a020be645aef1bee5000358cf10cd8f2"
+      }
+    ],
+    "source_content_sha256": "517467d0d1416a4899b67fc6ef4babe27a425a631450a523d4a08efcd6e137c5",
+    "source_date_sha256": "16788f26be3c0f708877924e6131bd6e498ee954b3a0863783020e48139b7990",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "c33cda7a867337c1dfc519b33023cce998d9c1f181abb5c0a0530d36b74c06b1"
+    },
+    "source_slug_sha256": "dbf6a6e3acafad32d246b409be21bcdb182eaf0236fd405a836cb94cf22702a1",
+    "source_title_sha256": "2a1365a1695af3c26381e90d9c4cd1c3c93a8d261c7827692345ce4c57b681f1",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "petition-to-open-source-javafx",
+  "thumbnail": null,
+  "title": "Petition to Open Source JavaFX",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "Hidden source markup was removed."
+  ]
+}

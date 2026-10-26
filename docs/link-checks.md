@@ -13,3 +13,8 @@ Checked on 2026-10-23 at 08:03 UTC with the owner's one-time exception, by a scr
 - `http://twitter.com/rajmahendra`: unverified. The check returned HTTP 520. Stays clickable.
 
 Videos: none in these two posts.
+
+
+## Bulk conversion: offline inventory
+
+The content-expansion batch inventories all exported source destinations without fetching them. Newly added URLs are unverified. Known-dead results above are retained, and normal CI makes no provider requests. No current availability, ownership or playback claim is inferred from a syntactically valid URL or video ID. See `bulk-review.md` and `bulk-coverage.json`.

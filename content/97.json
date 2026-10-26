@@ -1,0 +1,58 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2009-01-22 04:59:18",
+  "excerpt": "Through a generous invitation by Sun, I had the opportunity to attend the Mobile, Media & eMbedded Developer Days (M3DD) Conference down in Santa Clara.",
+  "id": 97,
+  "original_urls": [
+    "http://steveonjava.com/widgetfx-m3dd-conference/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "a02001366f9c8d4f4d25cd8d9f2a7a07728b2f5e63297bb3e124c8c93b7a4121",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.buglabs.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.buglabs.net/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/widgetfx-m3dd-conference/",
+    "post_id": 97,
+    "rejected_urls": [],
+    "source_content_sha256": "6dcb9a5ec648a932f7fb82bd08b700ffe57500923952f2c3d04375723c71a4c0",
+    "source_date_sha256": "0f72ce4d1d48a293562ef77aa3bd00cf1b90d1c6f2b72f6c8c6864cc4b7b539e",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "583506461891ad76b5f0c97159fe89fdea9f193ee61c3e7fc58819928382fa40",
+    "source_title_sha256": "8f31405bbddfcc77783ff46c7b7106b44ed0305467902ea0b34760a552815b47",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "widgetfx-m3dd-conference",
+  "thumbnail": null,
+  "title": "WidgetFX @ M3DD Conference",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

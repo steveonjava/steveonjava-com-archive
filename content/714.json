@@ -1,0 +1,234 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JFXtras",
+      "slug": "jfxtras"
+    }
+  ],
+  "date": "2009-11-25 02:16:48",
+  "excerpt": "Happy Thanksgiving from the JFXtras team!  While everyone else is celebrating the holiday with friends and family, we are going to be busy finishing up the 0.6 release.",
+  "id": 714,
+  "original_urls": [
+    "http://steveonjava.com/jfxtras-0-6-preview-available/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "1d0a99baeb0a0598276e5650ca0f2093a81fed278dba91da65999d7b930ae26e",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/downloads/list"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm4.static.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://farm4.static.flickr.com/3141/2441818832_aa89a2ffa2.jpg"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxstudio.wordpress.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxstudio.wordpress.com/2009/07/05/jfxtras-shelf-control/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxstudio.wordpress.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxstudio.wordpress.com/2009/07/14/fun-with-spheres/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxstudio.wordpress.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxstudio.wordpress.com/2009/08/15/844/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "jfxtras.googlecode.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.googlecode.com/svn/site/javadoc/release-0.6/index.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/core/-/wiki/JFXtras/XCalendarPicker"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/core/-/wiki/JFXtras/XPicker"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/samples/-/journal_content/56/10128/32110"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jonathangiles.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jonathangiles.net/blog/?p=566"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "learnjavafx.typepad.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://learnjavafx.typepad.com/weblog/2009/09/introducing-speedreaderfx-powered-by-javafx-and-jfxtras.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "today.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://today.java.net/pub/a/today/2009/07/14/custom-cursors-javafx.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "today.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://today.java.net/pub/a/today/2009/07/30/javafx-custom-paints.html"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.flickr.com/photos/voght/2441818832/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.joshondesign.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.joshondesign.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.manning.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.manning.com/morris/"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "5482bf212e36165b07c06194490ad0d7b9c056d1b6f7166bec10ca36526b639b"
+      }
+    ],
+    "original_root_route": "/jfxtras-0-6-preview-available/",
+    "post_id": 714,
+    "rejected_urls": [],
+    "source_content_sha256": "3b4cbe5a7fa43351ce114b448578c2c133f0d71870a3db2978091261b8055432",
+    "source_date_sha256": "2e1b05a4458ba46ce1af3df839d8bbbc8e34a10eec583aa986bc10ab7e3ff0f1",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "40f1dbacbd63244e0e5aa90d04381c4d6ce672a777f573c96869e2be729b1c2f",
+    "source_title_sha256": "b8e18eddd2a9a957b4d257afee33b1e1ca1950b337ba2d3918233c3ec34da97a",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "jfxtras-0-6-preview-available",
+  "thumbnail": null,
+  "title": "JFXtras 0.6 Preview Available!",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

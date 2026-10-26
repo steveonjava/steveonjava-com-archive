@@ -1,0 +1,117 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "WidgetFX",
+      "slug": "widgetfx"
+    }
+  ],
+  "date": "2009-06-30 05:18:50",
+  "excerpt": "",
+  "id": 389,
+  "original_urls": [
+    "http://steveonjava.com/widgetfx-1-2-release-announcement/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "c9642076cc875aa8f12ff938fbde6c0a711e84dfa461af1835c4799e68d11da0",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "infix-systems.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://infix-systems.com/weatherwidget/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.org/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.org/dock/launch.jnlp?arg=http://pmdit.se/widgets/diskspace/launch.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/contest"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.javafxgame.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.javafxgame.com/pac-man-widget-for-widgetfx-12/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "worldclock-application.dev.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://worldclock-application.dev.java.net/#widget"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/widgetfx-1-2-release-announcement/",
+    "post_id": 389,
+    "rejected_urls": [],
+    "source_content_sha256": "9c7d77a06b21d161b32ff9b6082fbcc164a064d19eed3e1abc903337a547b8c4",
+    "source_date_sha256": "e6a4af5b8cec2da9d1d6c0488a500f31769541993ad36f87e8869fd86bd29ae7",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "11cf6a3e457f1c5a3d0a6ba8e8748575b4f70b097287adb10b769ad8ea68a93e",
+    "source_title_sha256": "0b57658af111b63b0e0e30805edfbfeaaea3bdb6b1d11140365fe559d0ea5015",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "widgetfx-1-2-release-announcement",
+  "thumbnail": null,
+  "title": "WidgetFX 1.2 Release Announcement",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

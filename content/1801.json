@@ -1,40 +1,120 @@
 {
-  "id": 1801,
-  "type": "post",
-  "title": "JavaFX 2.0 at the Chennai JUG",
-  "slug": "javafx-2-0-at-the-chennai-jug",
-  "date": "2011-02-21 12:10:41",
   "categories": [
     {
-      "slug": "events",
-      "name": "Events"
+      "name": "Events",
+      "slug": "events"
     },
     {
-      "slug": "javafx",
-      "name": "JavaFX"
+      "name": "JavaFX",
+      "slug": "javafx"
     },
     {
-      "slug": "presentation",
-      "name": "Presentation"
+      "name": "Presentation",
+      "slug": "presentation"
     }
   ],
+  "date": "2011-02-21 12:10:41",
   "excerpt": "I was fortunate enough to be invited to speak at the Chennai Java User Group during my trip to India.  I was expecting a small group of very devoted Java fans; however, I was surprised to walk into a room of over 200 developers eager to learn about JavaFX 2.0.  The venue was very impressive with rows of workstations that we later used for a lab, as well as plenty of seating.",
+  "id": 1801,
   "original_urls": [
     "http://steveonjava.com/javafx-2-0-at-the-chennai-jug/",
     "http://javafx.steveonjava.com/javafx-2-0-at-the-chennai-jug/"
   ],
-  "video_id": null,
-  "thumbnail": null,
-  "review_status": "unreviewed",
   "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
     "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "5719a828807c9c33cb67ff34fccd1e5aa294ceabd772591d5f16dc5abe457986",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "object:codebase"
+        ],
+        "fetched": false,
+        "host": "download.macromedia.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"
+      },
+      {
+        "contexts": [
+          "embed:src",
+          "param:value"
+        ],
+        "fetched": false,
+        "host": "static.slidesharecdn.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=javafxyourway-chennai-110221135800-phpapp02&stripped_title=javafx-20-and-alternative-languages&userName=steveonjava"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "tenthplanet.in",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://tenthplanet.in/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://twitter.com/rajmahendra"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.jugchennai.in",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.jugchennai.in/2011/02/20/javafx-with-stephen-chin-java-user-group-chennai-at-first-planet-19-February/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.slideshare.net/steveonjava/javafx-20-and-alternative-languages"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/javafx-2-0-at-the-chennai-jug/",
     "post_id": 1801,
+    "rejected_urls": [],
     "source_content_sha256": "8fa75c97c60d39970717c4e58d5265458e7c7e7e55c10d08f0f31a1df9e3434b",
-    "exporter_version": "prototype-export-1",
-    "authorship": "Original published text, not newly generated first-person prose"
+    "source_date_sha256": "ab4e257d3338bc98cd3c906697e5e1c472d15088120e5b3af26b255b353904af",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "e6a284ca19ae6578ad41384aeb63d0eb450594c19bef895b8ad0055664292574"
+    },
+    "source_slug_sha256": "2e969b645d070e2205ba3d83c7f7b3628cba772d1d9e9f70a26cd6aa24cace54",
+    "source_title_sha256": "50ef923de59ad4b77ae964c64194a70469791b6dcf7c2832a2b2b63ee5e86ee3",
+    "table": "wp_posts",
+    "video_status": "absent"
   },
+  "review_status": "unreviewed",
+  "slug": "javafx-2-0-at-the-chennai-jug",
+  "thumbnail": null,
+  "title": "JavaFX 2.0 at the Chennai JUG",
+  "type": "post",
+  "video_id": null,
   "warnings": [
     "A legacy single-byte nonbreaking space was normalized to a space.",
-    "An obsolete or active embed was replaced by an archive notice."
+    "An active or embedded source element was omitted."
   ]
 }

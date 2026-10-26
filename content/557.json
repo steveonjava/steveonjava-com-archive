@@ -1,0 +1,232 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JFXtras",
+      "slug": "jfxtras"
+    }
+  ],
+  "date": "2009-08-09 08:20:36",
+  "excerpt": "We have had quite a few additions to the project team over the past couple weeks.",
+  "id": 557,
+  "original_urls": [
+    "http://steveonjava.com/jfxtras-team-grows-up/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "1abda5fa799dcf9596af745d5d0155263d42129ca0717309eb57b53f347641df",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "blogs.sun.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://blogs.sun.com/rakeshmenonp/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "groups.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://groups.google.com/group/jfxtras-dev?pli=1"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/forum"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/recently-added"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/samples"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/samples/all?p_p_id=101_INSTANCE_1Bl5&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_pos=1&p_p_col_count=2&_101_INSTANCE_1Bl5_struts_action=%2Fasset_publisher%2Fview_content&_101_INSTANCE_1Bl5_urlTitle=16612&_101_INSTANCE_1Bl5_type=content&redirect=%2Fportal%2Fsamples%2Fall%3Fp_p_id%3D101_INSTANCE_1Bl5%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-2%26p_p_col_pos%3D1%26p_p_col_count%3D2%26_101_INSTANCE_1Bl5_delta%3D15%26_101_INSTANCE_1Bl5_keywords%3D%26_101_INSTANCE_1Bl5_advancedSearch%3Dfalse%26_101_INSTANCE_1Bl5_andOperator%3Dtrue%26cur%3D2"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/samples/all?p_p_id=101_INSTANCE_1Bl5&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_pos=1&p_p_col_count=2&_101_INSTANCE_1Bl5_struts_action=%2Fasset_publisher%2Fview_content&_101_INSTANCE_1Bl5_urlTitle=music-explorer-fx&_101_INSTANCE_1Bl5_type=content&redirect=%2Fportal%2Fsamples%2Fall%3Fp_p_id%3D101_INSTANCE_1Bl5%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-2%26p_p_col_pos%3D1%26p_p_col_count%3D2%26_101_INSTANCE_1Bl5_delta%3D15%26_101_INSTANCE_1Bl5_keywords%3D%26_101_INSTANCE_1Bl5_advancedSearch%3Dfalse%26_101_INSTANCE_1Bl5_andOperator%3Dtrue%26cur%3D3"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jonathangiles.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jonathangiles.net/blog/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "jonathangiles.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jonathangiles.net/blog/?p=566"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "nekozumi.deviantart.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://nekozumi.deviantart.com/art/NARUTO-Together-Again-59437633"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "th09.deviantart.net",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://th09.deviantart.net/fs17/300W/i/2007/226/d/1/NARUTO___Together_Again_by_nekozumi.jpg"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "today.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://today.java.net/pub/a/today/2009/07/14/custom-cursors-javafx.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "today.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://today.java.net/pub/a/today/2009/07/30/javafx-custom-paints.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/contest"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.javaworld.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.javaworld.com/javaworld/jw-02-2009/jw-02-osjp-jfxtras.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.manning.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.manning.com/morris/"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "d71c8277abdc2b731fca17af6958334ad09f20b79a64bf498f921140de69fba0"
+      }
+    ],
+    "original_root_route": "/jfxtras-team-grows-up/",
+    "post_id": 557,
+    "rejected_urls": [],
+    "source_content_sha256": "566374a87f5fb2cd397cb8a272f8d5ec12ca9b4507bb9c238e1a10b1ac25e255",
+    "source_date_sha256": "de2ecaef8b01f5e0ffaf314e904992fe48ab90d73ac36a7f030e498b2a1eb11d",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "f15f043c65fcdbb1d1a729ac387696dffde24ed44cc86b218e353764e4f620fc"
+    },
+    "source_slug_sha256": "f5ccada550c521d2e62bb3f3d34c0cdd2828a18d9a428d4ed57669ecc20f0aa6",
+    "source_title_sha256": "1a61e9f76ef8c9066af70c6a8cf3457b5466ce36883d370dcb355c8d359ee3ed",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "jfxtras-team-grows-up",
+  "thumbnail": null,
+  "title": "JFXtras Team Grows Up",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

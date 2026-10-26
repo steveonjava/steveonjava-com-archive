@@ -1,0 +1,53 @@
+{
+  "categories": [
+    {
+      "name": "Uncategorized",
+      "slug": "uncategorized"
+    }
+  ],
+  "date": "2014-04-25 00:12:37",
+  "excerpt": "JavaOne planning is already in full swing with the largest number of CFP proposals submitted in the past 4 years. However, you may not know, but we have made some changes this year that may make it worthwhile to sign-up a little earlier than usual.",
+  "id": 3894,
+  "original_urls": [
+    "http://steveonjava.com/top-3-reasons-to-register-for-javaone-early/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "72828dc77dcf24909ddb3805023538e6b97946a1daccf88629185f3cf3a53597",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.oracle.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oracle.com/javaone/register/index.html"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/top-3-reasons-to-register-for-javaone-early/",
+    "post_id": 3894,
+    "rejected_urls": [],
+    "source_content_sha256": "e8dbcb49737219189a6b1738565490b7b941facb7a10b08f9997350e559e0dc1",
+    "source_date_sha256": "335cceb469497d0ba9fd887c4c768a570b83ed712d842591b9c4ca1feab4df04",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "87b7dfb3f25c8fd778b731709139ac68b7dc9ef2eb2617bb5ab192396a65cf88",
+    "source_title_sha256": "c7360e478da0472e0924869ed361a661731867f971b783456127451d0b15e40c",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "top-3-reasons-to-register-for-javaone-early",
+  "thumbnail": null,
+  "title": "Top 3 reasons to register for JavaOne early...",
+  "type": "post",
+  "video_id": null,
+  "warnings": []
+}

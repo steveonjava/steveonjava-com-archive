@@ -1,0 +1,132 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "WidgetFX",
+      "slug": "widgetfx"
+    }
+  ],
+  "date": "2009-02-24 21:24:43",
+  "excerpt": "I have been busy cranking on the Pro JavaFX book, but thanks to Keith Combs, we have a 1.1 release of WidgetFX.  Some of the new features include:\n\n\tImproved performance and reduces CPU usage\n\tCompatibility with the JavaFX 1.1 release (No promise the version numbers will stay in sync into the future.)\n\tNew, more permissive, open source license (We are now licensed under the new BSD license, which is very commercial friendly.)\n\nThe WidgetFX dock will auto-update itself the next time you launch it. Both the dock launch link and the new SDK can be found on the main web site:\nhttp://widgetfx.org",
+  "id": 218,
+  "original_urls": [
+    "http://steveonjava.com/widgetfx-11-release/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "c9f9b8bba66e1aa68416326f5eae9b09f8fa14af5bb8e6c535fcca80e626bf1a",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/widgetfx/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "pmdit.se",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://pmdit.se/widgets/diskspace/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "tareitas.webs.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://tareitas.webs.com/fx/WorldWidget/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.org"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.amazon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.amazon.com/Pro-JavaFX-trade-Platform-Technology/dp/1430218754"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "worldclock-application.dev.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://worldclock-application.dev.java.net/#widget"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/widgetfx-11-release/",
+    "post_id": 218,
+    "rejected_urls": [],
+    "source_content_sha256": "57290183cda92de68667fff35000bdff9c003bf27ed5f36395a57d91b6ed79b1",
+    "source_date_sha256": "ee94fd54979973c7c03af61534f2cbb8e0e7eaa339bfac712fbcdde48e66c34a",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "d8964fa31ae2b18b3659b83eac27bf2410f21a0ef85aa0cc21db4edc546cff29"
+    },
+    "source_slug_sha256": "79c651444efb8a4ae0ec6f785e57a941dd10bd6759e5d1d813c8f91d27dcc9a4",
+    "source_title_sha256": "645f6dd0e044fc991de0c2cd3d80b0b0c9f91c954ad078b7a3160c0178533f84",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "widgetfx-11-release",
+  "thumbnail": null,
+  "title": "WidgetFX 1.1 Release",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "A known legacy Windows-1252 byte 0xE4 was decoded explicitly as U+00E4."
+  ]
+}

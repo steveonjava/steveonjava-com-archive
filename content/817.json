@@ -1,0 +1,60 @@
+{
+  "categories": [
+    {
+      "name": "SvJugFx",
+      "slug": "svjugfx"
+    },
+    {
+      "name": "Video",
+      "slug": "video"
+    }
+  ],
+  "date": "2010-02-23 16:47:00",
+  "excerpt": "Recently I have been doing a lot of research, experimentation, and processing of videos for the Silicon Valley JavaFX User Group.  We decided from day 1 that we wanted to take things up a notch by providing high quality web streaming of our events.  It makes particular sense for us, because the JavaFX community is spread all around the world, and we want to be able to reach as wide of an audience as possible.  However, once you have everything setup the overhead is minimal, so it is worthwhile to do for any user group or event.",
+  "id": 817,
+  "original_urls": [
+    "http://steveonjava.com/live-video-streaming-guide-part-1-introduction/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "04e432a754d3d970cd8f87e0e3ccbf79512be89d35e7fbf9e04397667905194f",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "svjugfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://svjugfx.org/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/live-video-streaming-guide-part-1-introduction/",
+    "post_id": 817,
+    "rejected_urls": [],
+    "source_content_sha256": "77fed5532e49ca4fce8e3aeb7da591c47cd0f76cbba724d93c49499898cf2d41",
+    "source_date_sha256": "a97d5e6999f7c11688aaaac21fc60d1f3c93ff3a271bea4bba97c54c412f4ee7",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "07f4160155596fe9954a8c0e707933c0a7beece7dc10c17e3a56f3056c31bc5a"
+    },
+    "source_slug_sha256": "a69fd6a2c4bbee5e62b64c9ed7ec3e1380a8a96057634d638f1fed12e62c26d5",
+    "source_title_sha256": "facd1583181c22631d35cb13d50c0d0d382a310770e1b81db9ce6fb989a6be2b",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "live-video-streaming-guide-part-1-introduction",
+  "thumbnail": null,
+  "title": "Live Video Streaming Guide - Part 1 : Introduction",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

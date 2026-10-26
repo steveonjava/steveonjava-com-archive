@@ -1,0 +1,107 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JFXtras",
+      "slug": "jfxtras"
+    }
+  ],
+  "date": "2008-12-29 09:02:49",
+  "excerpt": "The JavaFX 1.0 release came out a couple weeks ago, but one of the big questions has been about missing UI functionality, such as layouts, menus, and UI components.  Future release of JavaFX will support this, but in the meantime application developers are stuck up the river without a paddle.",
+  "id": 68,
+  "original_urls": [
+    "http://steveonjava.com/jfxtras-01-release-grids-dialogs-testing-and-more/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "e15bd916fa6ff72d73caa6ca63ff7758005f27d3a54b396eb0f11eedb8fff2c2",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/hamcrest/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "learnjavafx.typepad.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://learnjavafx.typepad.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "rspec.info",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://rspec.info/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.junit.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.junit.org/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/jfxtras-01-release-grids-dialogs-testing-and-more/",
+    "post_id": 68,
+    "rejected_urls": [],
+    "source_content_sha256": "ed9891ed602084f5fff50dc6984b5458f240cda572f5fad4eec8217cc060253c",
+    "source_date_sha256": "030d08e7f4b22870084b62a952d81b24cfb5d574acb267b73ed08b6705c3ea1e",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "403cc8e8d99f8e88fbdb1dd9866fc3e3692b0c8505b1c42e98cc1e2dc3c608ab"
+    },
+    "source_slug_sha256": "44f8000abbd130106195d207984b763ced52b5974aa48a1a6b04952fa6260bd2",
+    "source_title_sha256": "e084a93f72d112189c7be3015de01376022ab04af013652f17be7d8402adea7a",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "jfxtras-01-release-grids-dialogs-testing-and-more",
+  "thumbnail": null,
+  "title": "JFXtras 0.1 Release - Grids, Dialogs, Testing, and more!",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

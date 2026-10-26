@@ -1,0 +1,56 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2009-01-02 05:26:09",
+  "excerpt": "Mark Chance was the first lucky user of JFXtras who ran into the JRE version issue when compiling the code. He had installed the latest version of Netbeans and configured a 1.6 JavaFX library, but was still getting \"object not found\" exceptions on 1.6-only classes. What was he doing wrong?",
+  "id": 78,
+  "original_urls": [
+    "http://steveonjava.com/hacking-javafx-10-to-use-java-16-features/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "da4e5d2ff6df53437987eca434469317cd21eccd0612377ca04b91bbb7a4fd3c",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/hacking-javafx-10-to-use-java-16-features/",
+    "post_id": 78,
+    "rejected_urls": [],
+    "source_content_sha256": "c6b741db6bf956fd54812d9658904df276a76f748ed1a6a626f3992a2ef8cfe1",
+    "source_date_sha256": "a46bc4c8ec1a6af968c805584f4242a05c5e05932be454b3e38b3597573cf225",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "ba623e666ff5a74f459126f378565219669102bcfa59bde1e52025f97d6ee127"
+    },
+    "source_slug_sha256": "29b437dc8bbc49b00160853a0049bc9612bd3b695c1578a0ff5b6af40f4d1ce4",
+    "source_title_sha256": "d8c856f8c181300e3b9b947e98420452b2ee9bf466f7c95351fed0bc2af8998e",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "hacking-javafx-10-to-use-java-16-features",
+  "thumbnail": null,
+  "title": "Hacking JavaFX 1.0 to use Java 1.6 Features",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

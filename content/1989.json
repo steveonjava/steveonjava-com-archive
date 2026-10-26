@@ -1,0 +1,109 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "OSCON Java",
+      "slug": "oscon-java"
+    }
+  ],
+  "date": "2011-08-01 00:18:59",
+  "excerpt": "What was the last conference you went to where you felt like you actually had a positive impact on the larger technical community?  A lot of conferences feel like corporate marketing where companies (usually the ones that pay the big sponsorship $$$) are pushing you to buy services or product.  Other conferences feel like brainwashing where the message is constrained by a \"Ministry of Truth\" that limits the topics and speakers to those that align to their world view. No matter how many big parties and aging rock stars they truck in to woo the masses, you leave the conference feeling like you have been sold a technical lemon.",
+  "id": 1989,
+  "original_urls": [
+    "http://steveonjava.com/oscon-java-makes-a-difference/",
+    "http://javafx.steveonjava.com/oscon-java-makes-a-difference/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "966c8540684d4d109d44d95fad765444c305e98ff4b72b492fd13b864409880b",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "evbdn.eventbrite.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://evbdn.eventbrite.com/s3-s3/eventlogos/1862435/1630108699-2.png"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.flickr.com/photos/oreillyconf/5982999288/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/schedule/proceedings"
+      },
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.youtube.com/user/OreillyMedia#grid/user/93FC98105B19725C"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "youtu.be",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://youtu.be/CDlsJF52iKY?t=6m25s"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "fb5b2fed3f557e78b620103b1021a390c5adc058dd8f58e1b9793e52a0e985d1"
+      }
+    ],
+    "original_root_route": "/oscon-java-makes-a-difference/",
+    "post_id": 1989,
+    "rejected_urls": [],
+    "source_content_sha256": "f1a42f63d41652091c81197a3fd50326b7f60e2d18ca15042cbd6f111b7fc2f3",
+    "source_date_sha256": "1a4332d36c4b61b6157acc3d84154cbc8a8312e65ff4ccf1ae3153dfdd8a19a8",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "bd3d8182d1c91c30957ef070c39d564a0e3f2397f8ec8dbd9de145e7799f2847"
+    },
+    "source_slug_sha256": "8536205faa57cb2f8fabea1b302bdbf55d9982b8cd94d134de652f12973fd0ae",
+    "source_title_sha256": "8fb329722018048958ac5a4d0ec5efe595a943002677f002ae4c8a29a8512c59",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "oscon-java-makes-a-difference",
+  "thumbnail": null,
+  "title": "OSCON Java Makes a Difference",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

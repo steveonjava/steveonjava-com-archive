@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "NightHacking",
+      "slug": "nighthacking"
+    }
+  ],
+  "date": "2012-12-19 15:14:07",
+  "excerpt": "My last NightHacking tour through Europe was a huge success, but I missed a big part of Europe. The farthest North I was able to go was the United Kingdom, which means I missed all the Scandinavian countries, Iceland, and Finland.",
+  "id": 2783,
+  "original_urls": [
+    "http://steveonjava.com/nighthacking-nordic-tour/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "dd7118e7bd018d323ecbb786e8985524ba3ac6b9d7b953704630147ab52a8fce",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "nighthacking.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://nighthacking.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.jfokus.se",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.jfokus.se/jfokus/#page=page-1"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/nighthacking-nordic-tour/",
+    "post_id": 2783,
+    "rejected_urls": [],
+    "source_content_sha256": "78017aaf6113f7047a05431438a77fc60e6d7b9ab8ab286df8fc0bac4fb4136f",
+    "source_date_sha256": "6f7b5072aaec630169ccbc9d0be543e826ebc644a0c670e5c1ee15c6ff70b697",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "86811eabb2bf733151c6862f2d82b392850b4d725db9319f5883654bf63ca319",
+    "source_title_sha256": "b01afd4adbf07c19960581d971506d023c16033e6f82d2e1d900047093d5a6b7",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "nighthacking-nordic-tour",
+  "thumbnail": null,
+  "title": "NightHacking Nordic Tour",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A CMS-only form, upload or player shortcode was omitted."
+  ]
+}

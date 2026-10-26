@@ -1,0 +1,66 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JFXtras",
+      "slug": "jfxtras"
+    },
+    {
+      "name": "WidgetFX",
+      "slug": "widgetfx"
+    }
+  ],
+  "date": "2009-07-06 06:07:55",
+  "excerpt": "I will be presenting at the Oakland Java SIG on July 15th.  The topic is \"Supercharging Your JavaFX Programs with WidgetFX and JFXtras,\" and will include some brand new content based on the WidgetFX 1.2 and JFXtras 0.5 releases.",
+  "id": 425,
+  "original_urls": [
+    "http://steveonjava.com/speaking-at-the-oakland-java-sig/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "99b2ee0ed7447196dd88216c0d4242dd70cb784b16b28d9e1eea64de12446a32",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.ebig.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.ebig.org/java"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/speaking-at-the-oakland-java-sig/",
+    "post_id": 425,
+    "rejected_urls": [],
+    "source_content_sha256": "7e59890f0235e5c0498a81606e25773bd347ab64a719a9ab730ac4a5c4c68a99",
+    "source_date_sha256": "ffaf6ab2c35b4b665058c33784c86c9b9836e4ccf417fda11e895a45e4a1be57",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "4a656a7b1ff46cfd0e9e4c7fd75eb66606d14e0699008faa53f8ea8d506ad6d6",
+    "source_title_sha256": "b2510e9f03c928120ca82bdcd2c519e9669a1e90f6ac408946bc3d7f5aa11c7b",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "speaking-at-the-oakland-java-sig",
+  "thumbnail": null,
+  "title": "Speaking at the Oakland Java SIG",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

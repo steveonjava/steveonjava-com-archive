@@ -1,0 +1,141 @@
+{
+  "categories": [
+    {
+      "name": "AIR",
+      "slug": "air"
+    },
+    {
+      "name": "Android",
+      "slug": "android"
+    },
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "Flash",
+      "slug": "flash"
+    },
+    {
+      "name": "Mobile",
+      "slug": "mobile"
+    }
+  ],
+  "date": "2011-02-02 02:12:50",
+  "excerpt": "The folks at Marakana did a great job hosting the recent Flash Android event, as well as recording and publishing the talk.  As a fellow user group leader, I can appreciate the hard work that went into preparing the video, including some fine editing and splicing by Max Walker (the presentation was not as flawless as he made it look!)",
+  "id": 1774,
+  "original_urls": [
+    "http://steveonjava.com/flash-capability-reporter-sample-and-video/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "4157f29a1de78a5644f6e6c6067a82957dc288458394f6da9c6be1af19101c67",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "developer.android.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://developer.android.com/sdk/index.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "labs.adobe.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://labs.adobe.com/technologies/flashpro_extensionforair/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "marakana.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://marakana.com/forums/android/general/253.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "proandroidflash.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://proandroidflash.com/examples/FlashCapabilityReporter.fla"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.sfandroid.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.sfandroid.org/events/15196582/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.slideshare.net/steveonjava/beginning-android-flash-development"
+      },
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.youtube.com/watch?v=1N4kS7hetkk[/youtube]"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/flash-capability-reporter-sample-and-video/",
+    "post_id": 1774,
+    "rejected_urls": [],
+    "source_content_sha256": "b4e50dc6a1fa4c40c9fefc7e8037e41a8596baaba7d55a6f90a79e1474cf9803",
+    "source_date_sha256": "ca154ae9cfb5208a5f705d9dde8fab11078546e417bbeec502137047edf2aa3c",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "ba3f3cc1021c1627f1fb6f45d6b6311e5bff9cdf537b3fe20303ec3a05ee40f3"
+    },
+    "source_slug_sha256": "c8e73390f628b2a990a83c9bea01ba615db325426c75e8bd1a228ee6fa2d35e8",
+    "source_title_sha256": "82db55341e2e58f3f2d5ae0f629b43ea343cd325b2569fe2f7a15892b6a955e3",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "flash-capability-reporter-sample-and-video",
+  "thumbnail": null,
+  "title": "Flash Capability Reporter Sample and Video",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "A CMS-only form, upload or player shortcode was omitted."
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "Kids",
+      "slug": "kids"
+    },
+    {
+      "name": "Presentation",
+      "slug": "presentation"
+    }
+  ],
+  "date": "2014-02-19 00:08:54",
+  "excerpt": "With the help of some local parents, I ran a Raspberry Pi and NAO Robot workshop for teach programming to 10-14 year old children.  By the end of the 4 hour session, all of the kids were able to assemble a Raspberry Pi and touchscreen, program changes to a simple Java-based game, and create behaviors that ran on the NAO humanoid robot.  Not bad for a sleepy vacation day.  :)",
+  "id": 3659,
+  "original_urls": [
+    "http://steveonjava.com/devoxx4kids-raspberry-pi-and-nao-workshop/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "26e0a3ccc459f2329124b8f059f27687f28ae6647bcd8a571f82f6acfbd6c6bb",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "embed:src",
+          "param:value"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.flickr.com/apps/slideshow/show.swf?v=140556"
+      },
+      {
+        "contexts": [
+          "iframe:src"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.slideshare.net/slideshow/embed_code/31374648"
+      },
+      {
+        "contexts": [
+          "iframe:src"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.slideshare.net/slideshow/embed_code/31374694"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/devoxx4kids-raspberry-pi-and-nao-workshop/",
+    "post_id": 3659,
+    "rejected_urls": [],
+    "source_content_sha256": "6accd465370ab1d91132366dbebc69af1c971530315e2a8e5bd5b30c12d46d3a",
+    "source_date_sha256": "03958a70725e044a8afda5739d9d53a5c3fca48b146f91363003e211f6da50b2",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "c58b1f681fb09d6b033292519012a5e821b63060b1ddae684b4077fc8cd0770c",
+    "source_title_sha256": "3f5a66f59bcfef0d9ac64727b29bb1cfeb2ac9064729dfbb7cd014e875d999ee",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "devoxx4kids-raspberry-pi-and-nao-workshop",
+  "thumbnail": null,
+  "title": "Devoxx4Kids Raspberry Pi and NAO Workshop",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "An active or embedded source element was omitted."
+  ]
+}

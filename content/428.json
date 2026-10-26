@@ -1,0 +1,93 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "WidgetFX",
+      "slug": "widgetfx"
+    }
+  ],
+  "date": "2009-07-07 03:29:39",
+  "excerpt": "Sang Shin has included WidgetFX as part of his 15 week JavaFX Programming Course that is currently underway.  This is a free online course that you can take at your own pace based on his excellent training materials.",
+  "id": 428,
+  "original_urls": [
+    "http://steveonjava.com/learn-widgetfx-with-passion/",
+    "http://javafx.steveonjava.com/learn-widgetfx-with-passion/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "d5f0aa0c24fb28cf471e8572a1f31f5f8e6e09e1741714da8f3021a65fcd3091",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "blogs.sun.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://blogs.sun.com/alejandrafierro/resource/sang_shin.jpg"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/contest"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.javapassion.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.javapassion.com/"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "9c145e0484fdf9e1b7eaec7aa8fd8d6cd64ffaf098ec37ca0168bc0ea1b75185"
+      }
+    ],
+    "original_root_route": "/learn-widgetfx-with-passion/",
+    "post_id": 428,
+    "rejected_urls": [],
+    "source_content_sha256": "e9c8f4ec9fe504b2d040af13a8da5e957970419f9fbd04d0a50c744a19721329",
+    "source_date_sha256": "cf37eec449712431a5545c40b414d4e3f8d513f6e7e05cd2f051e921aa40ea73",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "0453379ddad950d249583cb268a91205d2a9c37fc2327da66954329769c11879"
+    },
+    "source_slug_sha256": "99f28e173523266efaf080eec838a6bee08eae22c086af2b262ad6a911419b3d",
+    "source_title_sha256": "710f763c3470bbcff212168e08257823eb70cdf576f4ce58a417abfe57851c47",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "learn-widgetfx-with-passion",
+  "thumbnail": null,
+  "title": "Learn WidgetFX with Passion!",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

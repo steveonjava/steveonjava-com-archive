@@ -1,0 +1,88 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "Community",
+      "slug": "community-2"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "Video",
+      "slug": "video"
+    }
+  ],
+  "date": "2013-09-05 12:48:20",
+  "excerpt": "So, Johan guilted me into posting the live interview schedule...  so here it is:\n\n\tThursday 9/5 at 10AM PST - Hans Dockter (recording is here)\n\tThursday 9/5 at 12PM PST - Johan Vos (recording is here)\n\t[moved to Friday] Thursday 9/5 at 3PM PST - Mark Heckler\n\t[will do during or after SpringOne instead] Thursday 9/5 at 4PM PST - Josh Long\n\tFriday 9/6 at 12AM PST - Stephan Jannsen (recording is here)\n\tFriday 9/6 at 10AM PST - Reza Rahman (recording is here)\n\tFriday 9/6 at 3PM PST - Robert Savage\n\tFriday 9/6 at 4PM - Mark Heckler\n\nRemember, all times are approximate (we rarely start recording at the top of the hour due to setup, so figure 15 minutes in and we will actually be streaming).  Also, an easy way to find out when we go live is to follow my channel on ustream and you will get an e-mail notification whenever I start streaming.",
+  "id": 3456,
+  "original_urls": [
+    "http://steveonjava.com/interview-schedule-for-today-and-tomorrow/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "ca8c1f66f1450a59df154acc2b8cc344d6b30d57c58ed894b7043ab9228824cb",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.ustream.tv",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.ustream.tv/recorded/38294359"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.ustream.tv",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.ustream.tv/recorded/38319281"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.ustream.tv",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.ustream.tv/recorded/38338435"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/interview-schedule-for-today-and-tomorrow/",
+    "post_id": 3456,
+    "rejected_urls": [],
+    "source_content_sha256": "a82448776a073a955d4002d991575b0c952e3660341e7cd5e8108400054737aa",
+    "source_date_sha256": "5e902a580216b358429d0333e552fb4f80b3291e42fa825d29540ef49002d339",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "386c201a6459a56604ecd64e86818417aacc908e9d01cac0564834b6d57d5dab",
+    "source_title_sha256": "94725e821cfee8d11d17f73831c76127b83c642cf470b5eb5a5db8756f054278",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "interview-schedule-for-today-and-tomorrow",
+  "thumbnail": null,
+  "title": "Interview Schedule for Today and Tomorrow",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

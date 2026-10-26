@@ -1,0 +1,68 @@
+{
+  "categories": [
+    {
+      "name": "Agile",
+      "slug": "agile"
+    }
+  ],
+  "date": "2015-05-07 09:00:41",
+  "excerpt": "The folks at JFrog definitely know how to put on events in style. For several years they have had an exclusive cruise at JavaOne for \"Frogs and Friends\", and this year they stepped it up with a full day DevOps-focused conference in Napa, the heart of wine country.",
+  "id": 4999,
+  "original_urls": [
+    "http://steveonjava.com/java-devops-at-the-swampup/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "8fcb452c257effa8d58b06cd3e0bfd0f133ed1aab81d3667de43cc2e487b81ff",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.slideshare.net/steveonjava/confessions-of-a-former-agile-methodologist-jfrog-edition"
+      },
+      {
+        "contexts": [
+          "embed:src",
+          "param:value"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/apps/slideshow/show.swf?v=1811922554"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/java-devops-at-the-swampup/",
+    "post_id": 4999,
+    "rejected_urls": [],
+    "source_content_sha256": "a644c79ef4c0026e1a6a945586fb73169597858b1a25a22e1c1946a82cee8624",
+    "source_date_sha256": "c601a7c5a0b664a081f02f9646bc3a71063a5098f75426988f3634d2ce70a820",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_thumbnail_id": "5ca452a03e3d5c2d4ecfc44a5d2cdec61f313cab4520be85b785fd83c74eda04"
+    },
+    "source_slug_sha256": "ca072f4e1a7d02187067af7ca59aa814f58e62b21823a2ce9fd282d8e19a959c",
+    "source_title_sha256": "9113587d40bb6b5e7e1cd34accba76a4e47f286090d61edfa56102e732ca6ad7",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "java-devops-at-the-swampup",
+  "thumbnail": "/wp-content/uploads/2015/05/17393937992_ac1e5cea64_z.jpg",
+  "title": "Java DevOps at the swampUP",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "A known legacy Windows-1252 byte 0xF8 was decoded explicitly as U+00F8.",
+    "An active or embedded source element was omitted."
+  ]
+}

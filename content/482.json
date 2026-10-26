@@ -1,0 +1,137 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "Presentation",
+      "slug": "presentation"
+    }
+  ],
+  "date": "2009-07-26 14:56:15",
+  "excerpt": "Sun finally announced the Rock Stars for JavaOne 2009.\nhttp://java.sun.com/javaone/2009/rockstars.jsp",
+  "id": 482,
+  "original_urls": [
+    "http://steveonjava.com/2009-javaone-rock-stars-announced/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "784af2b420c88f8073f05982f249ad923a7dedf7c5aff8c939909fe043e7719b",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "developers.sun.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://developers.sun.com/learning/javaoneonline/j1sessn.jsp?sessn=TS-4143&yr=2009&track=javase"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "developers.sun.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://developers.sun.com/learning/javaoneonline/j1sessn.jsp?sessn=TS-4466&yr=2009&track=javase"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "developers.sun.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://developers.sun.com/learning/javaoneonline/j1sessn.jsp?sessn=TS-4506&yr=2009&track=mobility"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "developers.sun.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://developers.sun.com/learning/javaoneonline/j1sessn.jsp?sessn=TS-5098&yr=2009&track=javase"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "developers.sun.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://developers.sun.com/learning/javaoneonline/j1sessn.jsp?sessn=TS-5577&yr=2009&track=media"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "java.sun.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://java.sun.com/javaone/2009/rockstars.jsp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "java.sun.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://java.sun.com/javaone/rockstar_wall_of_fame.jsp"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": "2009/07/rockstar_dukewithguitar_small.gif",
+        "reason": "unsupported-format-no-gif-or-document-export",
+        "source_url_sha256": "64f95106daf6d33534437ad179caed241ee08ea33fa5ea0522728179d64c5864"
+      }
+    ],
+    "original_root_route": "/2009-javaone-rock-stars-announced/",
+    "post_id": 482,
+    "rejected_urls": [],
+    "source_content_sha256": "5e4c625d49ab27406aa5c64c5189d4b61c56e7e1ed3f5993817be1054957cfc5",
+    "source_date_sha256": "07392758de0fc8e8dc20aaa181776b447cbdc3c8c4e3ed2a8d232ae4eecfdd6f",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "935c4adf4a8391380df27e020cccd6cfc18ec8584663ebea63655688440197d9"
+    },
+    "source_slug_sha256": "f6656d462c1145c5f8e4f4eed8294e85dcc37dcc33db3dd30af166b03c756237",
+    "source_title_sha256": "638eaa577e1c341660530d251fccbd28e2bcb108f55326aacc59b205d4e5035e",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "2009-javaone-rock-stars-announced",
+  "thumbnail": null,
+  "title": "2009 JavaOne Rock Stars Announced!",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaOne",
+      "slug": "javaone-2"
+    }
+  ],
+  "date": "2013-12-05 00:45:59",
+  "excerpt": "Each year at JavaOne we recognize the best speakers of the conference as voted on by attendees through the surveys.  This year the overall reviews given by attendees were higher on average, so I guess we did something right with the content...  :)  However, it also means the criteria for getting awarded a JavaOne Rock Star was even more difficult.",
+  "id": 3579,
+  "original_urls": [
+    "http://steveonjava.com/congrats-to-the-2013-javaone-rock-stars/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "cc2028575bf8b4dafca775eb99b4257010f28974fce5c2bad060db7875d16430",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oracle.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oracle.com/javaone/quick-links/rock-star/index.html"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": "2009/07/rockstar_dukewithguitar_small.gif",
+        "reason": "unsupported-format-no-gif-or-document-export",
+        "source_url_sha256": "24fb9d5020d027864b8a832ffb8c43f02e397a5f97414bca47bc4481bfdafb05"
+      }
+    ],
+    "original_root_route": "/congrats-to-the-2013-javaone-rock-stars/",
+    "post_id": 3579,
+    "rejected_urls": [],
+    "source_content_sha256": "181a6ed77d655ee5ab687a204c9700c59cfe7bf9416cf495d6e0b9ef5266775e",
+    "source_date_sha256": "41bb3fc36c36d5ae018ebdd11d8ad18595a7282431831ca557d44769329e8b06",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "5a7d9de96f1ca30786950dd979189e18c04f0bc0a0d0c71182af33ce665d8646",
+    "source_title_sha256": "85def2b3ccafa9ec97232743b7c62bafbaeb65258a64fd963685dd3fd230b039",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "congrats-to-the-2013-javaone-rock-stars",
+  "thumbnail": null,
+  "title": "Congrats to the 2013 JavaOne Rock Stars!",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

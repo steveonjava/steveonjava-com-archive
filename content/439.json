@@ -1,0 +1,104 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "Presentation",
+      "slug": "presentation"
+    }
+  ],
+  "date": "2009-07-17 05:03:49",
+  "excerpt": "I had the pleasure of presenting on WidgetFX and JFXtras last night for the Oakland Java SIG.  It was a small, but very engaged audience, and Chris Richardson was a great host!",
+  "id": 439,
+  "original_urls": [
+    "http://steveonjava.com/nabaztag-visits-the-oakland-java-sig/",
+    "http://javafx.steveonjava.com/nabaztag-visits-the-oakland-java-sig/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "f7d0ca7109ebd6406109c970d46fc916d3da0c2600ec6735178d709a5df70eea",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/samples"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/image/journal/article?img_id=13774&t=1247647859542"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/library"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.ebig.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.ebig.org/index.cfm?fuseaction=Page.viewPage&pageId=481&parentID=480&nodeID=1"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "233795f7bc8217750cf7b438b445a6aa5584ca1862d7f575b08d2b42faa196be"
+      }
+    ],
+    "original_root_route": "/nabaztag-visits-the-oakland-java-sig/",
+    "post_id": 439,
+    "rejected_urls": [],
+    "source_content_sha256": "d47d25576489534611415dabc542c74fc5a8ef12848a6f1db8b430c74918fed5",
+    "source_date_sha256": "8d028733dc70ce5c637c2f17fb62c874eb6a2951ac1f4b44a5508492ee280cbe",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "fd79f74983fe8df9e7e8e933641d903289f3036dc5b30123a176174abb64b4f9"
+    },
+    "source_slug_sha256": "4aa547214951fb3b48e0aca74c7083360be28c3e5fa963ef3d77b855759b30a3",
+    "source_title_sha256": "c539417ca608fe2d5caa9ae9b53fde6a7b727d8121979c664eaa671060371232",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "nabaztag-visits-the-oakland-java-sig",
+  "thumbnail": null,
+  "title": "Nabaztag Visits the Oakland Java SIG",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

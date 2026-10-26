@@ -1,0 +1,126 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "SvJugFx",
+      "slug": "svjugfx"
+    }
+  ],
+  "date": "2009-10-28 14:20:34",
+  "excerpt": "I am pleased to announce the formation of a new Silicon Valley JavaFX User Group.  While this group is rooted in the SF Bay Area, we also plan to make it easy for remote attendees to watch and participate by doing live streaming of our meetings via USTREAM and allowing remote participation through Google Moderator.",
+  "id": 662,
+  "original_urls": [
+    "http://steveonjava.com/first-svjugfx-meetup-javafx-with-richard-bair/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "88e77ea637f42d02754c9c0924920ec0212f8c0a5ba24be968e5914406b23817",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "devoxx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://devoxx.com/display/DV09/Home"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "fxexperience.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://fxexperience.com/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "javafx.jp",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://javafx.jp/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "learnjavafx.typepad.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://learnjavafx.typepad.com/weblog/javafx-user-groups/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.svjugfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.svjugfx.org/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.svjugfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.svjugfx.org/calendar/11620691/?eventId=11620691&action=detail"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": "2009/10/richbair.gif",
+        "reason": "unsupported-format-no-gif-or-document-export",
+        "source_url_sha256": "dddf1df28f85d6e7d01ba8601daea5920786fe564aa3ce3e369ff963fd4911b4"
+      }
+    ],
+    "original_root_route": "/first-svjugfx-meetup-javafx-with-richard-bair/",
+    "post_id": 662,
+    "rejected_urls": [],
+    "source_content_sha256": "854a71253f49b6e421703cb977c0e931e82716c157a18eb86887e23270463dc6",
+    "source_date_sha256": "fbdb3164e313108d1bd061d96448b2622c3cdaffd15231d6f2ad306d7f6e6434",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "e45081fd0efa3827b210e34451c113fb3527c2d470fa51b94e5a03137cd16341",
+    "source_title_sha256": "6d0517c6d37233f14ca701c5117473ecc3f55497169bd06a11ede5d4de4c1478",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "first-svjugfx-meetup-javafx-with-richard-bair",
+  "thumbnail": null,
+  "title": "First SvJugFx Meetup - JavaFX with Richard Bair",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

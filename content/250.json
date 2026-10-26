@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2009-04-13 04:40:25",
+  "excerpt": "I am pleased to announce the 0.4 release of the JFXtras project.  This is a pretty significant release for the project, which includes quite a bit of new functionality, as well as a new project subdivision.",
+  "id": 250,
+  "original_urls": [
+    "http://steveonjava.com/jfxtras-04-release/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "41ef3663fb3b6206d3896df203c0c53f200d7e582bd0d2582f7ef948c90e119f",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "blogs.sun.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://blogs.sun.com/clarkeman/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/downloads/list"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.googlecode.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.googlecode.com/svn/site/javadoc/release-0.4/index.html"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/jfxtras-04-release/",
+    "post_id": 250,
+    "rejected_urls": [],
+    "source_content_sha256": "df32c3a89b0d6a7f6d19f03e5c1874791287dbaf4ace6b940b1f18c92862710d",
+    "source_date_sha256": "069802b814067792b5728787408fb210dfb1d7fa2a0467b3a681dc2dfb68dceb",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "9467d70e58c117f32c9945722b400094ea706f9df091d88f0a02b17be8986f3e",
+    "source_title_sha256": "4d488f6e8d06e7f5e89836ef9e4ef4641c9558175c563d69ec74539674cedd16",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "jfxtras-04-release",
+  "thumbnail": null,
+  "title": "JFXtras Core 0.4 Release - Borders, Scrolling, Constraints, JSON Handler, and More!",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

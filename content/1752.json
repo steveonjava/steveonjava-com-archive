@@ -1,0 +1,75 @@
+{
+  "categories": [
+    {
+      "name": "Android",
+      "slug": "android"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "Visage",
+      "slug": "visage"
+    }
+  ],
+  "date": "2011-01-13 05:01:12",
+  "excerpt": "I have been busily working away at getting Visage ready for developing Android applications.  It is a great fit, because Android converts regular Java class files into its special class format, and the Visage compiler happens to generate Java class files.  Also, Android is desperately in need of some TLC on their APIs (more on this in a future blog).",
+  "id": 1752,
+  "original_urls": [
+    "http://steveonjava.com/visage-android-cleaner-apis-cleaner-uis/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "a51b6071383f056a663a02e927832555384cd06a6b69e67ef1150ccd2f8ce54c",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/visage/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "groups.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://groups.google.com/group/visage-dev?pli=1"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/visage-android-cleaner-apis-cleaner-uis/",
+    "post_id": 1752,
+    "rejected_urls": [],
+    "source_content_sha256": "094d7768e40978dcc7106cb61dec799e3211c8e124ad1ad0daeea946ffb36380",
+    "source_date_sha256": "c977566ea3d0050ab85934504179caffe762407e9d59397d872f70c5caa5e2f6",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "a75ca63c550041695e32b2153fa15ad69d18333ebcec06b2767239a07e9ec531"
+    },
+    "source_slug_sha256": "b5548cea71460902794f1b5f919f24dbaff23d7ce0542ebb865f8f20891ac9ea",
+    "source_title_sha256": "c28e8a01e15102ea995c73f381ce4f5f54ddb9ba0540a40943ce260456c4d7bf",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "visage-android-cleaner-apis-cleaner-uis",
+  "thumbnail": null,
+  "title": "Visage Android - Cleaner APIs, Cleaner UIs",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

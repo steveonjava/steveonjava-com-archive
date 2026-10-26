@@ -1,0 +1,41 @@
+{
+  "categories": [],
+  "date": "2010-01-01 10:42:53",
+  "excerpt": "Stephen Chin is Senior Director of Developer Relations at JFrog, author of Raspberry Pi with Java, The Definitive Guide to Modern Client Development, and Pro JavaFX Platform. He has keynoted numerous Java conferences around the world including Oracle Code One (formerly JavaOne), where he is an 8-time Rock Star Award recipient. Stephen is an avid motorcyclist who has done evangelism tours in Europe, Japan, and Brazil, interviewing hackers in their natural habitat. When he is not traveling, he enjoys teaching kids how to do embedded and robot programming together with his teenage daughter.",
+  "id": 752,
+  "original_urls": [
+    "http://steveonjava.com/contact/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "97d6a6d73dedb6eb26883ae3a51c7c23d4592e8365e4c74e45ac762affd1881e",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [],
+    "image_omissions": [],
+    "original_root_route": "/contact/",
+    "page_ancestor_ids": [],
+    "page_parent_id": 0,
+    "post_id": 752,
+    "rejected_urls": [],
+    "source_ancestor_slug_sha256": {},
+    "source_content_sha256": "ae09e4b139cb13ec065c5e565fb5a44262e241dc26fcd2e4e60165f6f3dbda2a",
+    "source_date_sha256": "46e23a642831aaebbad65b0be664579e7a871d2612eaef1bfe11fefed77a2007",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "093e7d5fdbaacfa92448861b11075b3fba532a07d945b49a44919252f5e830ad",
+    "source_title_sha256": "2b5c3d26721ae9c350cf3009318b626f0fc8a90b4a2ac0ca8099c05aa849282e",
+    "table": "wp_posts",
+    "video_status": "not-applicable-static-page"
+  },
+  "review_status": "unreviewed",
+  "route": "/contact/",
+  "slug": "contact",
+  "thumbnail": null,
+  "title": "Contact",
+  "type": "page",
+  "video_id": null,
+  "warnings": [
+    "A CMS-only form, upload or player shortcode was omitted."
+  ]
+}

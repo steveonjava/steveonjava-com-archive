@@ -1,0 +1,106 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "Presentation",
+      "slug": "presentation"
+    }
+  ],
+  "date": "2012-12-06 13:41:18",
+  "excerpt": "JavaOne Latin America in Sao Paulo Brazil just ended.  It was a great event that had a huge community presence, which was responsible for selecting over 50% oft the content, and supported it throughout.",
+  "id": 2745,
+  "original_urls": [
+    "http://steveonjava.com/javaone-latin-america-wrap-up/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "d63c2e5b72f6de6e5d78652864a1775d637bf610d2436f3a71d482b11a01ee7f",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.flickr.com/photos/steveonjava/sets/72157632187869216/show/"
+      },
+      {
+        "contexts": [
+          "iframe:src"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.slideshare.net/slideshow/embed_code/15523723"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.slideshare.net/steveonjava"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.slideshare.net/steveonjava/moving-to-the-client-javafx-and-html5-15523723"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "github.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://github.com/steveonjava/javaconferencetour"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/javaone-latin-america-wrap-up/",
+    "post_id": 2745,
+    "rejected_urls": [],
+    "source_content_sha256": "3368cf653e64c1b7ff0d940b3d9a0154cdeeb3609508b27613e4bb5d56647e08",
+    "source_date_sha256": "745b9360280a85714aa68c39aff070ca6aa6ad6ccff1f0cfb19d0d7afac8c97b",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "95b3da5bdbb354904f58c8df2cef32db322e39abba420ef4a644890835771540",
+    "source_title_sha256": "f375352760fc050be8b05fc7fc4b4238fc08b1a3a0044fe3397796337b5b3609",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "javaone-latin-america-wrap-up",
+  "thumbnail": null,
+  "title": "JavaOne Latin America Wrap-up",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "An active or embedded source element was omitted."
+  ]
+}

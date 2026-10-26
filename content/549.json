@@ -1,0 +1,77 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JFXtras",
+      "slug": "jfxtras"
+    },
+    {
+      "name": "WidgetFX",
+      "slug": "widgetfx"
+    }
+  ],
+  "date": "2009-08-05 13:37:22",
+  "excerpt": "Last night I presented at the SDForum Java SIG to a very engaged and enthusiastic crowd.  This was the longest presentation to date, but the audience was great, and even stayed afterwards to ask questions.  Also, Rich Rein was an outstanding host, inviting us out to drink beers until midnight after the event (I hope his wife wasn't upset!)",
+  "id": 549,
+  "original_urls": [
+    "http://steveonjava.com/watch-widgetfx-and-jfxtras-at-the-sdforum/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "309218ca99e3291702399add7b8c66d3ab8167b667170fc9a036489c0d186f33",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "blip.tv",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://blip.tv/file/2442518"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.devoxx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.devoxx.com/display/DV09/Speakers"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/watch-widgetfx-and-jfxtras-at-the-sdforum/",
+    "post_id": 549,
+    "rejected_urls": [],
+    "source_content_sha256": "d67e3ff79ed7cda98a01fb5d912177a240fb34062f4e12e2e5463533cd70fccf",
+    "source_date_sha256": "ce84f603ded8d81a6a51464f30674ec249dc73a6aa6eabffd2b00af4f177902f",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "358b428673bf32eb5ee5b6c3f0b4b6220cb5a4dfdcfd5254ae77b84d73714539",
+    "source_title_sha256": "91ba831b8963a20f3a2d5879d6698bb5f8afbd2447523da06464b7e4dc3cadd9",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "watch-widgetfx-and-jfxtras-at-the-sdforum",
+  "thumbnail": null,
+  "title": "Watch WidgetFX and JFXtras at the SDForum",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

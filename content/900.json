@@ -1,0 +1,194 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "Video",
+      "slug": "video"
+    }
+  ],
+  "date": "2010-03-06 23:49:05",
+  "excerpt": "This is the second installation of my Live Streaming Guide, which will go over all the hardware you need to get setup.  While you can spend tens of thousands of dollars on professional gear, it is possible to put together a high quality setup for a fraction of that cost.  You may also be able to reuse some of your existing hardware, further reducing the cost.",
+  "id": 900,
+  "original_urls": [
+    "http://steveonjava.com/live-video-streaming-guide-%e2%80%93-part-2-hardware/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "5d22f4e05aea516973f9eb6e020b831aca7ded1eb16c4f8267767ecd23a7aaa0",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "sewelldirect.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://sewelldirect.com/Epiphan-VGA2USB-LR-VGA-to-USB-Converter.asp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "sewelldirect.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://sewelldirect.com/VGA-to-USB-Video-Grabber.asp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://twitter.com/steveonjava"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.amazon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.amazon.com/gp/product/B00006I523?ie=UTF8&tag=wi0ef-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B00006I523"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.amazon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.amazon.com/gp/product/B00139XOCI?ie=UTF8&tag=wi0ef-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B00139XOCI"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.amazon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.amazon.com/gp/product/B001CN9GEA?ie=UTF8&tag=wi0ef-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B001CN9GEA"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.amazon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.amazon.com/gp/product/B001OI2Z4Q?ie=UTF8&tag=wi0ef-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=B001OI2Z4Q"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.dvcreators.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.dvcreators.net/dvestore/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.dvcreators.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.dvcreators.net/matrox-mxo-2/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.dvcreators.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.dvcreators.net/rode-videomic/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.dvcreators.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.dvcreators.net/sennheiser-mics/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.radioshack.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.radioshack.com/product/index.jsp?productId=3521446&CAWELAID=325278351"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.sfjava.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.sfjava.org/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/live-video-streaming-guide-%e2%80%93-part-2-hardware/",
+    "post_id": 900,
+    "rejected_urls": [],
+    "source_content_sha256": "a5e62fe8b781acd0ce01fcd518104903ee22e9251b67b10b8a7f1cc29b58235e",
+    "source_date_sha256": "9f65ed155cf2e9df157f0a1b728d2d5123d4d9808ae7eeadf25c6e1ec716d045",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "71959e1808b58cdce93d1482bf23b0faad50b2cb9c9d3b09136ec489345330bd"
+    },
+    "source_slug_sha256": "61f01ef24c00cad457903725528e2d0c6b11bca719176aab3c94dc6fdadf8144",
+    "source_title_sha256": "dc6c5ca9d6677cc23500ae75975056849804a964af609eeed7b7401b716c4087",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "live-video-streaming-guide-%e2%80%93-part-2-hardware",
+  "thumbnail": null,
+  "title": "Live Video Streaming Guide \u2013 Part 2 : Hardware",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A known legacy Windows-1252 byte 0x96 was decoded explicitly as U+2013.",
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "A known legacy Windows-1252 byte 0xD7 was decoded explicitly as U+00D7."
+  ]
+}

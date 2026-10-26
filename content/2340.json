@@ -1,0 +1,81 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "Uncategorized",
+      "slug": "uncategorized"
+    }
+  ],
+  "date": "2012-08-13 04:06:46",
+  "excerpt": "I had the opportunity to participate in the Make the Future of Java Workshop last week, which was a lot of fun.  Kids ages 13 and up got a chance to learn how to program using Alice and Greenfoot technologies.",
+  "id": 2340,
+  "original_urls": [
+    "http://steveonjava.com/kids-making-the-future-of-java/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "ffac63b60e10d7a6c5c07039ec5ee5c8bb12e28b65b4a8983d17d07b09302526",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.alice.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.alice.org/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.greenfoot.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.greenfoot.org/home"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oracle.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oracle.com/webapps/events/ns/EventsDetail.jsp?p_eventId=157311&src=7593102&Act=4"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/kids-making-the-future-of-java/",
+    "post_id": 2340,
+    "rejected_urls": [],
+    "source_content_sha256": "d54504657513782bcf269c91f8874c2745edc97fd82e03a199994149634c405e",
+    "source_date_sha256": "e32b88fad3d963cdda930396f2e9f4451643dd5943aee9ebe32eb93bac4510bb",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "56eb9cc75700927b02a3110035dddd880c29251e545d85b69081264d8624f3ca",
+    "source_title_sha256": "a5ddcec0f2d32a05bf4bf5e3bc6a8de09f7c0718e2dc9a73d55ed20bc4932186",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "kids-making-the-future-of-java",
+  "thumbnail": null,
+  "title": "Kids Making the Future of Java",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "A known legacy Windows-1252 byte 0xF6 was decoded explicitly as U+00F6."
+  ]
+}

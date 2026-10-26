@@ -1,0 +1,71 @@
+{
+  "categories": [
+    {
+      "name": "Starcraft",
+      "slug": "starcraft"
+    },
+    {
+      "name": "Video",
+      "slug": "video"
+    }
+  ],
+  "date": "2010-12-02 03:04:43",
+  "excerpt": "I announced the Starcraft 2 Coders Challenge at Devoxx in Belgium.  This is a little off topic for my coding blog, but an interesting aside for anyone who enjoys Real Time Strategy (RTS) gaming.",
+  "id": 1723,
+  "original_urls": [
+    "http://steveonjava.com/sc2-coders-challenge-geeks-only-need-apply/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "4e6e945ad38f8fba5a0ba16bdab44f5ca07d809a63b108b24ddd134bc8013c42",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "embed:src"
+        ],
+        "fetched": false,
+        "host": "blip.tv",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://blip.tv/play/AYKQ%2BXUC"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "steveonjava.blip.tv",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://steveonjava.blip.tv/file/4453405?filename=Steveonjava-Starcraft2DeathMatch857.flv"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/sc2-coders-challenge-geeks-only-need-apply/",
+    "post_id": 1723,
+    "rejected_urls": [],
+    "source_content_sha256": "ca647bd85b7b9a6c99c5e9ae5a6627130dfce9f9303ccdeeb3a7adcdd9b8c415",
+    "source_date_sha256": "cf1735a14d340df245f1968153dfa12ac007e140127f6f64218377e99fcb7c09",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "a0d866189b1f4ef638ecf7678437e47ea1a6e23596c735bd987386f52f1a8724"
+    },
+    "source_slug_sha256": "2d2e092c28fa049d22df6fa23049cda2c57521fba750c094e87a567cfc846d34",
+    "source_title_sha256": "cf5e09030e2c13349ea4d21716cca78c239bd869570c8699b48576558f033964",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "sc2-coders-challenge-geeks-only-need-apply",
+  "thumbnail": null,
+  "title": "SC2 Coders Challenge - Geeks Only Need Apply",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "An active or embedded source element was omitted."
+  ]
+}

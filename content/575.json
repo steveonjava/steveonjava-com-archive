@@ -1,0 +1,76 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2009-08-30 04:52:43",
+  "excerpt": "The Sun training department just put out an update to their Tech Test Train application.  Even if you tried it before and were put off by bugs or the absurd level of difficulty, it is definitely worth another look!",
+  "id": 575,
+  "original_urls": [
+    "http://steveonjava.com/auto-completion-on-the-test-test-train/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "e8f19714490f5ed6ec0d153417de8671b6e67415c67ef69bcac4c0f2c39bb4d7",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "javafx-jira.kenai.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://javafx-jira.kenai.com/secure/Dashboard.jspa"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "javafx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://javafx.com/learn/training.jsp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.javafxblog.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.javafxblog.net/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/auto-completion-on-the-test-test-train/",
+    "post_id": 575,
+    "rejected_urls": [],
+    "source_content_sha256": "4faf36abd5fc967087672715c5c8c2900101d11e326fabbde9e6b39a1c9fed71",
+    "source_date_sha256": "b549dacf9c5aa1996fd8b424e7a7322d9a1ebfb05976a48002a88a714650f702",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "261bbd6e6d6e58d8b4cec4e5efbb587a7dc0b9cba5b56a025050b8c3eb3fcb2e",
+    "source_title_sha256": "74d6dd75b0a3fb926800abeb581080bf97c1df902bd658be2fec856a02a8c1e6",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "auto-completion-on-the-test-test-train",
+  "thumbnail": null,
+  "title": "Auto-Completion on the Test Test Train",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

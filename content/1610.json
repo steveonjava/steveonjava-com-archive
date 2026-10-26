@@ -1,0 +1,93 @@
+{
+  "categories": [
+    {
+      "name": "Agile",
+      "slug": "agile"
+    },
+    {
+      "name": "Flash",
+      "slug": "flash"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2010-11-08 04:25:38",
+  "excerpt": "For those of you following my blog, I have setup some top level categories and matching subdomains to make easier to get just the information you need.",
+  "id": 1610,
+  "original_urls": [
+    "http://steveonjava.com/new-blog-categories-javafx-agile-and-flash/",
+    "http://agile.steveonjava.com/new-blog-categories-javafx-agile-and-flash/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "f12792aa1846e7f73e3028af64a5883f8977a34bb9de8f8acfe6fd582afc86da",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "proandroidflash.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://proandroidflash.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "visage-lang.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://visage-lang.org/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.meetup.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.meetup.com/flashon/"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": "2010/11/Lean-Agile-Scrum-XP-150x150.gif",
+        "reason": "unsupported-format-no-gif-or-document-export",
+        "source_url_sha256": "d13f02c87fed54d7d0814f74bf84623ef97ecf3d22916924477cad0e8af8e78e"
+      }
+    ],
+    "original_root_route": "/new-blog-categories-javafx-agile-and-flash/",
+    "post_id": 1610,
+    "rejected_urls": [],
+    "source_content_sha256": "a4367419e5d02ae3ac7360be7aa6d7983f9b4ea79ec3def59c444f5f5c78ec34",
+    "source_date_sha256": "6b4496f67c86a39e20988b1239d021c742f2210c37ab65bfc42976831bf64670",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "535798875c8baffa9e787cf8dd0adbf3a2b1b12572094461314b7ed16c1a58f7"
+    },
+    "source_slug_sha256": "4e9c393cd0cfb6b36e638075df9e696ffbfe2d9c13c799d36a35231b2c91df28",
+    "source_title_sha256": "6cbebaf9e4076a61e1a63d862bfdbb756457839f22c0babcf6abb0cc2c2014bd",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "new-blog-categories-javafx-agile-and-flash",
+  "thumbnail": null,
+  "title": "New Blog Categories...  JavaFX, Agile, and Flash",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

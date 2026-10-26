@@ -1,0 +1,84 @@
+{
+  "categories": [
+    {
+      "name": "Internet of Things",
+      "slug": "internet-of-things"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "NightHacking",
+      "slug": "nighthacking"
+    },
+    {
+      "name": "Video",
+      "slug": "video"
+    }
+  ],
+  "date": "2013-11-07 07:17:02",
+  "excerpt": "Next week at the Devoxx conference I will be live streaming from the pavilion with an all-star cast of Devoxx speakers.",
+  "id": 3560,
+  "original_urls": [
+    "http://steveonjava.com/j-fall-videos-and-nighthacking-at-devoxx/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "f9560e19faf297e0bdf8622970578e8af883b638e9e245fd0bd76ac5e8f81341",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "nighthacking.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://nighthacking.com/events/all-star-nighthacking-at-devoxx/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/j-fall-videos-and-nighthacking-at-devoxx/",
+    "post_id": 3560,
+    "rejected_urls": [
+      {
+        "context": "iframe:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "32670f1db8c4214baef8e41e19a5a04e5ade38d0bf0cd13ba0fbecc1bc0d097a"
+      },
+      {
+        "context": "iframe:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "65d5e0a06976706012c964474da6be7c91bf042cfad3bcee87327a6fa5808314"
+      },
+      {
+        "context": "iframe:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "2b5b9b3718830c1a65f8e7ff23b660d161673692485787c0db01984a736fe2b3"
+      }
+    ],
+    "source_content_sha256": "52c5779639817e7b59c1e1394400572447bc55b1c27a67979c00f95a824f1e69",
+    "source_date_sha256": "397a6a1426aff7899ad4b2c9f98d165426b213bbf68cdb407273b6e8ae92d079",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "d051aff9d5451b951e50c090d5330b9e0b28ea9e7572e7782d222cbd9011c7bd",
+    "source_title_sha256": "0522c7fee51cc04f8c226c35722f1b06e2ff71bdbf3c03bb87b3d5cc7551cf31",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "j-fall-videos-and-nighthacking-at-devoxx",
+  "thumbnail": null,
+  "title": "J-Fall Videos and NightHacking at Devoxx",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "An active or embedded source element was omitted."
+  ]
+}

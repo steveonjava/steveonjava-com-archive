@@ -1,0 +1,77 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "NightHacking",
+      "slug": "nighthacking"
+    },
+    {
+      "name": "Video",
+      "slug": "video"
+    }
+  ],
+  "date": "2013-12-11 02:17:48",
+  "excerpt": "On January 16th, I will be holding a worldwide hack day with Brian Goetz and Stuart Marks on Java 8 lambdas. This will be a 3 hour lab on Java 8 lambdas kicked off with a live streamed presentation from Brian Goetz. Brian and Stuart will stay for the duration to answer questions and help with the lab, and we will have other surprises in store for the live stream.",
+  "id": 3591,
+  "original_urls": [
+    "http://steveonjava.com/nighthacking-worldwide-event-with-brian-goetz/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "d59bbdca3a480da6aab6108674d4eb04dcf41493c8ae9a0663e8d0e5dca49f85",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.meetup.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.meetup.com/nighthackingworldwide/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/_nighthacking"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/nighthacking-worldwide-event-with-brian-goetz/",
+    "post_id": 3591,
+    "rejected_urls": [],
+    "source_content_sha256": "2caf9a1dfecf11e5bd484ed617f8a0923a0c800e5d4a9ac6a99dc47cdb7c13c1",
+    "source_date_sha256": "aa6e18423224dc081e81f3fe5641104f6a299647454a0fb75fcb45603c86bf1d",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "f87c2625c4bf93fc34cdaa77b9242fab02265d3193f0d71620023b3f61475df6",
+    "source_title_sha256": "fc9733daefde1d2462bae45f23febebded3d7179204aae0658e273907c7a0eb4",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "nighthacking-worldwide-event-with-brian-goetz",
+  "thumbnail": null,
+  "title": "NightHacking Worldwide Event with Brian Goetz",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2009-05-31 05:37:09",
+  "excerpt": "Note 1: I am following Jim Weaver's lead, since he discovered JavaFX 1.2 is downloadable from javafx.com. Enjoy the new release!",
+  "id": 269,
+  "original_urls": [
+    "http://steveonjava.com/javafx-1-2-top-10/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "5b059097f101ac58aeffe68a557714878b3187c21a6664a931b1f012154192d9",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "javafx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://javafx.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.googlecode.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.googlecode.com/svn/site/javadoc/release-0.4/org.jfxtras.async/org.jfxtras.async.JFXWorker.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "projavafx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://projavafx.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "weblogs.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://weblogs.java.net/blog/aim/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "weblogs.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://weblogs.java.net/blog/rbair/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.org/"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": "2009/05/javafx-1-2-top-101.jpg",
+        "reason": "not-in-screened-media-manifests",
+        "source_url_sha256": "c018024bb893fadcee8ca1904e06126c298d6bd78f8a5bbea0ac1804512c40c5"
+      }
+    ],
+    "original_root_route": "/javafx-1-2-top-10/",
+    "post_id": 269,
+    "rejected_urls": [],
+    "source_content_sha256": "02c9f3a151ee1270c292ef6afba5ef4af76738c8d841a2152b1cdbb6afce1419",
+    "source_date_sha256": "f31eb25e9880cb7ad89890501e64ef61990d637bfe64a19f9468f51bd96998ff",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "14824f9b6b0e2e0d67b4af660bd9494a57821b449664f8382ccd02b814899aac",
+    "source_title_sha256": "5181f00ac8bf50b4854dcf4d430105fdb6ebf287f6baccf75b5b8ea49d454db5",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "javafx-1-2-top-10",
+  "thumbnail": null,
+  "title": "JavaFX 1.2 Top 10 and Migration Guide",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

@@ -2,10 +2,13 @@
 import contextlib
 from copy import deepcopy
 import io
+import hashlib
 import json
 import os
 from pathlib import Path
 import shutil
+import re
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -104,7 +107,7 @@ class ArchiveTests(unittest.TestCase):
         self.assertIn('alt="Archived image"', (self.root / "_site/synthetic-one/index.html").read_text())
 
     def test_invalid_post_fields(self):
-        cases = [("id", True), ("id", -1), ("id", 2), ("slug", "../evil"), ("slug", "archive"), ("slug", "bad/route"), ("date", "2014-02-30 00:00:00"), ("date", "yesterday"), ("review_status", "approved"), ("type", "page"), ("video_id", "evil"), ("thumbnail", "//example.com/pic.jpg"), ("original_urls", ["javascript:evil"]), ("categories", [{"slug": "../bad", "name": "Bad"}]), ("warnings", "wrong"), ("provenance", [])]
+        cases = [("id", True), ("id", -1), ("id", 2), ("slug", "../evil"), ("slug", "archive"), ("slug", "bad/route"), ("date", "2014-02-30 00:00:00"), ("date", "yesterday"), ("review_status", "approved"), ("type", "attachment"), ("video_id", "evil"), ("thumbnail", "//example.com/pic.jpg"), ("original_urls", ["javascript:evil"]), ("categories", [{"slug": "../bad", "name": "Bad"}]), ("warnings", "wrong"), ("provenance", [])]
         original = deepcopy(self.post)
         for field, value in cases:
             with self.subTest(field=field, value=value):
@@ -537,6 +540,381 @@ class ArchiveTests(unittest.TestCase):
         self.compile()
         with Image.open(self.root / "_site/wp-content/uploads/2014/01/synthetic.jpg") as image:
             self.assertFalse(image.getexif())
+
+
+    def write_record(self, record, markdown="Synthetic additional record.\n"):
+        (self.root / f"content/{record['id']}.json").write_text(json.dumps(record), encoding="utf-8")
+        (self.root / f"content/{record['id']}.md").write_text(markdown, encoding="utf-8")
+
+    def static_record(self, number=2, slug="about", route=None):
+        record = dict(deepcopy(self.post), id=number, type="page", slug=slug,
+                      title=f"Synthetic static page {number}", video_id=None, thumbnail=None,
+                      categories=[{"slug": "page-only-topic", "name": "Page-only topic"}],
+                      original_urls=[f"http://steveonjava.com/?page_id={number}"])
+        if route is not None:
+            record["route"] = route
+        return record
+
+    def test_static_pages_are_discoverable_but_not_posts(self):
+        for site, host in [("steveonjava", "steveonjava.com"), ("nighthacking", "nighthacking.tv")]:
+            with self.subTest(site=site):
+                self.config.update(site=site, canonical_base="https://" + host)
+                self.save()
+                record = self.static_record(route="/training/about/")
+                self.write_record(record, "The original page wording stays **unchanged**.\n")
+                result = self.compile()
+                self.assertEqual(result["posts"], 1)
+                self.assertEqual(result["static_pages"], 1)
+                self.assertEqual(result["record_routes"]["2"], "/training/about/")
+                page = (self.root / "_site/training/about/index.html").read_text()
+                self.assertIn("wording stays <strong>unchanged</strong>", page)
+                self.assertNotIn('class="video-stage"', page)
+                self.assertNotIn('class="post-meta"', page)
+                self.assertNotIn('class="post-taxonomy"', page)
+                discovery = (self.root / "_site/pages/index.html").read_text()
+                self.assertIn('href="/training/about/"', discovery)
+                self.assertIn('href="/pages/">Pages</a>', discovery)
+                self.assertNotIn("/category/page-only-topic/", result["routes"])
+                for path in ["index.html", "archive/index.html", "archive/2014/index.html", "category/testing/index.html"]:
+                    html = (self.root / "_site" / path).read_text()
+                    self.assertNotIn(record["title"], html)
+                if site == "nighthacking":
+                    self.assertNotIn(record["title"], (self.root / "_site/videos/index.html").read_text())
+
+    def test_absent_pages_preserves_routes_and_plain_slug_behavior(self):
+        result = self.compile()
+        self.assertEqual(result["static_pages"], 0)
+        self.assertNotIn("/pages/", result["routes"])
+        self.assertEqual(result["record_routes"], {"1": "/synthetic-one/"})
+        self.assertNotIn('href="/pages/"', (self.root / "_site/index.html").read_text())
+
+    def test_static_pages_default_route_and_duplicate_leaf_names(self):
+        self.write_record(self.static_record())
+        self.write_record(self.static_record(3, route="/training/about/"))
+        result = self.compile()
+        self.assertEqual(result["record_routes"]["2"], "/about/")
+        self.assertEqual(result["record_routes"]["3"], "/training/about/")
+
+    def test_page_only_input_has_no_synthetic_post_lists(self):
+        self.post = self.static_record(1)
+        self.save()
+        result = self.compile()
+        self.assertEqual(result["posts"], 0)
+        self.assertEqual(result["static_pages"], 1)
+        self.assertNotIn("/archive/2014/", result["routes"])
+        self.assertIn("/pages/", result["routes"])
+
+    def test_page_routes_reject_reserved_and_unsafe_paths(self):
+        bad_routes = ["/", "relative/", "//evil.example/a/", "/archive/2014/", "/category/topic/",
+                      "/videos/page/2/", "/pages/page/2/", "/assets/thing/", "/wp-content/image/",
+                      "/page/2/", "/404/", "/index/", "/a%c5%bf%c5%bfets/", "/a%c3%9fets/", "/valid", "/a//b/", "/a/../b/",
+                      "/a/%2e%2e/b/", "/a/%2fb/", "/a/%252f/", "/a/%20b/", "/a/?x=1/",
+                      "/a/#part/", "/a/\\b/", "/a/UPPER/", "/a/%ff/", "/a/%e3%80/", "/a/%/", "/a/" + "b" * 256 + "/"]
+        for route in bad_routes:
+            with self.subTest(route=route):
+                self.write_record(self.static_record(route=route))
+                with self.assertRaises(ValueError):
+                    self.compile()
+        self.write_record(dict(self.post, id=2, slug="post-two", route="/nested/post-two/"))
+        with self.assertRaisesRegex(ValueError, "Only static pages"):
+            self.compile()
+
+    def test_static_route_collisions_are_rejected(self):
+        for route in ["/synthetic-one/", "/training/about/"]:
+            with self.subTest(route=route):
+                self.write_record(self.static_record(route=route))
+                self.write_record(self.static_record(3, route="/training/about/"))
+                with self.assertRaisesRegex(ValueError, "collision"):
+                    self.compile()
+
+    def test_encoded_original_slugs_keep_uri_and_decode_filesystem(self):
+        slugs = ["behind-the-scenes-the-making-of-pro-javafx%e2%84%a2-platform",
+                 "live-video-streaming-guide-%e2%80%93-part-2-hardware",
+                 "%e6%97%a5%e6%9c%ac%e8%aa%9e%e3%80%80%e8%a9%b1"]
+        for slug in slugs:
+            with self.subTest(slug=slug):
+                self.post["slug"] = slug
+                self.post["original_urls"] = ["http://steveonjava.com/" + slug + "/"]
+                self.markdown = "[Self](http://steveonjava.com/" + slug + "/) [ID](?p=1)"
+                self.save()
+                with contextlib.redirect_stdout(io.StringIO()):
+                    result = build.build(self.root, "/my-repo")
+                route = "/" + slug + "/"
+                self.assertEqual(result["record_routes"]["1"], route)
+                self.assertIn(route, result["routes"])
+                path = self.root / "_site" / build.decode_uri_path(route).lstrip("/") / "index.html"
+                self.assertTrue(path.is_file())
+                self.assertFalse((self.root / "_site" / slug).exists())
+                html = path.read_text()
+                self.assertIn('href="https://steveonjava.com' + route + '"', html)
+                self.assertIn('href="/my-repo' + route + '"', html)
+                self.assertIn(route, (self.root / "_site/assets/legacy.js").read_text())
+                self.assertEqual(result["unrecovered_links"], [])
+                build.check(self.root / "_site", "/my-repo")
+
+    def test_encoded_unicode_nested_page_and_equivalent_link_case(self):
+        record = self.static_record(slug="%e6%97%a5%e6%9c%ac", route="/training/%e6%97%a5%e6%9c%ac/")
+        self.write_record(record)
+        self.markdown = "[Page](http://steveonjava.com/training/%E6%97%A5%E6%9C%AC/)"
+        self.save()
+        result = self.compile()
+        self.assertEqual(result["unrecovered_links"], [])
+        self.assertIn('href="/training/%e6%97%a5%e6%9c%ac/"', (self.root / "_site/synthetic-one/index.html").read_text())
+
+    def test_percent_variants_and_unicode_normalization_collide(self):
+        pairs = [("%e6%97%a5", "%E6%97%A5"), ("caf%c3%a9", "cafe%cc%81")]
+        for first, second in pairs:
+            with self.subTest(first=first):
+                self.post["slug"] = first
+                self.post["original_urls"] = ["http://steveonjava.com/" + first + "/"]
+                self.save()
+                self.write_record(dict(self.post, id=2, slug=second))
+                with self.assertRaisesRegex(ValueError, "collision"):
+                    self.compile()
+
+    def test_encoded_slugs_reject_ascii_escapes_and_malformed_utf8(self):
+        for slug in ["hello%2fworld", "%61rchive", "%2e%2e", "%25e6%2597%25a5", "%00", "%7f",
+                     "%09", "%20", "%5c", "%c0%af", "%ed%a0%80", "%f4%90%80%80", "%e6%97", "%zz",
+                     "a%e2%80%8bb", "a%c2%a0b", "hello--world", "-hello", "hello-", "日本語"]:
+            with self.subTest(slug=slug):
+                self.post["slug"] = slug
+                self.save()
+                with self.assertRaises(ValueError):
+                    self.compile()
+
+    def test_ideographic_space_exception_is_route_scoped(self):
+        route = "/%e6%97%a5%e3%80%80%e6%9c%ac/"
+        for url in [route, "https://example.com" + route, "/other%e3%80%80/", route + "?q=%e3%80%80", route + "#%e3%80%80"]:
+            with self.subTest(url=url):
+                with self.assertRaises(ValueError):
+                    build.safe_url(url)
+        self.assertEqual(build.safe_url(route, allowed_routes=[route]), route)
+        for url in ["https://example.com" + route, "/other%e3%80%80/", route + "?q=%e3%80%80", route + "#%e3%80%80"]:
+            with self.subTest(allowed_route=url), self.assertRaises(ValueError):
+                build.safe_url(url, allowed_routes=[route], allowed_hosts={"steveonjava.com"})
+
+    def test_audit_rejects_encoded_traversal_and_wrong_unicode_identity(self):
+        self.compile()
+        path = self.root / "_site/index.html"
+        original = path.read_text()
+        for target in ["/%2e%2e/", "/%252e%252e/", "/%2f/", "/%ff/", "/a%00b/", "/a%25b/"]:
+            path.write_text(original.replace('href="/archive/"', 'href="' + target + '"'))
+            with self.subTest(target=target), self.assertRaises(ValueError):
+                build.check(self.root / "_site")
+        path.write_text(original.replace('href="https://steveonjava.com/"', 'href="https://steveonjava.com/elsewhere/"'))
+        with self.assertRaisesRegex(ValueError, "does not match"):
+            build.check(self.root / "_site")
+
+    def test_legacy_ids_resolve_posts_and_pages_and_report_unknowns_offline(self):
+        self.write_record(self.static_record(route="/training/about/"))
+        self.markdown = ("[Post](http://steveonjava.com/?p=1#part) [Page](?page_id=2) "
+                         "[Absent](?page_id=999) [Duplicate](?p=1&p=1) [Mixed](?p=1&page_id=2) "
+                         "[Invalid](?p=01) [Too big](?p=2147483648)")
+        self.save()
+        result = self.compile()
+        html = (self.root / "_site/synthetic-one/index.html").read_text()
+        self.assertIn('href="/synthetic-one/#part"', html)
+        self.assertIn('href="/training/about/"', html)
+        unknown = result["unknown_legacy_ids"]
+        self.assertEqual(len(unknown), 5)
+        self.assertEqual([item["reason"] for item in unknown].count("unknown"), 1)
+        self.assertTrue(all(item["page"] == "/synthetic-one/" for item in unknown))
+        self.assertEqual(len(result["unrecovered_links"]), 5)
+        self.assertNotIn("unknown legacy", html.lower())
+
+    def test_js_translator_uses_validated_nested_and_encoded_routes(self):
+        if not shutil.which("node"):
+            self.skipTest("Node is optional here; the Actions browser suite also exercises legacy IDs")
+        self.write_record(self.static_record(route="/training/%e6%97%a5%e3%80%80%e6%9c%ac/"))
+        self.compile()
+        script = (self.root / "_site/assets/legacy.js").read_text()
+        cases = [("?p=1", "/synthetic-one/"), ("?page_id=2", "/training/%e6%97%a5%e3%80%80%e6%9c%ac/")]
+        cases += [(query, None) for query in ["?p=999", "?page_id=999", "?p=01", "?p=1&p=1", "?p=1&page_id=2", "?p=2147483648", "?p=__proto__", "?page_id=", "?p=https%3A%2F%2Fevil.example"]]
+        for query, expected in cases:
+            with self.subTest(query=query):
+                setup = ('let result = null; const status = {textContent: ""}; '
+                         'global.window = {location: {search: ' + json.dumps(query) + ', replace: value => {result = value;}}}; '
+                         'global.document = {getElementById: () => status};\n')
+                output = subprocess.run(["node", "-e", setup + script + '\nconsole.log(JSON.stringify({result, message: status.textContent}));'], check=True, text=True, capture_output=True)
+                result = json.loads(output.stdout)
+                self.assertEqual(result["result"], expected)
+                if expected is None:
+                    self.assertTrue(result["message"])
+
+    def test_bulk_collections_are_bounded_complete_and_connected(self):
+        self.config.update(site="nighthacking", canonical_base="https://nighthacking.tv")
+        self.save()
+        count = 2 * build.LIST_PAGE_SIZE + 3
+        for number in range(2, count + 1):
+            self.write_record(dict(self.post, id=number, slug=f"bulk-{number}", title=f"Bulk synthetic {number}"))
+        page = self.static_record(count + 1)
+        page["video_id"] = self.post["video_id"]
+        self.write_record(page)
+        result = self.compile()
+        expected = {result["record_routes"][str(number)] for number in range(1, count + 1)}
+        for start in ["/archive/", "/videos/", "/archive/2014/", "/category/testing/"]:
+            pattern = re.escape(start) + r"(?:page/[1-9][0-9]*/)?"
+            routes = [route for route in result["routes"] if re.fullmatch(pattern, route)]
+            self.assertEqual(len(routes), 3)
+            found = []
+            for route in routes:
+                html = build.output_path(self.root / "_site", route).read_text()
+                cards = re.findall(r'<li class="card">.*?href="([^"]*)"', html, re.S)
+                self.assertLessEqual(len(cards), build.LIST_PAGE_SIZE)
+                found.extend(cards)
+                self.assertNotIn(page["title"], html)
+                self.assertIn('aria-label="Archive pages"', html)
+            self.assertEqual(set(found), expected)
+            self.assertEqual(len(found), count)
+        home = (self.root / "_site/index.html").read_text()
+        self.assertEqual(home.count('class="video-card"'), build.HOME_VIDEOS)
+        self.assertEqual(result["pages"], len(result["routes"]))
+
+    def test_static_page_discovery_is_paginated_without_loss(self):
+        count = build.LIST_PAGE_SIZE + 2
+        for number in range(2, count + 2):
+            self.write_record(self.static_record(number, slug=f"page-{number}", route=f"/training/page-{number}/"))
+        result = self.compile()
+        self.assertIn("/pages/page/2/", result["routes"])
+        found = []
+        for route in ["/pages/", "/pages/page/2/"]:
+            html = build.output_path(self.root / "_site", route).read_text()
+            found.extend(re.findall(r'<li class="card">.*?href="([^"]*)"', html, re.S))
+        self.assertEqual(len(found), count)
+        self.assertEqual(len(set(found)), count)
+        self.assertEqual(result["posts"], 1)
+
+    def test_route_report_exactly_matches_generated_html(self):
+        self.write_record(self.static_record(route="/training/about/"))
+        result = self.compile()
+        output = self.root / "_site"
+        generated = {path.resolve() for path in output.rglob("*.html")}
+        reported = {build.output_path(output, route).resolve() for route in result["routes"]}
+        self.assertEqual(generated, reported)
+        self.assertEqual(result["pages"], len(generated))
+        self.assertEqual(set(result["record_routes"]), {"1", "2"})
+        self.assertIn("/404.html", result["routes"])
+        with self.assertRaisesRegex(ValueError, "coverage"):
+            build.check(output, routes=set(result["routes"]) - {"/404.html"})
+        self.assertEqual(json.loads((self.root / "build-report.json").read_text()), result)
+        self.assertFalse((output / "build-report.json").exists())
+
+    def test_dead_video_alias_suppresses_poster_watch_and_markdown_hrefs(self):
+        video = self.post["video_id"]
+        canonical = "https://www.youtube.com/watch?v=" + video
+        for dead in [canonical, "https://youtu.be/" + video, "http://youtube.com/embed/" + video]:
+            with self.subTest(dead=dead):
+                (self.root / "link-status.json").write_text(json.dumps({dead: "dead", canonical: "dead" if dead == canonical else "live"}))
+                self.markdown = "[Original video](" + canonical + ")"
+                self.save()
+                result = self.compile()
+                for path in (self.root / "_site").rglob("*.html"):
+                    self.assertNotIn('href="' + canonical + '"', path.read_text())
+                html = (self.root / "_site/synthetic-one/index.html").read_text()
+                self.assertIn("Watch on YouTube", html)
+                self.assertIn("Original video", html)
+                self.assertNotIn("unavailable", html.lower())
+                self.assertNotIn(canonical, result["unverified_external_urls"])
+                self.assertTrue(any(item["url"] == canonical and item["status"] == "dead" for item in result["external_links"]))
+
+    def test_template_external_links_follow_dead_link_policy(self):
+        self.add_art(build.PUBLICATIONS[0][0])
+        dead = build.PUBLICATIONS[0][2]
+        (self.root / "link-status.json").write_text(json.dumps({dead: "dead"}))
+        self.compile()
+        html = (self.root / "_site/index.html").read_text()
+        self.assertNotIn('href="' + dead + '"', html)
+        self.assertIn('alt="Pro JavaFX Platform"', html)
+
+    def test_unverified_external_urls_reported_without_network_or_reader_notes(self):
+        status = {"https://live.example/": "live", "https://pending.example/": "unverified", "https://dead.example/": "dead"}
+        (self.root / "link-status.json").write_text(json.dumps(status))
+        self.markdown = "[Live](https://live.example/) [Pending](https://pending.example/) [Unchecked](https://unchecked.example/) [Dead](https://dead.example/)"
+        self.save()
+        from unittest.mock import patch
+        with patch("socket.socket", side_effect=AssertionError("Offline only")):
+            result = self.compile()
+        self.assertIn("https://pending.example/", result["unverified_external_urls"])
+        self.assertIn("https://unchecked.example/", result["unverified_external_urls"])
+        self.assertNotIn("https://live.example/", result["unverified_external_urls"])
+        self.assertNotIn("https://dead.example/", result["unverified_external_urls"])
+        html = (self.root / "_site/synthetic-one/index.html").read_text()
+        self.assertNotIn("unverified", html.lower())
+        self.assertNotIn("dead.example", html)
+
+    def write_asset_manifests(self, theme_paths=()):
+        rights, media, theme = [], [], []
+        for path in sorted((self.root / "assets").rglob("*")):
+            if not path.is_file():
+                continue
+            url = "/" + path.relative_to(self.root / "assets").as_posix()
+            digest = hashlib.sha256(path.read_bytes()).hexdigest()
+            rights.append({"path": url, "rights_holder": "Synthetic fixture", "status": "synthetic", "basis": "Synthetic pixels for unit tests only", "export_sha256": digest})
+            item = {"path": url, "source_sha256": "a" * 64, "export_sha256": digest, "bytes": path.stat().st_size, "transformation": "Synthetic fixture only"}
+            if url in theme_paths:
+                item["site"] = self.config["site"]
+                theme.append(item)
+            else:
+                media.append(item)
+        (self.root / "rights.json").write_text(json.dumps(rights))
+        (self.root / "recovery-manifest.json").write_text(json.dumps({"media": media}))
+        (self.root / "docs").mkdir(exist_ok=True)
+        (self.root / "docs/theme-art.json").write_text(json.dumps(theme))
+        return rights, media, theme
+
+    def test_asset_rights_and_separate_theme_provenance_cover_all_actual_assets(self):
+        art = build.THEME_IMAGES["steveonjava"]
+        self.add_art(art, build.PUBLICATIONS[0][0])
+        self.write_asset_manifests(theme_paths=[art, build.PUBLICATIONS[0][0]])
+        result = self.compile()["asset_review"]
+        self.assertEqual(result["assets"], 3)
+        self.assertTrue(result["rights_checked"])
+        self.assertTrue(result["image_provenance_checked"])
+        self.assertEqual(result["lab_images"], 1)
+        self.assertEqual(result["theme_images"], 2)
+
+    def test_asset_registry_hash_duplicate_stale_and_missing_entries_fail(self):
+        for case in ["hash", "duplicate", "stale", "missing"]:
+            with self.subTest(case=case):
+                rights, _, _ = self.write_asset_manifests()
+                if case == "hash":
+                    rights[0]["export_sha256"] = "0" * 64
+                elif case == "duplicate":
+                    rights.append(dict(rights[0]))
+                elif case == "stale":
+                    rights[0]["path"] = "/wp-content/uploads/2014/01/absent.jpg"
+                else:
+                    rights.clear()
+                (self.root / "rights.json").write_text(json.dumps(rights))
+                with self.assertRaises(ValueError):
+                    self.compile()
+
+    def test_provenance_coverage_includes_unused_images_and_reports_shared_evidence(self):
+        unused = "/wp-content/uploads/2014/01/unused.png"
+        self.add_art(unused)
+        _, media, _ = self.write_asset_manifests()
+        (self.root / "recovery-manifest.json").write_text(json.dumps({"media": media[:1]}))
+        with self.assertRaisesRegex(ValueError, "provenance coverage"):
+            self.compile()
+        self.write_asset_manifests()
+        (self.root / "docs/theme-art.json").write_text(json.dumps([media[0]]))
+        # One verified raster may have two independent source-evidence records.
+        result = build.validate_asset_records(self.root, self.config)
+        self.assertEqual(result["shared_theme_lab_images"], [media[0]["path"]])
+
+    def test_missing_asset_registries_are_not_misreported_as_clearance(self):
+        result = self.compile()["asset_review"]
+        self.assertFalse(result["rights_checked"])
+        self.assertFalse(result["image_provenance_checked"])
+        self.assertEqual(result["assets"], 1)
+
+    def test_known_record_provenance_fields_are_checked_not_invented(self):
+        for provenance in [{"post_id": 2}, {"post_id": True}, {"source_content_sha256": "bad"}]:
+            with self.subTest(provenance=provenance):
+                self.post["provenance"] = provenance
+                self.save()
+                with self.assertRaisesRegex(ValueError, "[Pp]rovenance"):
+                    self.compile()
 
 
 if __name__ == "__main__":

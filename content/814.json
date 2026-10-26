@@ -1,0 +1,118 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JavaFX Mobile",
+      "slug": "javafx-mobile"
+    },
+    {
+      "name": "JFXtras",
+      "slug": "jfxtras"
+    }
+  ],
+  "date": "2010-03-04 11:52:27",
+  "excerpt": "Creating hyperlinks in JavaFX should be in the category of things that are trivially easy, but is complicated by various factors, such as deployment mode and Java version.  First I will go into detail on all the different permutations of how you can launch links in a browser and under what circumstances each will work. Next I will give you a nice packaged solution that you can use as a library (if you are impatient, just skip to The Easy Way Out now).  Finally, I will show how you can do the same thing for JavaFX Mobile applications.\nA Tale of 3 APIs\nThere are 3 different ways that you can launch hyperlinks in Java/JavaFX. It helps to have an internet connection such as broadband to be able to launch this. Unfortunately, none of them work in all circumstances, so you need to know when to call each.  Here is a quick reference table:",
+  "id": 814,
+  "original_urls": [
+    "http://steveonjava.com/launching-hyperlinks-from-javafx-including-mobile/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "fa11c4f79c3d5dc501cddd5cc9c9b74c2d22e867f2434a28c0c5e5a4095a6d1c",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/source/browse/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "java.sun.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://java.sun.com/javafx/1.2/docs/api/javafx.stage/javafx.stage.AppletStageExtension.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/"
+      },
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "oracle.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://oracle.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://twitter.com/steveonjava"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.o2.co.uk",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.o2.co.uk/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/launching-hyperlinks-from-javafx-including-mobile/",
+    "post_id": 814,
+    "rejected_urls": [],
+    "source_content_sha256": "34d1ad4d765749d1af9aa5b2fa4f2dba2b2635ae0a8497e79dedb71eae1d4188",
+    "source_date_sha256": "62116e11a9efff41701f0bc76e4597f2f3665c139d8d20d7ad288bacebf5dfbe",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "0398f966e95ec62a54f28bfb202ff50a138c8f9b16b895e113f1a3290483ee65"
+    },
+    "source_slug_sha256": "dc1828f465fa493fcc0c25169b105ca8fcbd2b078ea67d70ebf1a98f7edacf30",
+    "source_title_sha256": "ba33cf04599b4869365b0d11ba88147a26f2afb314dcb626b6e0c74aea6e4113",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "launching-hyperlinks-from-javafx-including-mobile",
+  "thumbnail": null,
+  "title": "Launching Hyperlinks from JavaFX (including Mobile)",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

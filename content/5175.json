@@ -1,0 +1,1306 @@
+{
+  "categories": [
+    {
+      "name": "Community",
+      "slug": "community-2"
+    },
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "Uncategorized",
+      "slug": "uncategorized"
+    }
+  ],
+  "date": "2015-07-14 23:40:23",
+  "excerpt": "To celebrate 20 Years of Java we did a cross-country tour in Brazil for 20 days, visiting Java User Groups and Events across the country.  It was long and grueling, but a lot of fun.  And most importantly, we got to eat cake!  Cake for breakfast (thanks to Otavio and his chocolate passion) and a Java cake for dinner...  every single day!",
+  "id": 5175,
+  "original_urls": [
+    "http://steveonjava.com/20-cakes-of-java-in-brazil/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "e7ed35453efd571427269b9fbe90c4fa1fe84c9a3d0f111ab6f777092db064b3",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "community.oracle.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://community.oracle.com/community/java/javas-20th-anniversary/otn-java-cloud-tour"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/258/18749970124_306b048786_z.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/267/19187548809_c39359e617_z.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/285/19239721985_e6683dc5fb_n.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/314/18768233524_df76b8f822_m.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/319/19212841355_da9d7f98c2_n.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/320/19314061781_695d3aa824_n.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/320/19395504231_b5378e09c1_m.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/326/19350085926_1d13a98942_n.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/328/18768451304_4e9eacf852_m.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/336/19687739295_e9c66f3964_z.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/338/19197785632_54f2b15aba_z.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/356/18619351653_bcc74309bd_z.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/371/19066839853_86f0c5fcf2_z.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/404/19064908054_170e4fc699_m.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/417/19239843315_1f405b745e_n.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/419/18618815323_0545db727f_n.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/419/19500245560_e95dc8fca1_z.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/420/19217441821_20dab04160_z.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/429/18618850303_bfb3918c2a_n.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/430/19692554881_72dd1877cc_m.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/432/19681131642_22a43242cc_z.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/440/19692143811_cc44197cca_m.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/448/19499454220_25c016ed68_m.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/458/19499575940_e4e7680888_m.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/467/19500010000_c873eb8a07_m.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/469/19283995156_ca1c0c3000_n.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/482/19303578512_58598bd67e_z.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/506/18755712483_75f6f3348e_n.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/510/19314593571_cf978a47fc_z.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/524/19074030148_1772e9c9ca_z.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/535/19395309401_78c2b67bb4_m.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/538/19196170642_1d55349946_z.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/546/19310956275_e7777d8705_z.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/551/19065230324_4a6fe1435c_z.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm1.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm1.staticflickr.com/552/18768191584_998dc4dee5_m.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm4.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm4.staticflickr.com/3684/19385465952_bb55f006ff_m.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm4.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm4.staticflickr.com/3769/19052155638_dd6256360a_n.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm4.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm4.staticflickr.com/3869/18769035334_9022895e3a_m.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm4.staticflickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://farm4.staticflickr.com/3939/19391048465_36a14f1e72_m.jpg"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/brunoborges"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/otaviojava"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/yanaga"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/18618815323/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/18618850303/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/18619351653/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/18749970124/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/18755712483/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/18768191584/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/18768233524/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/18768451304/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/18769035334/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19052155638/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19064908054/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19065230324/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19066839853/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19074030148/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19187548809/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19196170642/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19197785632/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19212841355/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19217441821/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19239721985/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19239843315/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19283995156/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19303578512/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19310956275/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19314061781/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19314593571/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19350085926/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19385465952/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19391048465/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19395309401/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19395504231/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19499454220/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19499575940/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19500010000/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19500245560/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19681131642/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19687739295/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19692143811/in/album-72157654715609399/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/19692554881/in/album-72157654715609399/"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "684129216ae360d3526e7ed4fa1378be07f34d08485fc4c66f0e2cae5d8d2131"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "9b01800530fa54fbfd77f9378c00d31fa9b7132ee043896612a869bb33f68726"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "b16968f1c4b6f8f757ea3ddfcffadb7e0351e1c6fa440b3c8ac1c39418ab37a7"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "7a818a1d2b0598a2bd71e84e6b6a9ad5d85bfe3bd70d78f6cca2936d417de6f3"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "9b243676ea0e5d1effc495e1e6f0fa9f167f754d2972b0f44a85f5b3bb9e10ac"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "0915446b2ff9ba9f7d71b3b0d5fe294be0dfd2a7765ee4affe60d5511f58515e"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "02127f16fcdfb6181431890bc410c29fb61d59a29b468ff9f782b001786c2b57"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "72a5fcb80ff7eaa39b5c36a3d2d1cc611b1fd7326d8c8825532c5cf950895c80"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "5352e436f64152785867e409904f1d7f3ef6f58ffaed36dad5b3ffb92b44aaf0"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "fbc8078c8ffb50edd0a026f91a2755c1d0eac9d735e8519a906bc66f4ff40147"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "714f7d16c82b19ed0cbb21760871104b1914686fd12f9eabd720d453981a6476"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "e0b4fc5141bbbe2a4e15bafd1108fa265821da668e1903dcb1c73e3c2386bfdf"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "9569c2442f1179dd4b6be3fa4dcecf112e9fcaa771c5b47c37c0c928baa83f66"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "acd81bb1e22e2dfbe997889745e647a3b7199df67ec570600c556b9ad66505f7"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "8fe6c1196c81a3fdbf2d0f99f09bf32fcd1c62ce964f7da064ddba04e0f68d33"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "35c223b777e27d5bbac199a41b3b36dce957868aa2c0fc7f46ee0b12be3d73b6"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "b482926593a6cc766747e90d89af1279efe99d4eb50f01c757e9acf221b32f6b"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "f2a169b5a532c4ee5cd827bcb7a1bbe87f3076d968b25b35ac04b2e0f9625ce3"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "7e96ff3fe37c46bf720bee96025b526319243acbede4481e7a8c7e3ef0078f96"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "383f7abb8f03455f744afc0d5eb71caacc6e58cf6cf50e48d0acb89f9d14f056"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "3348d94907fc4fc0c183f606df576e1a0c9ad3fd7b540b130b36eb96921cb4aa"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "2b226b926d618f74a4dad94c556a04a35d368a45eaec94ca8ef5ef29c69005d3"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "15b5d1e880c2bc28fa7c13f3c1cf85ada7931b171775c0a49e43c5983f408a62"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "3852c02b125a86c140081c63560b51d5ec92194f9a5c161038b9000d45eec22d"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "031cd5772d486d265c7a886e6e20c3cdb7ba7dd3b66a138804024eeeffc9cf57"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "12f18b506465f300245b3e68318954d3f900fe7cb773a7457b27c875ca5ac092"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "23fe6808d697a3692561bf422cbcbec98e94852ca7b90d0df07d8b77e2865ea9"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "e3eaa5d9f39868b5cd253bf29a4b22c376a1e4cf8e21f8e556e8aecf600de344"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "f5d5e8a226dbcda59b542b2122fb98f4fb4a393434c88a8bccc931b9858a4229"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "f380caa76983f73309be8846330e1ff306daa65e97c04871d68940460fda53ad"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "5ff5f5d348a746fd672fa3d31faa1959ecc9eb3e8b457b1b1c0ec1888c99564c"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "ddeaae1f0cbf4ecae0cd75f43cb860b28b29c43f01a25cf1c4582f88ef477313"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "36f5b19754a1c3baa90c8a532325801dbe46a49ca42f818da0f8e798d8360bd2"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "87884a725a46b15d0b08a109a7c78dcee2b07a24b81cdaa0f91155572b58c1d7"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "06e0bd932f9ea1b97f680e42b088021580fb6b8e991a4e8e95e0be41c68d10b4"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "68f2ac6d3527ceef9b91aca48e6a94301323e47e672095f72b660f431001e290"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "5f232773f9836f2e21f92c9c1c0e6ffc28195a307e3a834523242e383a023abf"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "d4f9239f4ed221ac7569b77422d966d0b0bc13f52e10c27716631d463ca1595f"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "0ed13201903139367497bf5a469dfc49f1a4f239239331a73549795ce8182b9f"
+      }
+    ],
+    "original_root_route": "/20-cakes-of-java-in-brazil/",
+    "post_id": 5175,
+    "rejected_urls": [
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      },
+      {
+        "context": "script:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ec6c31038c2b347535027b08484725317fde99da71bba597afd3ec6c7e94e66"
+      }
+    ],
+    "source_content_sha256": "30491bb94582ec4df562c9e79b98b38edeea55b7cc3108640762a48d819eac4a",
+    "source_date_sha256": "7699e6028f99021a3224867849de4c0b9cfceeefe51f8252dd498828e126537a",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "f7edd9f1a5c93d13c8901ddc9b8fd39c295f5d000b1c376cf6c5e86eafb22b97",
+    "source_title_sha256": "287a86b8983b4d1e79d7f8dfd9d56c2491d0c72919a8906699ebe2461e8838dc",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "20-cakes-of-java-in-brazil",
+  "thumbnail": null,
+  "title": "20 \"Cakes\" of Java in Brazil",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "A known legacy Windows-1252 byte 0xE2 was decoded explicitly as U+00E2.",
+    "A known legacy Windows-1252 byte 0xE1 was decoded explicitly as U+00E1.",
+    "A known legacy Windows-1252 byte 0xF3 was decoded explicitly as U+00F3.",
+    "A known legacy Windows-1252 byte 0xE3 was decoded explicitly as U+00E3.",
+    "An active or embedded source element was omitted."
+  ]
+}

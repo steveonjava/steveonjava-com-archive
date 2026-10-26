@@ -1,0 +1,71 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2010-01-02 00:05:56",
+  "excerpt": "To bring in the New Year, I did a complete revamp of my blog.  Wordpress.com served me well initially, but the limitations started to cramp my style.  Now I am off the corporate cloud and running on a 100% Open Source platform.",
+  "id": 763,
+  "original_urls": [
+    "http://steveonjava.com/2010-blog-revisited/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "cbb0c2de44a2536d127cd74e54e17eab79ddb61f308e93699f50f66908b19d17",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.flickr.com/photos/18203311@N08/4235825109/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.jide.fr",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.jide.fr/english/downloads/freshy2"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/2010-blog-revisited/",
+    "post_id": 763,
+    "rejected_urls": [],
+    "source_content_sha256": "dd186c0b95ed4fba1993b6d1700149fc2c31458659ea5eabcf05632b4ff844ea",
+    "source_date_sha256": "e2483507184bfa46079c76f20083efc80012d9b877f69605919d53f2c946c280",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "d0f75a27a9e4205007b3b240cebca189ceda3140efff619e5d01570b6b2423f1"
+    },
+    "source_slug_sha256": "1fd68df858917d75bb55ce0f244204cc105cd7911ebbf2c8ba5240f3f72efe22",
+    "source_title_sha256": "faf65dfd403457ca7e1d8e9ea8f9f252beb18985606d22bc938602998f99f5bd",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "2010-blog-revisited",
+  "thumbnail": null,
+  "title": "2010 Blog - Revisited",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "A known legacy Windows-1252 byte 0xE9 was decoded explicitly as U+00E9."
+  ]
+}

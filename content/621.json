@@ -1,0 +1,69 @@
+{
+  "categories": [
+    {
+      "name": "Contest",
+      "slug": "contest"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2009-09-29 00:49:43",
+  "excerpt": "What can you do in 30 lines of JavaFX?  JFXStudio is running a contest right now to find this out...",
+  "id": 621,
+  "original_urls": [
+    "http://steveonjava.com/30-lines-of-javafx/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "f1cefd4b23797f8562eee72ebdaf730fb1703bec364023d41493609449b9f903",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "jfxstudio.wordpress.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxstudio.wordpress.com/2009/08/31/jfxstudio-challenge-small-is-the-new-big/"
+      },
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://jfxtras.org/sounds/beep.wav"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/30-lines-of-javafx/",
+    "post_id": 621,
+    "rejected_urls": [],
+    "source_content_sha256": "a0c08043935e54798ad2daa175b6cf4cb14abe5a4d36b7d88f38efd00b4b230c",
+    "source_date_sha256": "ebfd310c62d8270f9d0fd5e8ed14eb799db37c4f777ac1cfe2e32a794d2e2d6f",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "0c7963997d43fd0efd60c7eae398416644fd2b8322f67109f7b43589047a1dd6",
+    "source_title_sha256": "63878a4c090e0ac38e547c5dfbd1e1a0a0dc8db09e8c67fdf0bcdb2984217f09",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "30-lines-of-javafx",
+  "thumbnail": null,
+  "title": "30 Lines of JavaFX",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

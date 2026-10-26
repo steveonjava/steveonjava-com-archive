@@ -1,0 +1,64 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "Presentation",
+      "slug": "presentation"
+    },
+    {
+      "name": "WidgetFX",
+      "slug": "widgetfx"
+    }
+  ],
+  "date": "2009-04-30 00:28:04",
+  "excerpt": "5/2 Update: Seats now available...  Sign-up now!",
+  "id": 258,
+  "original_urls": [
+    "http://steveonjava.com/widgetfx-session-sold-out/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "1b7c33c037802eb2bde9f2970912210e7fc1904b0a99825b896defd9c370edb6",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www28.cplan.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www28.cplan.com/cc230/session_details.jsp?isid=303789&ilocation_id=230-1&ilanguage=english"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/widgetfx-session-sold-out/",
+    "post_id": 258,
+    "rejected_urls": [],
+    "source_content_sha256": "5fc84fe4bc77976096f0b456edbd04d667b087578e64b27202eece92f3ff5eb1",
+    "source_date_sha256": "02c3b685a03edfbb24f2894d2b1f695617c2e38265898a64cca9d6a33745c3ed",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "da1e8d8a0b4a6d8d3b9d53a8d83a4cf34408e2333b3c11b40fed83061edd256d"
+    },
+    "source_slug_sha256": "36eaccafb3e4d382ea38d355fc135f35167677c3dc496bc9648d37c2b296b645",
+    "source_title_sha256": "f51e21a4c86ede1b87661097d4bbc7d0877e785b4aef605e285a699d3a06262d",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "widgetfx-session-sold-out",
+  "thumbnail": null,
+  "title": "WidgetFX Session Sold Out!",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

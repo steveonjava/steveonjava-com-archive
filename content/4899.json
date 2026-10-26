@@ -1,0 +1,76 @@
+{
+  "categories": [
+    {
+      "name": "Uncategorized",
+      "slug": "uncategorized"
+    }
+  ],
+  "date": "2015-02-11 09:55:40",
+  "excerpt": "JavaOne is well known for its:\n\n\tGreat Cuisine\n\tFormal Dress Code\n\tExcellent Content!\n\nEach year we award the top speakers for the JavaOne conference with the prestigious JavaOne Rock Star Award. This is done by taking a look at attendee feedback, so it really represents the folks who created the best content and experience for the JavaOne audience.",
+  "id": 4899,
+  "original_urls": [
+    "http://steveonjava.com/congratulations-to-the-2014-javaone-rock-stars/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "dc3889193b7c0c1d7a55bedfa0f257cb0bf403da2e9a46c732387aa438f684ae",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oracle.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://www.oracle.com/javaone/index.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oracle.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://www.oracle.com/javaone/rock-stars/index.html"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": "2009/07/rockstar_dukewithguitar_small.gif",
+        "reason": "unsupported-format-no-gif-or-document-export",
+        "source_url_sha256": "24fb9d5020d027864b8a832ffb8c43f02e397a5f97414bca47bc4481bfdafb05"
+      },
+      {
+        "path": "2009/07/rockstar_dukewithguitar_small.gif",
+        "reason": "unsupported-format-no-gif-or-document-export",
+        "source_url_sha256": "d1ebb85380ba0bf6328b7eeea4956ccd2c02159387c3772ebfc61a142b7bbd8f"
+      }
+    ],
+    "original_root_route": "/congratulations-to-the-2014-javaone-rock-stars/",
+    "post_id": 4899,
+    "rejected_urls": [],
+    "source_content_sha256": "bbca53c25bfd779cf8f7fe0601136df11295c4da8e03c7da99db7f5e38f50cdd",
+    "source_date_sha256": "84a90dadbec763c30becd8a4dd075c585ca256576fd99684313a1ca8b1d31bfe",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_thumbnail_id": "48ce32e8ec7741594c8786e445fbed501f5a735a49522314b8e24878e2544b9e"
+    },
+    "source_slug_sha256": "5cca88d537ecb468289c11c9a57f68cc5fe5ad593dba31808df88d72cba16655",
+    "source_title_sha256": "8b2e9870814e6a54645c9cc6affa133d1b752e118b2dd38e537cf2e56e8d1e02",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "congratulations-to-the-2014-javaone-rock-stars",
+  "thumbnail": null,
+  "title": "Congratulations to the 2014 JavaOne Rock Stars!",
+  "type": "post",
+  "video_id": null,
+  "warnings": []
+}

@@ -1,0 +1,79 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "Presentation",
+      "slug": "presentation"
+    },
+    {
+      "name": "SvJugFx",
+      "slug": "svjugfx"
+    }
+  ],
+  "date": "2009-12-18 13:09:06",
+  "excerpt": "I am very pleased to have Amy Fowler (Aim) presenting on JavaFX Layouts at our January Silicon Valley JavaFX Users Group (SvJugFx).  For those of you who don't know Aim, she was a founding member of the Swing team, has done some Rock Star presentations at JavaOne, and is a core member of the JavaFX team focused on all things layout.",
+  "id": 745,
+  "original_urls": [
+    "http://steveonjava.com/javafx-layout-secrets/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "4d3b5fffbe0c09f45e806415dc0d58f46bf42aca591dd2bc8f134a8187315799",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "beta.parleys.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://beta.parleys.com/#id=1760&st=5&sl=1"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.svjugfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.svjugfx.org/calendar/12104615/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/javafx-layout-secrets/",
+    "post_id": 745,
+    "rejected_urls": [],
+    "source_content_sha256": "e437091bb5b1ea465e2cb6474034f8ceaca723c8bc636b6e76ae32c52731e706",
+    "source_date_sha256": "0538b4266168d4876dfc84fbf822e2617f075e4242f81a5e3f872153a1863a79",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "bfee4432511d1294cfde0b2ecd40d152ac08b7b877e3c62dcb433899e6b2299b"
+    },
+    "source_slug_sha256": "bd8d1691f00c385a9b1a2f8231632ad14345e3b74a97677b7608b6fc9185d26b",
+    "source_title_sha256": "4b86c2d74b2ed8debe87bf50f8c44ed5abc9da7f7bbd294c983fe8ecc562946f",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "javafx-layout-secrets",
+  "thumbnail": null,
+  "title": "JavaFX Layout Secrets",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

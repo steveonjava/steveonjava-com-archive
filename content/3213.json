@@ -1,0 +1,438 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JavaOne",
+      "slug": "javaone-2"
+    }
+  ],
+  "date": "2013-04-10 09:23:22",
+  "excerpt": "We started a new rolling admission process for JavaOne this year where we are reviewing and accepting some of the top talks while the Call for Proposals (CFP) is still open. This gives us a chance to highlight a few of the great speakers and talks coming in and encourages external submissions early and often.",
+  "id": 3213,
+  "original_urls": [
+    "http://steveonjava.com/congrats-to-the-1st-javaone-invitees/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "b2fb500224964fb5f79377ab89e57eecf602e911b7e31f50aa3adaa88e585aa1",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.oracle.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oracle.com/javaone/call-for-papers/information/index.html"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "si0.twimg.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://si0.twimg.com/profile_images/1448381358/thinker100_normal.png"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "si0.twimg.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://si0.twimg.com/profile_images/1583179863/148549_10150099677974880_622379879_7356841_1622959_n_normal.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "si0.twimg.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://si0.twimg.com/profile_images/1618650331/me-icon_normal.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "si0.twimg.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://si0.twimg.com/profile_images/1629036494/DSCN4274_normal.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "si0.twimg.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://si0.twimg.com/profile_images/2518814327/g7oy832h3g0tnpfuezg8_normal.jpeg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "si0.twimg.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://si0.twimg.com/profile_images/2630304367/015a6c8354037baa06264e77f2a36446_normal.jpeg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "si0.twimg.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://si0.twimg.com/profile_images/2839083066/ce87b38cc37fec6ff5e396e786c07fa5_normal.jpeg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "si0.twimg.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://si0.twimg.com/profile_images/3014427376/4dbbf30fe12a4610dfe8935b510a5eed_normal.png"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "si0.twimg.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://si0.twimg.com/profile_images/3474572133/cd1c7b12df1e83f962c848b400aced2d_normal.png"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "si0.twimg.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://si0.twimg.com/profile_images/53669272/MeThailand_normal.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "si0.twimg.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://si0.twimg.com/profile_images/54828000/nilsonkevinweb_normal.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "si0.twimg.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://si0.twimg.com/profile_images/633469991/venkatsubramaniam_normal.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "si0.twimg.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://si0.twimg.com/profile_images/68660467/3130026223_caab2d1e6c_normal.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "si0.twimg.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://si0.twimg.com/profile_images/82608077/abien_icon_normal.jpg"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/AdamBien"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/BertErtman"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/evanchooly"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/freddy33"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/gertbrettlecker"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/hansolo_"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/hseeberger"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/iNikem"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/javaclimber"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/pbakker"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/shemnon"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/trisha_gee"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/venkat_s"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/yenerm"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "04f7028285f63952c3203cad430e57183d965040b079cfdb467ec48feaf9c73d"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "6becb18510cf70e96e0010e9993357249bea5e6cc0637373cfc6e0ab32a2dc49"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "c631891cd96d23a0a97ce44ce60bc6537322fb5f2e2f4c1cbe01f0de5a260241"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "223e2bc1d3b28fdd6feb13847cca0d7d38b3142471f50316f214a544c8bdac20"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "286421b820b8f44d8f6ec29fbcc4979b9b6b7fff2c5534920e32195145b068e3"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "1dbf2b3a368309c85f6a1375a6d4bcc111c3f3b3167b8a2fbfdd22be5aa82a61"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "c58b84de5098007d9f9da309ea414001b7a4a6285e505b713d3e31c41e71d7cb"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "285f706ceb1043507bd5b7df96eef584bfbb3f7e9656606de5d4bbba5fadfb01"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "9fb2c274b6653c62743c909088d5f6d6fb2d21ed64e85f94383e941a638df15c"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "246b5e4f0be7ed9dc7b096159aa4d65259f003c2854a958731c900a42b4dbbd8"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "1f0428e83677ffe927eb8530177fabfe30fe1b87bbef9db87d5a3bf400aea070"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "4af3d43c9c42a6302324f2bad86505068d304dacda1e8d1846915cf259e054b9"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "04ad7a0720a75f2fa6b19fea9ac7f59d8d1995f5e255273c713198f056067a07"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "123cfecb7ddf640893bd76b69b12bb92d4e022aa2769672d57e5df4c4a63ecb9"
+      }
+    ],
+    "original_root_route": "/congrats-to-the-1st-javaone-invitees/",
+    "post_id": 3213,
+    "rejected_urls": [],
+    "source_content_sha256": "d418a603c1645d257c7face1f786e6f085349c605f22cd1aca74edf22540c02c",
+    "source_date_sha256": "096f20ec5fa9d337c65afac0914b6b982b6746f3552a946282cc531cb3a2218b",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "394d16ee0a3f2dc086a275e1685ee0027d23a670662ff024970703d0c7604d2a",
+    "source_title_sha256": "66f68af4e18c7fd6b730109e5c01e83e8a40523bc545d5579f2199180a4d2531",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "congrats-to-the-1st-javaone-invitees",
+  "thumbnail": null,
+  "title": "Congrats to the 1st JavaOne Invitees!",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

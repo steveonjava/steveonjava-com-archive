@@ -1,0 +1,120 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2009-07-29 06:44:02",
+  "excerpt": "I was the very first person to buy an HTC Diamond at JavaOne.  (Jacob Lehrbaum probably thought he was about to be mugged as I stalked him into the Java Store.)  It worked out great for my presentations, but I had to tip-toe around some issues that showed up only on applications deployed to the phone.",
+  "id": 491,
+  "original_urls": [
+    "http://steveonjava.com/javafx-mobile-ready-for-primetime/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "f14210bb4571df688d33952953323220b8d0975bcdcb397ad0fbc464e3cd3c77",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "blogs.sun.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://blogs.sun.com/javafx/entry/want_to_try_javafx_on"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "blogs.sun.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://blogs.sun.com/rakeshmenonp/entry/javafx_for_windows_mobile_ea"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "javafx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://javafx.com/downloads/windows.jsp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/pro-javafx-platform/-/asset_publisher/1Bl5/content/mobiledrawjfx"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/pro-javafx-platform/-/asset_publisher/1Bl5/content/mobilehelloearthrise"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "kenai.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://kenai.com/projects/twitterfx"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/library"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/javafx-mobile-ready-for-primetime/",
+    "post_id": 491,
+    "rejected_urls": [],
+    "source_content_sha256": "60ef843b803f7c8640d244bcc9974e5ca76ce1bf01972533776ebe837f5a5382",
+    "source_date_sha256": "90abf40c3584da54b48ac926ad70871da67489d739673688a2bb4bb194e582c3",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "00f4345a7f7f9f6eaa56f5272969db97d8e6f0868bd1d6e557d4136f76942fca",
+    "source_title_sha256": "b237f2e2d13d4efe3aa87a38c7371e8d5e89833df3eab945645313f11226f167",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "javafx-mobile-ready-for-primetime",
+  "thumbnail": null,
+  "title": "JavaFX Mobile Ready for Primetime!",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

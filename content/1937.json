@@ -1,0 +1,46 @@
+{
+  "categories": [],
+  "date": "2011-07-16 00:45:22",
+  "excerpt": "JFXtras Corporate Contributor License Agreement (\"Agreement\"), v1.0\nhttp://steveonjava.com/jfxtras/jfxtras-corporate-cla-v1-0/",
+  "id": 1937,
+  "original_urls": [
+    "http://steveonjava.com/forms/jfxtras-corporate-cla-v1-0/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "e48638fbc47ee94e5c4d266f318424e58102404974aa800474c08251bd184a07",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [],
+    "image_omissions": [],
+    "original_root_route": "/forms/jfxtras-corporate-cla-v1-0/",
+    "page_ancestor_ids": [
+      1931
+    ],
+    "page_parent_id": 1931,
+    "post_id": 1937,
+    "rejected_urls": [],
+    "source_ancestor_slug_sha256": {
+      "1931": "8bec8757f662f0f3cab90d3c7cfbf69ce66e4e120b0f8fb911aa1022798b3edf"
+    },
+    "source_content_sha256": "230223c0617f3befd9067fac6f0b635fccd51508312d9c49cad98ad7c6e0e994",
+    "source_date_sha256": "93c2440f8895845c68f03e9b5881f443b57f1fd397ac58fa789bdc1e2e3f56cb",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "503516d8a80aa99d03d83d96c1c3a2e92baaab14ae0131999c6ad255e72448d6",
+    "source_title_sha256": "80d0c7c3cf103cb86cd26e6f245ba60b7bb731f74f3ea63bb9267d6e855f2a47",
+    "table": "wp_posts",
+    "video_status": "not-applicable-static-page"
+  },
+  "review_status": "unreviewed",
+  "route": "/forms/jfxtras-corporate-cla-v1-0/",
+  "slug": "jfxtras-corporate-cla-v1-0",
+  "thumbnail": null,
+  "title": "JFXtras Corporate CLA",
+  "type": "page",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "A CMS-only form, upload or player shortcode was omitted."
+  ]
+}

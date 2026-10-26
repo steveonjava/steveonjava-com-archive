@@ -1,0 +1,174 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "Uncategorized",
+      "slug": "uncategorized"
+    }
+  ],
+  "date": "2012-08-30 05:18:40",
+  "excerpt": "Welcome to Day 3 of the JavaFX in Spring blog series. In this post we are going to finish off the Customer Data application by taking advantage of the Spring Security APIs on the client.",
+  "id": 2371,
+  "original_urls": [
+    "http://steveonjava.com/javafx-in-spring-day-3/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "2190577653e546683f01d303a682e5c121426c35c80635f59ebe14413ebd59b4",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "localhost",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://localhost:8080/crm/customer/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "stackoverflow.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://stackoverflow.com/questions/2289211/obtain-real-class-object-for-spring-bean"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.austinjug.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.austinjug.org/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.hjug.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.hjug.org/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.slideshare.net/steveonjava/hacking-java-fx-with-groovy-clojure-scala-and-visage-oscon"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.slideshare.net/steveonjava/javafx-2-a-java-developers-guide-san-antonio-jug-version"
+      },
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.springframework.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.springframework.org/schema/beans"
+      },
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.springframework.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.springframework.org/schema/beans/spring-beans-2.0.xsd"
+      },
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.springframework.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.springframework.org/schema/security"
+      },
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.springframework.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.springframework.org/schema/security/spring-security-3.1.xsd"
+      },
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.w3.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.w3.org/2001/XMLSchema-instance"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "github.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://github.com/steveonjava/JavaFX-Spring"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/javafx-in-spring-day-3/",
+    "post_id": 2371,
+    "rejected_urls": [],
+    "source_content_sha256": "c8bcc010aa183093943fb942830fe09abbb35dafb2666849f32f3e7cacdca1f8",
+    "source_date_sha256": "6180047d4a7d12f931a1ecfb6117544a43284cf0792802ffb0c54603f6243254",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "c93873d8ee94ddaed1a1a54344230a38adbb3e9f06f695da221df8fdb01c0774",
+    "source_title_sha256": "f5b48cc0d07b7be7d834514ed4e42ef16d1e88197102ea2329d15b26d2855549",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "javafx-in-spring-day-3",
+  "thumbnail": null,
+  "title": "JavaFX in Spring Day 3 - Authentication and Authorization",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "A known legacy Windows-1252 byte 0x92 was decoded explicitly as U+2019."
+  ]
+}

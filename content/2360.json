@@ -1,0 +1,102 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "Uncategorized",
+      "slug": "uncategorized"
+    }
+  ],
+  "date": "2012-08-20 06:55:01",
+  "excerpt": "I spoke recently to the Spring Dallas User Group, which was a great audience, and in preparation for the talk I dusted off my Spring Framework skills (with a little help from Josh Long).  Even though Spring is primarily targeted at server-side applications, you can actually do quite a nice integration between the two technologies on the client.  In addition to the full talk (which you can find below), I will elaborate on some of the patterns for building Spring/JavaFX hybrid applications in this blog.",
+  "id": 2360,
+  "original_urls": [
+    "http://steveonjava.com/javafx-and-spring-day-1/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "b5d1aa3f3ceb8bb27026f9d10b00104c9807ae86d01cc54885a38e9b018fa140",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "iframe:src"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.slideshare.net/slideshow/embed_code/13990502?rel=0"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.slideshare.net/steveonjava"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.slideshare.net/steveonjava/javafx-2-using-the-spring-framework"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.springdallasug.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.springdallasug.org/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/starbuxman"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/javafx-and-spring-day-1/",
+    "post_id": 2360,
+    "rejected_urls": [],
+    "source_content_sha256": "76b756edb2169bece5bd3365d46561ccb389d27bd2036804f5083c279dc6eb8c",
+    "source_date_sha256": "11aa2ba8efdf73a1691bfca94e7a836124019e6af00f859bf180f026010b5455",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "c15601ed667b5bf0f91cc0a60fc6954ace65a6821385645d3f77714b972989ec",
+    "source_title_sha256": "bb8e381f39512622f1baf1de260f4cf10053deddc708c634a9d67cdf10464f7f",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "javafx-and-spring-day-1",
+  "thumbnail": null,
+  "title": "JavaFX in Spring Day 1 - Application Initialization",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "An active or embedded source element was omitted."
+  ]
+}

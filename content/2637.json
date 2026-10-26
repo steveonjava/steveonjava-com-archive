@@ -1,0 +1,97 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "NightHacking",
+      "slug": "nighthacking"
+    }
+  ],
+  "date": "2012-10-22 15:01:07",
+  "excerpt": "James Gosling, the original Java NightHacker (see his great blog at http://nighthacks.org/), will be joining me this Wednesday to kick off the NightHacking Tour on a live video stream.  This is a chance to watch James live and interact with him via the social stream (via UStream or by tweeting with #nighthacking) as we chat, hack, and discover some of the things he has been working on in his new gig at Liquid Robotics.",
+  "id": 2637,
+  "original_urls": [
+    "http://steveonjava.com/gosling-kicks-off-the-nighthacking-tour/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "189182a8b8b8ec7d08ba44faf05ddef6d782b1f9c7c03d0fe27dc3242aae5cc0",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "nighthacking.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://nighthacking.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "nighthacks.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://nighthacks.org/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.ustream.tv",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.ustream.tv/channel/nighthacking"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/i/#!/search/realtime/%23nighthacking"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/gosling-kicks-off-the-nighthacking-tour/",
+    "post_id": 2637,
+    "rejected_urls": [],
+    "source_content_sha256": "178f91c6353f593fbe03c34cbf6ffbd2ef7652766084b05b0530fe5eda58bf61",
+    "source_date_sha256": "8065fbdb82b9023bf14fc4633459e04fbd085db53a1c3b44f4e72fe10a3f5a7c",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "062e846ed3155e31c3761ac8ba6aa334cc9f1a4e993f1a041bf6629524b893d5",
+    "source_title_sha256": "fbb302a8ef7a004179451d65daf2c97ece8218002f27c1be98602c2347025181",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "gosling-kicks-off-the-nighthacking-tour",
+  "thumbnail": null,
+  "title": "NightHacking with James Gosling",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}
