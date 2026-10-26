@@ -72,8 +72,8 @@ jobs:
           retention-days: 7
 
   browser:
-    # Run diagnostics and upload a per-shard artifact even if the build failed.
-    if: ${{ always() }}
+    # Retain failed-build diagnostics, but let obsolete workflows cancel promptly.
+    if: ${{ !cancelled() }}
     needs: build
     name: browser routes ${{ matrix.label }}
     runs-on: ubuntu-latest
