@@ -169,7 +169,13 @@ def safe_url(value, absolute=False, allowed_routes=(), allowed_hosts=()):
         require(inspection.count(" ") == once_spaces, "Whitespace in URL")
         inspection = inspection.replace(" ", "")
     require(not any(c.isspace() or ord(c) < 32 or ord(c) == 127 for c in inspection), "Whitespace in URL")
-    require(not any(c in decoded for c in "\\<>\"'"), "Unsafe URL character")
+    if "'" in inspection:
+        require(raw.scheme in {"http", "https"} and bool(raw.netloc) and "'" not in value, "Unsafe URL character")
+        once_quotes = sum(unquote(component, errors="strict").count("'")
+                          for component in (raw.path, raw.query, raw.fragment))
+        require(inspection.count("'") == once_quotes, "Unsafe URL character")
+        inspection = inspection.replace("'", "")
+    require(not any(c in inspection for c in "\\<>\"'"), "Unsafe URL character")
     require(not decoded.startswith("//"), "Protocol-relative URL")
     parsed = urlsplit(decoded)
     require(parsed.scheme in {"", "http", "https"}, "Unsafe URL scheme")
@@ -604,7 +610,7 @@ def widget_image(photos, path, alt, width, height, href=None):
     return f'<a href="{escape(href, quote=True)}" rel="{REL}">{image}</a>' if href else image
 
 
-def steveonjava_sidebar(year_links, categories, names, photos):
+def steveonjava_sidebar(year_links, categories, names, photos, has_pages=False):
     covers = ''.join(widget_image(photos, path, alt, 75, 99, href) for path, alt, href in PUBLICATIONS)
     html = '<h2>Publications</h2><p class="widget-covers">' + covers + '</p>' if covers else ''
     topics = ''.join(f'<li>{anchor(f"/category/{slug}/", names[slug])}</li>' for slug in sorted(categories, key=lambda slug: names[slug].lower()))
@@ -615,6 +621,8 @@ def steveonjava_sidebar(year_links, categories, names, photos):
     badges = ''.join('<p class="widget-art">' + widget_image(photos, path, alt, w, h) + '</p>' for path, alt, w, h in AWARDS if path in photos)
     if badges:
         html += '<h2>Awards</h2>' + badges + ('<p>2009 JavaOne Rock Star!</p>' if AWARDS[1][0] in photos else '')
+    if has_pages:
+        html += '<h2>Pages</h2><ul><li>' + anchor('/pages/', 'All pages') + '</li></ul>'
     return html + '<h2>Disclaimer</h2><p>' + escape(DISCLAIMER) + '</p>'
 
 
@@ -840,8 +848,8 @@ def build(root, base=""):
         sidebar = recent + '<h2>Archives</h2><ul>' + year_links + '</ul><h2>Categories</h2><ul>'
         sidebar += ''.join(f'<li>{anchor(f"/category/{slug}/", names[slug])}</li>' for slug in sorted(categories)) + '</ul>'
     else:
-        sidebar = steveonjava_sidebar(year_links, categories, names, photos)
-    if static_pages:
+        sidebar = steveonjava_sidebar(year_links, categories, names, photos, bool(static_pages))
+    if static_pages and night:
         sidebar += '<h2>Pages</h2><ul><li>' + anchor('/pages/', 'All pages') + '</li></ul>'
     image = THEME_IMAGES[config['site']]
     config['theme_image'] = image if image in photos else None

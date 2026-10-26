@@ -556,12 +556,12 @@ class ArchiveTests(unittest.TestCase):
         return record
 
     def test_percent20_outbound_components_are_valid_without_fetching(self):
-        for value in ["https://example.com/Sample%20File.pdf", "https://example.com/search?q=two%20words#some%20label"]:
+        for value in ["https://example.com/Sample%20File.pdf", "https://example.com/search?q=two%20words#some%20label", "https://example.com/Developer%27s%20Guide"]:
             with self.subTest(value=value):
                 self.assertEqual(build.safe_url(value, absolute=True), value)
 
     def test_percent20_does_not_relax_authority_local_route_or_controls(self):
-        for value in ["/local%20asset.jpg", "http://exa%20mple.com/a", "http://user%20name@example.com/a", "https://example.com/path%2520file", "http://example.com/plain space", "https://example.com/search?q=x%09y", "https://example.com/a%20b%0d%0aHeader"]:
+        for value in ["/local%20asset.jpg", "http://exa%20mple.com/a", "http://user%20name@example.com/a", "https://example.com/path%2520file", "http://example.com/plain space", "https://example.com/search?q=x%09y", "https://example.com/a%20b%0d%0aHeader", "https://exa%27mple.com/a", "https://example.com/path%2527file", "https://example.com/Developer'sGuide", "https://example.com/%22quote"]:
             with self.subTest(value=value), self.assertRaises(ValueError):
                 build.safe_url(value)
 
@@ -594,6 +594,9 @@ class ArchiveTests(unittest.TestCase):
                 self.assertIn('href="/training/about/"', discovery)
                 self.assertIn('href="/pages/" aria-current="page">Pages</a>', discovery)
                 self.assertNotIn("/category/page-only-topic/", result["routes"])
+                if site == "steveonjava":
+                    home = (self.root / "_site/index.html").read_text()
+                    self.assertLess(home.index('<h2>Pages</h2>'), home.index('<h2>Disclaimer</h2>'))
                 for path in ["index.html", "archive/index.html", "archive/2014/index.html", "category/testing/index.html"]:
                     html = (self.root / "_site" / path).read_text()
                     self.assertNotIn(record["title"], html)

@@ -20,7 +20,7 @@ Rights remain owner-asserted and unreviewed, not independently cleared. Omission
 
 No new external URL, thumbnail URL or provider endpoint was fetched. Newly inventoried destinations are `unverified` and must not be described as available. The existing dated link checks remain separate evidence, and their known-dead decisions remain intact. Rendering uses local files and nofollow external links, not network availability.
 
-NightHacking source metadata identifies 298 exact YouTube IDs. Nine player-settings records contain no validated recording identity and remain null rather than being guessed. This does not establish playback availability. Normal CI is offline and any future provider checks need an explicit approved-ID list and separate permission.
+NightHacking now has 307 exact recording IDs, comprising 298 metadata-derived IDs and nine explicit author-body URL resolutions. Nine player-settings records omit an ID in their metadata, but the existing public author bodies and source-text inventories contain exact unique recording URLs. Those nine IDs were resolved offline and their unchanged Markdown hashes and original export JSON hashes are recorded in `video-identity-resolutions.json`. This does not establish playback availability. Normal CI is offline and any future provider checks need an explicit approved-ID list and separate permission.
 
 One SteveOnJava source post retains its original public Stratus program contact address. It is author-published program contact prose, not recovered account or comment data. The text and metadata scan found no credential or private-host-path patterns. The apparent active-markup hit in post 3812 is Java generic syntax inside a fenced source example, not active HTML.
 
