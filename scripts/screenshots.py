@@ -11,6 +11,7 @@ from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 import json
 from pathlib import Path
 import re
+import time
 from threading import Thread
 from urllib.parse import quote, unquote, urlsplit
 
@@ -183,9 +184,26 @@ def prepare(root, base, output, index, count, fallback):
         raise
 
 
-def local_resources_ready(page):
-    # One load boundary, then explicit stylesheet, lazy-image decode and font readiness.
-    # Playwright evaluation works even in a java_script_enabled=False browsing context.
+def local_resources_ready(page, nojs=False):
+    # A disabled-JavaScript context must not await page timers, animation frames or
+    # promise callbacks. Poll synchronous resource state with a host-side deadline.
+    if nojs:
+        page.evaluate("() => { for (const img of document.images) img.loading = 'eager'; }")
+        deadline = time.monotonic() + 10
+        while True:
+            state = page.evaluate("""() => ({
+                styles: Array.from(document.querySelectorAll('link[rel="stylesheet"]')).every(link => !!link.sheet),
+                pending: Array.from(document.images).filter(img => !img.complete).map(img => img.src),
+                broken: Array.from(document.images).filter(img => img.complete && img.naturalWidth < 1).map(img => img.src),
+                fonts: document.fonts.status === 'loaded'
+            })""")
+            require(not state['broken'], 'Broken local images: ' + repr(state['broken']))
+            if state['styles'] and not state['pending'] and state['fonts']:
+                page.wait_for_timeout(50)
+                return
+            require(time.monotonic() < deadline, 'No-JavaScript resource readiness timeout: ' + repr(state))
+            page.wait_for_timeout(50)
+    # Enabled JavaScript also verifies full pixel decode and two painted frames.
     page.evaluate("""async () => {
         const ready = async () => {
             for (const link of document.querySelectorAll('link[rel="stylesheet"]')) {
@@ -206,6 +224,16 @@ def local_resources_ready(page):
             })]);
         } finally { clearTimeout(timer); }
     }""")
+
+
+def watch_page(page, errors, base, expected_abort_pages):
+    page.on('pageerror', lambda error: errors.append('JavaScript: ' + str(error)))
+    page.on('console', lambda message: errors.append('Console: ' + message.text) if message.type == 'error' else None)
+    page.on('response', lambda response: errors.append(f'HTTP {response.status}: {response.url}')
+            if response.status >= 400 and urlsplit(response.url).path != base + '/favicon.ico' else None)
+    page.on('requestfailed', lambda request: errors.append('Failed resource: ' + request.url)
+            if urlsplit(request.url).path != base + '/favicon.ico'
+            and not (page in expected_abort_pages and request.failure == 'net::ERR_ABORTED') else None)
 
 
 def check_page(page, origin, base):
@@ -300,29 +328,24 @@ def run_browser(root, base, output, route_plan, manifest):
     thread.start()
     origin = f'http://127.0.0.1:{server.server_port}'
     served = origin + base
-    active_errors = []
+    expected_abort_pages = set()
 
     def route_request(route):
         parsed = urlsplit(route.request.url)
         if parsed.scheme == 'http' and parsed.netloc == f'127.0.0.1:{server.server_port}':
             route.continue_()
         else:
-            active_errors.append('Blocked external request: ' + route.request.url)
+            manifest['errors'].append('Blocked external request: ' + route.request.url)
             route.abort()
 
-    def watch(page):
-        page.on('pageerror', lambda error: active_errors.append('JavaScript: ' + str(error)))
-        page.on('console', lambda message: active_errors.append('Console: ' + message.text) if message.type == 'error' else None)
-        page.on('response', lambda response: active_errors.append(f'HTTP {response.status}: {response.url}')
-                if response.status >= 400 and urlsplit(response.url).path != base + '/favicon.ico' else None)
-        page.on('requestfailed', lambda request: active_errors.append('Failed resource: ' + request.url)
-                if urlsplit(request.url).path != base + '/favicon.ico' else None)
+    def watch(page, errors):
+        watch_page(page, errors, base, expected_abort_pages)
 
-    def visit(page, route):
+    def visit(page, route, nojs=False):
         response = page.goto(served + route, wait_until='load', timeout=15000)
         require(response and response.status == 200, f'Expected browser HTTP 200: {route}')
         require(uri_route(urlsplit(page.url).path) == uri_route(base + route), 'Unexpected navigation redirect')
-        local_resources_ready(page)
+        local_resources_ready(page, nojs=nojs)
 
     try:
         with sync_playwright() as playwright:
@@ -333,19 +356,20 @@ def run_browser(root, base, output, route_plan, manifest):
                 context.set_default_timeout(12000)
                 context.route('**/*', route_request)
                 def deny_websocket(socket):
-                    active_errors.append('Blocked WebSocket: ' + socket.url)
+                    manifest['errors'].append('Blocked WebSocket: ' + socket.url)
                     socket.close()
                 context.route_web_socket('**/*', deny_websocket)
                 for row in manifest['routes']:
                     result = row['checks'][mode]
                     active_errors = result['errors']
                     page = context.new_page()
-                    watch(page)
+                    watch(page, active_errors)
                     try:
-                        visit(page, row['route'])
+                        visit(page, row['route'], nojs=mode.endswith('-nojs'))
                         result['http_status'] = 200
                         check_page(page, origin, base)
                         if row['record_id'] and not mode.endswith('-nojs'):
+                            expected_abort_pages.add(page)
                             parameter = 'page_id' if row['record_type'] == 'page' else 'p'
                             page.goto(served + '/?' + parameter + '=' + row['record_id'], wait_until='domcontentloaded', timeout=15000)
                             page.wait_for_url(lambda value: uri_route(urlsplit(value).path) == uri_route(base + row['route']) and not urlsplit(value).query, wait_until='load')
@@ -365,8 +389,9 @@ def run_browser(root, base, output, route_plan, manifest):
                                 row['captures'][mode] = filename
                             except Exception as error:
                                 active_errors.append(f'Capture: {type(error).__name__}: {error}')
-                        result['status'] = 'failed' if active_errors else 'passed'
                         page.close()
+                        expected_abort_pages.discard(page)
+                        result['status'] = 'failed' if active_errors else 'passed'
                         write_review(output, manifest)
                 # Only the shard owning home checks query translation; every record has a direct-route check above.
                 if any(row['route'] == '/' for row in manifest['routes']) and not mode.endswith('-nojs'):
@@ -374,7 +399,8 @@ def run_browser(root, base, output, route_plan, manifest):
                     manifest['legacy_ids']['status'] = 'assigned'
                     active_errors = legacy['errors']
                     page = context.new_page()
-                    watch(page)
+                    watch(page, active_errors)
+                    expected_abort_pages.add(page)
                     try:
                         ids = route_plan['record_routes']
                         first_id = next(iter(ids))
@@ -392,8 +418,9 @@ def run_browser(root, base, output, route_plan, manifest):
                     except Exception as error:
                         active_errors.append(f'{type(error).__name__}: {error}')
                     finally:
-                        legacy['status'] = 'failed' if active_errors else 'passed'
                         page.close()
+                        expected_abort_pages.discard(page)
+                        legacy['status'] = 'failed' if active_errors else 'passed'
                         write_review(output, manifest)
                 context.close()
             browser.close()
@@ -406,8 +433,8 @@ def run_browser(root, base, output, route_plan, manifest):
 def finalize(output, manifest, job_status=None):
     if job_status and job_status != 'success':
         manifest['errors'].append('CI job status before artifact upload: ' + job_status)
-    complete = all(result['status'] == 'passed' for row in manifest['routes'] for result in row['checks'].values())
-    legacy_failed = any(isinstance(value, dict) and value['status'] != 'passed' for value in manifest['legacy_ids'].values())
+    complete = all(result['status'] == 'passed' and not result['errors'] for row in manifest['routes'] for result in row['checks'].values())
+    legacy_failed = any(isinstance(value, dict) and (value['status'] != 'passed' or value.get('errors')) for value in manifest['legacy_ids'].values())
     if manifest['status'] in ('planning', 'planned') and job_status:
         manifest['errors'].append('Browser execution did not complete; planned/pending checks are not success')
     manifest['status'] = 'passed' if complete and not legacy_failed and not manifest['errors'] else 'failed'
