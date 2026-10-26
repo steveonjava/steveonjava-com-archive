@@ -139,6 +139,9 @@ def output_path(output, uri):
 def safe_url(value, absolute=False, allowed_routes=(), allowed_hosts=()):
     text(value, "URL", 4096)
     require(bool(value), "Empty URL")
+    require(not any(c.isspace() or ord(c) < 32 or ord(c) == 127 for c in value), "Whitespace in URL")
+    raw = urlsplit(value)
+    require(not raw.username and not raw.password, "URL credentials are forbidden")
     require(not re.search(r"%(?![0-9a-fA-F]{2})", value), "Malformed percent escape")
     decoded = value
     try:
@@ -157,6 +160,14 @@ def safe_url(value, absolute=False, allowed_routes=(), allowed_hosts=()):
         require(route_key(raw_path) in {route_key(route) for route in allowed_routes}, "Whitespace in URL")
         parsed = urlsplit(decoded)
         inspection = urlunsplit(parsed._replace(path=parsed.path.replace("\u3000", "")))
+    if " " in inspection:
+        # A literal %20 is valid in an outbound HTTP path/query/fragment, but
+        # never in an authority, a local asset route or a repeatedly decoded URI.
+        require(raw.scheme in {"http", "https"} and bool(raw.netloc), "Whitespace in URL")
+        once_spaces = sum(unquote(component, errors="strict").count(" ")
+                          for component in (raw.path, raw.query, raw.fragment))
+        require(inspection.count(" ") == once_spaces, "Whitespace in URL")
+        inspection = inspection.replace(" ", "")
     require(not any(c.isspace() or ord(c) < 32 or ord(c) == 127 for c in inspection), "Whitespace in URL")
     require(not any(c in decoded for c in "\\<>\"'"), "Unsafe URL character")
     require(not decoded.startswith("//"), "Protocol-relative URL")

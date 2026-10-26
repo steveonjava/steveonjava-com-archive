@@ -555,6 +555,25 @@ class ArchiveTests(unittest.TestCase):
             record["route"] = route
         return record
 
+    def test_percent20_outbound_components_are_valid_without_fetching(self):
+        for value in ["https://example.com/Sample%20File.pdf", "https://example.com/search?q=two%20words#some%20label"]:
+            with self.subTest(value=value):
+                self.assertEqual(build.safe_url(value, absolute=True), value)
+
+    def test_percent20_does_not_relax_authority_local_route_or_controls(self):
+        for value in ["/local%20asset.jpg", "http://exa%20mple.com/a", "http://user%20name@example.com/a", "https://example.com/path%2520file", "http://example.com/plain space", "https://example.com/search?q=x%09y", "https://example.com/a%20b%0d%0aHeader"]:
+            with self.subTest(value=value), self.assertRaises(ValueError):
+                build.safe_url(value)
+
+    def test_percent20_links_keep_original_hrefs_and_unverified_state(self):
+        self.markdown = "[Synthetic PDF](https://example.com/Sample%20File.pdf) and [Synthetic search](https://example.com/search?q=two%20words).\n"
+        self.save()
+        result = self.compile()
+        html = (self.root / "_site/synthetic-one/index.html").read_text()
+        self.assertIn('href="https://example.com/Sample%20File.pdf"', html)
+        self.assertIn('href="https://example.com/search?q=two%20words"', html)
+        self.assertIn("https://example.com/Sample%20File.pdf", result["unverified_external_urls"])
+
     def test_static_pages_are_discoverable_but_not_posts(self):
         for site, host in [("steveonjava", "steveonjava.com"), ("nighthacking", "nighthacking.tv")]:
             with self.subTest(site=site):
