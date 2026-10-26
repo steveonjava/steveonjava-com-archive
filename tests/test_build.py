@@ -573,7 +573,7 @@ class ArchiveTests(unittest.TestCase):
                 self.assertNotIn('class="post-taxonomy"', page)
                 discovery = (self.root / "_site/pages/index.html").read_text()
                 self.assertIn('href="/training/about/"', discovery)
-                self.assertIn('href="/pages/">Pages</a>', discovery)
+                self.assertIn('href="/pages/" aria-current="page">Pages</a>', discovery)
                 self.assertNotIn("/category/page-only-topic/", result["routes"])
                 for path in ["index.html", "archive/index.html", "archive/2014/index.html", "category/testing/index.html"]:
                     html = (self.root / "_site" / path).read_text()
