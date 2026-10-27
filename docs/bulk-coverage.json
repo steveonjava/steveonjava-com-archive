@@ -163,9 +163,9 @@
   "outbound_hosts": 211,
   "link_registry_urls": 764,
   "link_states": {
-    "live": 3,
+    "live": 4,
     "unverified": 752,
-    "dead": 9
+    "dead": 8
   },
   "image_omission_reasons": {
     "external-or-other-site-image-not-fetched": 98,
