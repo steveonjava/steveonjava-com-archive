@@ -1,0 +1,312 @@
+{
+  "recorded": "2026-10-27",
+  "authority": "The owner approved recovery of the photos omitted from the bulk export.",
+  "method": "Each image was fetched once from the address the post cited, found by SHA-256 against the export provenance, then decoded and reencoded without metadata. Placement follows the Internet Archive capture of 2019-12-12 where one exists; post 2036 has none and its three photographs are placed before the credit line that describes them.",
+  "new_images": 44,
+  "omitted_entries_resolved": 45,
+  "edited_posts": [
+    {
+      "post_id": 714,
+      "placement": "archive-capture-2019-12-12",
+      "markdown_sha256_before": "1d0a99baeb0a0598276e5650ca0f2093a81fed278dba91da65999d7b930ae26e",
+      "markdown_sha256_after": "d1f0c9d9cf1968fa34a42e1c42e2f27b078717cf8fe81bab380c5173e3f18268"
+    },
+    {
+      "post_id": 1347,
+      "placement": "archive-capture-2019-12-12",
+      "markdown_sha256_before": "ffae13980ad0398d97d32a2c5dbd2c4d4d2a61079fd55caf1342195682e08c5d",
+      "markdown_sha256_after": "fdf99da8039f8115ca78f285be3d54ad04b8b452b1ff779ab4396f2d8a0397bd"
+    },
+    {
+      "post_id": 2036,
+      "placement": "inferred-before-credit-line-no-capture",
+      "markdown_sha256_before": "f3eeaa7e48d313cb6ef25b21f7ca93b5db0bcff3c91c26305d5d0df042c91e00",
+      "markdown_sha256_after": "222701c4dbf718d3a8b72092ca2b1cb506e3c904b593adafc84a134aa3cedbf3"
+    },
+    {
+      "post_id": 5175,
+      "placement": "archive-capture-2019-12-12",
+      "markdown_sha256_before": "e7ed35453efd571427269b9fbe90c4fa1fe84c9a3d0f111ab6f777092db064b3",
+      "markdown_sha256_after": "88d8c85f198682aba1055a98bfb51a668626ee348d85fd656d31bd007b1a1a42"
+    },
+    {
+      "post_id": 6695,
+      "placement": "archive-capture-2019-12-12-existing-asset-reused",
+      "markdown_sha256_before": "b4e82d5c2ef09e7fbb97f9036ce5baf7b23d7930be7ea7a897d7f26e5f6947fc",
+      "markdown_sha256_after": "76561e126238d53ee127227b3c8b6ca2a1e9f1e7925923d8c76a829d8cb43403"
+    }
+  ],
+  "images": [
+    {
+      "post_id": 714,
+      "path": "/wp-content/uploads/2009/11/recovered-2441818832_aa89a2ffa2.jpg",
+      "source_url_sha256": "5482bf212e36165b07c06194490ad0d7b9c056d1b6f7166bec10ca36526b639b",
+      "source_host": "farm4.static.flickr.com"
+    },
+    {
+      "post_id": 1347,
+      "path": "/wp-content/uploads/2010/09/recovered-scala-or-groovy-and-others.jpg",
+      "source_url_sha256": "74fece5ee82c1a5aff6801c5138ed7a8e66be00717252abb06cfe922598bc152",
+      "source_host": "3.bp.blogspot.com"
+    },
+    {
+      "post_id": 2036,
+      "path": "/wp-content/uploads/2011/09/recovered-4506569781_ac93d2fb1f_m.jpg",
+      "source_url_sha256": "0bf34b979fca9210940b14fc0715c0f176bfbddbfe9ee380c142771d1dbfb32f",
+      "source_host": "farm3.static.flickr.com"
+    },
+    {
+      "post_id": 2036,
+      "path": "/wp-content/uploads/2011/09/recovered-4507206940_e2251dd44a_m.jpg",
+      "source_url_sha256": "f8c28b54e5dd053e87be1806fc627973f073a29b8390c8584d218089afab6732",
+      "source_host": "farm5.static.flickr.com"
+    },
+    {
+      "post_id": 2036,
+      "path": "/wp-content/uploads/2011/09/recovered-4507213530_be29d5f9c5_m.jpg",
+      "source_url_sha256": "e8a0fdf1b1a8976807af840d84b73e35ae03cff5ef1a59a3f3088bab79ea555c",
+      "source_host": "farm3.static.flickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-18618815323_0545db727f_n.jpg",
+      "source_url_sha256": "0915446b2ff9ba9f7d71b3b0d5fe294be0dfd2a7765ee4affe60d5511f58515e",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-18618850303_bfb3918c2a_n.jpg",
+      "source_url_sha256": "02127f16fcdfb6181431890bc410c29fb61d59a29b468ff9f782b001786c2b57",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-18619351653_bcc74309bd_z.jpg",
+      "source_url_sha256": "fbc8078c8ffb50edd0a026f91a2755c1d0eac9d735e8519a906bc66f4ff40147",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-18749970124_306b048786_z.jpg",
+      "source_url_sha256": "f2a169b5a532c4ee5cd827bcb7a1bbe87f3076d968b25b35ac04b2e0f9625ce3",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-18755712483_75f6f3348e_n.jpg",
+      "source_url_sha256": "7e96ff3fe37c46bf720bee96025b526319243acbede4481e7a8c7e3ef0078f96",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-18768191584_998dc4dee5_m.jpg",
+      "source_url_sha256": "3348d94907fc4fc0c183f606df576e1a0c9ad3fd7b540b130b36eb96921cb4aa",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-18768233524_df76b8f822_m.jpg",
+      "source_url_sha256": "2b226b926d618f74a4dad94c556a04a35d368a45eaec94ca8ef5ef29c69005d3",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-18768451304_4e9eacf852_m.jpg",
+      "source_url_sha256": "3852c02b125a86c140081c63560b51d5ec92194f9a5c161038b9000d45eec22d",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-18769035334_9022895e3a_m.jpg",
+      "source_url_sha256": "e3eaa5d9f39868b5cd253bf29a4b22c376a1e4cf8e21f8e556e8aecf600de344",
+      "source_host": "farm4.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19052155638_dd6256360a_n.jpg",
+      "source_url_sha256": "72a5fcb80ff7eaa39b5c36a3d2d1cc611b1fd7326d8c8825532c5cf950895c80",
+      "source_host": "farm4.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19064908054_170e4fc699_m.jpg",
+      "source_url_sha256": "f380caa76983f73309be8846330e1ff306daa65e97c04871d68940460fda53ad",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19065230324_4a6fe1435c_z.jpg",
+      "source_url_sha256": "06e0bd932f9ea1b97f680e42b088021580fb6b8e991a4e8e95e0be41c68d10b4",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19066839853_86f0c5fcf2_z.jpg",
+      "source_url_sha256": "87884a725a46b15d0b08a109a7c78dcee2b07a24b81cdaa0f91155572b58c1d7",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19074030148_1772e9c9ca_z.jpg",
+      "source_url_sha256": "714f7d16c82b19ed0cbb21760871104b1914686fd12f9eabd720d453981a6476",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19187548809_c39359e617_z.jpg",
+      "source_url_sha256": "b482926593a6cc766747e90d89af1279efe99d4eb50f01c757e9acf221b32f6b",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19196170642_1d55349946_z.jpg",
+      "source_url_sha256": "684129216ae360d3526e7ed4fa1378be07f34d08485fc4c66f0e2cae5d8d2131",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19197785632_54f2b15aba_z.jpg",
+      "source_url_sha256": "9b01800530fa54fbfd77f9378c00d31fa9b7132ee043896612a869bb33f68726",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19212841355_da9d7f98c2_n.jpg",
+      "source_url_sha256": "b16968f1c4b6f8f757ea3ddfcffadb7e0351e1c6fa440b3c8ac1c39418ab37a7",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19217441821_20dab04160_z.jpg",
+      "source_url_sha256": "9b243676ea0e5d1effc495e1e6f0fa9f167f754d2972b0f44a85f5b3bb9e10ac",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19239721985_e6683dc5fb_n.jpg",
+      "source_url_sha256": "7a818a1d2b0598a2bd71e84e6b6a9ad5d85bfe3bd70d78f6cca2936d417de6f3",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19239843315_1f405b745e_n.jpg",
+      "source_url_sha256": "5352e436f64152785867e409904f1d7f3ef6f58ffaed36dad5b3ffb92b44aaf0",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19283995156_ca1c0c3000_n.jpg",
+      "source_url_sha256": "9569c2442f1179dd4b6be3fa4dcecf112e9fcaa771c5b47c37c0c928baa83f66",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19303578512_58598bd67e_z.jpg",
+      "source_url_sha256": "e0b4fc5141bbbe2a4e15bafd1108fa265821da668e1903dcb1c73e3c2386bfdf",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19310956275_e7777d8705_z.jpg",
+      "source_url_sha256": "35c223b777e27d5bbac199a41b3b36dce957868aa2c0fc7f46ee0b12be3d73b6",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19314061781_695d3aa824_n.jpg",
+      "source_url_sha256": "acd81bb1e22e2dfbe997889745e647a3b7199df67ec570600c556b9ad66505f7",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19314593571_cf978a47fc_z.jpg",
+      "source_url_sha256": "8fe6c1196c81a3fdbf2d0f99f09bf32fcd1c62ce964f7da064ddba04e0f68d33",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19350085926_1d13a98942_n.jpg",
+      "source_url_sha256": "383f7abb8f03455f744afc0d5eb71caacc6e58cf6cf50e48d0acb89f9d14f056",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19385465952_bb55f006ff_m.jpg",
+      "source_url_sha256": "23fe6808d697a3692561bf422cbcbec98e94852ca7b90d0df07d8b77e2865ea9",
+      "source_host": "farm4.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19391048465_36a14f1e72_m.jpg",
+      "source_url_sha256": "15b5d1e880c2bc28fa7c13f3c1cf85ada7931b171775c0a49e43c5983f408a62",
+      "source_host": "farm4.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19395309401_78c2b67bb4_m.jpg",
+      "source_url_sha256": "12f18b506465f300245b3e68318954d3f900fe7cb773a7457b27c875ca5ac092",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19395504231_b5378e09c1_m.jpg",
+      "source_url_sha256": "031cd5772d486d265c7a886e6e20c3cdb7ba7dd3b66a138804024eeeffc9cf57",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19499454220_25c016ed68_m.jpg",
+      "source_url_sha256": "f5d5e8a226dbcda59b542b2122fb98f4fb4a393434c88a8bccc931b9858a4229",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19499575940_e4e7680888_m.jpg",
+      "source_url_sha256": "5ff5f5d348a746fd672fa3d31faa1959ecc9eb3e8b457b1b1c0ec1888c99564c",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19500010000_c873eb8a07_m.jpg",
+      "source_url_sha256": "68f2ac6d3527ceef9b91aca48e6a94301323e47e672095f72b660f431001e290",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19500245560_e95dc8fca1_z.jpg",
+      "source_url_sha256": "d4f9239f4ed221ac7569b77422d966d0b0bc13f52e10c27716631d463ca1595f",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19681131642_22a43242cc_z.jpg",
+      "source_url_sha256": "0ed13201903139367497bf5a469dfc49f1a4f239239331a73549795ce8182b9f",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19687739295_e9c66f3964_z.jpg",
+      "source_url_sha256": "36f5b19754a1c3baa90c8a532325801dbe46a49ca42f818da0f8e798d8360bd2",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19692143811_cc44197cca_m.jpg",
+      "source_url_sha256": "ddeaae1f0cbf4ecae0cd75f43cb860b28b29c43f01a25cf1c4582f88ef477313",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 5175,
+      "path": "/wp-content/uploads/2015/07/recovered-19692554881_72dd1877cc_m.jpg",
+      "source_url_sha256": "5f232773f9836f2e21f92c9c1c0e6ffc28195a307e3a834523242e383a023abf",
+      "source_host": "farm1.staticflickr.com"
+    },
+    {
+      "post_id": 6695,
+      "path": "/wp-content/uploads/2019/12/The-Definitive-Guide-to-Modern-Java-Clients-with-JavaFX-1.png",
+      "source_url_sha256": "2e212627e0e37b72550ced4c9c1b1ddb9176bb05b495569f79d1d6627979a484",
+      "source_host": "i0.wp.com",
+      "note": "existing lab-restored asset reused; fetched copy discarded"
+    }
+  ]
+}
