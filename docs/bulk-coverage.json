@@ -164,8 +164,8 @@
   "link_registry_urls": 764,
   "link_states": {
     "live": 1,
-    "unverified": 759,
-    "dead": 4
+    "unverified": 755,
+    "dead": 8
   },
   "image_omission_reasons": {
     "external-or-other-site-image-not-fetched": 98,
