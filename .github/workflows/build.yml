@@ -8,9 +8,13 @@ permissions:
 concurrency:
   group: archive-preview-${{ github.ref }}
   cancel-in-progress: true
+# Runner pin: the browser jobs install Playwright with --with-deps, which
+# supports only specific Ubuntu releases. A floating ubuntu-latest label moved
+# to 26.04 and made every post-merge run fail at install. Move this pin
+# together with a Playwright upgrade, not independently.
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     outputs:
       served_path: ${{ steps.served.outputs.path }}
@@ -76,7 +80,7 @@ jobs:
     if: ${{ !cancelled() }}
     needs: build
     name: browser routes ${{ matrix.label }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     # Initial bounded budgets, not measured performance claims; tune only from CI evidence.
     timeout-minutes: 35
     strategy:
@@ -153,7 +157,7 @@ jobs:
     name: preview
     if: ${{ always() }}
     needs: [build, browser]
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 5
     steps:
       - name: Require the build AND every browser matrix shard to succeed
