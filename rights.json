@@ -476,6 +476,14 @@
     "export_sha256": "60853a946b4548ce23f8ec4e9dea66198af5b2fed583a7d19c7219c23e7de79f"
   },
   {
+    "path": "/wp-content/uploads/2009/11/recovered-2441818832_aa89a2ffa2.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "50c020811f8c6894fe1f9b775bef02f9b22fd67d3b0aae7d554cff3b8bd9c918"
+  },
+  {
     "path": "/wp-content/uploads/2009/12/aim.jpg",
     "rights_holder": "unreviewed",
     "status": "owner-asserted, unreviewed",
@@ -848,6 +856,14 @@
     "export_sha256": "d0602c3db2f8bd7152039156f669ef4933951e4c06af603c1c5afa8ce4ae91bb"
   },
   {
+    "path": "/wp-content/uploads/2010/09/recovered-scala-or-groovy-and-others.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "5bbc50b671e83fa2063d1a5d93336712837824a2427fa3e44587fcf69c9ba387"
+  },
+  {
     "path": "/wp-content/uploads/2010/09/trackdays-650x433.jpg",
     "rights_holder": "unreviewed",
     "status": "owner-asserted, unreviewed",
@@ -1146,6 +1162,30 @@
     "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
     "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
     "export_sha256": "14ec54c61de0f4cd3ad6f096ea1b2ac85f2a32d3d6f79b2b8eb37584f319fd67"
+  },
+  {
+    "path": "/wp-content/uploads/2011/09/recovered-4506569781_ac93d2fb1f_m.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "9b8ed68754202f3da812c739d00f3310fccdf78dfb2620a8a27bdfe2ad955d4a"
+  },
+  {
+    "path": "/wp-content/uploads/2011/09/recovered-4507206940_e2251dd44a_m.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "f7f6b169ec07c92540d4f66fa114faa27284192512ee510b3c606d7c58de7e6e"
+  },
+  {
+    "path": "/wp-content/uploads/2011/09/recovered-4507213530_be29d5f9c5_m.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "4b81646c2fe3a175a41172bc9255e5c87d16ab895d01099d6d178ec002f74269"
   },
   {
     "path": "/wp-content/uploads/2012/04/404-497x500.jpg",
@@ -1610,6 +1650,318 @@
     "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
     "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
     "export_sha256": "349f20a103ff6ce8b2c7d9d71b01f9a39ba672de70e02b6527c94386eaf670ce"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-18618815323_0545db727f_n.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "68b99168db594e7a898657bf8c63d16cc4b8605be1560a9cbf4a9f50d26663ac"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-18618850303_bfb3918c2a_n.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "52cce711a2c61b417fa74654fb43ced8763d7b7ba18e465fef29d78e574feb8d"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-18619351653_bcc74309bd_z.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "3bbbf07c63310b655b0cc8840ee74fb839ad42652d17e00d687d5203dfc20a77"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-18749970124_306b048786_z.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "ee8ad26ab482228bb7d74f6001525c563fbcf3054b7768f9371072ca80343cf9"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-18755712483_75f6f3348e_n.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "d36eea1d9ab5683649adc3d671a128b0148a6006737018b4843aca7a63e48dcc"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-18768191584_998dc4dee5_m.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "b699e052b8449729f33195c0d25a7a7bf8ee817aa7e3bc48ff85c8ccf39683bd"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-18768233524_df76b8f822_m.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "fc2d07f60e36c7a151807fc28075e012489275d6d3e7e09903ae4d1198e6567a"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-18768451304_4e9eacf852_m.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "f41548e2b9ebaf9dedbb87a44fdc9a7ef0fe5630b903d80fbde31f1c1418fcd9"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-18769035334_9022895e3a_m.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "d1c4aaef84d3dc7c56b1742bc70d17670668f643d95c0dc324626787540006a7"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19052155638_dd6256360a_n.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "6d8996be99414364f426dd35cdd56abfc81555320b7d737baf408d61fe907073"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19064908054_170e4fc699_m.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "6ed937273445ddaed57e2b81a47bd1a1f4a372e0af715b89550734acbfbeef26"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19065230324_4a6fe1435c_z.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "709df63f438f6e2f0ba1772ea6e860d77a8460e945873e0f0243d594979b1598"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19066839853_86f0c5fcf2_z.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "881d916f3ad1f4278e7c14e6d762d4822e082d69de24d62b235ed06583dcda60"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19074030148_1772e9c9ca_z.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "8c8ab876cf1077fa900817575a6b5936b0ca4273143d4b063312705aed3b0437"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19187548809_c39359e617_z.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "1f618fd6559fe3b018f3190aee9cb77c8d349ab03e1e0d9d8b3e0ec7485b914f"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19196170642_1d55349946_z.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "26d26752d75a48619ef0bb2dfdc161b600c2554118a76b2a45e1071d8ace19b6"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19197785632_54f2b15aba_z.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "0344dd3b8ef372b29beb895f789e32dfe018ff628567bd5766c7ab3d01497901"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19212841355_da9d7f98c2_n.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "72332b561e773d64d20e31ac82ce1e895455704b3eefa7facb4387f241985741"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19217441821_20dab04160_z.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "e57edc1a7ee49575fade7313aba09b8624d7b4f220d6906bfbb1f6d36df752a9"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19239721985_e6683dc5fb_n.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "60c069ead96fad210bb562c760e7ac9b6cdf53b4082ea8573b9160d5e2a12dc2"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19239843315_1f405b745e_n.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "d1152ffa91282a8d0ce4cb3dfeb254b51bcfd11df747cfb01926015020e9ca70"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19283995156_ca1c0c3000_n.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "49367f8faaa0181914e9d051f871d982f9757e7aa3b7b3935acdb5a153ff1aac"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19303578512_58598bd67e_z.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "f21f4b7587746f3638f3660a83ff9979453c4451e11e30187faafa20982778a7"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19310956275_e7777d8705_z.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "ff5f27434bff6ec3293146f6455b7f35c5b2f92191c875ecd45fb65343930b1b"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19314061781_695d3aa824_n.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "2a1138f66bd3adc41b7ddf39bd178d6b8dc27b3eef79e76a715771b977e71793"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19314593571_cf978a47fc_z.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "7f677073cfcdfbceb2126404a2b5a0c3854610964b26d4e521490791342554fd"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19350085926_1d13a98942_n.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "e175bda687e63b2994807cda5d6433336f001622c2d21822874363827d1f7a13"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19385465952_bb55f006ff_m.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "f72a7af0c9d13d01f8d08c7024767ef75637189b2b8b6787fd387d9b5c0daeb3"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19391048465_36a14f1e72_m.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "4f36c823d69fbaf12be3460832c87c9bb81231ef33c886c39be3e96b84447100"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19395309401_78c2b67bb4_m.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "f37230a8b2a0b41a3583cafdca9219fdef05c6f3f39b135f6525f19093e3e292"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19395504231_b5378e09c1_m.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "76cbb3a7aeac39afabe638542c5aae5a29d37867cc2704e2dd1fd14c69a30ec7"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19499454220_25c016ed68_m.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "285597393bae3ec5cb2ed0cdfe472ef0ff8808cdd32b45ed5c256d21217f8475"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19499575940_e4e7680888_m.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "1ca1bcbf02ae82fc12616359f113e8e31980d90b366d5271e74041f5bda8d303"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19500010000_c873eb8a07_m.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "138381ac9fcd83da64a46db6541baeee24c79c443718964138c6e0e33c79f0d7"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19500245560_e95dc8fca1_z.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "31b1dcc51d429329c6a27712255534179794385df21e793884543d3b681fba7a"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19681131642_22a43242cc_z.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "df411f72cf985ce0a96631b63318e9219435eef8bba61b9d41d52cdb2d9ec05c"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19687739295_e9c66f3964_z.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "5aa8c379c3c11149d3d071cf1f152cf74498d993d2c25650be4940766c08239c"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19692143811_cc44197cca_m.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "ee8d63fdd6c8b32df1ccb56c7c16e78c5b7481cfc6c586a5d55a8ce50e5c4e4e"
+  },
+  {
+    "path": "/wp-content/uploads/2015/07/recovered-19692554881_72dd1877cc_m.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs; owner review is still required.",
+    "export_sha256": "262fc874b958ac81bd1d1ad3af7a4c65beac3b8433ca705c354e59ceef3f3134"
   },
   {
     "path": "/wp-content/uploads/2019/09/Frog_in_pond_0547-650x436.jpg",
