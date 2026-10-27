@@ -226,6 +226,14 @@
     "export_sha256": "cb4dab3c399a0d2b7c8cf1567d9679090f9c74a46de2cf8a8e23db65ce286f01"
   },
   {
+    "path": "/wp-content/uploads/2009/06/javafx-1-2-top-101.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the upload the post itself used on the owner's WordPress site. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs or film stills; owner review is still required.",
+    "export_sha256": "a86340f7e5c5b2cf5ab2ce3f6fb794efdb86460275961ccaac41f382ac856408"
+  },
+  {
     "path": "/wp-content/uploads/2009/06/javaone_authors.png",
     "rights_holder": "unreviewed",
     "status": "owner-asserted, unreviewed",
@@ -412,12 +420,28 @@
     "export_sha256": "00652abc520d98189b7dae0983804c8e5f3e75da3c8dd5dbd517eebdb3a9d5a4"
   },
   {
+    "path": "/wp-content/uploads/2009/10/richbair.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the upload the post itself used on the owner's WordPress site. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs or film stills; owner review is still required.",
+    "export_sha256": "c93ad2343a9e3a45382196b7174fd75ccb0fbb516bc45615047bd25818036e7b"
+  },
+  {
     "path": "/wp-content/uploads/2009/10/svjugfx.jpg",
     "rights_holder": "unreviewed",
     "status": "owner-asserted, unreviewed",
     "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
     "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
     "export_sha256": "e9ddb57a4b55ca82fddcc8dcd88e6d309310fb3a6630be41d98a4b2e1df7493d"
+  },
+  {
+    "path": "/wp-content/uploads/2009/10/webstartsmall2.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the upload the post itself used on the owner's WordPress site. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs or film stills; owner review is still required.",
+    "export_sha256": "487de8c20e0e934b1adfcf468b9827f79a94357b036dadbec497a50edb89be97"
   },
   {
     "path": "/wp-content/uploads/2009/10/widgetfx-japan.png",
@@ -856,6 +880,14 @@
     "export_sha256": "d0602c3db2f8bd7152039156f669ef4933951e4c06af603c1c5afa8ce4ae91bb"
   },
   {
+    "path": "/wp-content/uploads/2010/07/jim_weaver.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the upload the post itself used on the owner's WordPress site. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs or film stills; owner review is still required.",
+    "export_sha256": "7cff8a2e0863534e9d7ee3ffc9dd6cf35247b3a07ff8b131888de4907f6a0611"
+  },
+  {
     "path": "/wp-content/uploads/2010/09/recovered-scala-or-groovy-and-others.jpg",
     "rights_holder": "unreviewed",
     "status": "unreviewed",
@@ -910,6 +942,14 @@
     "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
     "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
     "export_sha256": "72bbac23b061c1d0ae2af7d043b1a572002af30f704ff945eb9ccc63a36dfe28"
+  },
+  {
+    "path": "/wp-content/uploads/2010/11/Lean-Agile-Scrum-XP-150x150.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the upload the post itself used on the owner's WordPress site. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs or film stills; owner review is still required.",
+    "export_sha256": "a8e86110962e52161f93b490460213a3e88f48df0712629e936b7b2fa147ecd1"
   },
   {
     "path": "/wp-content/uploads/2010/11/flash_flex_air-300x131.jpg",
@@ -1378,6 +1418,14 @@
     "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
     "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
     "export_sha256": "2c7df24ad7aba5acaa1336b7ab696777a9b6a5695b8753fcca2ae87359a48a76"
+  },
+  {
+    "path": "/wp-content/uploads/2012/09/thumbnail.png",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-27, from the upload the post itself used on the owner's WordPress site. Not independently cleared.",
+    "note": "Freshly reencoded raster. May include third-party photographs or film stills; owner review is still required.",
+    "export_sha256": "b1f601ab8cb9a86f85b28e46196bcd90ec9f5b8826f8f81d65f5ef25064c42b4"
   },
   {
     "path": "/wp-content/uploads/2012/09/toni-epple.jpg",

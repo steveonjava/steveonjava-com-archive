@@ -12,7 +12,7 @@ Original titles, dates and wording were not rewritten. The decoder preserves val
 
 ## Media and rights
 
-This site's converted set contains 199 selected, hash-screened images from the bulk export, plus 44 photographs recovered afterwards on the owner's approval and listed in `photo-recovery.json`. Every staged raster has a rights entry. Safe historical upload paths remain unchanged, while source filenames containing unsupported output characters are mapped to dated safe filenames. Each mapping is recorded as `source_path` and `path` in the recovery manifest. Existing approved theme artwork is preserved.
+This site's converted set contains 199 selected, hash-screened images from the bulk export, plus 44 photographs recovered afterwards from the addresses the posts cited and six more images (five recovered as new files, one reusing existing theme artwork) read from the lab copy of the original uploads, all on the owner's approval and listed in `photo-recovery.json`. Every staged raster has a rights entry. Safe historical upload paths remain unchanged, while source filenames containing unsupported output characters are mapped to dated safe filenames. Each mapping is recorded as `source_path` and `path` in the recovery manifest. Existing approved theme artwork is preserved.
 
 Rights remain owner-asserted and unreviewed, not independently cleared. Omission reasons and outbound hosts are in `recovery-manifest.json`, and aggregate coverage is in `bulk-coverage.json`.
 

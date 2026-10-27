@@ -308,5 +308,159 @@
       "source_host": "i0.wp.com",
       "note": "existing lab-restored asset reused; fetched copy discarded"
     }
-  ]
+  ],
+  "lab_recovery": {
+    "recorded": "2026-10-27",
+    "authority": "The owner asked for the remaining omitted images to be recovered from the lab copy of the original site.",
+    "method": "The seven uploads were read in the lab by exact path, matched to the screened candidate list by SHA-256 and size, fully decoded, orientation applied and rewritten as fresh pixels without metadata, then validated again on this host. Static GIFs became PNG; none was animated. Each image went back where the original post held it, according to the paragraphs the lab reported on either side of it. The Rock Star Duke already existed as theme artwork, and the lab conversion has the identical hash, so that asset is reused. The post 269 image is cited as 2009/05 but the lab holds the same file name under 2009/06, with the width the post's own markup gave (449); it was matched by name, width and content, not by an attachment record.",
+    "new_images": 6,
+    "reused_assets": 1,
+    "omitted_entries_resolved": 13,
+    "edited_posts": [
+      {
+        "post_id": 269,
+        "markdown_sha256_before": "5b059097f101ac58aeffe68a557714878b3187c21a6664a931b1f012154192d9",
+        "markdown_sha256_after": "10ae34f204e88abce3d90fd7931e861d153784dab89e752f598144d88a26ca13"
+      },
+      {
+        "post_id": 482,
+        "markdown_sha256_before": "784af2b420c88f8073f05982f249ad923a7dedf7c5aff8c939909fe043e7719b",
+        "markdown_sha256_after": "776ccc9e818fce05a942894a48d9cf8f03b99d675625cc9b2245948d157084d4"
+      },
+      {
+        "post_id": 640,
+        "markdown_sha256_before": "6aac7980d6086eab9543a730c572ef640f7f2ee203b4060658a4eb9fd3e4ef11",
+        "markdown_sha256_after": "e9ff7c95be4a154bb80bfaf625c4900170fd9695b2b4557aee77a73eb12db78a"
+      },
+      {
+        "post_id": 662,
+        "markdown_sha256_before": "88e77ea637f42d02754c9c0924920ec0212f8c0a5ba24be968e5914406b23817",
+        "markdown_sha256_after": "688b9ffb1717042c45189c0806a92d06d5f88a870cac247d2168068000ab715d"
+      },
+      {
+        "post_id": 691,
+        "markdown_sha256_before": "0958643c5bae92439b219a65d7f2ecd1bf95f78e3c1741d682c1187034c3144d",
+        "markdown_sha256_after": "deb548c4bf55c50246453f60f45e145837aeea01c083e465390210f3eb48d33f"
+      },
+      {
+        "post_id": 703,
+        "markdown_sha256_before": "f54b1ad2259b33dc6ad13a76daba60e6404d705ba7dba689ec8db34caba66e81",
+        "markdown_sha256_after": "74960e4f0fe672d1d6d1ef6a2b77569bda8bb41d9b46f753a90804a183eac730"
+      },
+      {
+        "post_id": 1011,
+        "markdown_sha256_before": "96858ba833409f4b0eb83a14a5d7a685a0d04054767d781c7f5ba30d4bb6bcfc",
+        "markdown_sha256_after": "06c5d6045fe1c342af04381b6e2e413a4b359465ecc36ffbfd929157b006284e"
+      },
+      {
+        "post_id": 1261,
+        "markdown_sha256_before": "daea5ffd3cf21681238db9dcc2dad21c9b7311197a6a2248772d186433453bba",
+        "markdown_sha256_after": "f3654683ab71e92eefd2b4910ddf7dee069905068bf66310d2752be2195cf340"
+      },
+      {
+        "post_id": 1610,
+        "markdown_sha256_before": "f12792aa1846e7f73e3028af64a5883f8977a34bb9de8f8acfe6fd582afc86da",
+        "markdown_sha256_after": "d533479099c0702eecf4867d0bfb8b449c630f79e43ec4d09a9bff1d99d727a4"
+      },
+      {
+        "post_id": 2566,
+        "markdown_sha256_before": "7ecd845a6b1c8e922b01837acde161ba12143ecf76652ca3ad9505500202d13d",
+        "markdown_sha256_after": "680cd041687358de12c6c5c81c60226174813931b04be06bf8e1e276cc8d8073"
+      },
+      {
+        "post_id": 3579,
+        "markdown_sha256_before": "cc2028575bf8b4dafca775eb99b4257010f28974fce5c2bad060db7875d16430",
+        "markdown_sha256_after": "aef09c424893454ff7ec1840c28666fb2ea8b190f8a1e4817336f4cd5a5399ee"
+      },
+      {
+        "post_id": 4899,
+        "markdown_sha256_before": "dc3889193b7c0c1d7a55bedfa0f257cb0bf403da2e9a46c732387aa438f684ae",
+        "markdown_sha256_after": "c425d51b4cb52e0bebb66ac18685a082185ac6dd471746f6bc4c558b27a89696"
+      }
+    ],
+    "images": [
+      {
+        "post_id": 269,
+        "path": "/wp-content/uploads/2009/06/javafx-1-2-top-101.jpg",
+        "source_path": "/wp-content/uploads/2009/06/javafx-1-2-top-101.jpg",
+        "source_url_sha256": "c018024bb893fadcee8ca1904e06126c298d6bd78f8a5bbea0ac1804512c40c5"
+      },
+      {
+        "post_id": 482,
+        "path": "/wp-content/uploads/2009/07/rockstar_dukewithguitar_small.png",
+        "source_path": "/wp-content/uploads/2009/07/rockstar_dukewithguitar_small.gif",
+        "source_url_sha256": "64f95106daf6d33534437ad179caed241ee08ea33fa5ea0522728179d64c5864",
+        "note": "existing theme asset reused; the lab conversion has the identical hash"
+      },
+      {
+        "post_id": 640,
+        "path": "/wp-content/uploads/2009/10/webstartsmall2.png",
+        "source_path": "/wp-content/uploads/2009/10/webstartsmall2.gif",
+        "source_url_sha256": "7efc7f4b661f82568326617c2bded01e22cb8a198a0046d678c335a73e9f6336"
+      },
+      {
+        "post_id": 662,
+        "path": "/wp-content/uploads/2009/10/richbair.png",
+        "source_path": "/wp-content/uploads/2009/10/richbair.gif",
+        "source_url_sha256": "dddf1df28f85d6e7d01ba8601daea5920786fe564aa3ce3e369ff963fd4911b4"
+      },
+      {
+        "post_id": 691,
+        "path": "/wp-content/uploads/2009/10/webstartsmall2.png",
+        "source_path": "/wp-content/uploads/2009/10/webstartsmall2.gif",
+        "source_url_sha256": "7efc7f4b661f82568326617c2bded01e22cb8a198a0046d678c335a73e9f6336"
+      },
+      {
+        "post_id": 703,
+        "path": "/wp-content/uploads/2009/10/webstartsmall2.png",
+        "source_path": "/wp-content/uploads/2009/10/webstartsmall2.gif",
+        "source_url_sha256": "7efc7f4b661f82568326617c2bded01e22cb8a198a0046d678c335a73e9f6336"
+      },
+      {
+        "post_id": 1011,
+        "path": "/wp-content/uploads/2009/10/webstartsmall2.png",
+        "source_path": "/wp-content/uploads/2009/10/webstartsmall2.gif",
+        "source_url_sha256": "e3a70872a23ee262662bce1bef35caf853a715d79dd250893b3f7a55795d761d"
+      },
+      {
+        "post_id": 1261,
+        "path": "/wp-content/uploads/2010/07/jim_weaver.png",
+        "source_path": "/wp-content/uploads/2010/07/jim_weaver.gif",
+        "source_url_sha256": "6ce22c8a5584d9470fafba093e553300a020be645aef1bee5000358cf10cd8f2"
+      },
+      {
+        "post_id": 1610,
+        "path": "/wp-content/uploads/2010/11/Lean-Agile-Scrum-XP-150x150.png",
+        "source_path": "/wp-content/uploads/2010/11/Lean-Agile-Scrum-XP-150x150.gif",
+        "source_url_sha256": "d13f02c87fed54d7d0814f74bf84623ef97ecf3d22916924477cad0e8af8e78e"
+      },
+      {
+        "post_id": 2566,
+        "path": "/wp-content/uploads/2012/09/thumbnail.png",
+        "source_path": "/wp-content/uploads/2012/09/thumbnail.gif",
+        "source_url_sha256": "ff62413ebe814837366456d6740782775bc9ae00fc1249fd183dd2a2ee966e82"
+      },
+      {
+        "post_id": 3579,
+        "path": "/wp-content/uploads/2009/07/rockstar_dukewithguitar_small.png",
+        "source_path": "/wp-content/uploads/2009/07/rockstar_dukewithguitar_small.gif",
+        "source_url_sha256": "24fb9d5020d027864b8a832ffb8c43f02e397a5f97414bca47bc4481bfdafb05",
+        "note": "existing theme asset reused; the lab conversion has the identical hash"
+      },
+      {
+        "post_id": 4899,
+        "path": "/wp-content/uploads/2009/07/rockstar_dukewithguitar_small.png",
+        "source_path": "/wp-content/uploads/2009/07/rockstar_dukewithguitar_small.gif",
+        "source_url_sha256": "24fb9d5020d027864b8a832ffb8c43f02e397a5f97414bca47bc4481bfdafb05",
+        "note": "existing theme asset reused; the lab conversion has the identical hash"
+      },
+      {
+        "post_id": 4899,
+        "path": "/wp-content/uploads/2009/07/rockstar_dukewithguitar_small.png",
+        "source_path": "/wp-content/uploads/2009/07/rockstar_dukewithguitar_small.gif",
+        "source_url_sha256": "d1ebb85380ba0bf6328b7eeea4956ccd2c02159387c3772ebfc61a142b7bbd8f",
+        "note": "existing theme asset reused; the lab conversion has the identical hash"
+      }
+    ]
+  }
 }
