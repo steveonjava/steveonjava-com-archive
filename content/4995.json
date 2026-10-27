@@ -1,0 +1,86 @@
+{
+  "categories": [
+    {
+      "name": "Uncategorized",
+      "slug": "uncategorized"
+    }
+  ],
+  "date": "2015-05-05 09:00:52",
+  "excerpt": "This past weekend I did a Lego workshop for the local Devoxx4Kids bay area chapter.  There were 35 excited kids from ages 8-14 who had their first taste of programming.  While they expected to simply play with Legos for a few hours, they ended up hacking their first Java code in Eclipse.",
+  "id": 4995,
+  "original_urls": [
+    "http://steveonjava.com/java-lego-workshop-4-kids/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "ce384f14b8c94f2c7edb81cef4cd9bdb2c509af89fda68052049bc5470eba413",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.lejos.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.lejos.org/"
+      },
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.slideshare.net/steveonjava/devoxx4kids-lego-workshop"
+      },
+      {
+        "contexts": [
+          "embed:src",
+          "param:value"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/apps/slideshow/show.swf?v=1811922554"
+      },
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.youtube.com/watch?v=JNNGC62DL6E"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/java-lego-workshop-4-kids/",
+    "post_id": 4995,
+    "rejected_urls": [],
+    "source_content_sha256": "689417a8eed543beae033be5d04fefbafff7544abb59d516cd9982a4ae6e5ca6",
+    "source_date_sha256": "138e1397ea4bcfc6a24e34984c63c162b71b85b3f8527a08320aa56d57ac32cd",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "32c958a7a91f7473c552d1623c8cc6ec2007bbb9a08bc5d5c62b54f7fa5cc5f8",
+    "source_title_sha256": "77e19890146354f43996678df9dbf28526580c615c19beb7231b5c8fbffed4a8",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "java-lego-workshop-4-kids",
+  "thumbnail": null,
+  "title": "Java Lego Workshop 4 Kids",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "An active or embedded source element was omitted."
+  ]
+}

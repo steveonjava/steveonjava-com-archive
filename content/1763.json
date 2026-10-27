@@ -1,0 +1,191 @@
+{
+  "categories": [
+    {
+      "name": "Android",
+      "slug": "android"
+    },
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "Flash",
+      "slug": "flash"
+    },
+    {
+      "name": "Mobile",
+      "slug": "mobile"
+    },
+    {
+      "name": "Presentation",
+      "slug": "presentation"
+    }
+  ],
+  "date": "2011-01-31 00:28:01",
+  "excerpt": "One of my coauthors on the upcoming Pro Android Flash title, Oswald Campesato, and I had the pleasure of speaking to the San Francisco Android User Group.  It was a packed audience with around 150 eager Android developers who wanted to hear how they could use Flash on their devices (they were a great audience).  Here is what some of them had to say about the meetup:\n\n\t \nAlec Dara-Abrams\nStephen and Oswald gave a very good over view of Flash development  on Android.  Like a number of other SF Android speakers, packing the  hour or so with the right level of technical detail.  Thanks to them  also for being responsive to audience questions - not so easy I'd guess  with 100+ people out there past the lighting for the video.  I'm looking  forward to following Stephen's blog.\n\n\n\n\t \nDrew Dara-Abrams\nStephen and Oswald gave a good overview of the current state of  Flash on Android. Unfortunately the Adobe tools and their book won't be  out until spring, but I appreciated all the working examples of code  that Stephen demonstrated. I'll definitely look for their book when it  comes out.\n\n\n\n\t \nFrancisco Carretero\nLooks like an incredibly useful topic for android for giving android that push to the next level.\n\n\nAs I promised folks in the audience, here is a copy of the full presentation.  Lots of this information was added very recently from different chapters in our book, so it is definitely the latest and greatest source of information on what you can do with Flash on mobile devices:",
+  "id": 1763,
+  "original_urls": [
+    "http://steveonjava.com/beginning-flash-sf/",
+    "http://flash.steveonjava.com/beginning-flash-sf/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "97be0397479943977b27255553de5f05c81b52d0faab1d1d18beb570f416846c",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "photos1.meetupstatic.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://photos1.meetupstatic.com/photos/member/c/f/d/9/thumb_11093209.jpeg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "photos2.meetupstatic.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://photos2.meetupstatic.com/photos/member/1/7/5/8/thumb_6845976.jpeg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "photos2.meetupstatic.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://photos2.meetupstatic.com/photos/member/a/d/2/7/thumb_11804327.jpeg"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "proandroidflash.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://proandroidflash.com/"
+      },
+      {
+        "contexts": [
+          "embed:src",
+          "param:value"
+        ],
+        "fetched": false,
+        "host": "static.slidesharecdn.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=androidflashdevelopmentv2-110131022231-phpapp01&stripped_title=beginning-android-flash-development&userName=steveonjava"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.sfandroid.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.sfandroid.org/events/15196582/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.sfandroid.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.sfandroid.org/members/10022903/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.sfandroid.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.sfandroid.org/members/13812654/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.sfandroid.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.sfandroid.org/members/2923437/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.slideshare.net/steveonjava/beginning-android-flash-development"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "ab2c359ee49944f09b6af46ebd6976ef30edebdbfbb0e8ef0ea66323f5de8246"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "56bb3ac075509155dc659ba960b8e0afedb5ee16ce964ebd1eabec4766f8755c"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "b620315d22ce68e4a908d7b36744c5097d9584ba7bf90423685ce1becb80e155"
+      }
+    ],
+    "original_root_route": "/beginning-flash-sf/",
+    "post_id": 1763,
+    "rejected_urls": [],
+    "source_content_sha256": "bcda92f7a8e7a4f23db312c4a26810d7a5f6d0d101bfd822da1ba5f8ed452f71",
+    "source_date_sha256": "cd2b88708b85047b491b1b846427fb7c9a576a25531be4e00754a4f224f81925",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "ee7e926d51786d54f4e8360a2be086b96d14b786225a60f5fb6e833226357d09"
+    },
+    "source_slug_sha256": "f59f85c438da17eecae20caf355f233a1035deccaa5a14249396157070aa8705",
+    "source_title_sha256": "c006246149dac041c77c522066e5d015b0819fe5318a3c54255dc8503a93dbe7",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "beginning-flash-sf",
+  "thumbnail": null,
+  "title": "Beginning Flash at the SF Android UG",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "An active or embedded source element was omitted.",
+    "Hidden source markup was removed."
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "WidgetFX",
+      "slug": "widgetfx"
+    }
+  ],
+  "date": "2009-01-27 06:34:33",
+  "excerpt": "Update 1: This sample is now Java 1.5 compatible.",
+  "id": 95,
+  "original_urls": [
+    "http://steveonjava.com/widgetfx-calendar-tutorial/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "6a5a784d4c28060838bc2efa4fddff618291ed64cea57021e1ed8678a734a586",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/widgetfx/downloads/list"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "image",
+          "img:src",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "widgetfx.googlecode.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.googlecode.com/svn/site/images/WidgetFX-launch-icon.png"
+      },
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/beta/launch.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/beta/launch.jnlp?arg=http://widgetfx.org/beta/widgets/Calendar/Calendar.jnlp"
+      },
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/dock/launch.jnlp?arg="
+      },
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/dock/launch.jnlp?arg=http://yoursite.com/CalendarWidget.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/library"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "71fe65703a5f57ee9c2fd0af1d3a393bc8dfa6aaa0e418837897d917a1b8843c"
+      }
+    ],
+    "original_root_route": "/widgetfx-calendar-tutorial/",
+    "post_id": 95,
+    "rejected_urls": [],
+    "source_content_sha256": "775f711478ffe54fd13e9944bfd1ee6300b62ba5f77759b5219e9d2ef43935d8",
+    "source_date_sha256": "a9002b058194bbc3a6f27053ac593f1f66aba1d4bd5741cd86479553a61f9422",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "eb410e732207242fef0ea176b40549004b0f7448c7aa33778876f0a182b124cc"
+    },
+    "source_slug_sha256": "188c3af4e489e13d0a1ed987b4c866ebe69f7efbdc73e3da5ac290c9c67b5b27",
+    "source_title_sha256": "bd5ce6d4f0ecf9aeba390f5903f8667639a99722a1a81b650765894189207359",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "widgetfx-calendar-tutorial",
+  "thumbnail": null,
+  "title": "WidgetFX Calendar Tutorial",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

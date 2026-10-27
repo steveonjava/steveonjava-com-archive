@@ -1,0 +1,130 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "OSCON Java",
+      "slug": "oscon-java"
+    }
+  ],
+  "date": "2011-07-25 23:13:58",
+  "excerpt": "This past weekend we held the very first OSCON JVM Languages Symposium.",
+  "id": 1956,
+  "original_urls": [
+    "http://steveonjava.com/improving-java-1-bytecode-at-a-time/",
+    "http://javafx.steveonjava.com/improving-java-1-bytecode-at-a-time/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "69f256e105e9ff4fd7075f87fdb2bba60a9bc08aed4c9e774940744a49b8e721",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jvmlangsymposium.eventbrite.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jvmlangsymposium.eventbrite.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "typesafe.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://typesafe.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "voodoodoughnut.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://voodoodoughnut.com/index.php"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.stumptowncoffee.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.stumptowncoffee.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "docs.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://docs.google.com/document/d/1ni5a5kLQlwWuiG6CtICpXO3jtyDJFsTkW9UgpNdmPt4/edit?hl=en_US"
+      },
+      {
+        "contexts": [
+          "iframe:src"
+        ],
+        "fetched": false,
+        "host": "docs.google.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://docs.google.com/document/pub?id=1ni5a5kLQlwWuiG6CtICpXO3jtyDJFsTkW9UgpNdmPt4&embedded=true"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/improving-java-1-bytecode-at-a-time/",
+    "post_id": 1956,
+    "rejected_urls": [],
+    "source_content_sha256": "58ee98da78cae36c3a789f538576fe8524d6d04904a5438638cfcdda70e7ae99",
+    "source_date_sha256": "58fa0e5a02a6fc40dfea45ecc29e60ea9f8ec0ef4eb1296dfbcc64d6d8cf14b9",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "fc18b4e14e1a1f1570ad48f55618e128c12926035eae7fcaa8f373c01c5b8991"
+    },
+    "source_slug_sha256": "e9f6c750db8d865b3afde12d3f3c10eb6b205bb62760e102dfd149d30f315fd5",
+    "source_title_sha256": "cdb331a60e4aece3f7440acc22bd13a9e9a67123824d7df019c8c8d6d5fe228b",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "improving-java-1-bytecode-at-a-time",
+  "thumbnail": null,
+  "title": "Improving Java 1 Bytecode at a Time",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "An active or embedded source element was omitted."
+  ]
+}

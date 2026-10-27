@@ -1,0 +1,231 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "SvJugFx",
+      "slug": "svjugfx"
+    },
+    {
+      "name": "Video",
+      "slug": "video"
+    }
+  ],
+  "date": "2010-03-29 04:50:09",
+  "excerpt": "Our April SvJugFx presentation will feature Stuart Marks from the JavaFX  Team in Hands on JavaFX - Scripting the Scene Graph.  To attend in  person or via our live web stream (and be eligible for great prizes!),  please sign-up here: http://www.svjugfx.org/calendar/12863551/",
+  "id": 958,
+  "original_urls": [
+    "http://steveonjava.com/javafx-store-and-jfrog-artifactory/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "37fc96045fd0599f67ff21f97d74f8249c80e9e7e28eacf5ce8ebc4cc7731935",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "jnlp.ubivent.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://jnlp.ubivent.com/jnlp/eventid=10/guest=1"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jnlp.ubivent.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jnlp.ubivent.com/jnlp/eventid=10/guest=1/path=doc:129,doc:128,doc:124"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jnlp.ubivent.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jnlp.ubivent.com/jnlp/eventid=10/guest=1/path=doc:129,doc:128,doc:125"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "parleys.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://parleys.com/#st=4&id=99975"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "svjugfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://svjugfx.org/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "web.ubivent.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://web.ubivent.com/index.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "web.ubivent.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://web.ubivent.com/svjugfx.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.java.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.java.com/en/store/index.jsp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.jfrog.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.jfrog.org/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.meetup.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.meetup.com/sv-web-jug/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.slideshare.net/steveonjava/java-store-java-warehouse-overview-3584515"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.slideshare.net/steveonjava/repository-management-with-jfrog-artifactory"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.svjugfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.svjugfx.org/calendar/12863551/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/javafx-store-and-jfrog-artifactory/",
+    "post_id": 958,
+    "rejected_urls": [
+      {
+        "context": "a:href",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3e9b7e9cbf50df9e6ce1e1fcd74fdd6f9356cfc562bb4efedafdd89077cd96a8"
+      },
+      {
+        "context": "a:href",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "32e90764778cbda8df1fbf82e438e2d54f828bbe1d35c34f6671ae1360e9af63"
+      },
+      {
+        "context": "a:href",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "32e90764778cbda8df1fbf82e438e2d54f828bbe1d35c34f6671ae1360e9af63"
+      },
+      {
+        "context": "link",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "32e90764778cbda8df1fbf82e438e2d54f828bbe1d35c34f6671ae1360e9af63"
+      },
+      {
+        "context": "link",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "32e90764778cbda8df1fbf82e438e2d54f828bbe1d35c34f6671ae1360e9af63"
+      },
+      {
+        "context": "link",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3e9b7e9cbf50df9e6ce1e1fcd74fdd6f9356cfc562bb4efedafdd89077cd96a8"
+      }
+    ],
+    "source_content_sha256": "d0d911a8069b3644f80a8d44f3f1f1c4c08e5822d34dbb11e27d859a4ce2ec75",
+    "source_date_sha256": "fa3c4a632fda0739db6e302ed7b9b2e8f33d7178c1e48d52c6460a1c8d241248",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "b3e9408169595d4581169eb451d7d7a5e391a366c265682d81ae40b059dbe5e7"
+    },
+    "source_slug_sha256": "c02c0c1515be36e3b50f4498f20801ba999e70b93bb24c639e6d58ab4fe86c44",
+    "source_title_sha256": "7e63689349109a88672d5f4aa648db719aa80ba78fa170db624b7f5015441be4",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "javafx-store-and-jfrog-artifactory",
+  "thumbnail": null,
+  "title": "JavaFX Store and JFrog Artifactory Videos on Ubivent",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

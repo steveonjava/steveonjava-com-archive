@@ -1,0 +1,88 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2009-02-14 21:20:21",
+  "excerpt": "My original post about migrating from the preview release turned out to be quite a lot more popular than I expected, probably due to the sheer amount of changes to deal with.  Fortunately, the amount of change in the JavaFX 1.1 Release is miniscule in comparison.  However, you may still run into a few language and API changes that will affect any moderately complicated application.",
+  "id": 177,
+  "original_urls": [
+    "http://steveonjava.com/migrating-to-the-javafx-11-release/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "67481f1dfc6887027e1a6d736b8843990e2554806a591cdc033c72b2dfe6f98f",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/"
+      },
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "java.sun.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://java.sun.com/javafx/1/reference/releasenotes/javafx-sdk-release-notes-1-1.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "javafx-jira.kenai.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://javafx-jira.kenai.com/browse/JFXC-2665"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/migrating-to-the-javafx-11-release/",
+    "post_id": 177,
+    "rejected_urls": [
+      {
+        "context": "a:href",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "8c8dac95aa0a16cdc1d9219faf6edef368449abe8bc11404601ca000013efe9d"
+      },
+      {
+        "context": "link",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "8c8dac95aa0a16cdc1d9219faf6edef368449abe8bc11404601ca000013efe9d"
+      }
+    ],
+    "source_content_sha256": "034addb9db4ffdafdee6718922a6a2b325923eda3487003104c96c8faa5816e8",
+    "source_date_sha256": "272796885b0dffa1857777022b1e97eb809a91481aebe5608b07120eacac8a10",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "3417843b554b16b2091dcb66dbeabb5b6cff2d5f7593c7ecf38bfd025a03ce79"
+    },
+    "source_slug_sha256": "65047772c2be5fbd5995c786babc5d65fbca80ffe40f7dd9cfdd00cda81c056e",
+    "source_title_sha256": "7d99ab2c687c5413c230b751eb84f770ab94ea3595d89c8d47c6511834d630e2",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "migrating-to-the-javafx-11-release",
+  "thumbnail": null,
+  "title": "Migrating to the JavaFX 1.1 Release",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

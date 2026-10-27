@@ -1,0 +1,86 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "Pro JavaFX",
+      "slug": "pro-javafx"
+    }
+  ],
+  "date": "2009-09-30 02:33:52",
+  "excerpt": "All this week my co-author Dean Iverson and I will be fielding JavaFX questions on the Java Ranch.  Drop by and ask a few questions yourself and you may win a free copy of the Pro JavaFX Platform book!",
+  "id": 633,
+  "original_urls": [
+    "http://steveonjava.com/hanging-out-on-the-ranch/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "587114be37d0ceb65e1dc78f7fad18d6832a01871eb23aef73ef0adb53c328eb",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "projavafx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://projavafx.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.coderanch.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.coderanch.com/forums/f-98/Java-FX"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "www.coderanch.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.coderanch.com/templates/default/images/moosefly.gif"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "02ba5d38fa7fcfeaee5dd51928f11f717073d8e4e220d30db64eda70c78c7b2b"
+      }
+    ],
+    "original_root_route": "/hanging-out-on-the-ranch/",
+    "post_id": 633,
+    "rejected_urls": [],
+    "source_content_sha256": "4cd2ec592978d6b74f94ebf30e781f726284f4c1c41958979490d0584605fec8",
+    "source_date_sha256": "4d21ee778b5769f0c29772d42f858efda36f11a5ba8be794331aa3c3b80dc030",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "f7a99d5fb888ad7843e620ff1196c1e97d5e8359b468206079aae57832fc1153",
+    "source_title_sha256": "01522d04fb3153b20d991c54dd0c8f48ae4e7320e0ed326fa5de058d3f99e99c",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "hanging-out-on-the-ranch",
+  "thumbnail": null,
+  "title": "Hanging out on the Ranch",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JFXtras",
+      "slug": "jfxtras"
+    }
+  ],
+  "date": "2010-04-05 22:18:37",
+  "excerpt": "I am pleased to announce the 0.6 release of the open-source JFXtras project, the largest 3rd party library of JavaFX add-ons.  This release is a very large undertaking that represents the work of several dozen contributors over the past 6 months.",
+  "id": 1011,
+  "original_urls": [
+    "http://steveonjava.com/jfxtras-0-6-final-released/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "96858ba833409f4b0eb83a14a5d7a685a0d04054767d781c7f5ba30d4bb6bcfc",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/downloads/list"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/source/browse/jfxtras.core/tags/release-0.6/common/test/org/jfxtras/animation/wipe/WipeDemo.fx"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/source/browse/jfxtras.core/tags/release-0.6/common/test/org/jfxtras/scene/border/XGridBordersDemo.fx"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/source/browse/jfxtras.core/tags/release-0.6/common/test/org/jfxtras/scene/layout/XGridEricDemo.fx"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/source/browse/jfxtras.core/tags/release-0.6/common/test/org/jfxtras/scene/shape/ShapesDemo.fx"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/source/browse/jfxtras.core/tags/release-0.6/controls/test/org/jfxtras/scene/control/XPickerDemo.fx"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/source/browse/jfxtras.core/tags/release-0.6/controls/test/org/jfxtras/scene/control/XShelfViewDemo.fx"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/source/browse/jfxtras.core/tags/release-0.6/controls/test/org/jfxtras/scene/control/XTableViewDemo.fx"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "javafx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://javafx.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "jfxtras.googlecode.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.googlecode.com/svn/site/javadoc/release-0.6/index.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/jfxtras-0.6/ShapesDemo.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://jfxtras.org/jfxtras-0.6/WipeDemo.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/jfxtras-0.6/XGridBordersDemo.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://jfxtras.org/jfxtras-0.6/XGridEricDemo.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://jfxtras.org/jfxtras-0.6/XPickerDemo.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://jfxtras.org/jfxtras-0.6/XShelfViewDemo.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://jfxtras.org/jfxtras-0.6/XTableViewDemo.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/core"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/core/-/wiki/JFXtras/Style_guidelines"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "today.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://today.java.net/article/2009/07/27/introducing-custom-paints-javafx"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "today.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://today.java.net/pub/a/today/2009/07/14/custom-cursors-javafx.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://twitter.com/steveonjava"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.manning.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.manning.com/morris/"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": "2009/10/webstartsmall2.gif",
+        "reason": "unsupported-format-no-gif-or-document-export",
+        "source_url_sha256": "e3a70872a23ee262662bce1bef35caf853a715d79dd250893b3f7a55795d761d"
+      }
+    ],
+    "original_root_route": "/jfxtras-0-6-final-released/",
+    "post_id": 1011,
+    "rejected_urls": [],
+    "source_content_sha256": "fdac677ddce5fa2f6f66b5f08ecf9248efde39b756b2917181569a9d12fe19df",
+    "source_date_sha256": "01a4b5e163dcdccf83a50e1caedfc266bafbd9a3c7c79bd05ebeeccf45ba5f5e",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "4b1eeed7ecf89dbb8eb1202cb90edebe6c8f3bf236ae666099a3b8393d867147"
+    },
+    "source_slug_sha256": "e93b492600db2b522623f52a9b94f62120fcdb94685c200dd73206b75e8aba34",
+    "source_title_sha256": "32f5935d3549dc1bddfcb3f12a090294193649d62a1a789a29c96ed81fd165f8",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "jfxtras-0-6-final-released",
+  "thumbnail": null,
+  "title": "JFXtras 0.6 Final Released",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

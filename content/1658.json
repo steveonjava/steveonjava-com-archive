@@ -1,0 +1,181 @@
+{
+  "categories": [
+    {
+      "name": "Android",
+      "slug": "android"
+    },
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "Flash",
+      "slug": "flash"
+    },
+    {
+      "name": "Presentation",
+      "slug": "presentation"
+    }
+  ],
+  "date": "2010-11-09 00:29:08",
+  "excerpt": "I am pleased to announce the Flash On... user group that I am kicking off together with Keith Sutton, Oswald Campesato, and Justin Webb.  The focus is Flash on consumer devices from Mobile to Tablet to TV.",
+  "id": 1658,
+  "original_urls": [
+    "http://steveonjava.com/flash-on-meetup-premiere/",
+    "http://flash.steveonjava.com/flash-on-meetup-premiere/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "3edbec1a3395573c18103b6da253d095d50e3c90e34a52c2f5a6a6c23732dc79",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "eon.businesswire.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://eon.businesswire.com/news/eon/20101024005146/en/Adobe-Extends-AIR-Applications-Screens"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "experts.na3.acrobat.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://experts.na3.acrobat.com/flashondevices/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "get.adobe.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://get.adobe.com/air/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "meetup.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://meetup.com/flashon/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "pressroom.palm.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://pressroom.palm.com/releasedetail.cfm?ReleaseID=519951"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "us.blackberry.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://us.blackberry.com/newsroom/news/press/release.jsp?id=4674"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.apple.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.apple.com/pr/library/2010/09/09statement.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.engadget.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.engadget.com/2010/10/25/adobe-confirms-flash-player-10-1-is-coming-to-blackberry-window/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.google.com/tv/features.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.meetup.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.meetup.com/flashon/calendar/15056595/"
+      },
+      {
+        "contexts": [
+          "embed:src",
+          "param:value"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.youtube.com/v/zyJVNK7aSW4?fs=1&hl=en_US"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/flash-on-meetup-premiere/",
+    "post_id": 1658,
+    "rejected_urls": [],
+    "source_content_sha256": "c8a54f4b6ff72e09ddce62d430e8ab63566fa8099292a88d33f1892d83412e1d",
+    "source_date_sha256": "3a0e186769a8f476aeb13be754e07f585c8556e73322bc5a52f752bcc0901a9f",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "9c1c974e34bed25055fe9adc9836ef3183c7f97e35d382eebac0fd0c3bdb47a9"
+    },
+    "source_slug_sha256": "2bb697dff6befc4bf1c97ecac019d67f33da437260726ca23b7a6315c309e5d6",
+    "source_title_sha256": "bfcb9747692b849091dd2b32b307b23b2ff96af47204437c64a062869a2d8037",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "flash-on-meetup-premiere",
+  "thumbnail": null,
+  "title": "Flash On... Meetup Premiere",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "An active or embedded source element was omitted."
+  ]
+}

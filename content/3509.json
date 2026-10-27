@@ -1,0 +1,82 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JavaOne",
+      "slug": "javaone-2"
+    },
+    {
+      "name": "NightHacking",
+      "slug": "nighthacking"
+    },
+    {
+      "name": "Video",
+      "slug": "video"
+    }
+  ],
+  "date": "2013-10-17 02:34:00",
+  "excerpt": "",
+  "id": 3509,
+  "original_urls": [
+    "http://steveonjava.com/nighthacking-with-gosling-on-the-big-island/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "a41b8c5f76e3b4445363f44e693fe4b6297101a4025086b796e57cf51923eb00",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "medianetwork.oracle.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://medianetwork.oracle.com/video/player/2698223954001"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "nighthacking.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://nighthacking.com/events/nighthacking-with-gosling-on-the-big-island/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/nighthacking-with-gosling-on-the-big-island/",
+    "post_id": 3509,
+    "rejected_urls": [],
+    "source_content_sha256": "fac72d24d403f566602cc54f0c825aee28a260190f7388cae906abff428efce7",
+    "source_date_sha256": "3fe85e36ac67b492c2d0e2c3d9f09e9ad2d4e955545a6374381eab08719297b4",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "b3e3dadcdc7c0a28a3989978d9257d5a48bedb0d7d0fa26c34fc27aadf17a141",
+    "source_title_sha256": "084de1e37841360ab28cb166c3c4d0c40cfd643b4514b51fca6413c86c1923aa",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "nighthacking-with-gosling-on-the-big-island",
+  "thumbnail": null,
+  "title": "NightHacking with Gosling on the Big Island",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "NightHacking",
+      "slug": "nighthacking"
+    },
+    {
+      "name": "Video",
+      "slug": "video"
+    }
+  ],
+  "date": "2013-11-04 03:30:49",
+  "excerpt": "At the upcoming J-Fall event I will be live streaming from the balcony with 3 different special guests. Gerrit will be showing some of his latest hacking with JavaFX on the Raspberry Pi, Jan Kees will give us some \"real\" hacking with Java on bytecodes, and we will close out with Saskia on the Devoxx4Kids Netherlands event she helped to run last week.",
+  "id": 3552,
+  "original_urls": [
+    "http://steveonjava.com/nighthacking-on-devices-bytecodes-and-kids/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "2955a0aed14184e948aacb9e37b658f0cf846affba22017d33dc7d2c3592dd7a",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "nighthacking.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://nighthacking.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "nighthacking.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://nighthacking.com/events/nighthacking-at-j-fall/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/nighthacking-on-devices-bytecodes-and-kids/",
+    "post_id": 3552,
+    "rejected_urls": [],
+    "source_content_sha256": "f81e87a8877c20e4a29aa95568eceaa99dbb3365b86414caeeebec5b61458774",
+    "source_date_sha256": "a4b5f8363c1ce28454b876db28933abe73bca5d0f18842116669dd996e19e8b6",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "4803dd0ee737ce150cd157affcdddc95e6a6c92a75b16b78cc664c8c40da8b15",
+    "source_title_sha256": "6a8a009fb2832e363ea41fe38580280ceac4cb2224432e775bc76086e71f2ae5",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "nighthacking-on-devices-bytecodes-and-kids",
+  "thumbnail": null,
+  "title": "NightHacking on Devices, Bytecodes, and Kids!",
+  "type": "post",
+  "video_id": null,
+  "warnings": []
+}

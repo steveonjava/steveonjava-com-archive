@@ -1,0 +1,124 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "OSCON Java",
+      "slug": "oscon-java"
+    },
+    {
+      "name": "Uncategorized",
+      "slug": "uncategorized"
+    }
+  ],
+  "date": "2011-10-10 00:06:18",
+  "excerpt": "Just finished up an extremely busy week at JavaOne and there was a lot to like about this year's event.  There were plenty of surprise announcements, lots of good content/sessions, and a lot of improvements on the venue and organization.",
+  "id": 2099,
+  "original_urls": [
+    "http://steveonjava.com/javaone-is-rebuilding-momentum/",
+    "http://javafx.steveonjava.com/javaone-is-rebuilding-momentum/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "dbad3a4c388d04433bd273d2a5e85a51293868e7c56f479109b88d2c14b0a8b3",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "javafx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://javafx.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "javaposse.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://javaposse.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://twitter.com/#!/Sharat_Chander"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://twitter.com/#!/deanriverson"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://twitter.com/steveonjava"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/javaone-is-rebuilding-momentum/",
+    "post_id": 2099,
+    "rejected_urls": [],
+    "source_content_sha256": "b5f82d63ffdf8f40d7be4828c9ed8ba88b9cca494fec908307407d67004e9131",
+    "source_date_sha256": "9dc01f7abfe384ee51dae0fbdd8867dbfa9331638e3691c1cebe201ec2bcdb12",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "67949436738740b742991a9eff3ffabceeb7c752228156522c2da0239a2a93b2"
+    },
+    "source_slug_sha256": "38b3d14b75a50001b807199980d9556d574b6e901d1d57c6260af6c1d597b4c5",
+    "source_title_sha256": "6c832192d914076742b0e28f30e1645dffe3fe23cc2592e467d2bc973e22465b",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "javaone-is-rebuilding-momentum",
+  "thumbnail": null,
+  "title": "JavaOne is Rebuilding Momentum",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

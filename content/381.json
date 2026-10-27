@@ -1,0 +1,79 @@
+{
+  "categories": [
+    {
+      "name": "Liferay",
+      "slug": "liferay"
+    }
+  ],
+  "date": "2009-06-26 06:16:37",
+  "excerpt": "This is a little off my usual set of topics, but something that hopefully others will find valuable, since there is such little information about this on the net.",
+  "id": 381,
+  "original_urls": [
+    "http://steveonjava.com/running-liferay-on-shared-hosting/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "e07c03e5f2ca8395d62f0d2a40671eef9425daefcfa50b5499351da1701c0dbf",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "projavafx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://projavafx.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.liferay.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.liferay.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.liferay.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.liferay.com/web/guest/downloads/additional"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/running-liferay-on-shared-hosting/",
+    "post_id": 381,
+    "rejected_urls": [],
+    "source_content_sha256": "e1dec54639e980adae26f704712022ff605940760c8e959437b0bb302b886e95",
+    "source_date_sha256": "6cac44dc6f07081f55ea56b78d1f503d279347f91625424fb343ce7dc5197b1c",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "cfb8dac5a0b7aea764cebc95ca6581ba9e63159d00a580b44bd7e710b18abf71"
+    },
+    "source_slug_sha256": "59bb838c1d63f85c9a8e4b8a54554a2f0c748f89e0a9c866fdd75a45816e54c7",
+    "source_title_sha256": "a9110ee9f990905e4aef31c6ee3025bc1825fcb92c958c4450058bd2513b3045",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "running-liferay-on-shared-hosting",
+  "thumbnail": null,
+  "title": "Running Liferay on Shared Hosting",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

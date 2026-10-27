@@ -1,0 +1,94 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "NightHacking",
+      "slug": "nighthacking"
+    },
+    {
+      "name": "Video",
+      "slug": "video"
+    }
+  ],
+  "date": "2012-11-27 01:40:23",
+  "excerpt": "I just finished my NightHacking Tour across Europe. In 3 weeks, I hit 2 conferences, 5 user groups, and did over 30 interviews with NightHackers in 7 different countries.",
+  "id": 2698,
+  "original_urls": [
+    "http://steveonjava.com/the-nighthacking-tour-concludes-what-is-next/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "e63a7dd9565229a627c8db3dbfdce7544d94d2a6fafdbc810745c5d29500fa3d",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.flickr.com/photos/8268882@N06/8200119872/"
+      },
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.flickr.com/photos/steveonjava/sets/72157631683138022/show/"
+      },
+      {
+        "contexts": [
+          "iframe:src"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.youtube.com/embed/videoseries?list=SPX8CzqL3ArzV8kiEN55FlEz_ssqjVowlC&hl=en_US"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.youtube.com/watch?v=s3b236MfDTE"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/the-nighthacking-tour-concludes-what-is-next/",
+    "post_id": 2698,
+    "rejected_urls": [],
+    "source_content_sha256": "f760e65b0baa61e0f0498cfa5da3677599dab551b16e527f0894a24bec237dab",
+    "source_date_sha256": "91c1d9cb549da0b7e9c43a89f354a5cee11d559373c62ac09e63972ad2b8002d",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "720662979c0e110d8cb0ad4ace86cae8294a7b0ea85c83aae299cfa46addfcf8",
+    "source_title_sha256": "2e46c67ac3b49a38be588b217d9e6c50e2e524008b2ad6e69637a0b249c959c6",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "the-nighthacking-tour-concludes-what-is-next",
+  "thumbnail": null,
+  "title": "The NightHacking Tour Concludes \u2013 What is Next?",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A known legacy Windows-1252 byte 0x96 was decoded explicitly as U+2013.",
+    "An active or embedded source element was omitted."
+  ]
+}

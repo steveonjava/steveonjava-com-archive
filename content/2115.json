@@ -1,0 +1,93 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2012-04-01 12:05:24",
+  "excerpt": "This was an April Fools' spoof -- everything is factual except the company I joined.  Read more here.",
+  "id": 2115,
+  "original_urls": [
+    "http://steveonjava.com/joining-nasa-to-conquer-space-with-java/",
+    "http://javafx.steveonjava.com/joining-nasa-to-conquer-space-with-java/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "b6ef4619bcd6aef98d2d9b4b433f444f2618c60304b77a85bbd3237325efb29d",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "agens.no",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://agens.no/404"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "javapathfinder.sourceforge.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://javapathfinder.sourceforge.net/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.apress.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.apress.com/9781430268727"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/#!/MarsRovers"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/joining-nasa-to-conquer-space-with-java/",
+    "post_id": 2115,
+    "rejected_urls": [],
+    "source_content_sha256": "06c2301ff9ec88ad06b3510830738f4b15f73b30f77eb4e1650e83d53ce4c314",
+    "source_date_sha256": "29401fb6db730ffd075ba6cd83b0c1b9719a79cd111d818ec4bd9c4433052759",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "f5c43af7d76122aac9e248954661f614acc642a32d4bf54c1a1cbc84fb5cc16c"
+    },
+    "source_slug_sha256": "6055490352439979625823ebf64f90e561deee631d464694a3da3855a5378236",
+    "source_title_sha256": "6ca3c02251f30e01f6732e843ff4d111d503083c8ff057f4e3cc310a68f0d88f",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "joining-nasa-to-conquer-space-with-java",
+  "thumbnail": null,
+  "title": "Joining NASA to Conquer Space with Java",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

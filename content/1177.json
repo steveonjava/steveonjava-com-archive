@@ -1,0 +1,149 @@
+{
+  "categories": [
+    {
+      "name": "Agile",
+      "slug": "agile"
+    },
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JFXtras",
+      "slug": "jfxtras"
+    },
+    {
+      "name": "Presentation",
+      "slug": "presentation"
+    }
+  ],
+  "date": "2010-05-03 17:06:52",
+  "excerpt": "At the Lean Software and Systems Conference a week ago, Israel Gat, Erik Huddleston, and I did a presentation on Reformulating the Product Delivery Process.  At the end of this talk, we unveiled an open-source, JavaFX tool called Apropos that we use for Product Portfolio Planning at Inovis.",
+  "id": 1177,
+  "original_urls": [
+    "http://steveonjava.com/announcing-the-apropos-project/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "c55006f0bafbf0506ce1e3487f38078ac607ac2e0cb1a33f4dd482b2c0a5ebac",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "atlanta2010.leanssc.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://atlanta2010.leanssc.org/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/apropos/"
+      },
+      {
+        "contexts": [
+          "object:codebase"
+        ],
+        "fetched": false,
+        "host": "download.macromedia.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "inovis.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://inovis.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/"
+      },
+      {
+        "contexts": [
+          "embed:src",
+          "param:value"
+        ],
+        "fetched": false,
+        "host": "static.slidesharecdn.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=lssc10v5-100425212336-phpapp02&stripped_title=reformulating-the-product-delivery-process-3853287"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "theagileexecutive.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://theagileexecutive.com/2010/04/26/apropos-the-inovis-end-to-end-kanban-system/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.rallydev.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.rallydev.com/agile_products/editions/community/signup/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/announcing-the-apropos-project/",
+    "post_id": 1177,
+    "rejected_urls": [],
+    "source_content_sha256": "529b59170bc3aa99e85eb8ec0021d8071f34d0cc998420669a5f5215ffa946c6",
+    "source_date_sha256": "874d4dcfef183e896f86d792dee9eb1c47e455922e98a959088e7cd2f08bee3d",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "50fcc0856d5447e0b010e8b09bfb4d47308b5ed3022ed86954ad334fb3995f8a"
+    },
+    "source_slug_sha256": "d409fb2eea00a9003ecf366bf9570616ba103ebe4cd7bf78dd393ee68298bf0e",
+    "source_title_sha256": "ac91046c0fc9bf4a6f1d2aef52a2611712091409779891c66814d86b79239e46",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "announcing-the-apropos-project",
+  "thumbnail": null,
+  "title": "Announcing the Apropos Project",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "An active or embedded source element was omitted."
+  ]
+}

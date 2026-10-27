@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "SvJugFx",
+      "slug": "svjugfx"
+    }
+  ],
+  "date": "2010-01-13 14:54:21",
+  "excerpt": "Just a quick note.  I have added a new page for the Silicon Valley JavaFX User Group live stream in the toolbar above.  It contains an embedded movie player, chat window, and link to Google Moderator.  The direct url is: http://steveonjava.com/svjugfx/",
+  "id": 795,
+  "original_urls": [
+    "http://steveonjava.com/svjugfx-stream-page/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "122f9d46360049c25cc5f8f02f2bc37df0d69421411a213ef51a7ff75fd1aa8c",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [],
+    "image_omissions": [],
+    "original_root_route": "/svjugfx-stream-page/",
+    "post_id": 795,
+    "rejected_urls": [],
+    "source_content_sha256": "99b24c5146f68db963dec9c89be99bbdeb7576a4f363486c002f65a35755330d",
+    "source_date_sha256": "e7e7246bc8eafabf3552d562b66fc8f391f6b30fc10f68cbdabc9b88b146d67b",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "14c49b16e7e90aaded2d85831c66149cff9d5f3e7219e2bcb8a34f73966575e5"
+    },
+    "source_slug_sha256": "0417a71e32cbc6923c6037ce4495c4db15f210c17db0c8733d5e1070eedebcc6",
+    "source_title_sha256": "97c4c1bccee5eb70afceacecea40a659797f8f6e41c66536ee16f63fec2a0573",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "svjugfx-stream-page",
+  "thumbnail": null,
+  "title": "SvJugFx Stream Page",
+  "type": "post",
+  "video_id": null,
+  "warnings": []
+}

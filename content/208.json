@@ -1,0 +1,55 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2009-02-17 04:53:29",
+  "excerpt": "The JFXtras 0.3 release is out with full support for JavaFX 1.1, as well as JavaFX MigLayout support.  You can download the latest bits here:",
+  "id": 208,
+  "original_urls": [
+    "http://steveonjava.com/jfxtras-03-release/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "9aab7e22ffaadc220046ccea41cd3b42896d3e6ef74b0ebe4428cff3b00a350e",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/downloads/list"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/jfxtras-03-release/",
+    "post_id": 208,
+    "rejected_urls": [],
+    "source_content_sha256": "ad09844da3e0c8f0cf582ba705890bc656f36dcd140a5743312eb68d471d2874",
+    "source_date_sha256": "7e953ce486f9520b29b65f8a433c5f3e5d2f7c3a879539c03073d3a6518a51f3",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "391738a185ac0c4d8a973ae65cf421ffe9d7b97f486338a34237da4d494be0f6",
+    "source_title_sha256": "e2a2a719afe78b0ee62144ef7a8291fbc5d5fece80a3aec6d07585c61b4431c3",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "jfxtras-03-release",
+  "thumbnail": null,
+  "title": "JFXtras 0.3 Release",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2009-06-13 14:18:27",
+  "excerpt": "I had the unique opportunity to present 3 different sessions, plus assist with a University Session at JavaOne this year, and had a blast doing all of it.",
+  "id": 315,
+  "original_urls": [
+    "http://steveonjava.com/the-widgetfx-j1-recap/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "0208d3dd15ca10b7664df1ecc69a74acd980066b147dfb4a24bbbe54879ab3fe",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/piccolo2d/wiki/JavaOne2009"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "developers.sun.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://developers.sun.com/learning/javaoneonline/j1sessn.jsp?sessn=TS-3789&yr=2009&track=media"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "developers.sun.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://developers.sun.com/learning/javaoneonline/j1sessn.jsp?sessn=TS-4861&yr=2009&track=media"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "java.sun.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://java.sun.com/javaone/2009/articles/gen_javafxria.jsp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "learnjavafx.typepad.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://learnjavafx.typepad.com/weblog/2009/05/i-wish-henry-zhang-would-make-a-widgetfx-widget-from-his-javafx-pacman-game.html"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "mangadesu.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://mangadesu.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.org/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/contest"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.flickr.com/photos/browsecode/sets/72157619591134147/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.nabaztag.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.nabaztag.com/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/the-widgetfx-j1-recap/",
+    "post_id": 315,
+    "rejected_urls": [],
+    "source_content_sha256": "38597d1f6bf9b619419b4b8b32bebb2f12f273d2df1b77ef1c4819876671ce0c",
+    "source_date_sha256": "37892ce05ddbf664476ccfb2d577eecd835173141658a3827e58fd85b5bb8d45",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "3655aa2d52afae6818ecdaed799354d38999d1caed13097903955a6dd80ac376",
+    "source_title_sha256": "58370d4134618518d357dcd690bc46aee479501e1a63ee96e5124b3848628a41",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "the-widgetfx-j1-recap",
+  "thumbnail": null,
+  "title": "The WidgetFX+++ JavaOne Recap",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

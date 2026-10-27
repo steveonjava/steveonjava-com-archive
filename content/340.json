@@ -1,0 +1,150 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2009-06-17 02:36:39",
+  "excerpt": "Update: I have added in some references to WidgetFX 1.2 tutorials below.",
+  "id": 340,
+  "original_urls": [
+    "http://steveonjava.com/widgetfx-1-2-beta/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "a2d529c80fc421cd50a0add857e72cb0ebabda8535624adf5f9856e9597cb083",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/widgetfx/downloads/list"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "java.sun.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://java.sun.com/javafx/1.2/docs/api/javafx.scene.layout/javafx.scene.layout.Panel.html"
+      },
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "url",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://url/to/your/widget.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.org/beta/launch.jnlp"
+      },
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/beta/runner.jnlp?arg="
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.org/beta/runner.jnlp?arg=http://url/to/your/widget.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/contest"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.dallaway.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.dallaway.com/acad/webstart/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.javafxgame.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.javafxgame.com/pac-man-widget-for-widgetfx-12/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/widgetfx-1-2-beta/",
+    "post_id": 340,
+    "rejected_urls": [],
+    "source_content_sha256": "6d9cc326d0d83a0aa30a5532fba675fe0cd6077faf3e52b306b1dbfcd6cd4a24",
+    "source_date_sha256": "6526dc2b6bfb4baef94f97d53a921c2a22685e2fcc0e8441559791a39f58c9ac",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "47aa224271f6c9f98fc9411a40754f9e0f5d36a9afeebf25788da90244870f17"
+    },
+    "source_slug_sha256": "7dd62e72b35828c14e31522895255dc5402baa6322a2b095022b7ee3fb475069",
+    "source_title_sha256": "ff52439610eebe438436f7f6559ec2ac9d5c9ad26f08a26c72b246abd2a4d11c",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "widgetfx-1-2-beta",
+  "thumbnail": null,
+  "title": "WidgetFX 1.2 Beta Announcement",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

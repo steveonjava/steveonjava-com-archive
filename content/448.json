@@ -1,0 +1,204 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JFXtras",
+      "slug": "jfxtras"
+    },
+    {
+      "name": "Liferay",
+      "slug": "liferay"
+    }
+  ],
+  "date": "2009-07-21 04:44:42",
+  "excerpt": "",
+  "id": 448,
+  "original_urls": [
+    "http://steveonjava.com/jfxtras-community-site-launched/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "4dcc8c02032c58573f8b725f2e2d6476a902bc224186f766db4614b057f6ae5d",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxbook.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxbook.com/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://jfxtras.org/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/javafx-developers-guide"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/javafx-developing-rich-internet-applications"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/javafx-in-action"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/links"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/pro-javafx-platform"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/samples"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/samples/upload"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jonathangiles.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jonathangiles.net/blog/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "my.safaribooksonline.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://my.safaribooksonline.com/9780321648983"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "projavafx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://projavafx.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.asgteach.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.asgteach.com/books/javafxbook.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.manning.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.manning.com/morris/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/jfxtras-community-site-launched/",
+    "post_id": 448,
+    "rejected_urls": [],
+    "source_content_sha256": "ffa8d4406e29c7f62688e3f16460e071914e77732cf41e267370bd359dcbedff",
+    "source_date_sha256": "cff7b72b161f5655ab1ab314003beeda33bf7cd3f0b64878e8aff4f67d445339",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "5b5d01ebd42c4d6f08e35e0e54fe7d3714f285e2d4391dcd004da56e19473edc",
+    "source_title_sha256": "4ce95a3a7f3d9703d18dca1a5b9ee8cd2fdc94a20ffa1b5eb259281da946de78",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "jfxtras-community-site-launched",
+  "thumbnail": null,
+  "title": "JFXtras Community Site Launched!",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

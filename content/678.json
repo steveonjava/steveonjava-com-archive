@@ -1,0 +1,81 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "WidgetFX",
+      "slug": "widgetfx"
+    }
+  ],
+  "date": "2009-11-04 03:29:04",
+  "excerpt": "The Java Store team at Sun has been busy at work on a new release of the Java Store, which is finally available in Beta.  The easiest way to get it is to go through the Java Warehouse to the developer preview link here:",
+  "id": 678,
+  "original_urls": [
+    "http://steveonjava.com/meet-the-new-java-store/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "86a8249f1390441c750ea9f5e4c05fcf4e64e89af1788291b04b8b4a2487824c",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "finance.yahoo.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://finance.yahoo.com/news/Sun-Enhances-Java-Application-bw-3386995891.html?x=0&.v=1"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "store.java.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://store.java.com/developerrelease"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.joshondesign.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.joshondesign.com/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/meet-the-new-java-store/",
+    "post_id": 678,
+    "rejected_urls": [],
+    "source_content_sha256": "772d5a3e213898faaca8bdebb610675992bc06818334e6f13f7c185a6b7db42b",
+    "source_date_sha256": "0920a3e1a4b0110b9442a886d0e0e95acc8f47c3da122f88b5b176a4abfa34cc",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "3e1464e7b80e94413212fdecedcbf09d0f5509c6cb7ad0a33dacd5174a11b396",
+    "source_title_sha256": "7fe0e1f9707e8f7169c4cbe9198f7ba4b4219b5583a86b3ad23a3dd10a879109",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "meet-the-new-java-store",
+  "thumbnail": null,
+  "title": "Meet the New Java Store",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

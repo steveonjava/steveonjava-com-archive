@@ -1,0 +1,74 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "Presentation",
+      "slug": "presentation"
+    }
+  ],
+  "date": "2010-09-07 17:42:16",
+  "excerpt": "",
+  "id": 1347,
+  "original_urls": [
+    "http://steveonjava.com/javafx-your-way-building-javafx-applications-with-alternative-languages/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "ffae13980ad0398d97d32a2c5dbd2c4d4d2a61079fd55caf1342195682e08c5d",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "3.bp.blogspot.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://3.bp.blogspot.com/_aQ9isAh6Od0/Svaq0z3nSbI/AAAAAAAABuc/DcAj-mp5o3I/s320/scala+or+groovy+and+others.JPG"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "74fece5ee82c1a5aff6801c5138ed7a8e66be00717252abb06cfe922598bc152"
+      }
+    ],
+    "original_root_route": "/javafx-your-way-building-javafx-applications-with-alternative-languages/",
+    "post_id": 1347,
+    "rejected_urls": [],
+    "source_content_sha256": "5920970e777a096fe696b8f124c9dbbf9e813235dc008282b1a002ae0a7139eb",
+    "source_date_sha256": "0d1b900c7d73d6faf03ad9f7ec5e986444c280244151ef21717a55d330bcf8be",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "ad9ef140b8837ba1fb5d43b8f036e460cacab8602b0460bfde8d36e8a0be25c6"
+    },
+    "source_slug_sha256": "1da7171e3bb6e1ca48df7ea47167be713a5f8d33190b5136f95fc1edfd60084a",
+    "source_title_sha256": "9e6381f851590159870b27b6672eed2c1c17432ff8d8bf234b6abbe89d0c45c5",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "javafx-your-way-building-javafx-applications-with-alternative-languages",
+  "thumbnail": null,
+  "title": "JavaFX Your Way: Building JavaFX Applications with Alternative Languages",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

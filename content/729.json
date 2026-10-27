@@ -1,0 +1,110 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "Presentation",
+      "slug": "presentation"
+    }
+  ],
+  "date": "2009-12-06 15:43:16",
+  "excerpt": "The two talks I gave at Devoxx 2009 are now available on the Parleys.com website for online viewing.",
+  "id": 729,
+  "original_urls": [
+    "http://steveonjava.com/2009-devoxx-posts-netbeans-javafx-designer-preview/",
+    "http://javafx.steveonjava.com/2009-devoxx-posts-netbeans-javafx-designer-preview/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "0375b65821f522c6eec382d8c15254917c1c13a5596cb894d38c9e1c96980407",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/downloads/list"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "devoxx.parleys.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://devoxx.parleys.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "devoxx.parleys.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://devoxx.parleys.com/#st=5&id=1593"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "devoxx.parleys.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://devoxx.parleys.com/#st=5&id=1636"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "fest.easytesting.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://fest.easytesting.org/wiki/pmwiki.php"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/2009-devoxx-posts-netbeans-javafx-designer-preview/",
+    "post_id": 729,
+    "rejected_urls": [],
+    "source_content_sha256": "b5f7fc8a2973bb51d483fef5497dc447ab17d0357d4023d00f19201d9783cb4b",
+    "source_date_sha256": "d36bad58be41562427489ddd64fb5863cb8408f12d4a8e6e1d83f23b3fde69ea",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "3e354f2263b8d8eacad65d195cf248d7a47ea5d9ca5729226120d03dccfa95af"
+    },
+    "source_slug_sha256": "c91b9c2cca658217046ba6c48537dd631ba47c5972fe1c50d70d782252bf3dde",
+    "source_title_sha256": "606eba0efb196b0d7045cfbddf2bc7b5885b204f0711cb7ebea3ebc155eff226",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "2009-devoxx-posts-netbeans-javafx-designer-preview",
+  "thumbnail": null,
+  "title": "2009 Devoxx Posts + NetBeans JavaFX Designer Preview",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

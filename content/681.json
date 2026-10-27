@@ -1,0 +1,70 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2009-11-07 20:42:56",
+  "excerpt": "JavaFX has a very active Twitter community.  Some have even said that the best way to get help with your JavaFX app is to ask on Twitter first.  But how do you know who to follow?",
+  "id": 681,
+  "original_urls": [
+    "http://steveonjava.com/announcing-the-javafx-twitter-group/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "0a7a950b6767bd75f0b5fadc16244528160712374249f448be54f180acda7ac8",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://twitter.com/steveonjava/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://twitter.com/steveonjava/javafx"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/announcing-the-javafx-twitter-group/",
+    "post_id": 681,
+    "rejected_urls": [],
+    "source_content_sha256": "c56f8523086eff149203b4dfbbaf44f12eedffb89843bdad7917435d0c38e061",
+    "source_date_sha256": "cc17002a63012ef64936d8ea80de90304037f544bd252085ce629d932743cbc3",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "d4481cf8ac4c0432c5bf26f7b99d7fa5b3372dafbd6fa6a6651ccb3e16de2382",
+    "source_title_sha256": "efc13fd2bb8af2a14cba64222191cfa63cbda6434ecb58542e04e2df98c1d4c4",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "announcing-the-javafx-twitter-group",
+  "thumbnail": null,
+  "title": "Announcing the JavaFX Twitter Group",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "A known legacy Windows-1252 byte 0xE4 was decoded explicitly as U+00E4."
+  ]
+}

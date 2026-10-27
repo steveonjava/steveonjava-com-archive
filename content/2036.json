@@ -1,0 +1,242 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "ScalaFX",
+      "slug": "scalafx"
+    }
+  ],
+  "date": "2011-09-27 05:18:25",
+  "excerpt": "JavaFX 2.0 and Scala are both great technologies individually, but work even better when used together.  JavaFX 2.0 is a powerful rich client technology with advanced graphics, animation, and media capabilities.  Scala is a simple, yet powerful language with advanced language features for writing domain-specific languages (DSLs).  Add a little Scala UI DSL to your JavaFX 2.0 project and you will be in cookie and cream heaven!",
+  "id": 2036,
+  "original_urls": [
+    "http://steveonjava.com/javafx-2-0-and-scala-like-milk-and-cookies/",
+    "http://javafx.steveonjava.com/javafx-2-0-and-scala-like-milk-and-cookies/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "f3eeaa7e48d313cb6ef25b21f7ca93b5db0bcff3c91c26305d5d0df042c91e00",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "creativecommons.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://creativecommons.org/licenses/by-nc-nd/2.0/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "download.oracle.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://download.oracle.com/javafx/2.0/get_started/ColorfulCircles.java.html"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm3.static.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://farm3.static.flickr.com/2121/4507213530_be29d5f9c5_m.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm3.static.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://farm3.static.flickr.com/2248/4506569781_ac93d2fb1f_m.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm5.static.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://farm5.static.flickr.com/4005/4507206940_e2251dd44a_m.jpg"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "groups.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://groups.google.com/group/scalafx-dev"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "groups.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://groups.google.com/group/scalafx-users"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "nbguru.blogspot.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://nbguru.blogspot.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "people.epfl.ch",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://people.epfl.ch/ingo.maier"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "pleasingsoftware.blogspot.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://pleasingsoftware.blogspot.com/2011/09/groovyfx-vs-scalafx.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.flickr.com/photos/photo_art/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.google.com/url?sa=t&source=web&cd=1&ved=0CB0QFjAA&url=http%3A%2F%2Flamp.epfl.ch%2F%7Eimaier%2Fpub%2FDeprecatingObserversTR2010.pdf&rct=j&q=ingo%20maier%20functional%20reactive%20programming%20pdf&ei=FpmBTs3aD4fZiALL29yYDQ&usg=AFQjCNEdY1-mrWx4Sev3tCqrhRzDbaoDTg&sig2=J_T9I5FQhs8OeJKMVrJK2g&cad=rja"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://code.google.com/p/scalafx"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://code.google.com/p/scalafx/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://code.google.com/p/scalafx/source/browse/demo/scalafx/SimpleColorfulCircles.scala"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://www.google.com/calendar/render?eid=MDl1dXRibmltcG9lamgyZDcyMG44c2xyMTggNWQ0Y2VqajJkODBxNzdiZXRibDltcGVkbThAZw&ctz=America/Los_Angeles&pli=1&sf=true&output=xml"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "f8c28b54e5dd053e87be1806fc627973f073a29b8390c8584d218089afab6732"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "0bf34b979fca9210940b14fc0715c0f176bfbddbfe9ee380c142771d1dbfb32f"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "e8a0fdf1b1a8976807af840d84b73e35ae03cff5ef1a59a3f3088bab79ea555c"
+      }
+    ],
+    "original_root_route": "/javafx-2-0-and-scala-like-milk-and-cookies/",
+    "post_id": 2036,
+    "rejected_urls": [],
+    "source_content_sha256": "bd707c77d60558097decf22fa3bc9d896ba4760dd4b45de58cee90b995f16f35",
+    "source_date_sha256": "dee509295481820b014754acf2db897c0feec233b737e1512ae7fa3e700c0838",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "f36a0a84ccacf942e3960c93c1082404af91a01ddad7b520eee75613a2300555"
+    },
+    "source_slug_sha256": "eed0902eb3f45c154c02ceb0374c7c34160787f49a8e9c94308e83cae6280d86",
+    "source_title_sha256": "4b8c44a065e8ff522fd41f44f3c754d7ed528a1d97679b48b3b6f3f3895aebf1",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "javafx-2-0-and-scala-like-milk-and-cookies",
+  "thumbnail": null,
+  "title": "JavaFX 2.0 and Scala, Like Milk and Cookies",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

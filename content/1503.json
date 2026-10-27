@@ -1,42 +1,102 @@
 {
-  "id": 1503,
-  "type": "post",
-  "title": "JavaFX 2.0 With Alternative Languages at the SvJugFx",
-  "slug": "javafx-2-0-with-alternative-languages-at-the-svjugfx",
-  "date": "2010-10-14 03:19:36",
   "categories": [
     {
-      "slug": "events",
-      "name": "Events"
+      "name": "Events",
+      "slug": "events"
     },
     {
-      "slug": "javafx",
-      "name": "JavaFX"
+      "name": "JavaFX",
+      "slug": "javafx"
     },
     {
-      "slug": "presentation",
-      "name": "Presentation"
+      "name": "Presentation",
+      "slug": "presentation"
     },
     {
-      "slug": "visage",
-      "name": "Visage"
+      "name": "Visage",
+      "slug": "visage"
     }
   ],
+  "date": "2010-10-14 03:19:36",
   "excerpt": "It is kind of ironic, but after a year running I have never spoken at my own user group.  In November I am going to break the trend and present an updated version of the JavaFX Alternative Language talk that I gave at JavaOne.  You can sign-up for the event here:",
+  "id": 1503,
   "original_urls": [
     "http://steveonjava.com/javafx-2-0-with-alternative-languages-at-the-svjugfx/"
   ],
-  "video_id": null,
-  "thumbnail": null,
-  "review_status": "unreviewed",
   "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
     "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "edc1a2387239ce56a1ca69bae724aeedd67d7cba7cd5460afa771577693f3595",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "learnjavafx.typepad.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://learnjavafx.typepad.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "visage-lang.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://visage-lang.org/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.google.com/moderator/#15/e=34f8&t=34f8.48"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.svjugfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.svjugfx.org/calendar/14264038/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/javafx-2-0-with-alternative-languages-at-the-svjugfx/",
     "post_id": 1503,
+    "rejected_urls": [],
     "source_content_sha256": "d38562f8e9eea1111e82baf98ff0b08c6014028d420da8384d88191e1682fed5",
-    "exporter_version": "prototype-export-1",
-    "authorship": "Original published text, not newly generated first-person prose"
+    "source_date_sha256": "267bb9e7b9b8b3c09799889c23f3d07dfd190afa32d8d80801cb075552cdb028",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "7bf35c6cd5ce97e75e7bea1f1b64b91dbb9b163d385be25949820ccad717d8bd"
+    },
+    "source_slug_sha256": "36086338c642330c3cbc85832ed7ebb80052f24f694deaef8cc08af081a2aee6",
+    "source_title_sha256": "bbfd92df20c1366a6e2f39000557507e07b96099e4d82aa48b8320553477b5ea",
+    "table": "wp_posts",
+    "video_status": "absent"
   },
+  "review_status": "unreviewed",
+  "slug": "javafx-2-0-with-alternative-languages-at-the-svjugfx",
+  "thumbnail": null,
+  "title": "JavaFX 2.0 With Alternative Languages at the SvJugFx",
+  "type": "post",
+  "video_id": null,
   "warnings": [
-    "A legacy single-byte nonbreaking space was normalized to a space."
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "A root-page parent-relative upload reference was normalized to its approved root upload path."
   ]
 }

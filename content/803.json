@@ -1,0 +1,107 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "SvJugFx",
+      "slug": "svjugfx"
+    }
+  ],
+  "date": "2010-01-19 10:13:18",
+  "excerpt": "I finished post-processing and publishing our January talk with Amy Fowler on Parleys.com.",
+  "id": 803,
+  "original_urls": [
+    "http://steveonjava.com/javafx-layout-secrets-with-amy-fowler/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "95ee4ffe3198da8421721feb970f6cfe050c1c06c04ee1cdf24d00bb452d0018",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "object:codebase"
+        ],
+        "fetched": false,
+        "host": "download.macromedia.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"
+      },
+      {
+        "contexts": [
+          "embed:src",
+          "param:value"
+        ],
+        "fetched": false,
+        "host": "static.slidesharecdn.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=layoutsecrets011310-key-100219135854-phpapp02&stripped_title=javafx-layout-secrets-with-amy-fowler"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.parleys.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.parleys.com/parleysserver/indexing/presentation.form?id=1837"
+      },
+      {
+        "contexts": [
+          "embed:src",
+          "param:value"
+        ],
+        "fetched": false,
+        "host": "www.parleys.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.parleys.com/share/parleysshare2.swf?pageId=1837"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.svjugfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.svjugfx.org/calendar/12334837/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/javafx-layout-secrets-with-amy-fowler/",
+    "post_id": 803,
+    "rejected_urls": [],
+    "source_content_sha256": "2c5ef20bde07794af88cb1e585f0b6f2303ffdf0b7eb4b84569c5b0847d41373",
+    "source_date_sha256": "47000c8e1248d5aec05a6b984595cef61cab3ac01f526f8ee43d555286f95d70",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "309405276ec92104077bfb781a2b9ae31bff775968bc9e757ba1816853efa33b"
+    },
+    "source_slug_sha256": "a70b414aca2d50c048ffe9046b3ee082051c469836f06339caf28ba789523301",
+    "source_title_sha256": "4b31ff6842af4b670c74c3dc8fff402d12faec704927327802ddb2e21cc49e9f",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "javafx-layout-secrets-with-amy-fowler",
+  "thumbnail": null,
+  "title": "JavaFX Layout Secrets with Amy Fowler",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "An active or embedded source element was omitted."
+  ]
+}

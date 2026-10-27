@@ -1,0 +1,214 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "Contest",
+      "slug": "contest"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "WidgetFX",
+      "slug": "widgetfx"
+    }
+  ],
+  "date": "2009-09-27 03:21:10",
+  "excerpt": "I am pleased to announce the winners of the WidgetFX Developer's Contest.  There were lots of great entries (22 in total), which made this a very hard decision.  You can browse the full set of entries yourself on the WidgetFX Library page:",
+  "id": 608,
+  "original_urls": [
+    "http://steveonjava.com/widgetfx-contest-winners/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "3a46f7eac86cb84787f9bd638da4e62e7a26ded382594bd4e79924182ea44f66",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/dock/launch.jnlp?arg=http://pmdit.se/widgets/screenshotfx/launch.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/dock/launch.jnlp?arg=http://www.infix-systems.com/weatherwidget/InfixWeatherWidget.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/dock/launch.jnlp?arg=http://www.jfxperience.com/repo/radiofx/RadioFX.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/contest"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/image/journal/article?img_id=15084&t=1250601688514"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/image/journal/article?img_id=15367&t=1251628907230"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/image/journal/article?img_id=15388&t=1251753765077"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.org/portal/library"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.apress.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.apress.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.jfxperience.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.jfxperience.com/2009/09/27/widgetfx-contest-2nd-place/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.jfxperience.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.jfxperience.com/2009/09/27/widgetfx-experiences/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.pmdit.se",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.pmdit.se/blog/2009/09/27/and_the_winner_is.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.stubru.be",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.stubru.be/"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "481e42fb7f7cbd4be83af1a5f2445967a8566f33f006014f1b80ea8b33e8ab39"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "17d2d82a2d07497bcbc6852f6771027e8940bb9229dfa447b8841a34c32cbbf3"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "7a252f3787c885ec1c9d4941a2ecbc9c003d606de545bc2c5c084dc376a36522"
+      }
+    ],
+    "original_root_route": "/widgetfx-contest-winners/",
+    "post_id": 608,
+    "rejected_urls": [],
+    "source_content_sha256": "25e2dc5da5e38033a2443352ac47f1faa67717dfff20f1351da8862a2b784e0d",
+    "source_date_sha256": "96cb99f069b24c522aec9c40295f7cd60449d35997fea4feb7fd911c295ca99a",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "78760ea6bd1114f973cc199de80c34f52a67c9ce8ea4601b5fe4df06962024d1"
+    },
+    "source_slug_sha256": "81632b122d21f43fbfc9338a4481fc0ab83f8895ce6ae294db64c328b4751035",
+    "source_title_sha256": "bc26144e20a9ab956948083f179e18685a55c0489d287620db586059cf14a24c",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "widgetfx-contest-winners",
+  "thumbnail": null,
+  "title": "WidgetFX Contest Winners!",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "A known legacy Windows-1252 byte 0xE4 was decoded explicitly as U+00E4."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "WidgetFX",
+      "slug": "widgetfx"
+    }
+  ],
+  "date": "2009-03-28 12:47:17",
+  "excerpt": "We migrated the WidgetFX instance to a new server that has a number of benefits:\n\n\tHigher level of uptime via hotswap deployments\n\tNewer, more reliable server\n\tSupport for a content management system for Widget distribution (coming soon)\n\nDepending upon how fast the DNS changes propagated, you may have noticed some downtime if you launched the dock in the past 24 hours while we worked out some of the kinks on the new server.",
+  "id": 239,
+  "original_urls": [
+    "http://steveonjava.com/widgetfx-server-migration/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "cf9ba1c0b7d502e37f092339efa4ab0e4507dba0783278a190a094d65a15bb34",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [],
+    "image_omissions": [],
+    "original_root_route": "/widgetfx-server-migration/",
+    "post_id": 239,
+    "rejected_urls": [],
+    "source_content_sha256": "78de541147fa0986f1b1fb64ad357e93043464ad3090480aa99c106c1e50e9d4",
+    "source_date_sha256": "23ac913fbf33c8f36d7ad5aa67c1b052dcecde7a6ba6cd7ee631115d5192d164",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "cfdc558285d4eb2fa34c798cba20ebc160431f52cc200f47ef6df8f00f240368"
+    },
+    "source_slug_sha256": "3cb36d515c8801f32cf8dd57b6fbfe2bdc4da0779573f3d886aae47038fa399c",
+    "source_title_sha256": "a696d62828f57219cb3ed80f883c9d32210b643827f51b78ef875c00c9b16096",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "widgetfx-server-migration",
+  "thumbnail": null,
+  "title": "WidgetFX Server Migration",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

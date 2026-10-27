@@ -1,0 +1,151 @@
+{
+  "categories": [
+    {
+      "name": "Uncategorized",
+      "slug": "uncategorized"
+    }
+  ],
+  "date": "2014-04-06 10:51:44",
+  "excerpt": "In case you have missed the first half of my insane tour through Europe, I have stayed in more cities in the past month than most people visit in a decade. Staring in Munich, I rented a motorcycle, loaded up a few hundred pounds of video and demo equipment, and have been riding around Europe to celebrate the launch of the Java 8 release with an itinerary including 4 conferences and 30 JUGs!",
+  "id": 3866,
+  "original_urls": [
+    "http://steveonjava.com/nighthacking-tour-1st-half-highlights/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "bf6d7f5a1d771e89b4049ed776b3f86ba87ffe6377d644b695008991457f91f0",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "nighthacking.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://nighthacking.com/nighthacking-java-8-tour/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "t.co",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://t.co/3MX7viwu94"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/search?q=%23NightHacking&src=hash"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/steveonjava/statuses/452692189542223874"
+      },
+      {
+        "contexts": [
+          "iframe:src"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/13219812905/in/set-72157642224351644/player/"
+      },
+      {
+        "contexts": [
+          "iframe:src"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/13220615924/in/set-72157642224351644/player/"
+      },
+      {
+        "contexts": [
+          "iframe:src"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.flickr.com/photos/steveonjava/13220697154/in/set-72157642224351644/player/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/nighthacking-tour-1st-half-highlights/",
+    "post_id": 3866,
+    "rejected_urls": [
+      {
+        "context": "iframe:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "52005af775690973bb037e9ed4b610cf42af84c7ced72df6d2feaa10b0f9a3f1"
+      },
+      {
+        "context": "iframe:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "1e6295158188bac26806aca2bfcfb83ee04a4bf6f0839527451071e607a23641"
+      },
+      {
+        "context": "iframe:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "a7da529b585c9c183679d1db30584fbc6407ce6d8a587d46875a5930398bba26"
+      },
+      {
+        "context": "iframe:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "16d4ee4f5731e1b38914cab7105ea43ac60af712006c0cf50e6b00d3b48e0720"
+      },
+      {
+        "context": "iframe:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "bb68793c282fe379d5d40afc97c8b124d87f634ebf3dbc0b93968886a7320c96"
+      },
+      {
+        "context": "iframe:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "3ed0ed4c6b8355b81984acb1eddd1bb9b550590ecc4469f2c2bdc0fcf2e9a9e5"
+      }
+    ],
+    "source_content_sha256": "d28992b15032d427af370cf64b53ccf6d7952bf01971918fb6396cc37d442f3d",
+    "source_date_sha256": "8ba87b224c8f52a83231633485e9d985976e2aa751899f2f7d6dcd4e3457494e",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "17d9ae328280bb1751581030867cfa58247942e7e579992b57f0293437eeb45e",
+    "source_title_sha256": "2761e78e79b57bf09967bf3cc7e13ad04a9335b1065147292bfd0b3f505d12e2",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "nighthacking-tour-1st-half-highlights",
+  "thumbnail": null,
+  "title": "NightHacking Tour - 1st Half Highlights",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "A known legacy Windows-1252 byte 0xE1 was decoded explicitly as U+00E1.",
+    "A known legacy Windows-1252 byte 0x97 was decoded explicitly as U+2014.",
+    "An active or embedded source element was omitted."
+  ]
+}

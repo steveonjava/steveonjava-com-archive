@@ -1,0 +1,81 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "NightHacking",
+      "slug": "nighthacking"
+    }
+  ],
+  "date": "2012-11-02 02:25:09",
+  "excerpt": "I just finished up a live session with the Munich JUG that was organized by Toni Epple.  We started out with group introductions, and did an overview of JavaFX on the desktop and embedded platforms.  There were lots of good questions about JavaFX support on mobile platforms, deployment of JavaFX, and real-world companies using JavaFX (but to find the answers you will have to watch the live stream):",
+  "id": 2660,
+  "original_urls": [
+    "http://steveonjava.com/nighthacking-munich-jug-event/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "b0bc6829edf48c95ddbb9f3e1d5a97e2e5a8f5af9f80c0a692f66e3d70c2d4bc",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "eppleton.de",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://eppleton.de/blog/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.ustream.tv",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.ustream.tv/channel/nighthacking"
+      },
+      {
+        "contexts": [
+          "iframe:src"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.youtube.com/embed/P4J_X5bhxAY?list=UUmRtPmgnQ04CMUpSUqPfhxQ&hl=en_US"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/nighthacking-munich-jug-event/",
+    "post_id": 2660,
+    "rejected_urls": [],
+    "source_content_sha256": "8f967a69be4072beac394518cd63f039d5863e0fe2204adfdab4339046454a45",
+    "source_date_sha256": "ef829e9130cc9b5920a4cf42c10d67a10cc6284b5cde25bfc5909063ee44e579",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "55b2692e9d63b9f90a9020e8c1b66dbc614d5eb813103152147baf8fc054f528",
+    "source_title_sha256": "64db23edf76c386e3ea7b63d1a2ab001820b4e8bb487a4f475b7adb6ee2c554c",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "nighthacking-munich-jug-event",
+  "thumbnail": null,
+  "title": "NightHacking Munich JUG Event",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "An active or embedded source element was omitted."
+  ]
+}

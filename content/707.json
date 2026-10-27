@@ -1,0 +1,85 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JFXtras",
+      "slug": "jfxtras"
+    },
+    {
+      "name": "Presentation",
+      "slug": "presentation"
+    }
+  ],
+  "date": "2009-11-24 22:38:40",
+  "excerpt": "Overall I was very impressed with Devoxx.  Everything including the movie theater venue, quality of the speakers, and professionalism of the attendees was top-notch.  Stephan Janssen definitely puts on quite an amazing show!",
+  "id": 707,
+  "original_urls": [
+    "http://steveonjava.com/devoxx-conference-session-slides/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "4c998dd0a6a21bd29c9e30148f3c2e97545c666b1848bf0031901f567cba3d65",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "beta.parleys.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://beta.parleys.com/#st=4&id=74957"
+      },
+      {
+        "contexts": [
+          "embed:src"
+        ],
+        "fetched": false,
+        "host": "static.slidesharecdn.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=projavafxdevelopingenterpriseapplications-091124204819-phpapp01&stripped_title=pro-java-fx-developing-enterprise-applications"
+      },
+      {
+        "contexts": [
+          "param:value"
+        ],
+        "fetched": false,
+        "host": "static.slidesharecdn.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=thejavafxplatformajavadevelopersguide-091118113703-phpapp01&stripped_title=the-java-fx-platform-a-java-developers-guide"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/devoxx-conference-session-slides/",
+    "post_id": 707,
+    "rejected_urls": [],
+    "source_content_sha256": "0559ba97102125691eb9710b51795154f6bbc0fcd0f7edbff57ac351c5ac1a7f",
+    "source_date_sha256": "62050790c0ca8064247f9e8d9cff3717b982fc14616f4d89f918981f454aca64",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "f2566989bb06e46233dc792a49a7838ac2d583165788fc2dc694fe63141d824a"
+    },
+    "source_slug_sha256": "2f83e571598ca98adb15a90139e8d64e173152109aacedab1fcbd690640afced",
+    "source_title_sha256": "7a716686cbd3c630bf2155c0a15ded7c5f5cbc36a65a1d186e91e7996c05ec36",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "devoxx-conference-session-slides",
+  "thumbnail": null,
+  "title": "Devoxx Conference Session Slides",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "An active or embedded source element was omitted."
+  ]
+}

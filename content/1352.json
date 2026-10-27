@@ -1,0 +1,288 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JFXtras",
+      "slug": "jfxtras"
+    },
+    {
+      "name": "Presentation",
+      "slug": "presentation"
+    }
+  ],
+  "date": "2010-09-13 20:06:53",
+  "excerpt": "This is going to be a big year for JavaFX and RIA technologies at JavaOne.  What does your JavaOne schedule look like this year?  Are you going to settle for beginner content, or are you ready for the Expert RIA Track.",
+  "id": 1352,
+  "original_urls": [
+    "http://steveonjava.com/expert-ria-track/",
+    "http://javafx.steveonjava.com/expert-ria-track/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "23b110d3a35c315dcb4eb67f16c1dca614d992d47ad0e4903439ff15287a9137",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jonathangiles.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jonathangiles.net/blog/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "my.javaonedevelop.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://my.javaonedevelop.com/events/event/1804"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "my.javaonedevelop.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://my.javaonedevelop.com/events/event/1805"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "my.javaonedevelop.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://my.javaonedevelop.com/events/event/1850"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "my.javaonedevelop.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://my.javaonedevelop.com/events/event/1895"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "my.javaonedevelop.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://my.javaonedevelop.com/events/event/1929"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "my.javaonedevelop.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://my.javaonedevelop.com/events/event/2012"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "my.javaonedevelop.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://my.javaonedevelop.com/events/event/2013"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "my.javaonedevelop.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://my.javaonedevelop.com/events/event/2021"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "my.javaonedevelop.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://my.javaonedevelop.com/events/event/2056"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "my.javaonedevelop.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://my.javaonedevelop.com/events/event/2080"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "my.javaonedevelop.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://my.javaonedevelop.com/events/event/2105"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "my.javaonedevelop.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://my.javaonedevelop.com/events/event/2156"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "my.javaonedevelop.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://my.javaonedevelop.com/events/event/2228"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "my.javaonedevelop.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://my.javaonedevelop.com/events/event/2247"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "my.javaonedevelop.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://my.javaonedevelop.com/events/event/2357"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "my.javaonedevelop.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://my.javaonedevelop.com/events/event/2374"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "my.javaonedevelop.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://my.javaonedevelop.com/events/event/2377"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "svjugfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://svjugfx.org/"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "www.eventreg.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.eventreg.com/sb250/assets/square.gif"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "721e4cd56fb4b268ce4f3b3bc837b78705df096270934b7b6783ce5528ce15b5"
+      }
+    ],
+    "original_root_route": "/expert-ria-track/",
+    "post_id": 1352,
+    "rejected_urls": [],
+    "source_content_sha256": "ea1f4e055c9ab7a614442ab729820948cbd237fca16f0f65a269ae791ef5ed47",
+    "source_date_sha256": "259dd43604e966f4cdf044c922686e5159f55cf843f7416158437bbc5c86846e",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "d224a668a7edb8176ba522ae678b83585adb913ef28aa9d9aa61e9621b05d9bc"
+    },
+    "source_slug_sha256": "8e69db7e5669f8849bf68bbdeefec28292b5afd6a6e07705532a7901c6a278c0",
+    "source_title_sha256": "30055166371a2135467027841483075720df5c85d4759c339104e8a9f3271aa0",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "expert-ria-track",
+  "thumbnail": null,
+  "title": "JavaOne Expert RIA Track",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "A known legacy Windows-1252 byte 0xE4 was decoded explicitly as U+00E4.",
+    "A known legacy Windows-1252 byte 0xF6 was decoded explicitly as U+00F6.",
+    "Hidden source markup was removed."
+  ]
+}

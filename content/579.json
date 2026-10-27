@@ -1,0 +1,110 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "WidgetFX",
+      "slug": "widgetfx"
+    }
+  ],
+  "date": "2009-08-30 14:47:38",
+  "excerpt": "",
+  "id": 579,
+  "original_urls": [
+    "http://steveonjava.com/widgetfx-contest-finish-line/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "d3eb980de1574d4ac69ac30b2b8479842b71918d80dc8fa1fd3db14c8a234fe9",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "farm4.static.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://farm4.static.flickr.com/3637/3695679064_a52907596e_m.jpg"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "groups.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://groups.google.com/group/widgetfx-users/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "widgetfx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.com/contest"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.flickr.com/people/ruedfotos/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.flickr.com/photos/ruedfotos/3695679064/"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "c23002d7c062f5b31cb6c0fe5f0895239ccc97cbe27ca3c3a3be089e42057133"
+      }
+    ],
+    "original_root_route": "/widgetfx-contest-finish-line/",
+    "post_id": 579,
+    "rejected_urls": [],
+    "source_content_sha256": "099d3bcf65352263cfad53db777d038ae9942e2ae2d31b9aa069858deb7fd29b",
+    "source_date_sha256": "ce7bc80b14afaecddd743a66531872924a195f1338506e182854797c672e85e9",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "e7f453d551650c1f5163c9dd242ae5a221a8120b189752a04b14f8f51a60f4f8"
+    },
+    "source_slug_sha256": "087debd648c40cf80668323d90618306f807e29caafab501cab092877238fc24",
+    "source_title_sha256": "488f9f676cfad4ebcc7a170536b6d237e64e8586e35cb168a1848640129b9b88",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "widgetfx-contest-finish-line",
+  "thumbnail": null,
+  "title": "WidgetFX Contest - Finish Line",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A known legacy Windows-1252 byte 0xFC was decoded explicitly as U+00FC."
+  ]
+}

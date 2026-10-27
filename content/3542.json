@@ -1,0 +1,80 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "Internet of Things",
+      "slug": "internet-of-things"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "Kids",
+      "slug": "kids"
+    },
+    {
+      "name": "NightHacking",
+      "slug": "nighthacking"
+    }
+  ],
+  "date": "2013-10-28 02:09:37",
+  "excerpt": "I was invited to speak at the Devoxx 4 Kids Netherlands event, so I dropped in right after my Gosling interview.  This was literally right after Hawaii.  I had only 24 hours at home between events, which was just enough time to put the finishing touches on Lego Duke version 6.1 (the replacement for the one stolen in San Francisco).",
+  "id": 3542,
+  "original_urls": [
+    "http://steveonjava.com/devoxx-4-kids-netherlands/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "f7933f3660813d3925529ee64a3e049f64f21b0f2f4482ecb3b651241f0a8433",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "embed:src",
+          "param:value"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.flickr.com/apps/slideshow/show.swf?v=124984"
+      },
+      {
+        "contexts": [
+          "iframe:src"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.slideshare.net/slideshow/embed_code/27637803"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/devoxx-4-kids-netherlands/",
+    "post_id": 3542,
+    "rejected_urls": [],
+    "source_content_sha256": "c50b8618931653c5d6926d66356df11ade06c74602783bf5edc12a64fc553be3",
+    "source_date_sha256": "6581706dae4f5b2a467551a3d912900cc792479837a3a972708dc494c288ed2d",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "4bed09edf9a9649b5e129ff0c85143fb0b989d6318c6efa78cef9d1ca6324f28",
+    "source_title_sha256": "175ed6d9a42703f4f0e2ecf9395a9da22fa7ae2bb983a19ade41a3703f9b164e",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "devoxx-4-kids-netherlands",
+  "thumbnail": null,
+  "title": "Devoxx 4 Kids Netherlands",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "An active or embedded source element was omitted."
+  ]
+}

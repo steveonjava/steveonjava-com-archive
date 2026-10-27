@@ -1,0 +1,114 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JFXtras",
+      "slug": "jfxtras"
+    },
+    {
+      "name": "Presentation",
+      "slug": "presentation"
+    },
+    {
+      "name": "Pro JavaFX",
+      "slug": "pro-javafx"
+    },
+    {
+      "name": "WidgetFX",
+      "slug": "widgetfx"
+    }
+  ],
+  "date": "2009-11-18 10:51:17",
+  "excerpt": "My Devoxx university session yesterday was packed, which was awesome!  It was 3 hours of hard-core JavaFX knowledge, and almost everyone stayed for the duration.  Aaron Houston got a great shot of the venue (more on the Java Champions site):",
+  "id": 703,
+  "original_urls": [
+    "http://steveonjava.com/devoxx-university-slides/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "f54b1ad2259b33dc6ad13a76daba60e6404d705ba7dba689ec8db34caba66e81",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "object:codebase"
+        ],
+        "fetched": false,
+        "host": "download.macromedia.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "jmentor.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://jmentor.com/LearnFXWidget/LearnFX.jnlp"
+      },
+      {
+        "contexts": [
+          "embed:src",
+          "param:value"
+        ],
+        "fetched": false,
+        "host": "static.slidesharecdn.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=thejavafxplatformajavadevelopersguide-091118113703-phpapp01&stripped_title=the-java-fx-platform-a-java-developers-guide"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "java-champions.dev.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://java-champions.dev.java.net/"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": "2009/10/webstartsmall2.gif",
+        "reason": "unsupported-format-no-gif-or-document-export",
+        "source_url_sha256": "7efc7f4b661f82568326617c2bded01e22cb8a198a0046d678c335a73e9f6336"
+      }
+    ],
+    "original_root_route": "/devoxx-university-slides/",
+    "post_id": 703,
+    "rejected_urls": [],
+    "source_content_sha256": "b456bfc9350ac1404e6f4adb3549b3f88c27a0414d41a8c198f2d1ffd3fdc2c0",
+    "source_date_sha256": "8ce1488226185d35696b80c51e5a834281acba3041120a8ae5ecce8e5d97e47c",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "988c684db288d663633102d8099312cc252ac59992acfa40189d19ffceaf2f44"
+    },
+    "source_slug_sha256": "bcc2114a0badb57d7e955a488f5291e4819c9e9c6a7c9005f31ebc5e60714080",
+    "source_title_sha256": "38b27e685a7fd8f7b2ecbf2b8d1b7192b64373e56e615c5179f37efe52dda8bd",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "devoxx-university-slides",
+  "thumbnail": null,
+  "title": "Devoxx University Slides",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "An active or embedded source element was omitted."
+  ]
+}

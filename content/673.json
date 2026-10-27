@@ -1,0 +1,69 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2008-12-06 09:45:00",
+  "excerpt": "Thursday evening was the big JavaFX 1.0 Launch, and the WidgetFX crew was not going to be left out, so we crashed the party in style.",
+  "id": 673,
+  "original_urls": [
+    "http://steveonjava.com/javafx-launch/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "46fe9e368eade3e3aac5dff4807cc20e8580d6149ae6032e19f57aaa6dc68c9a",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "javafx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://javafx.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.org/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/javafx-launch/",
+    "post_id": 673,
+    "rejected_urls": [],
+    "source_content_sha256": "bbbde0529c9f8fa360e451e21a30224befd1586bcc62ad501952433f7c0f2b00",
+    "source_date_sha256": "d02822ac180cfcf89fac786d5df4369e4734b97babe9f0318199f7f9003170e5",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "0937c13b97194209d150008d1fc09341c282fcb4efa5d9c0d02c495c9e47ef35",
+    "source_title_sha256": "2fe4c11ee12d228e3574fec1a69b97d1129959a5658ac153bbd770b7e0202c46",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "javafx-launch",
+  "thumbnail": null,
+  "title": "WidgetFX @ the JavaFX 1.0 Launch",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

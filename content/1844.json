@@ -1,0 +1,321 @@
+{
+  "categories": [
+    {
+      "name": "Android",
+      "slug": "android"
+    },
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "Mobile",
+      "slug": "mobile"
+    },
+    {
+      "name": "OSCON Java",
+      "slug": "oscon-java"
+    }
+  ],
+  "date": "2011-07-07 15:31:32",
+  "excerpt": "OSCON Java is a new conference that I am helping to kick off as co-chair this July.  While there are plenty of conferences out there that you could attend, I am confident that this is the one you won't want to miss.",
+  "id": 1844,
+  "original_urls": [
+    "http://steveonjava.com/celebrating-java-7-with-7-reasons-to-attend-oscon-java/",
+    "http://javafx.steveonjava.com/celebrating-java-7-with-7-reasons-to-attend-oscon-java/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "612d61ec6232f80b72643ed557af08f76f081eace41b86895789b0116f731c5e",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "assets.en.oreilly.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://assets.en.oreilly.com/1/event/61/oscon2011_attending_210x60.gif"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "assets.en.oreilly.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://assets.en.oreilly.com/1/event/61/oscon2011_java_attending_468x60.gif"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "assets.en.oreilly.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://assets.en.oreilly.com/1/eventprovider/1/_@user_106308.jpg"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "assets.en.oreilly.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://assets.en.oreilly.com/1/eventprovider/1/_@user_121468.jpg"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "devoxx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://devoxx.com/"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "evbdn.eventbrite.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://evbdn.eventbrite.com/s3-s3/eventlogos/1862435/1630108699-2.png"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "geeknizer.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://geeknizer.com/wp-content/uploads/java7.jpg"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jdk7.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jdk7.java.net/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jvmlangsymposium.eventbrite.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jvmlangsymposium.eventbrite.com/"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "www.devoxx.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.devoxx.com/download/attachments/4751369/DV11?version=10&modificationDate=1305560192000"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.oscon.com"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/content/java"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/schedule/detail/17884"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/schedule/detail/19924"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/schedule/detail/20049"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/schedule/detail/21184"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/schedule/tag/android"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/schedule/topic/Emerging%20Languages"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/schedule/topic/Mobile%20Platforms"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "en.oreilly.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://en.oreilly.com/oscon2011/public/register"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "281a38ec03f0c7643a8df4ae5c5d904c1622cbcfe78ba5b47a8b2704ea50f5e3"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "743982de0cd53fa442336c7ae52e8e07395509927433ee8893caf312a85a316e"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "c7f41bcca566da41f857109d275056f021339f1f4ca853dc4b8b99cd1f404da9"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "fb5b2fed3f557e78b620103b1021a390c5adc058dd8f58e1b9793e52a0e985d1"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "3ec9af7e6818ec23a66ecb00cba6ffae1e12a33e1fd3ea82f01f161424378dea"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "203f74ebd5b0d423620df13967eec4fa5f96701009a783d0e670ded37accbb80"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "6f9ae777763a108a4c54d2e3fd09ddfc9e34102138340cc1a8a17fae07b7c0c0"
+      }
+    ],
+    "original_root_route": "/celebrating-java-7-with-7-reasons-to-attend-oscon-java/",
+    "post_id": 1844,
+    "rejected_urls": [],
+    "source_content_sha256": "a4c935f86bf5b8a7048c319facb80bc9c4ad5618cab66ba6350ff447d2ecd8b1",
+    "source_date_sha256": "8e45c0d99c5a66d6544f733dfec21e1602f193090dede1bb828a2d34fe9cfa2e",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "115340caa7e7d29905e8e4509a9435820fe2544012913a11c3bbf3675ad7ab1d"
+    },
+    "source_slug_sha256": "5510580ff51f938e358a8923b6c518652c536d95d74e29f93511bb0ada58c018",
+    "source_title_sha256": "53cffb4fa02654af8c070c78cda47312bf5b10c14648b2d51b371ce2042a906f",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "celebrating-java-7-with-7-reasons-to-attend-oscon-java",
+  "thumbnail": null,
+  "title": "Celebrating Java 7 with 7 Reasons to Attend OSCON Java",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "Presentation",
+      "slug": "presentation"
+    },
+    {
+      "name": "SvJugFx",
+      "slug": "svjugfx"
+    }
+  ],
+  "date": "2009-12-08 03:48:26",
+  "excerpt": "For those of you who don't know, SvJugFx stands for the Silicon Valley JavaFX Users Group.  We will be holding our very first meeting this coming Wednesday with a live, streamed presentation from the world renowned Richard Bair (who is now infamous for divulging JavaFX secrets at Devoxx).",
+  "id": 736,
+  "original_urls": [
+    "http://steveonjava.com/svjugfx-live-stream-with-richard-bair/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "9aa7c7448355a39419ed8eea567268a469a7e7691212a0e114d2f7117de2508a",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "learnjavafx.typepad.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://learnjavafx.typepad.com/weblog/2009/12/javafx-13-leakage-at-devoxx-and-%C3%B8redev.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "moderator.appspot.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://moderator.appspot.com/#16/e=d528e"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.svjugfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.svjugfx.org/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.ustream.tv",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.ustream.tv/channel/silicon-valley-javafx-user-group"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/svjugfx-live-stream-with-richard-bair/",
+    "post_id": 736,
+    "rejected_urls": [],
+    "source_content_sha256": "ac64b4ffa82511babd294ba516a6e46ee0e7a6f2bab0f79c76131c3c585e0367",
+    "source_date_sha256": "9a4d5face12fa54e4a7a6fe1cfbbad2848a83cf8983d496318a909f4b26cf6b1",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "4b7134290f0c38e9ae55afd687151cf6132b6ef283f30977e1ec2d0788c91256",
+    "source_title_sha256": "116b5fa401687b0bf3334a0e58e65785bedd62de2bcb597084d3c3fbd070250d",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "svjugfx-live-stream-with-richard-bair",
+  "thumbnail": null,
+  "title": "SvJugFx Streamed Live with Richard Bair",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

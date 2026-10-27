@@ -1,0 +1,87 @@
+{
+  "categories": [
+    {
+      "name": "AIR",
+      "slug": "air"
+    },
+    {
+      "name": "Flash",
+      "slug": "flash"
+    },
+    {
+      "name": "Flex",
+      "slug": "flex"
+    }
+  ],
+  "date": "2011-06-16 18:49:16",
+  "excerpt": "This is the first in a 3 part blog series I am doing on Flash Mobile technology. With the release of Flash Builder 4.5, Flash and Flex now have support for building mobile applications that target Android and, with an update coming out on 6/20, also iPhone and Blackberry devices. In my opinion, this is now the best platform for building cross-platform mobile applications available today.",
+  "id": 1832,
+  "original_urls": [
+    "http://steveonjava.com/flash-android-touch-checker/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "06268541ae7a8af0a377a15de8369a5caed3fc0518fb1307d5911d305ef03003",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "gestureworks.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://gestureworks.com/"
+      },
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "ns.adobe.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://ns.adobe.com/mxml/2009"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.adobe.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.adobe.com/products/flash-builder.html"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/flash-android-touch-checker/",
+    "post_id": 1832,
+    "rejected_urls": [],
+    "source_content_sha256": "e4e033883cbd9666a4a8a928672ec29453d713e556b0e4bde7c52eeb155bfd55",
+    "source_date_sha256": "be356bd2cef5a1ef49cd92e1736daec84eea1a381c5be77e753187bcac1fb450",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "bb9fdc282b0e8ebb5524f2a1ad8c5d871b79ce205b9faf5e1031b595b527987c"
+    },
+    "source_slug_sha256": "6ae722115ab3463bdf88a6ce95f028ffaff975f5d682c19f7f2af64279b40736",
+    "source_title_sha256": "676c3a07529b635716ad033bd27209533d201a093fd256fec9eb5d0b6fa8cb3f",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "flash-android-touch-checker",
+  "thumbnail": null,
+  "title": "Flash Android Touch Checker",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A known legacy Windows-1252 byte 0x92 was decoded explicitly as U+2019.",
+    "A known legacy Windows-1252 byte 0x93 was decoded explicitly as U+201C.",
+    "A known legacy Windows-1252 byte 0x94 was decoded explicitly as U+201D."
+  ]
+}

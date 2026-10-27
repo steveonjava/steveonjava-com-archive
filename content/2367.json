@@ -1,0 +1,65 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2012-08-21 07:00:21",
+  "excerpt": "Welcome to part 2 of the JavaFX in Spring blog series. Yesterday I talked about some of the advantages of using Spring in client applications and showed how to initialize your application. For easy reference, you can flip to any of the blogs (as they are published) here:\n\n\tJavaFX in Spring Day 1 - Application Initialization\n\tJavaFX in Spring Day 2 - Configuration and FXML\n\tJavaFX in Spring Day 3 - Authentication and Authorization\n\nToday we will dig into the configuration in more detail, covering details on how you can handle FXML-based UIs. But before we get into all that work, a short aside about the San Antonio Java User Group I met earlier tonight.",
+  "id": 2367,
+  "original_urls": [
+    "http://steveonjava.com/javafx-in-spring-day-2/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "900c9c62c89c2503448c9d762e1833001212bf1454063b8ff88d507652fef975",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "satjug.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://satjug.java.net/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.slideshare.net/steveonjava/javafx-2-a-java-developers-guide-san-antonio-jug-version"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/javafx-in-spring-day-2/",
+    "post_id": 2367,
+    "rejected_urls": [],
+    "source_content_sha256": "baad7da1fc7b2b1bd28e235fc3331a055a0f073613c84dbf63848621d96d8c0c",
+    "source_date_sha256": "377f43581428317cc8c10904f641186aa2f98521ef083ae55c6efc7807aa3a66",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "71d89c4b80a66a3ce68c8011626426c5aec9112671c514c75274e42f13a7486b",
+    "source_title_sha256": "215d0f8be069752323370b89c52ec4b9caddfc900e0d3d28c75ee80c4d2272a6",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "javafx-in-spring-day-2",
+  "thumbnail": null,
+  "title": "JavaFX in Spring Day 2 - Configuration and FXML",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

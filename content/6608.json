@@ -1,0 +1,167 @@
+{
+  "categories": [
+    {
+      "name": "Uncategorized",
+      "slug": "uncategorized"
+    }
+  ],
+  "date": "2019-09-12 10:30:34",
+  "excerpt": "Frog in the Swamp: Ronincmc [CC BY-SA 4.0]\n\nI left what many consider a dream job running developer marketing at Oracle next to the SF Bay to join a leading DevOps startup who identifies with frogs and the swamp. Here is what I learned in the high tech cloud industry and why I chose to go back to my roots.",
+  "id": 6608,
+  "original_urls": [
+    "http://steveonjava.com/why-i-left-the-bay-for-the-swamp-a-story-of-open-source-diversity/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "6fc20987d26ea6c02550578e8fb1fd121e8b53a3e680c09ddbc2d28226d3e008",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "commons.wikimedia.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://commons.wikimedia.org/wiki/File:Frog_in_pond_0547.jpg"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "creativecommons.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "dev.to",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://dev.to/jfrog"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfrog.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://jfrog.com/open-source/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/_yoav_?lang=en"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/antirez"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/eliothorowitz?lang=en"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/freddy33?lang=en"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/kimchy?lang=en"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/mitchellh"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/nehanarkhede"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/why-i-left-the-bay-for-the-swamp-a-story-of-open-source-diversity/",
+    "post_id": 6608,
+    "rejected_urls": [],
+    "source_content_sha256": "3f549e9b8c8b3b2e34891345296cb7a9d6a2f21127f4cc1944f47e3014e02374",
+    "source_date_sha256": "a5393984c138edb65ba92770300791b1945d368cfff595200da9c0c618056c75",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "72a06aa0cb6a5e82cd4ec50ca27a465ec513ce67eb2630a8c4e9fa7945eaaf56",
+    "source_title_sha256": "97f1b0ae0777cf1028c0aeed7a35e1c3329894475591deb10abeb4ee6a0cc4eb",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "why-i-left-the-bay-for-the-swamp-a-story-of-open-source-diversity",
+  "thumbnail": null,
+  "title": "Why I Left the Bay for the Swamp \u2014 A Story of Open Source Diversity",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A known legacy Windows-1252 byte 0x97 was decoded explicitly as U+2014.",
+    "A known legacy Windows-1252 byte 0x93 was decoded explicitly as U+201C.",
+    "A known legacy Windows-1252 byte 0x94 was decoded explicitly as U+201D.",
+    "A known legacy Windows-1252 byte 0x92 was decoded explicitly as U+2019."
+  ]
+}

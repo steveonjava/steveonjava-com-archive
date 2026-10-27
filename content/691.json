@@ -1,0 +1,100 @@
+{
+  "categories": [
+    {
+      "name": "Contest",
+      "slug": "contest"
+    },
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2009-11-13 13:04:50",
+  "excerpt": "Next week I will be giving two talks on JavaFX at Devoxx in Belgium.  The first is a university session on Tuesday at 13:30 called The JavaFX Platform - A Java Developer's Guide.  The second is a technical session on Thursday at 14:00 entitled Pro Javafx - Developing Enterprise Applications.",
+  "id": 691,
+  "original_urls": [
+    "http://steveonjava.com/learnfx-and-win-at-devoxx/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "0958643c5bae92439b219a65d7f2ecd1bf95f78e3c1741d682c1187034c3144d",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "jmentor.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://jmentor.com/LearnFXWidget/LearnFX.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "learnjavafx.typepad.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://learnjavafx.typepad.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.devoxx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.devoxx.com/display/DV09/Pro+JavaFX+-+Developing+Enterprise+Applications"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.devoxx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.devoxx.com/display/DV09/The+JavaFX+Platform+-+A+Java+Developer%27s+Guide"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": "2009/10/webstartsmall2.gif",
+        "reason": "unsupported-format-no-gif-or-document-export",
+        "source_url_sha256": "7efc7f4b661f82568326617c2bded01e22cb8a198a0046d678c335a73e9f6336"
+      }
+    ],
+    "original_root_route": "/learnfx-and-win-at-devoxx/",
+    "post_id": 691,
+    "rejected_urls": [],
+    "source_content_sha256": "2e3baba8b5b4cf1f12870dbc50cecf53b863afafefd7850606c8ff0097796984",
+    "source_date_sha256": "96126d3b8fb1a64a6cd04835680f1840cdef533ea1b028a78a9128b75d2850a4",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "b32cf38115d04968b2d62cba0c081e1910fe05dc4a02e9ee1556cf778c1d2268",
+    "source_title_sha256": "a6299aeb24862e1f1e1c62390bb5accbf62fcf91552e8ea7836864f288e1c960",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "learnfx-and-win-at-devoxx",
+  "thumbnail": null,
+  "title": "LearnFX and Win at Devoxx",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

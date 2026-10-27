@@ -1,0 +1,107 @@
+{
+  "categories": [
+    {
+      "name": "Community",
+      "slug": "community-2"
+    },
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaOne",
+      "slug": "javaone-2"
+    }
+  ],
+  "date": "2013-07-21 17:59:09",
+  "excerpt": "I have been involved in the Geek Bike Ride events from the inception in Brazil, and I have to say that the event yesterday in Shanghai was the hottest ever! Well, literally the hottest, because of the 100 degree weather (plus humidity), but also with a great turnout from the local GreenTea JUG. While we had a great set of riders from around the world including Michael H\u00fcttermann, Bert Ertman, and Arun Gupta, we also had a lot of local Shanghai coders come out for the ride.",
+  "id": 3398,
+  "original_urls": [
+    "http://steveonjava.com/geek-bike-ride-shanghai/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "f51de77be697f71319a69ac2afe55a9cf100b8952701108a50669b86b4df9621",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "huettermann.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://huettermann.net"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://twitter.com/BertErtman"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.flickr.com/photos/steveonjava/sets/72157634741629686/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.headin.cn",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.headin.cn/Themes/Activity/Details?activityId=51dbe2d4869d081fd43ed4d4"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://www.java.net//blogs/arungupta/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/geek-bike-ride-shanghai/",
+    "post_id": 3398,
+    "rejected_urls": [],
+    "source_content_sha256": "593e599ce6cba9bcb74507fe6d1a2d420e58796887aa9f3f9842e9288e5a75c9",
+    "source_date_sha256": "3e0636477cb3357d0b3041798e8074fe3063082a2e74c8c81d4f52483e7ead24",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "68907cb544cb9c0e8e8be1e09b291dd86f30e49a16e05b4f7ecf528e148f2373",
+    "source_title_sha256": "36cd5eb584f84f5380010610f626e2edd958336f41cef2c503e3e8926f41860b",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "geek-bike-ride-shanghai",
+  "thumbnail": null,
+  "title": "Geek Bike Ride Shanghai",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A known legacy Windows-1252 byte 0xFC was decoded explicitly as U+00FC."
+  ]
+}

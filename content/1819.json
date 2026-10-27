@@ -1,0 +1,84 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "Flash",
+      "slug": "flash"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "OSCON Java",
+      "slug": "oscon-java"
+    }
+  ],
+  "date": "2011-03-24 16:19:15",
+  "excerpt": "It is pretty easy to get lost in the media hype around the Java events of the past year.  If you follow the headlines, you might believe that all the Java talent left Oracle in a mass exodus, Larry hates open source, or Java is turning into the next COBOL.  Regardless of the factual correctness of these headlines, the Java ecosystem is about more than a single company or set of individuals.  Java has the largest open-source community of any language in existence!",
+  "id": 1819,
+  "original_urls": [
+    "http://steveonjava.com/oscon-java-the-java-open-source-conference/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "4dd0b08a94b07add83ad2f3177467084e7f4f0573faa1271888ac3c51a1bf3e6",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://twitter.com/#!/laurelatoreilly"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/cfp/159"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/oscon-java-the-java-open-source-conference/",
+    "post_id": 1819,
+    "rejected_urls": [],
+    "source_content_sha256": "42df3b990f3013ebba84f2885b5c88c0175d024cc82541553ee5e291dac83010",
+    "source_date_sha256": "5eee376aca441f2d7a9f8e40c384117627d336966f8eadd7c93ff0b5c9092394",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "c87950d65669d7d2fef4be2df326e61bb1de266f5d93c086cf52fceae32a3b4e"
+    },
+    "source_slug_sha256": "201d8dcb3a2a59ffcbd474dd4ac3981b574a8b60645db818a0d24e4c88f1a70a",
+    "source_title_sha256": "26c790dcecb567ecc0e8c297eeb98280fb5ddc946a4f476b74d4e54b1ca00675",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "oscon-java-the-java-open-source-conference",
+  "thumbnail": null,
+  "title": "OSCON Java, The Java Open Source Conference",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

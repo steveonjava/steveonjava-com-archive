@@ -1,0 +1,122 @@
+{
+  "categories": [
+    {
+      "name": "HTML5",
+      "slug": "html5"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2012-05-06 01:58:14",
+  "excerpt": "This past week I had the opportunity to attend JavaOne India, and in my opinion it was even better than last year.  I was speaking together with Kevin Nilson, leader of the SV Web JUG, and he commented on what a great venue that had for the event, which was easily able to hold 2000+ attendees.",
+  "id": 2193,
+  "original_urls": [
+    "http://steveonjava.com/javafx-and-html5-at-javaone-india/",
+    "http://javafx.steveonjava.com/javafx-and-html5-at-javaone-india/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "1decc34d58b81b3592d24ae4ff0f90556fa2f78c260de14e35f8994e4854785f",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "object:codebase"
+        ],
+        "fetched": false,
+        "host": "download.macromedia.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"
+      },
+      {
+        "contexts": [
+          "embed:src",
+          "param:value"
+        ],
+        "fetched": false,
+        "host": "static.slidesharecdn.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=movingtotheclient-javafxandhtml5-india2012-120504040613-phpapp02&stripped_title=movingtotheclient-javafxandhtml5india2012&userName=steveonjava"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://twitter.com/#!/javaclimber"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.github.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://twitter.github.com/bootstrap/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oracle.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oracle.com/javaone/in-en/index.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/#!/yarasenger"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "unsafe-or-unsupported-image-path",
+        "source_url_sha256": "eb821cc34c5134b87829a3ff852e1ebc1cf4ab404d1b5ced3731d83497394e9f"
+      }
+    ],
+    "original_root_route": "/javafx-and-html5-at-javaone-india/",
+    "post_id": 2193,
+    "rejected_urls": [],
+    "source_content_sha256": "8b9369ec7060f301bb936a2d4dc3d6a095fb9279dc73e3acf399d6ef8e2d69af",
+    "source_date_sha256": "9bf54aa734d57c04ac9c306285a091f50e9440a90bfe9ae136bf9c4fed5a65b1",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "b5b4c12b69bf3d9d080ef7f45950ab8ee33e81cab37af14c72326702c7046eae"
+    },
+    "source_slug_sha256": "df684e6cab05a37c767e74ccfcca2f7e379824c6f1ee51495f5799799c542f3b",
+    "source_title_sha256": "969a393aee228b94c1765aa3c93364e6d23af0486c0004715c7bf9a0d2fc7d3b",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "javafx-and-html5-at-javaone-india",
+  "thumbnail": null,
+  "title": "JavaFX and HTML5 at JavaOne India",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "An active or embedded source element was omitted."
+  ]
+}

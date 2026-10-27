@@ -1,0 +1,272 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JavaFX Mobile",
+      "slug": "javafx-mobile"
+    },
+    {
+      "name": "Uncategorized",
+      "slug": "uncategorized"
+    }
+  ],
+  "date": "2019-12-11 00:48:27",
+  "excerpt": "",
+  "id": 6695,
+  "original_urls": [
+    "http://steveonjava.com/javafx-not-dead-yet/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "b4e82d5c2ef09e7fbb97f9036ce5baf7b23d7930be7ea7a897d7f26e5f6947fc",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "gluonhq.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://gluonhq.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "gluonhq.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://gluonhq.com/a-boost-for-java-on-the-client/"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "i0.wp.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://i0.wp.com/steveonjava.com/wp-content/uploads/2019/12/JavaFX-Not-Dead-Yet.png"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "i0.wp.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://i0.wp.com/steveonjava.com/wp-content/uploads/2019/12/The-Definitive-Guide-to-Modern-Java-Clients-with-JavaFX-1.png"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jdk.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://jdk.java.net/jpackage/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/JPeredaDnr"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/JavaFXpert"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/Paul_ASGTeach"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/SvenNB"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/brunoborges"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/eryzhikov"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/gail_asgteach"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/johanvos"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/jonathangiles"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/monacotoni"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/weiqigao"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://twitter.com/william_antonio"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.apress.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://www.apress.com/gp/book/9781484249253"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.javaadvent.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://www.javaadvent.com/2019/12/how-open-source-saved-webstart-a-christmas-carol.html"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "7bedf68933c4b5945b7f46ea428c643f52ee441de6e79be7013eb577949bf423"
+      },
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "2e212627e0e37b72550ced4c9c1b1ddb9176bb05b495569f79d1d6627979a484"
+      }
+    ],
+    "original_root_route": "/javafx-not-dead-yet/",
+    "post_id": 6695,
+    "rejected_urls": [],
+    "source_content_sha256": "32cf29e4748d56ecfad382e4d3ab518414fb068380a3b284f3d4da1814f7e783",
+    "source_date_sha256": "e4b83fb455ed0e1f01b6d7e7ed5c264e3184f0da188f114d6fd6b3eaf42f0c45",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "718c5e8f0ff31cca2db4dc1217b3fec2acfd33640f3fd2f55cc7612c7d3c0905",
+    "source_title_sha256": "5ddd9523d78d71bf11ef9fb1688fbe2592b8976afb50448ee79329abd80aabb5",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "javafx-not-dead-yet",
+  "thumbnail": null,
+  "title": "JavaFX - Not Dead Yet (aka. The Definitive Guide to Modern Java Clients with JavaFX)",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A known legacy Windows-1252 byte 0xE9 was decoded explicitly as U+00E9.",
+    "A known legacy Windows-1252 byte 0xF4 was decoded explicitly as U+00F4."
+  ]
+}

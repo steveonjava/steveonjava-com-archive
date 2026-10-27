@@ -1,0 +1,62 @@
+{
+  "categories": [],
+  "date": "2011-07-16 00:20:36",
+  "excerpt": "Nighthacking Forms:\n\n\tNighthacking Worldwide Beer Reimbursement\n\n\nJFXtras Contributor License Agreement Forms:\n\n\tIndividual\n\tCorporate",
+  "id": 1931,
+  "original_urls": [
+    "http://steveonjava.com/forms/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "e09863ce8efc620dc267e9d88cca07d263066989be6b708ae34a43844ad7e599",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "nighthacking.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://nighthacking.com/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/forms/",
+    "page_ancestor_ids": [],
+    "page_parent_id": 0,
+    "post_id": 1931,
+    "rejected_urls": [],
+    "source_ancestor_slug_sha256": {},
+    "source_content_sha256": "9011341721a1aec315701442abe353379be2fa75c16138c37807ae156a755f91",
+    "source_date_sha256": "82c514558368d2ca90bb0ca298b08c682a7d826e3ce184dd4c838caa00eac546",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "8bec8757f662f0f3cab90d3c7cfbf69ce66e4e120b0f8fb911aa1022798b3edf",
+    "source_title_sha256": "858451263b1b9b4125fd9fb9a40f5959543162e04a14aec2712a45882f2d6e54",
+    "table": "wp_posts",
+    "video_status": "not-applicable-static-page"
+  },
+  "review_status": "unreviewed",
+  "route": "/forms/",
+  "slug": "forms",
+  "thumbnail": null,
+  "title": "Forms",
+  "type": "page",
+  "video_id": null,
+  "warnings": []
+}

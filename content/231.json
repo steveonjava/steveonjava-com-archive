@@ -1,0 +1,58 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2009-03-03 08:31:35",
+  "excerpt": "Welcome to the exclusive, behind-the-scenes look into the making of the  Pro JavaFX\u2122 Platform book.",
+  "id": 231,
+  "original_urls": [
+    "http://steveonjava.com/behind-the-scenes-the-making-of-pro-javafx%e2%84%a2-platform/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "cc2fd4fcd29b68b7e71732c35563ffcbb59e5266b9b8f51204e273a137ac9be5",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "apress.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://apress.com/book/view/1430218754"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/behind-the-scenes-the-making-of-pro-javafx%e2%84%a2-platform/",
+    "post_id": 231,
+    "rejected_urls": [],
+    "source_content_sha256": "040917577cc984f4c6a35dabd6565673e2d77f087e76a9eb1dd5af9c62b7737b",
+    "source_date_sha256": "cad719f4408afad00bcf5982b0166ccd6bbe5e6801a636ce7f1d3889d06d49cf",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "67a7bf8179618ee56ce506caa740fb89f939efb38197fa8091db5edeaa5f595d"
+    },
+    "source_slug_sha256": "99ee57e2742644e36f88cd50be16b350b1a8d732c523a69606c5b41820945b37",
+    "source_title_sha256": "586552580d2781644bd5f66f0f4f21248343445019159a2abeab26dca844b8b0",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "behind-the-scenes-the-making-of-pro-javafx%e2%84%a2-platform",
+  "thumbnail": null,
+  "title": "Behind the Scenes - The Making of Pro JavaFX\u2122 Platform",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A known legacy Windows-1252 byte 0x99 was decoded explicitly as U+2122.",
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

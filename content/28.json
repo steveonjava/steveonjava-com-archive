@@ -1,0 +1,65 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2008-12-07 04:50:19",
+  "excerpt": "Now that the JavaFX 1.0 Release is out, it is time to dust off all your old JavaFX code and fire it up, right?  Well, not quite...  There were a whole lot of changes in the span of a few months, and it is guaranteed that your program will need a little TLC before it runs.  Fortunately, I've already gone through this pain on a relatively large codebase (WidgetFX), and can share what I learned.\nLanguage Changes\n\n\tChange \"attribute\" to \"var\"/\"def\" - There is no more attribute keyword, but it is a simple search and replace to change it to var everywhere.  On a second pass you might want to convert vars that are never changed to def for efficiency.\n\tNo More \"static\" - If you want to make a variable or function as static, just move it outside your class declaration.  If it is declared public you can access it from anywhere else just by prefacing it with the file name, no static modifier needed.\n\tNew Access Modifiers - The default access modifier was changed to private rather than package, so you need to change any attributes or functions that had no modifier to package and then can delete all references to private.  On a second pass it may be a good idea to button-up permissions by using the new public-init and public-read permissions.  Here is a quick-reference table:\n\n\n\nPreview\n1.0\nMigration\n\n\nprivate\ndefault\nRemove this keyword everywhere\n\n\ndefault\npackage\nAdd package anywhere no modifier was specified\n\n\nprotected\nprotected\nNo change\n\n\npublic\npublic\nNo change\n\n\nN/A\npublic-init\nUse this anywhere the user should be able to initialize and read, but not update\n\n\nN/A\npublic-read\nUse this anywhere the user should be able to read, but not initialize or update\n\n\n\n\tRequired \"override\" - It is now mandatory that you use the override keyword on any member variable or function that exists in the superclass.  Expect to be going through lots of compiler errors to find all the places you need to fix this...\n\t{} Instead of \"+\" for Concatenating Strings - While the java-esque \"+\" operator for concatenating strings was an easy habit to fall into, it is no longer valid.  Instead you have to use the {} syntax to build strings.  For example, rather than \"hungry for: \" + meat, you would write \"hungry for: {meat}\".\n\tKeyframe Syntax - While this is not required to get your code working, there is a new KeyFrame syntax for doing animation that has the potential to make your code much shorter.  Rather than creating an instance of the KeyFrame class you can simply write \"at (duration) {x => y}\".\n\n\nOn Applications, Stages, Scenes, and Nodes\nAll your previous conceptions of what the terms application, stage, and scene meant have now been blown away.  For those of us who got very wired in to the old terminology, here is a quick reference from the old to the new:\n\n\n\nPreview\n1.0\nExplanation\n\n\nApplication\nStage\nA Stage is now the top level container, which creates a Frame when run stand-alone or becomes the content area in an Applet.\n\n\nStage\nScene\nThe Scene is a grouping of Node content that can be added to a Stage.  It has some useful properties including the stylesheet.\n\n\nNode\nNode\nNodes remain largely unchanged, and are the base class of everything else that is visible in JavaFX.\n\n\nNote that you can return a Stage, Scene, or Node from your main class and they will all work within an execution context (such as an Applet).",
+  "id": 28,
+  "original_urls": [
+    "http://steveonjava.com/migrating-from-the-javafx-preview-release/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "efaf93ceeaacba0fd0e5a73553beb65a48e0702dd74112415917c6770e7eb434",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "widgetfx.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://widgetfx.org/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/migrating-from-the-javafx-preview-release/",
+    "post_id": 28,
+    "rejected_urls": [],
+    "source_content_sha256": "46f5a11ef29f51736304f8075eb42c02bb610ebde747a532395b6ddb8ba4fda6",
+    "source_date_sha256": "33cb02f5d83c3b4886716524c6bb72321254662b10cfd3332649e5ed18689beb",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "44e966580d19c306caf215fc0f863f88b3860fe036a81a44e19b8f1d9452ad42",
+    "source_title_sha256": "4b208d15c37486f8b49f1ddd8eeae8a5ff166cbcf686015fa9e0079d2499d0ad",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "migrating-from-the-javafx-preview-release",
+  "thumbnail": null,
+  "title": "Migrating from the JavaFX Preview Release",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

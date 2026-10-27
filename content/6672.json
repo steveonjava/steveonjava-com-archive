@@ -1,0 +1,81 @@
+{
+  "categories": [
+    {
+      "name": "Uncategorized",
+      "slug": "uncategorized"
+    }
+  ],
+  "date": "2019-11-20 09:23:44",
+  "excerpt": "Crew of the new @DevOpsSpeakeasy interview program",
+  "id": 6672,
+  "original_urls": [
+    "http://steveonjava.com/introducing-the-worlds-best-container-registry-again/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "56e7186a668ebc85fd6604e141da59050095ed71f7686f8d0530e8f17d256e20",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "jfrog.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfrog.com/container-registry"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://twitter.com/DevOpsSpeakeasy"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "stackoverflow.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://stackoverflow.com/questions/tagged/jfrog-container-registry"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/introducing-the-worlds-best-container-registry-again/",
+    "post_id": 6672,
+    "rejected_urls": [],
+    "source_content_sha256": "8791a9e2f4e5bfe5c31fc0d7c914ff174b91d54b395dea833c56309d346a18e4",
+    "source_date_sha256": "c7f406efdf46159ee008328dd83ba0102e5abb8b93e5f8ab0c993652f0bfb314",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "8658c910208fd5e80441aeac43a19c731da281c0dd91e69303906a572c43701a",
+    "source_title_sha256": "36d9baa6e18c41e253eb9f6b73a9f19671a954c42f4778ea02175e68df54211a",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "introducing-the-worlds-best-container-registry-again",
+  "thumbnail": null,
+  "title": "Introducing The World's Best Container Registry...  Again",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A known legacy Windows-1252 byte 0x85 was decoded explicitly as U+2026.",
+    "A known legacy Windows-1252 byte 0x92 was decoded explicitly as U+2019.",
+    "A known legacy Windows-1252 byte 0x93 was decoded explicitly as U+201C.",
+    "A known legacy Windows-1252 byte 0x94 was decoded explicitly as U+201D."
+  ]
+}

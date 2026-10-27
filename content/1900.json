@@ -1,0 +1,68 @@
+{
+  "categories": [
+    {
+      "name": "AIR",
+      "slug": "air"
+    },
+    {
+      "name": "Flash",
+      "slug": "flash"
+    },
+    {
+      "name": "Flex",
+      "slug": "flex"
+    },
+    {
+      "name": "Mobile",
+      "slug": "mobile"
+    }
+  ],
+  "date": "2011-07-14 03:35:55",
+  "excerpt": "This is part 2 of my Flex Mobile series.  Please see my first post for information on getting started.",
+  "id": 1900,
+  "original_urls": [
+    "http://steveonjava.com/taking-control-of-the-flex-soft-keyboard/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "6878c73181701c2bb9d08cfa8148d61cc38e8781e22275aacb1084097e9fc7c3",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "ns.adobe.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://ns.adobe.com/mxml/2009"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/taking-control-of-the-flex-soft-keyboard/",
+    "post_id": 1900,
+    "rejected_urls": [],
+    "source_content_sha256": "6564762155da3d845988981924bca62695b6709e215a8d0c712efb7a02465869",
+    "source_date_sha256": "332448283b1c7c0a595aecd3bf5eb811e4c99c7b794c8e895965214bc671f787",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "56bc6815b750c8c128ab371f7f6822fe4c17589474797fb677a8ce65d5c86869"
+    },
+    "source_slug_sha256": "9b32b13fc72368c2d9ca25813a7ca4f5a07292bb852e2d58575d8f8f96762ccc",
+    "source_title_sha256": "f233b4ab03724fab41b4346620a210d93d7a6693e2023c1602abcb3db1d5583d",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "taking-control-of-the-flex-soft-keyboard",
+  "thumbnail": null,
+  "title": "Taking Control of the Flex Soft Keyboard",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "A known legacy Windows-1252 byte 0x96 was decoded explicitly as U+2013."
+  ]
+}

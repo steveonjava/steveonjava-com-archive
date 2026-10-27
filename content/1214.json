@@ -1,0 +1,85 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JFXtras",
+      "slug": "jfxtras"
+    },
+    {
+      "name": "Presentation",
+      "slug": "presentation"
+    }
+  ],
+  "date": "2010-06-02 07:19:54",
+  "excerpt": "I had my Jazoon talk this morning on building data rich user interfaces with JavaFX.  In an informal poll before the start, it seemed like many of the attendees had not yet tried JavaFX, so hopefully this has encouraged them to give it a spin.",
+  "id": 1214,
+  "original_urls": [
+    "http://steveonjava.com/building-data-rich-interfaces-with-javafx/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "12887fbcff3897c5696a726b5fcc26f29aa82a830f4920c51379be381ad873c3",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "object:codebase"
+        ],
+        "fetched": false,
+        "host": "download.macromedia.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/presentations/Jazoon%20-%20Building%20Data%20Rich%20Interfaces%20with%20JavaFX.pdf"
+      },
+      {
+        "contexts": [
+          "embed:src",
+          "param:value"
+        ],
+        "fetched": false,
+        "host": "static.slidesharecdn.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=jazoon-buildingdatarichinterfaceswithjavafx-100602100305-phpapp02&stripped_title=building-data-rich-interfaces-with-javafx"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/building-data-rich-interfaces-with-javafx/",
+    "post_id": 1214,
+    "rejected_urls": [],
+    "source_content_sha256": "536c26e0fd4e724fd24a97619a5c2c0c4ccff1734d1fb98ae2e04cbe9e9dae30",
+    "source_date_sha256": "12688600e2282ae46fd94db98e9c1b28c2595eaecdcae1b0f007d83a92065765",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "e64ee0385b0eff9a7f0acd20ee6d5eef3e544bef8d8218c326daa310d3b189ae"
+    },
+    "source_slug_sha256": "16c7571efa2797a035561b734caf5604ec9d43a9c97434f9d33fff5a76b4aaf9",
+    "source_title_sha256": "f8dc22fb75e01438dc7ddc3f9f141059dae7bde22618ebc62c258f367d24858e",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "building-data-rich-interfaces-with-javafx",
+  "thumbnail": null,
+  "title": "Building Data Rich Interfaces with JavaFX",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "An active or embedded source element was omitted."
+  ]
+}

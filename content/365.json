@@ -1,0 +1,174 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JFXtras",
+      "slug": "jfxtras"
+    }
+  ],
+  "date": "2009-06-22 07:31:21",
+  "excerpt": "I am pleased to announce the 0.5 release of JFXtras.  This release updates the project with JavaFX 1.2 support, plus includes a major overhaul of the Shapes, Borders, and Layouts.",
+  "id": 365,
+  "original_urls": [
+    "http://steveonjava.com/jfxtras-0-5-release-announcement/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "93e72ad909d728f98ae5a53195fe94031c82e2d3f1a5990496a4ba8ed498d6c7",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "blogs.sun.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://blogs.sun.com/clarkeman/entry/javafx_borders"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/downloads/list"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.googlecode.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.googlecode.com/svn/site/javadoc/release-0.5/index.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/samples"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/webdav/liferay.com/guest/document_library/Samples/Pro%20JavaFX%20Platform/DrawJFXtras/DrawJFX.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/webdav/liferay.com/guest/document_library/Samples/Pro%20JavaFX%20Platform/MediaExplorer4/MediaExplorer.jnlp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "projavafx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://projavafx.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "projavafx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://projavafx.com/portal/samples"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "weblogs.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://weblogs.java.net/blog/aim/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "weblogs.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://weblogs.java.net/blog/aim/archive/2009/06/insiders_guide.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "weblogs.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://weblogs.java.net/blog/rbair/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/jfxtras-0-5-release-announcement/",
+    "post_id": 365,
+    "rejected_urls": [],
+    "source_content_sha256": "92c92a50f39d3a1b81f4c4f0e2c4f7f1dc252a8f2e24f0ccd18d173c624e17e5",
+    "source_date_sha256": "0ad027e40b6e84f08481c87a24cd61a4429cf0cac51918755f50b683c737f1bb",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "52bba8cf89ee28daaa011127b4ddb1a2a6abec736988b484adb675b7d6ef7ba7"
+    },
+    "source_slug_sha256": "c36f363313b0b9f65229a6cac71221e1979ad371865bb541e556f0769f290818",
+    "source_title_sha256": "1acacbfa48460a14f0a9e38e1f96aacbd62921e3a5e1ec775780491a98c19b36",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "jfxtras-0-5-release-announcement",
+  "thumbnail": null,
+  "title": "JFXtras 0.5 Release Announcement",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

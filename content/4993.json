@@ -1,0 +1,76 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    }
+  ],
+  "date": "2015-05-04 00:24:16",
+  "excerpt": "I recently change roles at Oracle...  previously I was a Java Technology Evangelist and now I am a Java Community Manager.  So, you may be asking yourself what is the difference between an evangelist and a community manager...  Here is the quick breakdown:\n\n\tEvangelists preach while managers buy pizza...  looking forward to buying pizza for some JUGs!  :)\n\tThey probably won't \"invite\" me to customer meetings anymore...  somehow I am fine with that.\n\tThe Java part is still the same, so I can legitimately get away with drinking gourmet coffee and calling it work!\n\nAnd as part of my new role I am getting pulled into a lot of our community outreach efforts.  You will see more of these showing up on my blog, but the most imminent one is the upcoming Virtual Technology Summit (VTS).  It is like a conference, but without the annoying vendors.  ;)",
+  "id": 4993,
+  "original_urls": [
+    "http://steveonjava.com/more-java-and-vts/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "78e53d366ec098df3a17703dc656e9c7ba4c11d6bfe4717990db5aa56a97b0f6",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "event.on24.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://event.on24.com/r.htm?e=972827&s=1&k=EEECAD80800CD22052F541E84B1124C0&partnerref=americasssteveonjavavts4"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "event.on24.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://event.on24.com/r.htm?e=972840&s=1&k=06B5B8A6AF27E87525E773B7402F1D4B&partnerref=apacsteveonjavavts4"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "event.on24.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://event.on24.com/r.htm?e=972854&s=1&k=2E57C3CDD6B3F3FED9ECB5C40E1D430D&partnerref=emeasteveonjavavts4"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/more-java-and-vts/",
+    "post_id": 4993,
+    "rejected_urls": [],
+    "source_content_sha256": "4008dab8eb2df12451a7dc3553a4688a4a1a0c8974f96e3223c12f61a1640783",
+    "source_date_sha256": "73b478cdbf05378d66e7a4d89c87dd14c6cdbaed809d0c5d3e75a548ee637148",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "3ba62db635c99f147015d1cdebc3d3bc9165e8d742030e3837cdde5ba2d9972b",
+    "source_title_sha256": "3666cdfee00ab3a10848064af38fcad2a007c977ee65979b803c6b7675447147",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "more-java-and-vts",
+  "thumbnail": null,
+  "title": "More Java and VTS",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

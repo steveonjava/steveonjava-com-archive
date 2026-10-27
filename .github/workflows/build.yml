@@ -9,62 +9,158 @@ concurrency:
   group: archive-preview-${{ github.ref }}
   cancel-in-progress: true
 jobs:
-  preview:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
+    outputs:
+      served_path: ${{ steps.served.outputs.path }}
     steps:
-      # Actions are pinned to reviewed commit hashes (checkout v7.0.1, setup-python v7.1.0,
-      # upload-artifact v7.0.2). The hashes were resolved with the GitHub API. The code behind
-      # them has not been read.
+      # Existing reviewed pins: checkout v7.0.1, setup-python v7.1.0, upload-artifact v7.0.2.
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           persist-credentials: false
-      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
-        with:
-          python-version: '3.13'
-          cache: pip
-      - name: Install pinned build and preview dependencies
-        run: python -m pip install -r requirements-preview.txt
-      - name: Unit tests with malicious synthetic fixtures
-        run: python -m unittest discover -s tests -v
-      - name: Compile and audit real export inputs for a domain root
-        run: |
-          python scripts/build.py
-          python scripts/build.py --check-only
       - name: Choose the URL path this site is served from
         id: served
-        # A CNAME file at the repository root means the site is bound to its own domain and is served from the root.
-        # Otherwise it is a project site under /<repository name>.
+        shell: bash
         run: |
           if [ -f CNAME ]; then
             echo "path=" >> "$GITHUB_OUTPUT"
           else
             echo "path=/${GITHUB_REPOSITORY#*/}" >> "$GITHUB_OUTPUT"
           fi
-      - name: Compile and audit again for the path this site is served from
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+        with:
+          python-version: '3.13'
+          cache: pip
+      - name: Install pinned offline build dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Unit tests with malicious synthetic fixtures
+        run: python -m unittest discover -s tests -v
+      - name: Compile and audit real export inputs for a domain root
+        run: |
+          python scripts/build.py
+          python scripts/build.py --check-only
+      - name: Compile and audit for the served path once, for transfer to every browser shard
         env:
           SERVED_PATH: ${{ steps.served.outputs.path }}
         run: |
           python scripts/build.py --base-path "$SERVED_PATH"
           python scripts/build.py --check-only --base-path "$SERVED_PATH"
-      - name: Check public video metadata separately from the offline build
-        run: python scripts/check_videos.py --output video-checks.json
-      - name: Install local screenshot browser
-        # One run stalled at this step for over seven minutes, against 29 seconds on a normal run.
-        timeout-minutes: 6
-        run: python -m playwright install --with-deps chromium
-      - name: Exercise the served build in a browser and capture desktop and mobile previews
+      - name: Plan video availability OFFLINE without constructing a network opener
+        run: python scripts/check_videos.py --root . --offline --output video-availability.json
+      - name: Validate full route inventory and write deterministic browser plan without a browser
         env:
           SERVED_PATH: ${{ steps.served.outputs.path }}
-        run: python scripts/screenshots.py --base-path "$SERVED_PATH"
-      - name: Upload prototype preview only
+        run: python scripts/screenshots.py --base-path "$SERVED_PATH" --shard-count 8 --shard-index 0 --out ci-plan --plan-only
+      - name: Record build status even after failure
+        if: ${{ always() }}
+        env:
+          BUILD_STATUS: ${{ job.status }}
+        run: python3 -c 'import json,os,pathlib; pathlib.Path("build-status.json").write_text(json.dumps({"status":os.environ["BUILD_STATUS"]}) + "\n")'
+      - name: Upload downloadable site and build evidence even after failure
+        if: ${{ always() }}
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
         with:
           name: archive-prototype-preview
           path: |
             _site/
-            screenshots/
             build-report.json
-            video-checks.json
+            video-availability.json
+            build-status.json
+            ci-plan/
           if-no-files-found: error
           retention-days: 7
+
+  browser:
+    # Retain failed-build diagnostics, but let obsolete workflows cancel promptly.
+    if: ${{ !cancelled() }}
+    needs: build
+    name: browser routes ${{ matrix.label }}
+    runs-on: ubuntu-latest
+    # Initial bounded budgets, not measured performance claims; tune only from CI evidence.
+    timeout-minutes: 35
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        include:
+          - {index: 0, label: '00'}
+          - {index: 1, label: '01'}
+          - {index: 2, label: '02'}
+          - {index: 3, label: '03'}
+          - {index: 4, label: '04'}
+          - {index: 5, label: '05'}
+          - {index: 6, label: '06'}
+          - {index: 7, label: '07'}
+    env:
+      SERVED_PATH: ${{ needs.build.outputs.served_path }}
+      SHARD_INDEX: ${{ matrix.index }}
+      SHARD_LABEL: ${{ matrix.label }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      # download-artifact v8.0.2; same-run artifact transfer, no token or persistent credentials.
+      - name: Download the already built and audited site, not a rebuild
+        if: ${{ needs.build.result == 'success' }}
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333
+        with:
+          name: archive-prototype-preview
+          path: .
+          digest-mismatch: error
+      - name: Checkpoint selected routes and pending checks before dependency/browser installation
+        if: ${{ always() }}
+        run: python3 scripts/screenshots.py --base-path "$SERVED_PATH" --shard-count 8 --shard-index "$SHARD_INDEX" --out "screenshots/shard-$SHARD_LABEL" --plan-only
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+        if: ${{ success() && needs.build.result == 'success' }}
+        with:
+          python-version: '3.13'
+          cache: pip
+      - name: Install pinned preview dependencies
+        if: ${{ success() && needs.build.result == 'success' }}
+        run: python -m pip install -r requirements-preview.txt
+      - name: Install screenshot browser on the CI runner only
+        if: ${{ success() && needs.build.result == 'success' }}
+        timeout-minutes: 8
+        run: python -m playwright install --with-deps chromium
+      - name: Exercise every assigned route desktop/mobile with and without JavaScript
+        if: ${{ success() && needs.build.result == 'success' }}
+        timeout-minutes: 22
+        run: python scripts/screenshots.py --base-path "$SERVED_PATH" --shard-count 8 --shard-index "$SHARD_INDEX" --out "screenshots/shard-$SHARD_LABEL"
+      - name: Finalize failure evidence and navigable review, including pending checks
+        if: ${{ always() }}
+        env:
+          CHECK_STATUS: ${{ job.status }}
+        run: |
+          if [ -f scripts/screenshots.py ]; then
+            python3 scripts/screenshots.py --base-path "$SERVED_PATH" --shard-count 8 --shard-index "$SHARD_INDEX" --out "screenshots/shard-$SHARD_LABEL" --finalize-status "$CHECK_STATUS"
+          else
+            mkdir -p "screenshots/shard-$SHARD_LABEL"
+            printf '%s\n' '{"status":"failed","errors":["Checkout failed; browser execution could not start"]}' > "screenshots/shard-$SHARD_LABEL/errors.json"
+            printf '%s\n' '<!doctype html><meta name="robots" content="noindex,nofollow"><title>Failed route review</title><h1>Browser checks could not start</h1><a href="errors.json">Errors</a>' > "screenshots/shard-$SHARD_LABEL/index.html"
+          fi
+      - name: Upload route captures, manifests, errors and review HTML even after failure
+        if: ${{ always() }}
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: archive-browser-shard-${{ matrix.label }}
+          path: screenshots/shard-${{ matrix.label }}/
+          if-no-files-found: error
+          retention-days: 7
+
+  preview:
+    # Keep the branch-protection context exactly "preview". Never turn a skip into a pass.
+    name: preview
+    if: ${{ always() }}
+    needs: [build, browser]
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Require the build AND every browser matrix shard to succeed
+        env:
+          BUILD_RESULT: ${{ needs.build.result }}
+          BROWSER_RESULT: ${{ needs.browser.result }}
+        run: |
+          printf 'build=%s browser=%s\n' "$BUILD_RESULT" "$BROWSER_RESULT"
+          test "$BUILD_RESULT" = success
+          test "$BROWSER_RESULT" = success

@@ -1,0 +1,82 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    }
+  ],
+  "date": "2009-06-02 10:56:02",
+  "excerpt": "JavaFX 1.2 officially hit the shelves today, and I have my own announcement to follow it up.",
+  "id": 305,
+  "original_urls": [
+    "http://steveonjava.com/javafx-1-2-refcard-released/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "fb824c2f52fc7b6b152ac8219a86ba98c8c5c18f995f1f5eba885fdc339dfb51",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "javafx.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://javafx.com/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "jfxtras.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://jfxtras.org/portal/samples"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "refcardz.dzone.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://refcardz.dzone.com/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/javafx-1-2-refcard-released/",
+    "post_id": 305,
+    "rejected_urls": [],
+    "source_content_sha256": "b1b04bb813bd38f7695c2835eba6f5e9bd490261254e4ba0b728264162adae5b",
+    "source_date_sha256": "a8696979d506b9492c157cfe4dcd2b7d4167f5c35d77af789b8128c91d4ebf1d",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "a6510493afd43791d6a991fe18c7b2e4686ed240ec674efebcadd49a14a28775"
+    },
+    "source_slug_sha256": "0821343581b2d2a86338cb351d3f69e702316d7abfa7c0ce969b9c023e83cf25",
+    "source_title_sha256": "008289ba77a5f4a4f646aea86907b1cd7f9a8e792c71230fd60e99c34a391e32",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "javafx-1-2-refcard-released",
+  "thumbnail": null,
+  "title": "JavaFX 1.2 Refcard Released",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

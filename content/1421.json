@@ -1,0 +1,97 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "Visage",
+      "slug": "visage"
+    }
+  ],
+  "date": "2010-09-27 23:16:42",
+  "excerpt": "I am pleased to announce the Visage Language, a domain specific language (DSL) for writing user interfaces.",
+  "id": 1421,
+  "original_urls": [
+    "http://steveonjava.com/accouncing-visage/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "43585521ef55d90d02e0516e927b06ee2260a122a298edf38317d444e29f3ded",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "groups.google.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://groups.google.com/group/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "groups.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://groups.google.com/group/visage-dev"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "groups.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://groups.google.com/group/visage-users"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "visage-lang.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://visage-lang.org/"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/accouncing-visage/",
+    "post_id": 1421,
+    "rejected_urls": [],
+    "source_content_sha256": "92998a4264b79c1d0f10fd63bcb6251a0b1c4bec2e4a93c5a88bf22c8cf9405f",
+    "source_date_sha256": "eb3c62190170c2f847c47184266f74a84c25e842d598602baffbd568c0661abf",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "e9c9fbdc0383611ffc0fbf9089a6d4ad6b90e96b766b7a1324e1cb918da4f952"
+    },
+    "source_slug_sha256": "afb3868c74fad56de4b20ea90db2a585c9ee9191db74aa7124ae46c0d42cfc07",
+    "source_title_sha256": "ec82566addfd580a6f9d1434b72ad332e1c67cc446492abdcb59f9be6b3a385c",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "accouncing-visage",
+  "thumbnail": null,
+  "title": "Announcing Visage - The DSL for Writing UIs",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

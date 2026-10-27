@@ -1,0 +1,104 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JFXtras",
+      "slug": "jfxtras"
+    }
+  ],
+  "date": "2009-08-02 07:34:32",
+  "excerpt": "I put together the JFXtras Test 0.5 Release today.  This release includes full support for JavaFX 1.2, new comparison expectations (thanks to Peter Pilgrim!), and asynchronous testing support.",
+  "id": 515,
+  "original_urls": [
+    "http://steveonjava.com/jfxtras-test-and-fest-unite/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "f1190158656cbbf46ea9d14c23b20573a1121aa1b29f3f0b44e943ea85cc5ee9",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "code.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://code.google.com/p/jfxtras/downloads/list"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "fest.easytesting.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://fest.easytesting.org/"
+      },
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "img524.imageshack.us",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://img524.imageshack.us/img524/3223/1184541207968tq2.jpg"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.jroller.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.jroller.com/peter_pilgrim/"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "846cb4200ddae33a77b48a20c931401ff91b8101107d69fa79c20ef217e164e4"
+      }
+    ],
+    "original_root_route": "/jfxtras-test-and-fest-unite/",
+    "post_id": 515,
+    "rejected_urls": [],
+    "source_content_sha256": "6e775ea51d98ce7e022c9dd3abdd2625ead6f1078d96c7b77c1ac13f9bbdc5f5",
+    "source_date_sha256": "48d05e012ad444cba2d1956798e8a7a6a6123ae533a4dfef9156c1b57240b78f",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "5a0a02b2aaa55829f50cb52f52f18dbd770e183f93d8028d0bb7f2ea72901022"
+    },
+    "source_slug_sha256": "0f9b24050d7f6988b9f4d427f9e4c5a2cba178eff0d66ef14e5e908b1505bcad",
+    "source_title_sha256": "1a9c75b1c0b7512228491b7f012602a2c41f17d71e4e946e7cd1cde485ad9429",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "jfxtras-test-and-fest-unite",
+  "thumbnail": null,
+  "title": "JFXtras Test and FEST Unite!",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

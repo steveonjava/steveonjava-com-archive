@@ -1,0 +1,57 @@
+{
+  "categories": [
+    {
+      "name": "AIR",
+      "slug": "air"
+    },
+    {
+      "name": "Flash",
+      "slug": "flash"
+    },
+    {
+      "name": "Flex",
+      "slug": "flex"
+    },
+    {
+      "name": "Mobile",
+      "slug": "mobile"
+    }
+  ],
+  "date": "2011-07-21 08:00:35",
+  "excerpt": "This is the third installation of my Flex Mobile series.  In my first post I talked about multitouch, and my second post I dug in on how to control the soft keyboard.  This post goes into detail on performance, specifically caching.",
+  "id": 1911,
+  "original_urls": [
+    "http://steveonjava.com/turbocharging-performance-with-caching/",
+    "http://flash.steveonjava.com/turbocharging-performance-with-caching/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "d8e5b2efb5a99e3fb51cb3467c896d5a2292c42bdfe349d478b8d367a85c4c74",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [],
+    "image_omissions": [],
+    "original_root_route": "/turbocharging-performance-with-caching/",
+    "post_id": 1911,
+    "rejected_urls": [],
+    "source_content_sha256": "fc1fcc12c6a3e321159b50a7d383f9e623e10e989683b41d5cefe792e9d08530",
+    "source_date_sha256": "9b04234d1b54b59ee97c72166febd0af6032e8b0522e5d180c2013caf0f157ae",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "2ebc5c33a82b69f32fb35e8bb5ca179f2f090af9b1572bc3222da975090ca706"
+    },
+    "source_slug_sha256": "6084e5b2a0f391442eaf80845a7582d2bfd41043c1be24ad627b6ae5f6570360",
+    "source_title_sha256": "819dacc5d9ac88b25c946c1b122e5d3f4c0be0d8f51c1fc9428d96f57d763b9f",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "turbocharging-performance-with-caching",
+  "thumbnail": null,
+  "title": "Turbocharging Performance with Caching",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

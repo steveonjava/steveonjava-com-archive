@@ -1,0 +1,71 @@
+{
+  "categories": [
+    {
+      "name": "Uncategorized",
+      "slug": "uncategorized"
+    }
+  ],
+  "date": "2014-08-07 03:38:37",
+  "excerpt": "So I just finished prepping 50 Raspberry Pi kits and 25 Lego sets for a kids programming workshop tomorrow, and put the finishing touches on the 99 page slide deck.  Given the workshop doesn't start for another 6 hours, I think that is pretty timely.  ;)",
+  "id": 4585,
+  "original_urls": [
+    "http://steveonjava.com/oracle-iot-kids-workshop/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "4fc412767e0d69bf0e7ed99dcfc3c19dcb81a79a392ba3e74f8ea6e969c70dc9",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.slideshare.net/steveonjava"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.slideshare.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://www.slideshare.net/steveonjava/oracle-iot-kids-workshop"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/oracle-iot-kids-workshop/",
+    "post_id": 4585,
+    "rejected_urls": [
+      {
+        "context": "iframe:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "6b27ecb2c5838942637a1ead918c5cce9d73836d44f43e0a74cd886abd93f835"
+      }
+    ],
+    "source_content_sha256": "1edd5c153bbd219f462d30693ba76064ae11629ccd2378b70fa728b4a832005e",
+    "source_date_sha256": "da3fb15fe1f1fa64fea68bef4a4559f0cb8c785f12563a6b6bdadc592c3586a7",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "942c26001e10a48431e0846c1ea643c50608084da913439ae787f35e61f57afe",
+    "source_title_sha256": "f2c35ecf0fca263a653bdbd88aea1a8e2c41bc0f608eb437318b06560907aabe",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "oracle-iot-kids-workshop",
+  "thumbnail": null,
+  "title": "Oracle IoT Kids Workshop",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "An active or embedded source element was omitted."
+  ]
+}

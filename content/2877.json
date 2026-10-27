@@ -1,0 +1,174 @@
+{
+  "categories": [
+    {
+      "name": "Announcements",
+      "slug": "announcements"
+    },
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "NightHacking",
+      "slug": "nighthacking"
+    },
+    {
+      "name": "Uncategorized",
+      "slug": "uncategorized"
+    }
+  ],
+  "date": "2013-01-21 20:35:13",
+  "excerpt": "With the trip coming up in a week, I figured it was about time to put the full event itinerary in one place.  For this I created a public Nordic NightHacking Google Calendar containing all of the events along with links to sign-up.",
+  "id": 2877,
+  "original_urls": [
+    "http://steveonjava.com/nordic-nighthacking-tour-schedule/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "b4d039800f65c717139894029b9b0e0022aed8ceee67164539dc779a9bf3c88f",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "nighthacking-at-jugice.eventbrite.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://nighthacking-at-jugice.eventbrite.com"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "nighthacking.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://nighthacking.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.flickr.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.flickr.com/photos/32870260@N04/7996880922/in/photostream"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.foocafe.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.foocafe.org/index.php/site/event/nordic-tour-with-stephen-chin"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "www.google.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.google.com/calendar/render?cid=https%3A%2F%2Fwww.google.com%2Fcalendar%2Ffeeds%2F8os28h3u76dbi2b5h9o59e20kk%2540group.calendar.google.com%2Fpublic%2Fbasic"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.jforum.se",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.jforum.se/jf/?meeting=97"
+      },
+      {
+        "contexts": [
+          "select:onchange"
+        ],
+        "fetched": false,
+        "host": "www.google.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.google.com/calendar/embed?showTitle=0&showNav=0&showDate=0&showPrint=0&showTabs=0&showCalendars=0&mode=AGENDA&height=600&wkst=1&bgcolor=%23FFFFFF&src=8os28h3u76dbi2b5h9o59e20kk%40group.calendar.google.com&color=%23B1440E&ctz="
+      },
+      {
+        "contexts": [
+          "iframe:src"
+        ],
+        "fetched": false,
+        "host": "www.google.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.google.com/calendar/embed?showTitle=0&showNav=0&showDate=0&showPrint=0&showTabs=0&showCalendars=0&mode=AGENDA&height=600&wkst=1&bgcolor=%23FFFFFF&src=8os28h3u76dbi2b5h9o59e20kk%40group.calendar.google.com&color=%23B1440E&ctz=America%2FLos_Angeles"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.google.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://www.google.com/calendar/embed?src=8os28h3u76dbi2b5h9o59e20kk%40group.calendar.google.com&ctz=America/Los_Angeles"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "unsafe-or-relative-image-url",
+        "source_url_sha256": "b80f2a3c62462f61f41c75f81deb86d70d827437fa5fcfadab5d886a66232fdc"
+      }
+    ],
+    "original_root_route": "/nordic-nighthacking-tour-schedule/",
+    "post_id": 2877,
+    "rejected_urls": [
+      {
+        "context": "img:src",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "b80f2a3c62462f61f41c75f81deb86d70d827437fa5fcfadab5d886a66232fdc"
+      },
+      {
+        "context": "image",
+        "reason": "unsafe-or-unsupported-url",
+        "value_sha256": "b80f2a3c62462f61f41c75f81deb86d70d827437fa5fcfadab5d886a66232fdc"
+      }
+    ],
+    "source_content_sha256": "ebdb8b78ce4faa2980afa2981e8ba8f0435f4ef209a63828ef0a677e269b000f",
+    "source_date_sha256": "a920307f523a00372de52c828d531ebbbf68c8ca23919fbc6c03fa6eb9bbaf53",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "4c4531359e2d8aa1ed9a52fee69cb7717c308c24101ae5691424cc7fe4a970e1",
+    "source_title_sha256": "dfbb37975efe7f9a0de8abb4565dd6d344c92ac9e5e3df62b53c61652e551693",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "nordic-nighthacking-tour-schedule",
+  "thumbnail": null,
+  "title": "Nordic NightHacking Tour Schedule",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "An active or embedded source element was omitted."
+  ]
+}

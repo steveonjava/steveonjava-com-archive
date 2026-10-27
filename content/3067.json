@@ -1,0 +1,67 @@
+{
+  "categories": [
+    {
+      "name": "NightHacking",
+      "slug": "nighthacking"
+    },
+    {
+      "name": "Uncategorized",
+      "slug": "uncategorized"
+    }
+  ],
+  "date": "2013-02-02 05:45:37",
+  "excerpt": "Jfokus is the premiere Java conference in Northern Europe, and the final destination on the Nordic NightHacking Tour. I will be live streaming the activities on the Jfokus stage all day next Tuesday (Feb 5th) and Wednesday (Feb 6th).",
+  "id": 3067,
+  "original_urls": [
+    "http://steveonjava.com/jfokus-stage-live-stream/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "b9fb413d22bce4628718e0c52d9981d917970c1cd55b5e6aaade9faa97ddc714",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "select:onchange"
+        ],
+        "fetched": false,
+        "host": "www.google.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.google.com/calendar/embed?showTitle=0&showNav=0&showDate=0&showPrint=0&showTabs=0&showCalendars=0&mode=AGENDA&height=300&wkst=1&bgcolor=%23FFFFFF&src=8os28h3u76dbi2b5h9o59e20kk%40group.calendar.google.com&color=%23B1440E&ctz="
+      },
+      {
+        "contexts": [
+          "iframe:src"
+        ],
+        "fetched": false,
+        "host": "www.google.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.google.com/calendar/embed?showTitle=0&showNav=0&showDate=0&showPrint=0&showTabs=0&showCalendars=0&mode=AGENDA&height=300&wkst=1&bgcolor=%23FFFFFF&src=8os28h3u76dbi2b5h9o59e20kk%40group.calendar.google.com&color=%23B1440E&ctz=America%2FLos_Angeles&dates=20130205%2F20130206"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/jfokus-stage-live-stream/",
+    "post_id": 3067,
+    "rejected_urls": [],
+    "source_content_sha256": "f46d7299cef8583832b79240f905abe7216f1f4a70c6f727135baf2af40fa85e",
+    "source_date_sha256": "4ba88a08093dfbc844131f6e363f7077f495f8cddf08613d4a67fa6054c44c37",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "48da511914935697e103cbcc43a90b77f38f2af4372cf592e477f7f21cf6d124",
+    "source_title_sha256": "3b4a4e433f6a1395f479cdcc9c25fd27cf3dcec2f15aa7f26a0f8f68d2bb9392",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "jfokus-stage-live-stream",
+  "thumbnail": null,
+  "title": "Jfokus Stage Live Stream",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "An active or embedded source element was omitted."
+  ]
+}

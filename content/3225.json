@@ -1,0 +1,107 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "JavaOne",
+      "slug": "javaone-2"
+    },
+    {
+      "name": "Oracle",
+      "slug": "oracle-2"
+    }
+  ],
+  "date": "2013-04-12 10:06:41",
+  "excerpt": "The JavaOne Call for Proposals is going to stay open until April 23rd, so you have a few extra days to get in those last minute submissions.",
+  "id": 3225,
+  "original_urls": [
+    "http://steveonjava.com/javaone-cfp-extended/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "8766d7dc5472756ae0b8aa4f401f8295d105e0672ed454bfb8db86ec7fe04593",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jdk8.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jdk8.java.net/lambda/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "openjdk.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://openjdk.java.net/projects/jigsaw/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.oracle.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oracle.com/javaone/index.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.youtube.com/watch?v=UXSmJYFrulY"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "wikis.oracle.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://wikis.oracle.com/display/OpenJDK/3D+Features"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/javaone-cfp-extended/",
+    "post_id": 3225,
+    "rejected_urls": [],
+    "source_content_sha256": "a7a02a2f8980ca490b480a125294930c65170e5110d7b30ed7a125f1e3d60ce3",
+    "source_date_sha256": "b3536867da4f4608a5c8dd0aed718241ed86e09723eac84ecbd57b3a3962c5d6",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "05651c6070d9bee7b1a53d1b695d967c34b1e600319a4018fa5fc5c14ef02545",
+    "source_title_sha256": "36ca7b1d278ee60eb55d0bb49824b4f3b08d3c4a3315506f8c94e5244b9a2715",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "javaone-cfp-extended",
+  "thumbnail": null,
+  "title": "JavaOne CFP Extended",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

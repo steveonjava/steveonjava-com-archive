@@ -1,0 +1,272 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "Flash",
+      "slug": "flash"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "OSCON Java",
+      "slug": "oscon-java"
+    }
+  ],
+  "date": "2011-07-24 00:03:12",
+  "excerpt": "Conferences are expensive...  they assume you work for a stacked megacorporation that believes the fastest path to increasing their shareholder value is investing in your individual career training.  If your employer is not having a great year or has had a surge of resignations from last year's crew of esteemed conference goers, chances are that you won't be getting reimbursed to attend your local geek-fest.",
+  "id": 1949,
+  "original_urls": [
+    "http://steveonjava.com/the-frugal-geeks-guide-to-conference-crashing/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "60da451c3ecf0a30f6ab2f50b45b6f32809c7641bfa83502a511dbd4dd5610a8",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "image",
+          "img:src"
+        ],
+        "fetched": false,
+        "host": "assets.en.oreilly.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://assets.en.oreilly.com/1/eventprovider/1/cta_global_register.png"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jvmlangsymposium.eventbrite.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jvmlangsymposium.eventbrite.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "twitter.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://twitter.com/#!/odersky"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "typesafe.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://typesafe.com/"
+      },
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "voodoodoughnut.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://voodoodoughnut.com/index.php"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/content/exhibitors"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/content/free"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/regwith/expopass"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/schedule/detail/20253"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/schedule/detail/20268"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/schedule/detail/20269"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/schedule/detail/20270"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/schedule/detail/20413"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/schedule/detail/20865"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/schedule/detail/20866"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/schedule/detail/21329"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/schedule/detail/21330"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.oscon.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.oscon.com/oscon2011/public/schedule/stype/BoFs"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "external-or-other-site-image-not-fetched",
+        "source_url_sha256": "13b317dd94fc2dd7c417b895aac8b72eba5761bb70028ad88e720aad72a43363"
+      }
+    ],
+    "original_root_route": "/the-frugal-geeks-guide-to-conference-crashing/",
+    "post_id": 1949,
+    "rejected_urls": [],
+    "source_content_sha256": "75a2228bc79172066957e81ba007a2199ea811d47f202e2499711a8c2691c154",
+    "source_date_sha256": "2206304d4243089e7eb247d3e195818e4887e256589b78b9c34178c6857abb65",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {
+      "_topsy_long_url": "bd66eb3fb7f375a248a61581f5889d6076f76df36e3b8110a69d7c73f67ce67a"
+    },
+    "source_slug_sha256": "8a4e4d70eebe03ae3f5a74fd075cc9b271c234b77be82abdfee357672a1142f9",
+    "source_title_sha256": "2dfc4dfeed1385100293fcde66e1899bae327ec57dd0bf147c4d3e52424f70bc",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "the-frugal-geeks-guide-to-conference-crashing",
+  "thumbnail": null,
+  "title": "The Frugal Geek's Guide to Conference Crashing",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "A known legacy Windows-1252 byte 0x92 was decoded explicitly as U+2019."
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "Raspberry Pi",
+      "slug": "raspberry-pi"
+    }
+  ],
+  "date": "2012-12-18 12:14:48",
+  "excerpt": "Note: Updated for NOOBS and Java 8 EA [changes highlight in red]",
+  "id": 2760,
+  "original_urls": [
+    "http://steveonjava.com/javafx-on-raspberry-pi-3-easy-steps/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "7ae7790909a1d90f8f8b1bd26e300607596251064877d76c631354b31b366e23",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "elinux.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://elinux.org/RPiconfig"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "fxexperience.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://fxexperience.com/2012/12/javafx-on-raspberry-pi/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "jdk8.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://jdk8.java.net/fxarmpreview/javafx-arm-developer-preview.html"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.lugod.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.lugod.org/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.raspberrypi.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.raspberrypi.org/"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.raspberrypi.org",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.raspberrypi.org/downloads"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "github.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://github.com/steveonjava/LUGOD-Pi-Test"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "jdk8.java.net",
+        "rendered": true,
+        "status": "unverified",
+        "url": "https://jdk8.java.net/download.html"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/javafx-on-raspberry-pi-3-easy-steps/",
+    "post_id": 2760,
+    "rejected_urls": [],
+    "source_content_sha256": "41014d4b69d7832dca4b3fc248ca9aa0bedca6f7a0bcdfb0277df29e27f47091",
+    "source_date_sha256": "0f50ce18212450c937f5f2a1774f151e68a4367dac0774cf4422eadef88e6327",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "253b17465d77f3c92d12f6f8063f3b8702fec7b9feea38c6cc48cfc0712d617a",
+    "source_title_sha256": "9c79d7558901b6d76f8e0a2db28ce5ada698d52ea579ae721f460c450becf7ae",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "javafx-on-raspberry-pi-3-easy-steps",
+  "thumbnail": null,
+  "title": "JavaFX on Raspberry Pi - 3 Easy Steps [updated]",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space."
+  ]
+}

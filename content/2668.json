@@ -1,0 +1,227 @@
+{
+  "categories": [
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "NightHacking",
+      "slug": "nighthacking"
+    },
+    {
+      "name": "Video",
+      "slug": "video"
+    }
+  ],
+  "date": "2012-11-03 17:21:13",
+  "excerpt": "If you haven't been watching the live stream of the NightHacking Tour, you have been missing out on a lot of geeky fun.",
+  "id": 2668,
+  "original_urls": [
+    "http://steveonjava.com/what-you-have-been-missing-on-the-nighthacking-tour/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "5fac0afa564ba3fd4e036f1d6202b785474c27fdc31fb25fe05b06fba7c741ec",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "nighthacking.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://nighthacking.com/"
+      },
+      {
+        "contexts": [
+          "iframe:src"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://www.youtube.com/embed/IdsNtdV5NwU?list=UUmRtPmgnQ04CMUpSUqPfhxQ&hl=en_US"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.youtube.com/watch?v=44Ke-XxsgOc&list=UUmRtPmgnQ04CMUpSUqPfhxQ&index=8&feature=plcp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.youtube.com/watch?v=7h6lLfUkr24&list=UUmRtPmgnQ04CMUpSUqPfhxQ&index=15&feature=plcp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.youtube.com/watch?v=Hywt7FqeDdw&list=UUmRtPmgnQ04CMUpSUqPfhxQ&index=9&feature=plcp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.youtube.com/watch?v=MW-soj59B5U&list=UUmRtPmgnQ04CMUpSUqPfhxQ&index=14&feature=plcp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.youtube.com/watch?v=P4J_X5bhxAY&list=UUmRtPmgnQ04CMUpSUqPfhxQ&index=6&feature=plcp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.youtube.com/watch?v=PEwYDZ2oiHs&list=UUmRtPmgnQ04CMUpSUqPfhxQ&index=4&feature=plcp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.youtube.com/watch?v=PucGEAzPqXg&list=UUmRtPmgnQ04CMUpSUqPfhxQ&index=12&feature=plcp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.youtube.com/watch?v=T1zKbt-ieU8&list=UUmRtPmgnQ04CMUpSUqPfhxQ&index=5&feature=plcp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.youtube.com/watch?v=c5-jyvVnqT0&list=UUmRtPmgnQ04CMUpSUqPfhxQ&index=11&feature=plcp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.youtube.com/watch?v=dutix5xJtWA&list=UUmRtPmgnQ04CMUpSUqPfhxQ&index=3&feature=plcp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.youtube.com/watch?v=f2a9XvZNq0o&list=UUmRtPmgnQ04CMUpSUqPfhxQ&index=10&feature=plcp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.youtube.com/watch?v=n6s8EhV5mzQ&list=UUmRtPmgnQ04CMUpSUqPfhxQ&index=13&feature=plcp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.youtube.com/watch?v=oisq1kC2iDE&list=UUmRtPmgnQ04CMUpSUqPfhxQ&index=2&feature=plcp"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://www.youtube.com/watch?v=pxZ5aIUnYac&list=UUmRtPmgnQ04CMUpSUqPfhxQ&index=7&feature=plcp"
+      }
+    ],
+    "image_omissions": [],
+    "original_root_route": "/what-you-have-been-missing-on-the-nighthacking-tour/",
+    "post_id": 2668,
+    "rejected_urls": [],
+    "source_content_sha256": "bdcfca4967fa00752d70a322940364b704504ee7fcf0f6fdbf0203b640ea2898",
+    "source_date_sha256": "90dbefc830b8fe5b3f12cf95ef03cab92ff9614f0e50e635c00fa0f4e29392b8",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "ded11a105005dc0f443eb6a4421270abb12c75bc5a670f03e0e5abcb1e38497b",
+    "source_title_sha256": "76f24256e792f9cde539f87c92c6cc57dc231b2b4671c00075f473ef46145362",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "what-you-have-been-missing-on-the-nighthacking-tour",
+  "thumbnail": null,
+  "title": "What You Have Been Missing on the NightHacking Tour...",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A legacy single-byte nonbreaking space was normalized to a space.",
+    "An active or embedded source element was omitted."
+  ]
+}

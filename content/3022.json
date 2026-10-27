@@ -1,0 +1,113 @@
+{
+  "categories": [
+    {
+      "name": "Events",
+      "slug": "events"
+    },
+    {
+      "name": "JavaFX",
+      "slug": "javafx"
+    },
+    {
+      "name": "NightHacking",
+      "slug": "nighthacking"
+    },
+    {
+      "name": "Raspberry Pi",
+      "slug": "raspberry-pi"
+    },
+    {
+      "name": "Uncategorized",
+      "slug": "uncategorized"
+    },
+    {
+      "name": "Video",
+      "slug": "video"
+    }
+  ],
+  "date": "2013-01-28 04:48:12",
+  "excerpt": "I had a great team hacking with the JUGICE members in Iceland last night as the first stop on the Nordic NightHacking Tour. They created some pretty cool projects in JavaFX for the Raspberry Pi within only a few hours (many of whom had never tried JavaFX before):",
+  "id": 3022,
+  "original_urls": [
+    "http://steveonjava.com/top-5-reasons-to-hack-in-iceland/"
+  ],
+  "provenance": {
+    "authorship": "Original published text, not newly generated first-person prose",
+    "database": "steveonjava_wordpress",
+    "export_markdown_sha256": "1aea32f9a731aa1b93e08c7fcc58889451ebc86c34bdd653d0e707a8c28f68c2",
+    "exporter_version": "bulk-export-1",
+    "external_urls": [
+      {
+        "contexts": [
+          "a:href"
+        ],
+        "fetched": false,
+        "host": "en.wikipedia.org",
+        "rendered": false,
+        "status": "unverified",
+        "url": "http://en.wikipedia.org/wiki/File:Har\u00f0fiskur.jpg"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link"
+        ],
+        "fetched": false,
+        "host": "gogreencloud.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://gogreencloud.com"
+      },
+      {
+        "contexts": [
+          "a:href",
+          "link",
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "nighthacking.com",
+        "rendered": true,
+        "status": "unverified",
+        "url": "http://nighthacking.com/"
+      },
+      {
+        "contexts": [
+          "source-text"
+        ],
+        "fetched": false,
+        "host": "www.youtube.com",
+        "rendered": false,
+        "status": "unverified",
+        "url": "https://www.youtube.com/watch?v=YnQfcxA8gV4"
+      }
+    ],
+    "image_omissions": [
+      {
+        "path": null,
+        "reason": "unsafe-or-unsupported-image-path",
+        "source_url_sha256": "527c36aa0b60509f89d7b8a51bbc8687d7e33b2d3ee634e976cec21e2247e92c"
+      }
+    ],
+    "original_root_route": "/top-5-reasons-to-hack-in-iceland/",
+    "post_id": 3022,
+    "rejected_urls": [],
+    "source_content_sha256": "aab8c431fd0dae86d2bee1cd995460249f62df75f1cb01b62e6d4888269909c4",
+    "source_date_sha256": "3a2e22acb1dae9a594d7dfb5da957067b1b04c73d6c390b477a75e6d83ee657d",
+    "source_decoding_policy": "UTF-8 with an explicit fixed Windows-1252 error-byte repertoire. Unknown bytes remain reported replacement characters.",
+    "source_meta_sha256": {},
+    "source_slug_sha256": "b31e5780c92358f06f1cc61504a9b89f29c27a573036cc63a53881452536b109",
+    "source_title_sha256": "f73b82e85578aa803875b18e25a65d3b118215768bed064bb86b6ef62a82d0d2",
+    "table": "wp_posts",
+    "video_status": "absent"
+  },
+  "review_status": "unreviewed",
+  "slug": "top-5-reasons-to-hack-in-iceland",
+  "thumbnail": null,
+  "title": "Top 5 Reasons to Hack in Iceland",
+  "type": "post",
+  "video_id": null,
+  "warnings": [
+    "A known legacy Windows-1252 byte 0xF0 was decoded explicitly as U+00F0.",
+    "A known legacy Windows-1252 byte 0xF3 was decoded explicitly as U+00F3."
+  ]
+}
