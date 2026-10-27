@@ -163,8 +163,8 @@
   "outbound_hosts": 211,
   "link_registry_urls": 764,
   "link_states": {
-    "live": 1,
-    "unverified": 755,
+    "live": 4,
+    "unverified": 752,
     "dead": 8
   },
   "image_omission_reasons": {
