@@ -15,6 +15,12 @@ Checked on 2026-10-23 at 08:03 UTC with the owner's one-time exception, by a scr
 Videos: none in these two posts.
 
 
+## Owner-approved external link check, 2026-10-27
+
+The owner approved one online check of 511 external URLs taken from the two archives' build reports. Each request resolved the name over DNS-over-HTTPS, pinned a public address, re-validated every redirect hop, read only the page title and capped the body. YouTube addresses were not fetched; they went to the public oEmbed metadata endpoint only. The counts were 206 working, 111 dead and 194 inconclusive.
+
+Four `www.sfandroid.org` URLs in posts 1763 and 1774 now redirect to an online-gambling site on an unrelated domain. They are marked `dead` in `link-status.json`, so the build renders their link text as plain text and never emits the address. The other 107 dead results and the 194 inconclusive ones are not changed by this commit. Two further sites (`fest.easytesting.org`, `www.lejos.org`) returned gambling-style page titles after redirecting within their own domain; that rests on a title only, and the owner has not asked for them to be changed.
+
 ## Bulk conversion: offline inventory
 
 The content-expansion batch inventories all exported source destinations without fetching them. Newly added URLs are unverified. Known-dead results above are retained, and normal CI makes no provider requests. No current availability, ownership or playback claim is inferred from a syntactically valid URL or video ID. See `bulk-review.md` and `bulk-coverage.json`.
