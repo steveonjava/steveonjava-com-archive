@@ -462,5 +462,416 @@
         "note": "existing theme asset reused; the lab conversion has the identical hash"
       }
     ]
+  },
+  "wayback_recovery": {
+    "recorded": "2026-10-28",
+    "authority": "The owner asked for the remaining omitted images to be fetched from the Internet Archive, through the Camofox browser because this host's own connections to web.archive.org are refused.",
+    "method": "Each image was fetched once, byte for byte, from the Internet Archive capture of the address the post cited (the unmodified `id_` replay), identified by SHA-256 of the cited address, then decoded and rewritten as fresh pixels without metadata. Static GIFs became PNG. Placement follows the text either side of each image on the archived post page; posts 557 and 579 have no archived page, so their images sit beside their captions. The Infix weather image is cited by posts 564 and 608 and is one file.",
+    "new_images": 21,
+    "omitted_entries_resolved": 24,
+    "held_for_owner": [
+      {
+        "post_id": 633,
+        "source_url_sha256": "02ba5d38fa7fcfeaee5dd51928f11f717073d8e4e220d30db64eda70c78c7b2b",
+        "reason": "animated GIF (144 frames, coderanch moosefly), held for the owner"
+      }
+    ],
+    "placements": [
+      {
+        "post_id": 95,
+        "basis": "archive-capture",
+        "images": [
+          0
+        ]
+      },
+      {
+        "post_id": 95,
+        "basis": "archive-capture",
+        "images": [
+          0
+        ]
+      },
+      {
+        "post_id": 95,
+        "basis": "archive-capture",
+        "images": [
+          0
+        ]
+      },
+      {
+        "post_id": 653,
+        "basis": "archive-capture",
+        "images": [
+          0
+        ]
+      },
+      {
+        "post_id": 428,
+        "basis": "archive-capture",
+        "images": [
+          3
+        ]
+      },
+      {
+        "post_id": 439,
+        "basis": "archive-capture",
+        "images": [
+          4
+        ]
+      },
+      {
+        "post_id": 515,
+        "basis": "archive-capture",
+        "images": [
+          6
+        ]
+      },
+      {
+        "post_id": 557,
+        "basis": "inferred-beside-caption-no-capture",
+        "images": [
+          7
+        ]
+      },
+      {
+        "post_id": 564,
+        "basis": "archive-capture",
+        "images": [
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "post_id": 564,
+        "basis": "archive-capture",
+        "images": [
+          11
+        ]
+      },
+      {
+        "post_id": 564,
+        "basis": "archive-capture",
+        "images": [
+          9,
+          10
+        ]
+      },
+      {
+        "post_id": 564,
+        "basis": "archive-capture",
+        "images": [
+          8
+        ]
+      },
+      {
+        "post_id": 579,
+        "basis": "inferred-beside-caption-no-capture",
+        "images": [
+          16
+        ]
+      },
+      {
+        "post_id": 608,
+        "basis": "archive-capture",
+        "images": [
+          15
+        ]
+      },
+      {
+        "post_id": 608,
+        "basis": "archive-capture",
+        "images": [
+          18
+        ]
+      },
+      {
+        "post_id": 608,
+        "basis": "archive-capture",
+        "images": [
+          17
+        ]
+      },
+      {
+        "post_id": 1989,
+        "basis": "archive-capture",
+        "images": [
+          26
+        ]
+      },
+      {
+        "post_id": 1844,
+        "basis": "archive-capture",
+        "images": [
+          27
+        ]
+      },
+      {
+        "post_id": 1844,
+        "basis": "archive-capture",
+        "images": [
+          26
+        ]
+      },
+      {
+        "post_id": 1844,
+        "basis": "archive-capture",
+        "images": [
+          25
+        ]
+      },
+      {
+        "post_id": 3657,
+        "basis": "archive-capture",
+        "images": [
+          31
+        ]
+      },
+      {
+        "post_id": 6695,
+        "basis": "archive-capture",
+        "images": [
+          32
+        ]
+      }
+    ],
+    "edited_posts": [
+      {
+        "post_id": 95,
+        "markdown_sha256_before": "6a5a784d4c28060838bc2efa4fddff618291ed64cea57021e1ed8678a734a586",
+        "markdown_sha256_after": "530cc44d32feb581e14ec97ce6e61e8d75756f59a625f20e28bfb3b28cfb5fde"
+      },
+      {
+        "post_id": 428,
+        "markdown_sha256_before": "d5f0aa0c24fb28cf471e8572a1f31f5f8e6e09e1741714da8f3021a65fcd3091",
+        "markdown_sha256_after": "8230a33201591e2374dc185f9803bce6d8cb820acbad860b52975d3c9eb73744"
+      },
+      {
+        "post_id": 439,
+        "markdown_sha256_before": "f7d0ca7109ebd6406109c970d46fc916d3da0c2600ec6735178d709a5df70eea",
+        "markdown_sha256_after": "8bd8414a67ff69630887134253f1a2ff192f4abdd7e72fe0c8937417e79d65aa"
+      },
+      {
+        "post_id": 515,
+        "markdown_sha256_before": "200db8803d937e6fd15a5e909892f2b5828321e2520d9bbd93593fca1a343bbf",
+        "markdown_sha256_after": "35192e0c1f35163648e702fa34ecefeb435b15163262f5cf0d7d8a20b3829f59"
+      },
+      {
+        "post_id": 557,
+        "markdown_sha256_before": "1abda5fa799dcf9596af745d5d0155263d42129ca0717309eb57b53f347641df",
+        "markdown_sha256_after": "73478f51d82c5b640c71f9d7712dd5516c46854fca6bae21e858072595fb4a34"
+      },
+      {
+        "post_id": 564,
+        "markdown_sha256_before": "4a130c81e9f1b2905ae21103b1212b0a946a861e5e685791b8cfd5b4b6c7c9bd",
+        "markdown_sha256_after": "d1946e99a418078ddd3c280f010757eddbe49934a6a21adaca95008ffdab6438"
+      },
+      {
+        "post_id": 579,
+        "markdown_sha256_before": "d3eb980de1574d4ac69ac30b2b8479842b71918d80dc8fa1fd3db14c8a234fe9",
+        "markdown_sha256_after": "b3b91b5878f8778ae95eee9d6066e92f1b5c016a120e9553caff091e1396018a"
+      },
+      {
+        "post_id": 608,
+        "markdown_sha256_before": "3a46f7eac86cb84787f9bd638da4e62e7a26ded382594bd4e79924182ea44f66",
+        "markdown_sha256_after": "4ef231d0e6b3a67cc3271f4dae7f305b947242703ab07d5c4fc56d01b38fa54f"
+      },
+      {
+        "post_id": 653,
+        "markdown_sha256_before": "0b8c608e3ce57c3d2cbae45847b3a3e2331c1f8f9fa59fa1f9b61bf9aac2ddc2",
+        "markdown_sha256_after": "7cbc95229fb442425b0ae106bda75bc23b0eb02ebc86c5467bdd7bce9bef3442"
+      },
+      {
+        "post_id": 1844,
+        "markdown_sha256_before": "612d61ec6232f80b72643ed557af08f76f081eace41b86895789b0116f731c5e",
+        "markdown_sha256_after": "848726fc86b75bf545da0e3eb7957ab8612d94fcb1d60d592efc9e4ccd068489"
+      },
+      {
+        "post_id": 1989,
+        "markdown_sha256_before": "966c8540684d4d109d44d95fad765444c305e98ff4b72b492fd13b864409880b",
+        "markdown_sha256_after": "dc7843d75479cb5d7b3fc5af00cdf58b594af00aca669798bdb6142161916a1e"
+      },
+      {
+        "post_id": 3657,
+        "markdown_sha256_before": "7be42e4e69da30fc0179e2573dd98715194c2eaca28a356ecf297418ab74026e",
+        "markdown_sha256_after": "ebc994cb42c839090b8c721858c3d388dc36fd54227c9d20dc1dbf71846a288c"
+      },
+      {
+        "post_id": 6695,
+        "markdown_sha256_before": "76561e126238d53ee127227b3c8b6ca2a1e9f1e7925923d8c76a829d8cb43403",
+        "markdown_sha256_after": "f2b7f39673bf0c3e0a6ff963ca6afc03a3dfc9725c0980059cf2eef87b8df12c"
+      }
+    ],
+    "images": [
+      {
+        "post_id": 95,
+        "path": "/wp-content/uploads/2009/01/recovered-widgetfx-launch-icon.png",
+        "source_url_sha256": "71fe65703a5f57ee9c2fd0af1d3a393bc8dfa6aaa0e418837897d917a1b8843c",
+        "source_host": "widgetfx.googlecode.com",
+        "requested_timestamp": "20090127"
+      },
+      {
+        "post_id": 428,
+        "path": "/wp-content/uploads/2009/07/recovered-sang_shin.jpg",
+        "source_url_sha256": "9c145e0484fdf9e1b7eaec7aa8fd8d6cd64ffaf098ec37ca0168bc0ea1b75185",
+        "source_host": "blogs.sun.com",
+        "requested_timestamp": "20090707"
+      },
+      {
+        "post_id": 439,
+        "path": "/wp-content/uploads/2009/07/recovered-widgetfx-13774.jpg",
+        "source_url_sha256": "233795f7bc8217750cf7b438b445a6aa5584ca1862d7f575b08d2b42faa196be",
+        "source_host": "widgetfx.org",
+        "requested_timestamp": "20090717"
+      },
+      {
+        "post_id": 515,
+        "path": "/wp-content/uploads/2009/08/recovered-1184541207968tq2.jpg",
+        "source_url_sha256": "846cb4200ddae33a77b48a20c931401ff91b8101107d69fa79c20ef217e164e4",
+        "source_host": "img524.imageshack.us",
+        "requested_timestamp": "20090802"
+      },
+      {
+        "post_id": 557,
+        "path": "/wp-content/uploads/2009/08/recovered-naruto___together_again_by_nekozumi.jpg",
+        "source_url_sha256": "d71c8277abdc2b731fca17af6958334ad09f20b79a64bf498f921140de69fba0",
+        "source_host": "th09.deviantart.net",
+        "requested_timestamp": "20090809"
+      },
+      {
+        "post_id": 564,
+        "path": "/wp-content/uploads/2009/08/recovered-widgetfx-14709.png",
+        "source_url_sha256": "1acebbbd69cf60b13f1a066c517125d44e168fd39759c137786e60fdc3039f6c",
+        "source_host": "widgetfx.org",
+        "requested_timestamp": "20090818"
+      },
+      {
+        "post_id": 564,
+        "path": "/wp-content/uploads/2009/08/recovered-widgetfx-14831.png",
+        "source_url_sha256": "2774c20df85d4db4a2a2fec5bcbe83563cbb77a30d59cfd303a55149818e1420",
+        "source_host": "widgetfx.org",
+        "requested_timestamp": "20090818"
+      },
+      {
+        "post_id": 564,
+        "path": "/wp-content/uploads/2009/08/recovered-widgetfx-15039.png",
+        "source_url_sha256": "5ac0733f5db6e0f3ad2607904e73d1938eda99d28f75cf18adea0bd32b379eb9",
+        "source_host": "widgetfx.org",
+        "requested_timestamp": "20090818"
+      },
+      {
+        "post_id": 564,
+        "path": "/wp-content/uploads/2009/08/recovered-widgetfx-15008.png",
+        "source_url_sha256": "5c5e6d61c5da7b96d09f6fe333040a2a64d1a0bf4c8f609da8e4b753796e3b4e",
+        "source_host": "widgetfx.org",
+        "requested_timestamp": "20090818"
+      },
+      {
+        "post_id": 564,
+        "path": "/wp-content/uploads/2009/08/recovered-widgetfx-15084.jpg",
+        "source_url_sha256": "7a252f3787c885ec1c9d4941a2ecbc9c003d606de545bc2c5c084dc376a36522",
+        "source_host": "widgetfx.org",
+        "requested_timestamp": "20090818"
+      },
+      {
+        "post_id": 564,
+        "path": "/wp-content/uploads/2009/08/recovered-widgetfx-15103.jpg",
+        "source_url_sha256": "82ba7945c5a7de03270fc02a21bb04e29de325172e61259057e1f55f35240ef2",
+        "source_host": "widgetfx.org",
+        "requested_timestamp": "20090818"
+      },
+      {
+        "post_id": 564,
+        "path": "/wp-content/uploads/2009/08/recovered-widgetfx-15091.jpg",
+        "source_url_sha256": "8db5379444a866cef18bf504371dc6a2a48fd6b7c06e7d8fbfba4aaa5271222c",
+        "source_host": "widgetfx.org",
+        "requested_timestamp": "20090818"
+      },
+      {
+        "post_id": 564,
+        "path": "/wp-content/uploads/2009/08/recovered-widgetfx-15097.jpg",
+        "source_url_sha256": "d6b8f981babccb5e356c6f1fe497fbd54b60e917598c3b9ef3a3d3a1158c00d1",
+        "source_host": "widgetfx.org",
+        "requested_timestamp": "20090818"
+      },
+      {
+        "post_id": 579,
+        "path": "/wp-content/uploads/2009/08/recovered-3695679064_a52907596e_m.jpg",
+        "source_url_sha256": "c23002d7c062f5b31cb6c0fe5f0895239ccc97cbe27ca3c3a3be089e42057133",
+        "source_host": "farm4.static.flickr.com",
+        "requested_timestamp": "20090830"
+      },
+      {
+        "post_id": 608,
+        "path": "/wp-content/uploads/2009/09/recovered-widgetfx-15367.png",
+        "source_url_sha256": "17d2d82a2d07497bcbc6852f6771027e8940bb9229dfa447b8841a34c32cbbf3",
+        "source_host": "widgetfx.org",
+        "requested_timestamp": "20090927"
+      },
+      {
+        "post_id": 608,
+        "path": "/wp-content/uploads/2009/09/recovered-widgetfx-15388.png",
+        "source_url_sha256": "481e42fb7f7cbd4be83af1a5f2445967a8566f33f006014f1b80ea8b33e8ab39",
+        "source_host": "widgetfx.org",
+        "requested_timestamp": "20090927"
+      },
+      {
+        "post_id": 608,
+        "path": "/wp-content/uploads/2009/08/recovered-widgetfx-15084.jpg",
+        "source_url_sha256": "7a252f3787c885ec1c9d4941a2ecbc9c003d606de545bc2c5c084dc376a36522",
+        "source_host": "widgetfx.org",
+        "requested_timestamp": "20090818"
+      },
+      {
+        "post_id": 653,
+        "path": "/wp-content/uploads/2009/01/recovered-widgetfx-launch-icon.png",
+        "source_url_sha256": "71fe65703a5f57ee9c2fd0af1d3a393bc8dfa6aaa0e418837897d917a1b8843c",
+        "source_host": "widgetfx.googlecode.com",
+        "requested_timestamp": "20090127"
+      },
+      {
+        "post_id": 1844,
+        "path": "/wp-content/uploads/2011/07/recovered-java7.jpg",
+        "source_url_sha256": "281a38ec03f0c7643a8df4ae5c5d904c1622cbcfe78ba5b47a8b2704ea50f5e3",
+        "source_host": "geeknizer.com",
+        "requested_timestamp": "20110707"
+      },
+      {
+        "post_id": 1844,
+        "path": "/wp-content/uploads/2011/07/recovered-dv11.png",
+        "source_url_sha256": "3ec9af7e6818ec23a66ecb00cba6ffae1e12a33e1fd3ea82f01f161424378dea",
+        "source_host": "www.devoxx.com",
+        "requested_timestamp": "20110707"
+      },
+      {
+        "post_id": 1844,
+        "path": "/wp-content/uploads/2011/07/recovered-1630108699-2.png",
+        "source_url_sha256": "fb5b2fed3f557e78b620103b1021a390c5adc058dd8f58e1b9793e52a0e985d1",
+        "source_host": "evbdn.eventbrite.com",
+        "requested_timestamp": "20110707"
+      },
+      {
+        "post_id": 1989,
+        "path": "/wp-content/uploads/2011/07/recovered-1630108699-2.png",
+        "source_url_sha256": "fb5b2fed3f557e78b620103b1021a390c5adc058dd8f58e1b9793e52a0e985d1",
+        "source_host": "evbdn.eventbrite.com",
+        "requested_timestamp": "20110707"
+      },
+      {
+        "post_id": 3657,
+        "path": "/wp-content/uploads/2014/02/recovered-nao-robot-nextgen-222x300.jpg",
+        "source_url_sha256": "cf6e335936916dc175485c29bd2c5342fed26f817263d39f16a949029bc51c2b",
+        "source_host": "nighthacking.com",
+        "requested_timestamp": "20140217"
+      },
+      {
+        "post_id": 6695,
+        "path": "/wp-content/uploads/2019/12/recovered-javafx-not-dead-yet.png",
+        "source_url_sha256": "7bedf68933c4b5945b7f46ea428c643f52ee441de6e79be7013eb577949bf423",
+        "source_host": "i0.wp.com",
+        "requested_timestamp": "20191211"
+      }
+    ]
   }
 }
