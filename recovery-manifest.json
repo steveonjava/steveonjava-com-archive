@@ -1309,6 +1309,19 @@
       "width": 432
     },
     {
+      "bytes": 82872,
+      "export_sha256": "a86340f7e5c5b2cf5ab2ce3f6fb794efdb86460275961ccaac41f382ac856408",
+      "height": 404,
+      "path": "/wp-content/uploads/2009/06/javafx-1-2-top-101.jpg",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "public-attached",
+      "source_bytes": 68590,
+      "source_path": "/wp-content/uploads/2009/06/javafx-1-2-top-101.jpg",
+      "source_sha256": "be12756af45be86aa16a7ba895caf5f4608fba8698bd580554ec2c3e0173dad3",
+      "transformation": "Read in the lab from the owner's upload after the bulk export, hash-matched to the screened candidate list. Decode to pixels, apply orientation, fresh-pixel JPEG without metadata",
+      "width": 449
+    },
+    {
       "bytes": 696858,
       "export_sha256": "dbef0241455c93f36f5a00f8852c7079da22030223d9ece9ef2c441c6d4dab90",
       "height": 511,
@@ -1595,6 +1608,19 @@
       "width": 510
     },
     {
+      "bytes": 15885,
+      "export_sha256": "c93ad2343a9e3a45382196b7174fd75ccb0fbb516bc45615047bd25818036e7b",
+      "height": 110,
+      "path": "/wp-content/uploads/2009/10/richbair.png",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "public-referenced",
+      "source_bytes": 9269,
+      "source_path": "/wp-content/uploads/2009/10/richbair.gif",
+      "source_sha256": "df9127712aa6f16109f3f84a73483957fe90739a02d4778ff7135c37090e37b6",
+      "transformation": "Read in the lab from the owner's upload after the bulk export, hash-matched to the screened candidate list. Decode to pixels, apply orientation, fresh-pixel PNG without metadata; the single-frame GIF was converted to PNG",
+      "width": 100
+    },
+    {
       "bytes": 14626,
       "export_sha256": "e9ddb57a4b55ca82fddcc8dcd88e6d309310fb3a6630be41d98a4b2e1df7493d",
       "height": 181,
@@ -1606,6 +1632,19 @@
       "source_sha256": "0f6030fb9fbb933a59a857754a44d332ea07b184d86620b336846345e4db0ce6",
       "transformation": "Decode to pixels, apply orientation, fresh-pixel JPEG/PNG without metadata",
       "width": 200
+    },
+    {
+      "bytes": 2584,
+      "export_sha256": "487de8c20e0e934b1adfcf468b9827f79a94357b036dadbec497a50edb89be97",
+      "height": 34,
+      "path": "/wp-content/uploads/2009/10/webstartsmall2.png",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "public-referenced",
+      "source_bytes": 2337,
+      "source_path": "/wp-content/uploads/2009/10/webstartsmall2.gif",
+      "source_sha256": "8673fe74d940dcd9bb9d1e99cfa4081bd26ccf2c3f20b88fa246b4cc1a1f8883",
+      "transformation": "Read in the lab from the owner's upload after the bulk export, hash-matched to the screened candidate list. Decode to pixels, apply orientation, fresh-pixel PNG without metadata; the single-frame GIF was converted to PNG",
+      "width": 88
     },
     {
       "bytes": 35753,
@@ -2285,6 +2324,19 @@
       "width": 73
     },
     {
+      "bytes": 13666,
+      "export_sha256": "7cff8a2e0863534e9d7ee3ffc9dd6cf35247b3a07ff8b131888de4907f6a0611",
+      "height": 88,
+      "path": "/wp-content/uploads/2010/07/jim_weaver.png",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "public-referenced",
+      "source_bytes": 7292,
+      "source_path": "/wp-content/uploads/2010/07/jim_weaver.gif",
+      "source_sha256": "598f4388c1b613a85225c9414a13d6604b44eb27d03d91cd3446d64cb0535453",
+      "transformation": "Read in the lab from the owner's upload after the bulk export, hash-matched to the screened candidate list. Decode to pixels, apply orientation, fresh-pixel PNG without metadata; the single-frame GIF was converted to PNG",
+      "width": 100
+    },
+    {
       "bytes": 8018,
       "export_sha256": "5bbc50b671e83fa2063d1a5d93336712837824a2427fa3e44587fcf69c9ba387",
       "height": 194,
@@ -2375,6 +2427,19 @@
       "source_sha256": "8b2e49c3927029a891c968ccfbbf2ec74cba698952a7d6c18750f8e0a0c25025",
       "transformation": "Decode to pixels, apply orientation, fresh-pixel JPEG/PNG without metadata",
       "width": 196
+    },
+    {
+      "bytes": 15367,
+      "export_sha256": "a8e86110962e52161f93b490460213a3e88f48df0712629e936b7b2fa147ecd1",
+      "height": 150,
+      "path": "/wp-content/uploads/2010/11/Lean-Agile-Scrum-XP-150x150.png",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "public-referenced",
+      "source_bytes": 8752,
+      "source_path": "/wp-content/uploads/2010/11/Lean-Agile-Scrum-XP-150x150.gif",
+      "source_sha256": "8bb4958a829eb38766dc1ac61bf36d8e8312ea631534d6ce3c2660b406f9267e",
+      "transformation": "Read in the lab from the owner's upload after the bulk export, hash-matched to the screened candidate list. Decode to pixels, apply orientation, fresh-pixel PNG without metadata; the single-frame GIF was converted to PNG",
+      "width": 150
     },
     {
       "bytes": 10574,
@@ -3106,6 +3171,19 @@
       "source_sha256": "644838abf8bfd714f3bdd17b4976e186b103df8ede93eb980f36219e2fd9f89e",
       "transformation": "Decode to pixels, apply orientation, fresh-pixel JPEG/PNG without metadata",
       "width": 150
+    },
+    {
+      "bytes": 18168,
+      "export_sha256": "b1f601ab8cb9a86f85b28e46196bcd90ec9f5b8826f8f81d65f5ef25064c42b4",
+      "height": 101,
+      "path": "/wp-content/uploads/2012/09/thumbnail.png",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "public-referenced",
+      "source_bytes": 11092,
+      "source_path": "/wp-content/uploads/2012/09/thumbnail.gif",
+      "source_sha256": "85c26ef6b5b4d035bdbc56afdc2af9e43a68f1a0df3ce0cd86e469e78ed88c61",
+      "transformation": "Read in the lab from the owner's upload after the bulk export, hash-matched to the screened candidate list. Decode to pixels, apply orientation, fresh-pixel PNG without metadata; the single-frame GIF was converted to PNG",
+      "width": 100
     },
     {
       "bytes": 7239,
@@ -8478,7 +8556,7 @@
     {
       "id": 269,
       "json_sha256": "c5ad75ee251c4a25a119adfdf59e2544b8a71184054e4f5a46240b25b079685d",
-      "markdown_sha256": "5b059097f101ac58aeffe68a557714878b3187c21a6664a931b1f012154192d9",
+      "markdown_sha256": "10ae34f204e88abce3d90fd7931e861d153784dab89e752f598144d88a26ca13",
       "route": "/javafx-1-2-top-10/",
       "type": "post"
     },
@@ -8555,7 +8633,7 @@
     {
       "id": 482,
       "json_sha256": "825fda0ec3bc6141df987d94c0d7df16668ac29cff4fa2f458e14e4fe729ae6c",
-      "markdown_sha256": "784af2b420c88f8073f05982f249ad923a7dedf7c5aff8c939909fe043e7719b",
+      "markdown_sha256": "776ccc9e818fce05a942894a48d9cf8f03b99d675625cc9b2245948d157084d4",
       "route": "/2009-javaone-rock-stars-announced/",
       "type": "post"
     },
@@ -8632,7 +8710,7 @@
     {
       "id": 640,
       "json_sha256": "9efd0b6a587a8923cc2ca83e34c7337cc30ab9c6ed405625611ea7533832bd33",
-      "markdown_sha256": "6aac7980d6086eab9543a730c572ef640f7f2ee203b4060658a4eb9fd3e4ef11",
+      "markdown_sha256": "e9ff7c95be4a154bb80bfaf625c4900170fd9695b2b4557aee77a73eb12db78a",
       "route": "/jugspinner-premieres-at-svcodecamp/",
       "type": "post"
     },
@@ -8646,7 +8724,7 @@
     {
       "id": 662,
       "json_sha256": "48617b113b0053c35812f85ebf92f67a5be9ec8439b0828c8aeea590370f44ce",
-      "markdown_sha256": "88e77ea637f42d02754c9c0924920ec0212f8c0a5ba24be968e5914406b23817",
+      "markdown_sha256": "688b9ffb1717042c45189c0806a92d06d5f88a870cac247d2168068000ab715d",
       "route": "/first-svjugfx-meetup-javafx-with-richard-bair/",
       "type": "post"
     },
@@ -8674,14 +8752,14 @@
     {
       "id": 691,
       "json_sha256": "f4f115de1c9a8aca85a9791c19639abf40c37582a5a36b7b6909eaab0063dc8d",
-      "markdown_sha256": "0958643c5bae92439b219a65d7f2ecd1bf95f78e3c1741d682c1187034c3144d",
+      "markdown_sha256": "deb548c4bf55c50246453f60f45e145837aeea01c083e465390210f3eb48d33f",
       "route": "/learnfx-and-win-at-devoxx/",
       "type": "post"
     },
     {
       "id": 703,
       "json_sha256": "ac8ff5df826b957324776ca3ec32032b13a5b3654824c75d6952e51faa16ed85",
-      "markdown_sha256": "f54b1ad2259b33dc6ad13a76daba60e6404d705ba7dba689ec8db34caba66e81",
+      "markdown_sha256": "74960e4f0fe672d1d6d1ef6a2b77569bda8bb41d9b46f753a90804a183eac730",
       "route": "/devoxx-university-slides/",
       "type": "post"
     },
@@ -8786,7 +8864,7 @@
     {
       "id": 1011,
       "json_sha256": "9d7b682d0692e3e3fac3e961c2672cd7f2ceda5afac8bc725a3e5cf3ba5130fb",
-      "markdown_sha256": "96858ba833409f4b0eb83a14a5d7a685a0d04054767d781c7f5ba30d4bb6bcfc",
+      "markdown_sha256": "06c5d6045fe1c342af04381b6e2e413a4b359465ecc36ffbfd929157b006284e",
       "route": "/jfxtras-0-6-final-released/",
       "type": "post"
     },
@@ -8828,7 +8906,7 @@
     {
       "id": 1261,
       "json_sha256": "dbd75646420bbd17770385ec38c76bb6389a72ba5abf552b32792d5315231036",
-      "markdown_sha256": "daea5ffd3cf21681238db9dcc2dad21c9b7311197a6a2248772d186433453bba",
+      "markdown_sha256": "f3654683ab71e92eefd2b4910ddf7dee069905068bf66310d2752be2195cf340",
       "route": "/petition-to-open-source-javafx/",
       "type": "post"
     },
@@ -8891,7 +8969,7 @@
     {
       "id": 1610,
       "json_sha256": "70a31d07f0e99fa067e7bd931569b65ad802916c3c03b572215f5ac85b249f8a",
-      "markdown_sha256": "f12792aa1846e7f73e3028af64a5883f8977a34bb9de8f8acfe6fd582afc86da",
+      "markdown_sha256": "d533479099c0702eecf4867d0bfb8b449c630f79e43ec4d09a9bff1d99d727a4",
       "route": "/new-blog-categories-javafx-agile-and-flash/",
       "type": "post"
     },
@@ -9122,7 +9200,7 @@
     {
       "id": 2566,
       "json_sha256": "d6febafa0ae36048253d2a17c0eb9c45605a9624e80c73f98200bff5864a3ae4",
-      "markdown_sha256": "7ecd845a6b1c8e922b01837acde161ba12143ecf76652ca3ad9505500202d13d",
+      "markdown_sha256": "680cd041687358de12c6c5c81c60226174813931b04be06bf8e1e276cc8d8073",
       "route": "/nighthacking-tour-the-road-to-devoxx/",
       "type": "post"
     },
@@ -9290,7 +9368,7 @@
     {
       "id": 3579,
       "json_sha256": "926c72c906f50b432d91340464a1f630ce9d82681a704434106573347eb42890",
-      "markdown_sha256": "cc2028575bf8b4dafca775eb99b4257010f28974fce5c2bad060db7875d16430",
+      "markdown_sha256": "aef09c424893454ff7ec1840c28666fb2ea8b190f8a1e4817336f4cd5a5399ee",
       "route": "/congrats-to-the-2013-javaone-rock-stars/",
       "type": "post"
     },
@@ -9346,7 +9424,7 @@
     {
       "id": 4899,
       "json_sha256": "9e7584f15a43a46e5c8ca89e0dba95a1e65e87241396182fab279133560a30e7",
-      "markdown_sha256": "dc3889193b7c0c1d7a55bedfa0f257cb0bf403da2e9a46c732387aa438f684ae",
+      "markdown_sha256": "c425d51b4cb52e0bebb66ac18685a082185ac6dd471746f6bc4c558b27a89696",
       "route": "/congratulations-to-the-2014-javaone-rock-stars/",
       "type": "post"
     },
