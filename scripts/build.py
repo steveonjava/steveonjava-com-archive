@@ -30,6 +30,9 @@ HEX256 = re.compile(r"[0-9a-f]{64}\Z")
 LEGACY_ID = re.compile(r"[1-9][0-9]{0,9}\Z")
 LIST_PAGE_SIZE = 20
 MAX_RECORDS = 10000
+# Animation is accepted only as WebP and only within these bounds (frames, and width x height x frames).
+MAX_ANIMATION_FRAMES = 400
+MAX_ANIMATION_PIXELS = 50000000
 MAX_LINK_STATUSES = 20000
 REL = "nofollow noopener noreferrer"
 # Hosts that served each site. Links to them become local routes, because the archive replaces them.
@@ -690,7 +693,13 @@ def copy_photos(root, output):
         require(path.stat().st_size <= 20000000, "Oversized image")
         with Image.open(path) as image:
             require(image.format in {"JPEG", "PNG", "WEBP"}, "Only raster photographs are permitted")
-            require(image.width * image.height <= 20000000 and not getattr(image, "is_animated", False), "Oversized or animated image")
+            require(image.width * image.height <= 20000000, "Oversized image")
+            frames = getattr(image, "n_frames", 1)
+            animated = bool(getattr(image, "is_animated", False)) or frames != 1
+            if animated:
+                require(image.format == "WEBP" and path.suffix.lower() == ".webp", "Animated image formats other than WebP are not permitted")
+                require(1 < frames <= MAX_ANIMATION_FRAMES and image.width * image.height * frames <= MAX_ANIMATION_PIXELS,
+                        "Animation exceeds frame or pixel bounds")
             image.load()
             target = output / url.lstrip("/")
             target.parent.mkdir(parents=True, exist_ok=True)
@@ -701,10 +710,25 @@ def copy_photos(root, output):
             # onto RGB turns its transparent pixels into a solid white box on a dark header.
             has_alpha = image.mode in {"RGBA", "LA", "PA"} or (image.mode == "P" and "transparency" in image.info)
             mode = "RGBA" if has_alpha and fmt in {"PNG", "WEBP"} else "RGB"
-            clean = Image.new(mode, image.size)
-            clean.paste(image.convert(mode))
-            options = {"JPEG": {"quality": 95, "optimize": True}, "WEBP": {"quality": 95}, "PNG": {"optimize": True}}[fmt]
-            clean.save(target, format=fmt, **options)
+            if animated:
+                # A bounded animated WebP keeps every frame, its timing and its loop count. Each frame is
+                # decoded and rewritten as fresh pixels, losslessly, so nothing is inherited from the source.
+                durations, fresh = [], []
+                for index in range(frames):
+                    image.seek(index)
+                    # Decode before reading the timing: Pillow's WebP `duration` is stale until the frame is loaded.
+                    decoded = image.convert("RGBA")
+                    durations.append(int(image.info.get("duration", 0)))
+                    frame = Image.new("RGBA", image.size)
+                    frame.paste(decoded)
+                    fresh.append(frame)
+                fresh[0].save(target, format="WEBP", save_all=True, append_images=fresh[1:], duration=durations,
+                              loop=int(image.info.get("loop", 0)), lossless=True, method=6, minimize_size=True)
+            else:
+                clean = Image.new(mode, image.size)
+                clean.paste(image.convert(mode))
+                options = {"JPEG": {"quality": 95, "optimize": True}, "WEBP": {"quality": 95}, "PNG": {"optimize": True}}[fmt]
+                clean.save(target, format=fmt, **options)
         photos.add(url)
     return photos
 

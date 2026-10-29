@@ -26,7 +26,7 @@ Retired site hosts become local routes, including the former `nighthacking.com` 
 
 ### Assets, rights, and recovery evidence
 
-Approved raster assets live under `assets/wp-content/uploads/YYYY/MM/`, with `.jpg`, `.jpeg`, `.png`, or `.webp` extensions. Existing historical mixed-case filenames remain supported. New exporter output may use dated lowercase ASCII JPEG/PNG paths. Builds decode and encode fresh pixels without inherited metadata, reject animation and symlinks, and bound dimensions and file size. Header/sidebar artwork follows the same safety path as post images.
+Approved raster assets live under `assets/wp-content/uploads/YYYY/MM/`, with `.jpg`, `.jpeg`, `.png`, or `.webp` extensions. Existing historical mixed-case filenames remain supported. New exporter output may use dated lowercase ASCII JPEG/PNG paths. Builds decode and encode fresh pixels without inherited metadata, reject symlinks and every animation except a bounded animated WebP (at most 400 frames and 50 million pixels across all frames, which keeps its frames, timing and loop count), and bound dimensions and file size. Header/sidebar artwork follows the same safety path as post images.
 
 The checked registry formats are the existing repository formats, not newly fabricated manifests:
 

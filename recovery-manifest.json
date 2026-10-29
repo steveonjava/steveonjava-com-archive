@@ -1752,6 +1752,20 @@
       "width": 726
     },
     {
+      "bytes": 21784,
+      "export_sha256": "57bebc1a18e27a0c98ceac44b2f0139007ec5e428e5e217210daaae7994c241f",
+      "height": 225,
+      "path": "/wp-content/uploads/2009/09/recovered-moosefly.webp",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "owner-supplied-decoded-and-reencoded",
+      "source_bytes": 22108,
+      "source_path": "www.coderanch.com/templates/default/images/moosefly.gif",
+      "source_sha256": "1a7b00fd76f5e746b743a71bf6b5ad156c0c77fee80602a2467a4b1ab8372959",
+      "source_url_sha256": "02ba5d38fa7fcfeaee5dd51928f11f717073d8e4e220d30db64eda70c78c7b2b",
+      "transformation": "Supplied by the owner on 2026-10-28 as an animated WebP of the coderanch moose mascot the post cited as a GIF. All 142 frames matched the Internet Archive capture of that GIF pixel for pixel. Decode every frame, fresh-pixel lossless animated WebP with the source frame timing and loop count, no metadata",
+      "width": 190
+    },
+    {
       "bytes": 12270,
       "export_sha256": "24bc4aa8da327652e1eaa3c4d6f96be6a85c2a80f008e7cede368b566c71c11e",
       "height": 253,
@@ -8997,7 +9011,7 @@
     {
       "id": 633,
       "json_sha256": "b89f98a0284986d41d6000609044e9264ff3ce38e30a29bfb6d36e90d51c1d5a",
-      "markdown_sha256": "587114be37d0ceb65e1dc78f7fad18d6832a01871eb23aef73ef0adb53c328eb",
+      "markdown_sha256": "d826732de580a0e7e0aa8d055f275e67dd04ecc19723dcd8b26c5b910d366930",
       "route": "/hanging-out-on-the-ranch/",
       "type": "post"
     },

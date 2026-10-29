@@ -500,6 +500,14 @@
     "export_sha256": "724341441fcd0d57b7e5232f405d7cbcdf3eb5378228247f3a4e8b2678b7f534"
   },
   {
+    "path": "/wp-content/uploads/2009/09/recovered-moosefly.webp",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Supplied by the owner on 2026-10-28 for the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. Artwork of the JavaRanch (coderanch) site; owner review is still required.",
+    "export_sha256": "57bebc1a18e27a0c98ceac44b2f0139007ec5e428e5e217210daaae7994c241f"
+  },
+  {
     "path": "/wp-content/uploads/2009/09/recovered-widgetfx-15367.png",
     "rights_holder": "unreviewed",
     "status": "unreviewed",

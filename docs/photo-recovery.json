@@ -873,5 +873,41 @@
         "requested_timestamp": "20191211"
       }
     ]
+  },
+  "owner_supplied_recovery": {
+    "recorded": "2026-10-28",
+    "authority": "The owner supplied the file as an animated WebP, after the Internet Archive capture of the cited GIF was held because the builder accepted no animation. The builder now accepts animated WebP within frame and pixel bounds.",
+    "method": "Every frame of the supplied file was compared with the archived GIF (142 frames once repeated frames are merged, zero pixel difference). The asset is the builder's own re-encode of the supplied file: every frame decoded and rewritten as fresh pixels, lossless, with the source frame timing and loop count and no metadata. Placement follows the archived post page, where the image opens the post.",
+    "new_images": 1,
+    "omitted_entries_resolved": 1,
+    "resolves_hold": {
+      "post_id": 633,
+      "source_url_sha256": "02ba5d38fa7fcfeaee5dd51928f11f717073d8e4e220d30db64eda70c78c7b2b",
+      "reason": "animated GIF (144 frames, coderanch moosefly), held for the owner"
+    },
+    "placements": [
+      {
+        "post_id": 633,
+        "basis": "archive-capture",
+        "position": "before the first paragraph"
+      }
+    ],
+    "edited_posts": [
+      {
+        "post_id": 633,
+        "markdown_sha256_before": "587114be37d0ceb65e1dc78f7fad18d6832a01871eb23aef73ef0adb53c328eb",
+        "markdown_sha256_after": "d826732de580a0e7e0aa8d055f275e67dd04ecc19723dcd8b26c5b910d366930"
+      }
+    ],
+    "images": [
+      {
+        "post_id": 633,
+        "path": "/wp-content/uploads/2009/09/recovered-moosefly.webp",
+        "source_url_sha256": "02ba5d38fa7fcfeaee5dd51928f11f717073d8e4e220d30db64eda70c78c7b2b",
+        "source_host": "www.coderanch.com",
+        "frames": 142,
+        "supplied_as": "animated WebP"
+      }
+    ]
   }
 }
