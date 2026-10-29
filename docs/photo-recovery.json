@@ -909,5 +909,69 @@
         "supplied_as": "animated WebP"
       }
     ]
+  },
+  "lab_named_recovery": {
+    "recorded": "2026-10-28",
+    "authority": "The owner asked for the omitted `Har\u00f0fiskur-300x200.jpg` in post 3022 to be recovered from the lab copy of the original site, with the file name exporter convention for unsupported characters.",
+    "method": "The exporter had skipped this file because its name holds a character outside ASCII. In the lab it was found by the raw bytes of its name (the post cites it as a single byte 0xF0 and the disk holds the UTF-8 form), and used only because the lab\u2019s own screened lists held exactly one row for it with the same size and SHA-256. It was fully decoded, orientation applied and rewritten as fresh pixels without metadata, then validated again on this host. The new file name is `image-` plus the first 24 hex digits of the SHA-256 of `2013/01/Har\u00f0fiskur-300x200.jpg`, as the exporter names such files. Placement follows the paragraphs the lab reported either side of it. The alt text is the author\u2019s own spelling; the lab report shows a replacement character there only because the post body stores the name as a single byte.",
+    "new_images": 1,
+    "omitted_entries_resolved": 1,
+    "edited_posts": [
+      {
+        "post_id": 3022,
+        "markdown_sha256_before": "1aea32f9a731aa1b93e08c7fcc58889451ebc86c34bdd653d0e707a8c28f68c2",
+        "markdown_sha256_after": "a76af55866bfd69fd6154f709a6e2e51647e05a90294d5cb37618fba0e154375"
+      }
+    ],
+    "images": [
+      {
+        "post_id": 3022,
+        "path": "/wp-content/uploads/2013/01/image-be1de9128c3f4d3c3695f9d4.jpg",
+        "source_path": "/wp-content/uploads/2013/01/Har\u00f0fiskur-300x200.jpg",
+        "source_url_sha256": "527c36aa0b60509f89d7b8a51bbc8687d7e33b2d3ee634e976cec21e2247e92c"
+      }
+    ]
+  },
+  "wayback_headshots_recovery": {
+    "recorded": "2026-10-28",
+    "authority": "The owner approved fetching the two OSCON speaker headshots of post 1844 from the Internet Archive, through the Camofox browser, after reading their archived page.",
+    "method": "Each was fetched once, byte for byte (the unmodified `id_` replay), from the capture the archive holds of the cited address, identified by SHA-256 of that address, then decoded and rewritten as fresh pixels without metadata. Placement follows the text either side of each image on the archived post page, where each sits under its numbered heading. Both are 75 by 100 pixel portraits; the archived page titled them with the speakers\u2019 names, used here as alt text.",
+    "new_images": 2,
+    "omitted_entries_resolved": 2,
+    "edited_posts": [
+      {
+        "post_id": 1844,
+        "markdown_sha256_before": "848726fc86b75bf545da0e3eb7957ab8612d94fcb1d60d592efc9e4ccd068489",
+        "markdown_sha256_after": "099dec5ce1cfb952098987cccd87a7cbd8f453a60c53be810e5bab932142046d"
+      }
+    ],
+    "images": [
+      {
+        "post_id": 1844,
+        "path": "/wp-content/uploads/2011/07/recovered-oreilly-user-121468.jpg",
+        "source_url_sha256": "743982de0cd53fa442336c7ae52e8e07395509927433ee8893caf312a85a316e",
+        "source_host": "assets.en.oreilly.com",
+        "requested_timestamp": "2011"
+      },
+      {
+        "post_id": 1844,
+        "path": "/wp-content/uploads/2011/07/recovered-oreilly-user-106308.jpg",
+        "source_url_sha256": "c7f41bcca566da41f857109d275056f021339f1f4ca853dc4b8b99cd1f404da9",
+        "source_host": "assets.en.oreilly.com",
+        "requested_timestamp": "2011"
+      }
+    ],
+    "placements": [
+      {
+        "post_id": 1844,
+        "path": "/wp-content/uploads/2011/07/recovered-oreilly-user-106308.jpg",
+        "basis": "archive-capture"
+      },
+      {
+        "post_id": 1844,
+        "path": "/wp-content/uploads/2011/07/recovered-oreilly-user-121468.jpg",
+        "basis": "archive-capture"
+      }
+    ]
   }
 }
