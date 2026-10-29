@@ -2,7 +2,7 @@
 
 A read-only static rebuild of **steveonjava.com**, preserving 143 published posts and 4 static pages from Stephen Chin's historical WordPress site. Post dates range from 2008-12-06 through 2019-12-11. Recovered text keeps the original wording, subject to the documented sanitizer and encoding losses.
 
-Records remain unreviewed, and every rendered page retains `noindex,nofollow`. Full content conversion, source verification, rights clearance, merge approval, deployment and public indexing are separate gates.
+The site is launched: pages are indexable, and the build publishes `robots.txt` and `sitemap.xml` (`docs/launch.md`). Records keep their recorded `unreviewed` status in the JSON files, and the owner's position on rights is recorded in `docs/launch.md`.
 
 ## Content and evidence
 

@@ -14,6 +14,7 @@ import re
 import shutil
 import unicodedata
 from urllib.parse import parse_qsl, unquote, unquote_to_bytes, urlsplit, urlunsplit
+from xml.etree import ElementTree
 
 from markdown_it import MarkdownIt
 from markdown_it.token import Token
@@ -34,6 +35,11 @@ MAX_RECORDS = 10000
 MAX_ANIMATION_FRAMES = 400
 MAX_ANIMATION_PIXELS = 50000000
 MAX_LINK_STATUSES = 20000
+# `prototype` keeps every page out of search engines. `launched` makes pages indexable and publishes robots.txt and sitemap.xml.
+STATUSES = {"prototype", "launched"}
+ROBOTS = {"prototype": "noindex,nofollow", "launched": "index,follow"}
+SITEMAP_NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
+MAX_SITEMAP_URLS = 50000
 REL = "nofollow noopener noreferrer"
 # Hosts that served each site. Links to them become local routes, because the archive replaces them.
 ALIASES = {"steveonjava": {"steveonjava.com", "www.steveonjava.com"},
@@ -350,7 +356,7 @@ def validate(root):
     host = "steveonjava.com" if config["site"] == "steveonjava" else "nighthacking.tv"
     require(config["canonical_base"] == f"https://{host}", "Unexpected canonical_base")
     require(config["main_site"] == "https://stephenchin.com", "Unexpected main_site")
-    require(config["status"] == "prototype", "Only prototype builds are permitted")
+    require(config["status"] in STATUSES, "Unexpected status")
     # A CNAME file at the repository root marks a site that is bound to its own domain. GitHub ignores the file
     # for workflow deployments, so here it only tells the build to serve from the domain root.
     config["custom_domain"] = None
@@ -672,7 +678,7 @@ def page(config, title, body, route, sidebar, layout="index", video="", meta="")
         content = '<main id="main" class="night-main" tabindex="-1">' + stage + '<div class="gallery-heading">' + heading + '</div><div class="' + cols + '"><section class="' + panel + '">' + body + '</section>' + aside + '</div></main>'
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex,nofollow"><meta http-equiv="Content-Security-Policy" content="{escape(CSP, quote=True)}">
+<meta name="robots" content="{ROBOTS[config['status']]}"><meta http-equiv="Content-Security-Policy" content="{escape(CSP, quote=True)}">
 <meta name="description" content="{escape(title + ' | ' + config['title'], quote=True)}"><title>{escape(title)} | {escape(config['title'])}</title>
 <link rel="canonical" href="{escape(config['canonical_base'] + route, quote=True)}"><link rel="stylesheet" href="/assets/archive.css"><script src="/assets/legacy.js" defer></script></head>
 <body class="{config['site']}"><a class="skip-link" href="#main">Skip to content</a><div class="site-shell">
@@ -734,9 +740,10 @@ def copy_photos(root, output):
 
 
 class Audit(HTMLParser):
-    def __init__(self, output, route, base="", routes=()):
+    def __init__(self, output, route, base="", routes=(), robots=ROBOTS["prototype"]):
         super().__init__(convert_charrefs=True)
         self.output, self.route, self.base = output, route, base
+        self.robots = robots
         local_routes = list(routes)
         self.allowed_routes = local_routes + [base + item for item in local_routes]
         self.unrecovered = []
@@ -749,7 +756,7 @@ class Audit(HTMLParser):
         require(not any(k.startswith("on") or k in {"style", "srcdoc", "srcset"} for k in attrs), "Active HTML attribute")
         require("prototype" not in attrs.get("class", "").split(), "Reader-facing prototype notice")
         if tag == "meta" and attrs.get("name") == "robots":
-            self.has_robots = attrs.get("content") == "noindex,nofollow"
+            self.has_robots = attrs.get("content") == self.robots
         if tag == "meta" and attrs.get("http-equiv", "").lower() == "content-security-policy":
             self.has_csp = attrs.get("content") == CSP
         if tag == "script":
@@ -788,7 +795,41 @@ class Canonical(HTMLParser):
             self.urls.append(attrs.get("href"))
 
 
-def check(output, base="", routes=None):
+def robots_txt(canonical_base):
+    return f"User-agent: *\nAllow: /\n\nSitemap: {canonical_base}/sitemap.xml\n"
+
+
+def sitemap_xml(canonical_base, routes):
+    urls = sorted(canonical_base + route for route in routes if route != "/404.html")
+    require(0 < len(urls) <= MAX_SITEMAP_URLS and len(set(urls)) == len(urls), "Invalid sitemap size or duplicate page")
+    entries = "".join(f"<url><loc>{escape(url, quote=False)}</loc></url>\n" for url in urls)
+    return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="{SITEMAP_NS}">\n{entries}</urlset>\n'
+
+
+def check_launch_files(output, canonicals, status):
+    """A launched build must publish robots.txt and a sitemap of exactly its pages. A prototype build must publish neither."""
+    robots, sitemap = output / "robots.txt", output / "sitemap.xml"
+    if status != "launched":
+        require(not any(path.exists() or path.is_symlink() for path in (robots, sitemap)), "robots.txt or sitemap.xml in a prototype build")
+        return
+    origins = {f"{parts.scheme}://{parts.netloc}" for parts in map(urlsplit, canonicals)}
+    require(len(origins) == 1, "Canonical URLs must share one origin")
+    (origin,) = origins
+    for path in (robots, sitemap):
+        require(path.is_file() and not path.is_symlink(), f"Missing {path.name}")
+    require(robots.read_text(encoding="utf-8") == robots_txt(origin), "Unexpected robots.txt")
+    try:
+        document = ElementTree.fromstring(sitemap.read_bytes())
+    except ElementTree.ParseError as error:
+        raise ValueError(f"Invalid sitemap.xml: {error}") from error
+    require(document.tag == f"{{{SITEMAP_NS}}}urlset", "Invalid sitemap root")
+    locations = [node.text for node in document.iter(f"{{{SITEMAP_NS}}}loc")]
+    expected = [url for url in canonicals if urlsplit(url).path != "/404.html"]
+    require(len(locations) == len(set(locations)) and sorted(locations) == sorted(expected), "sitemap.xml does not list exactly the generated pages")
+
+
+def check(output, base="", routes=None, status="prototype"):
+    require(status in STATUSES, "Unexpected status")
     require(isinstance(base, str) and BASE_PATH.fullmatch(base) is not None, "Invalid base path")
     output = Path(output)
     require(output.is_dir() and not output.is_symlink(), "Unsafe output directory")
@@ -797,7 +838,7 @@ def check(output, base="", routes=None):
     require(not re.search(r"url\s*\(|@import|expression\s*\(", stylesheet, re.I), "Unexpected CSS resource or active expression")
     # Read the canonical identity to preserve the exact original percent spelling
     # while proving that it names this decoded Unicode filesystem target.
-    identities = []
+    identities, canonicals = [], []
     for file in sorted(output.rglob("*.html")):
         html = file.read_text(encoding="utf-8")
         canonical = Canonical()
@@ -812,18 +853,20 @@ def check(output, base="", routes=None):
                 validate_slug(part)
         require(output_path(output, route).resolve() == file.resolve(), "Canonical URI does not match output path")
         identities.append((route, html))
+        canonicals.append(canonical.urls[0])
     require(bool(identities), "No generated pages")
     discovered = register_routes(route for route, _ in identities)
     if routes is not None:
         require(set(discovered.values()) == set(routes), "Generated HTML coverage differs from route plan")
     unresolved = []
     for route, html in identities:
-        audit = Audit(output, route, base, discovered.values())
+        audit = Audit(output, route, base, discovered.values(), ROBOTS[status])
         audit.feed(html)
         require(audit.has_robots and audit.has_csp, f"Missing robots policy or CSP: {route}")
         # The home page repeats bodies; report unrecovered links on the record.
         if route != "/":
             unresolved.extend({"page": route, "target": url} for url in audit.unrecovered)
+    check_launch_files(output, canonicals, status)
     return unresolved
 
 
@@ -922,10 +965,13 @@ def build(root, base=""):
         target.parent.mkdir(parents=True, exist_ok=True)
         html = apply_link_policy(page(config, title, body, route, sidebar, layout, video, meta), config, route)
         target.write_text(rebase(html, base), encoding="utf-8")
-    unresolved = check(output, base, routes=routes)
+    if config["status"] == "launched":
+        (output / "robots.txt").write_text(robots_txt(config["canonical_base"]), encoding="utf-8")
+        (output / "sitemap.xml").write_text(sitemap_xml(config["canonical_base"], routes), encoding="utf-8")
+    unresolved = check(output, base, routes=routes, status=config["status"])
     external = [{"url": url, "status": link_state(url, config), "pages": sorted(locations)}
                 for url, locations in sorted(config["external_urls"].items())]
-    report = {"status": "prototype", "review_status": "unreviewed", "base_path": base,
+    report = {"status": config["status"], "review_status": "unreviewed", "base_path": base,
               "custom_domain": config["custom_domain"], "posts": len(posts), "static_pages": len(static_pages),
               "pages": len(pages), "photos": len(photos), "routes": sorted(routes),
               "record_routes": config["record_routes"], "unrecovered_links": unresolved,
@@ -945,7 +991,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
     try:
         if args.check_only:
-            print(json.dumps({"unrecovered_links": check(args.root / "_site", args.base_path)}))
+            config = load_json(args.root / "archive.json")
+            require(isinstance(config, dict), "Invalid archive.json")
+            print(json.dumps({"unrecovered_links": check(args.root / "_site", args.base_path, status=config.get("status"))}))
         else:
             build(args.root, args.base_path)
     except (ValueError, OSError, json.JSONDecodeError) as error:

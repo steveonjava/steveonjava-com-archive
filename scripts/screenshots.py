@@ -21,6 +21,7 @@ CAVEATS = ['Only the posts listed here are included', 'A limited selection of re
            'Video archive prototype', 'Availability is unknown', 'Opening this link visits YouTube',
            'Historical motorcycle photograph is not included', 'Archive note:', 'Source and review notes']
 CSP = "default-src 'none'; img-src 'self'; style-src 'self'; script-src 'self'; connect-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'"
+ROBOTS = {'prototype': 'noindex,nofollow', 'launched': 'index,follow'}
 VIEWPORTS = {'desktop': {'width': 1280, 'height': 900}, 'mobile': {'width': 390, 'height': 844}}
 MODES = ('desktop', 'mobile', 'desktop-nojs', 'mobile-nojs')
 
@@ -236,11 +237,11 @@ def watch_page(page, errors, base, expected_abort_pages):
             and not (page in expected_abort_pages and request.failure == 'net::ERR_ABORTED') else None)
 
 
-def check_page(page, origin, base):
+def check_page(page, origin, base, robots):
     require(page.locator('.prototype, .header-note, .dead-note, details, iframe, form, object, embed, base').count() == 0,
             'Unexpected caveat or active/embed element')
     require(page.locator('main h1').count() == 1, 'Expected exactly one main h1')
-    require(page.locator('meta[name="robots"]').get_attribute('content') == 'noindex,nofollow', 'Missing robots policy')
+    require(page.locator('meta[name="robots"]').get_attribute('content') == robots, 'Missing robots policy')
     require(page.locator('meta[http-equiv="Content-Security-Policy"]').get_attribute('content') == CSP, 'Unexpected CSP')
     content = page.content()
     for phrase in CAVEATS:
@@ -310,6 +311,7 @@ def run_browser(root, base, output, route_plan, manifest):
     from playwright.sync_api import sync_playwright
 
     site_output = root / '_site'
+    robots = ROBOTS[json.loads((root / 'archive.json').read_text())['status']]
 
     class Handler(SimpleHTTPRequestHandler):
         def translate_path(self, path):
@@ -367,7 +369,7 @@ def run_browser(root, base, output, route_plan, manifest):
                     try:
                         visit(page, row['route'], nojs=mode.endswith('-nojs'))
                         result['http_status'] = 200
-                        check_page(page, origin, base)
+                        check_page(page, origin, base, robots)
                         if row['record_id'] and not mode.endswith('-nojs'):
                             expected_abort_pages.add(page)
                             parameter = 'page_id' if row['record_type'] == 'page' else 'p'
