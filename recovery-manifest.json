@@ -1114,6 +1114,20 @@
       "width": 566
     },
     {
+      "bytes": 3063,
+      "export_sha256": "9c793f47a57d1e14f91f06303baed62c2a409950b4fac41a1fac95ca1590eb83",
+      "height": 25,
+      "path": "/wp-content/uploads/2009/01/recovered-widgetfx-launch-icon.png",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 3131,
+      "source_path": "widgetfx.googlecode.com/svn/site/images/WidgetFX-launch-icon.png",
+      "source_sha256": "98b12bf5f2fbe5fd7ef5f9b0029c3e9c84f08384ca0791e4813a9919287abef7",
+      "source_url_sha256": "71fe65703a5f57ee9c2fd0af1d3a393bc8dfa6aaa0e418837897d917a1b8843c",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 20090127) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel PNG without metadata",
+      "width": 82
+    },
+    {
       "bytes": 188778,
       "export_sha256": "cff8d3e7f6b7c346a1f90c7529bd6ff926234dc617e811b6c83bd6e05ff7aebf",
       "height": 391,
@@ -1530,6 +1544,34 @@
       "width": 260
     },
     {
+      "bytes": 36689,
+      "export_sha256": "e41881cea721ed56a85287bdcd67399234bd8a89c7f6a62f0bcc3aec4e2a5f84",
+      "height": 325,
+      "path": "/wp-content/uploads/2009/07/recovered-sang_shin.jpg",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 38055,
+      "source_path": "blogs.sun.com/alejandrafierro/resource/sang_shin.jpg",
+      "source_sha256": "25ec3c2f9ebb9301015d5f6dbcb51f706a0c1f1298737499d29ddbad8e6c5792",
+      "source_url_sha256": "9c145e0484fdf9e1b7eaec7aa8fd8d6cd64ffaf098ec37ca0168bc0ea1b75185",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 20090707) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel JPEG without metadata",
+      "width": 375
+    },
+    {
+      "bytes": 16912,
+      "export_sha256": "f4c8a39d2cfc40c18d23bae4bbdc126d6d282259670534133576569eb84c5c56",
+      "height": 250,
+      "path": "/wp-content/uploads/2009/07/recovered-widgetfx-13774.jpg",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 17901,
+      "source_path": "widgetfx.org/portal/image/journal/article",
+      "source_sha256": "11a6db47bc69faaa52d79b78acca90682266ec6d59f8d9213f2fc5afcf5b239f",
+      "source_url_sha256": "233795f7bc8217750cf7b438b445a6aa5584ca1862d7f575b08d2b42faa196be",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 20090717) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel JPEG without metadata",
+      "width": 300
+    },
+    {
       "bytes": 86801,
       "export_sha256": "2f1ea98608a7329a2e241d61f668dcdb2e153b1ef58d8c49576671f5114e07a6",
       "height": 360,
@@ -1543,6 +1585,160 @@
       "width": 640
     },
     {
+      "bytes": 93338,
+      "export_sha256": "f1ee0eec65f9322d610b4949c6ee7aa2fb16f4d723632b4552f55fb1d1945c3a",
+      "height": 980,
+      "path": "/wp-content/uploads/2009/08/recovered-1184541207968tq2.jpg",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 68358,
+      "source_path": "img524.imageshack.us/img524/3223/1184541207968tq2.jpg",
+      "source_sha256": "eb3d0c0a855e43d5bc57e2e9ad227542465fc84ae37ebfb13f728a67dd40a8ec",
+      "source_url_sha256": "846cb4200ddae33a77b48a20c931401ff91b8101107d69fa79c20ef217e164e4",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 20090802) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel JPEG without metadata",
+      "width": 597
+    },
+    {
+      "bytes": 19702,
+      "export_sha256": "7abf8c7df1a9a5a8ab7c711e58722d609b2ef19be034300bf9085d3671edb692",
+      "height": 160,
+      "path": "/wp-content/uploads/2009/08/recovered-3695679064_a52907596e_m.jpg",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 24119,
+      "source_path": "farm4.static.flickr.com/3637/3695679064_a52907596e_m.jpg",
+      "source_sha256": "fdda999232d2218932eacea6691345ef529aa8a347f02e2ad91bffc831b97271",
+      "source_url_sha256": "c23002d7c062f5b31cb6c0fe5f0895239ccc97cbe27ca3c3a3be089e42057133",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 20090830) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel JPEG without metadata",
+      "width": 240
+    },
+    {
+      "bytes": 40249,
+      "export_sha256": "7afa1147b48a76bcee480ace898f4817d0a305990ccbec6c1fbe69055ef14b4c",
+      "height": 225,
+      "path": "/wp-content/uploads/2009/08/recovered-naruto___together_again_by_nekozumi.jpg",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 36127,
+      "source_path": "th09.deviantart.net/fs17/300W/i/2007/226/d/1/NARUTO___Together_Again_by_nekozumi.jpg",
+      "source_sha256": "e91719afdb49328f5ac373928347439706e807b5093e72857297645083f16d4c",
+      "source_url_sha256": "d71c8277abdc2b731fca17af6958334ad09f20b79a64bf498f921140de69fba0",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 20090809) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel JPEG without metadata",
+      "width": 300
+    },
+    {
+      "bytes": 51712,
+      "export_sha256": "c3ce6c2f1bb0913c7fc6ffae5115bdffc99c822766fa30a64e8acf11710b71d1",
+      "height": 370,
+      "path": "/wp-content/uploads/2009/08/recovered-widgetfx-14709.png",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 49949,
+      "source_path": "widgetfx.org/portal/image/journal/article",
+      "source_sha256": "ac213d5966be8481c31a40bf619fe15be88c4841365856129270f6107d0d35c6",
+      "source_url_sha256": "1acebbbd69cf60b13f1a066c517125d44e168fd39759c137786e60fdc3039f6c",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 20090818) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel PNG without metadata",
+      "width": 300
+    },
+    {
+      "bytes": 24923,
+      "export_sha256": "c0e680acc2ae2814c4704ebcfe6727235adbf2df25136230c1df7269726c1c58",
+      "height": 378,
+      "path": "/wp-content/uploads/2009/08/recovered-widgetfx-14831.png",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 19640,
+      "source_path": "widgetfx.org/portal/image/journal/article",
+      "source_sha256": "9c02d02079ac8dbb07980491bf469410c450d3e620d8d71b81f92765a04f7c4c",
+      "source_url_sha256": "2774c20df85d4db4a2a2fec5bcbe83563cbb77a30d59cfd303a55149818e1420",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 20090818) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel PNG without metadata; the single-frame GIF was converted to PNG",
+      "width": 225
+    },
+    {
+      "bytes": 48989,
+      "export_sha256": "d0016cd9bfbc2b43c87504940932753b5e0a46fe3a96961e65ea335c849ded2d",
+      "height": 636,
+      "path": "/wp-content/uploads/2009/08/recovered-widgetfx-15008.png",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 32668,
+      "source_path": "widgetfx.org/portal/image/journal/article",
+      "source_sha256": "8ba4b2d3291a567ee4694652bce829925de15b6f4ba7f92249d064bb6d9777ad",
+      "source_url_sha256": "5c5e6d61c5da7b96d09f6fe333040a2a64d1a0bf4c8f609da8e4b753796e3b4e",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 20090818) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel PNG without metadata; the single-frame GIF was converted to PNG",
+      "width": 262
+    },
+    {
+      "bytes": 23073,
+      "export_sha256": "f7d8d71e2c74ffe72c5b710930c8ca5a16cb217da0e98bd863f0a1b93afa8002",
+      "height": 428,
+      "path": "/wp-content/uploads/2009/08/recovered-widgetfx-15039.png",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 22392,
+      "source_path": "widgetfx.org/portal/image/journal/article",
+      "source_sha256": "2364b2fb895107d660d0d424685cbf52efd46311ed07f16acbc7d27355e3b16e",
+      "source_url_sha256": "5ac0733f5db6e0f3ad2607904e73d1938eda99d28f75cf18adea0bd32b379eb9",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 20090818) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel PNG without metadata",
+      "width": 408
+    },
+    {
+      "bytes": 9669,
+      "export_sha256": "f7e3111672638d97a875829df93040aab4726820546d4ab3c978e67234c1e526",
+      "height": 129,
+      "path": "/wp-content/uploads/2009/08/recovered-widgetfx-15084.jpg",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 7666,
+      "source_path": "widgetfx.org/portal/image/journal/article",
+      "source_sha256": "e1787eb98fbf4dd3889f761a17bb17696b3f6075ca61761cd20d4043ef043530",
+      "source_url_sha256": "7a252f3787c885ec1c9d4941a2ecbc9c003d606de545bc2c5c084dc376a36522",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 20090818) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel JPEG without metadata",
+      "width": 191
+    },
+    {
+      "bytes": 17939,
+      "export_sha256": "2dbb1ef52fbca4944ce68f61ae8f02475996a0ef20449e681d6613dd56f4d7e0",
+      "height": 192,
+      "path": "/wp-content/uploads/2009/08/recovered-widgetfx-15091.jpg",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 14355,
+      "source_path": "widgetfx.org/portal/image/journal/article",
+      "source_sha256": "ca8cea40967fa2be2436e6f9950a237d9d14380f3f8561b8af9c8cab7030317a",
+      "source_url_sha256": "8db5379444a866cef18bf504371dc6a2a48fd6b7c06e7d8fbfba4aaa5271222c",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 20090818) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel JPEG without metadata",
+      "width": 218
+    },
+    {
+      "bytes": 15285,
+      "export_sha256": "29f81ea0118965303f8b0848ed4b3f9b618fbea17ffa95bf37cb448a365a11df",
+      "height": 229,
+      "path": "/wp-content/uploads/2009/08/recovered-widgetfx-15097.jpg",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 12171,
+      "source_path": "widgetfx.org/portal/image/journal/article",
+      "source_sha256": "47b068f5d308aabfe80cf8d7716158063d30379af323e5a55dccf5b26ad3f16e",
+      "source_url_sha256": "d6b8f981babccb5e356c6f1fe497fbd54b60e917598c3b9ef3a3d3a1158c00d1",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 20090818) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel JPEG without metadata",
+      "width": 211
+    },
+    {
+      "bytes": 6574,
+      "export_sha256": "1ad2bc7d875c508b6867d90c9920a23a5fb801805e58a10e27470d41617e396e",
+      "height": 229,
+      "path": "/wp-content/uploads/2009/08/recovered-widgetfx-15103.jpg",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 5144,
+      "source_path": "widgetfx.org/portal/image/journal/article",
+      "source_sha256": "3525eb677b65e08c2ca961ce61a452336739025794726343728e7b21064aa728",
+      "source_url_sha256": "82ba7945c5a7de03270fc02a21bb04e29de325172e61259057e1f55f35240ef2",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 20090818) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel JPEG without metadata",
+      "width": 211
+    },
+    {
       "bytes": 320027,
       "export_sha256": "724341441fcd0d57b7e5232f405d7cbcdf3eb5378228247f3a4e8b2678b7f534",
       "height": 431,
@@ -1554,6 +1750,34 @@
       "source_sha256": "06378bd19ef0e777e81f6e258689a78edcfb492c302d7cee041116827ecc243e",
       "transformation": "Decode to pixels, apply orientation, fresh-pixel JPEG/PNG without metadata",
       "width": 726
+    },
+    {
+      "bytes": 12270,
+      "export_sha256": "24bc4aa8da327652e1eaa3c4d6f96be6a85c2a80f008e7cede368b566c71c11e",
+      "height": 253,
+      "path": "/wp-content/uploads/2009/09/recovered-widgetfx-15367.png",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 12288,
+      "source_path": "widgetfx.org/portal/image/journal/article",
+      "source_sha256": "68f59df4f8201d76b2cd76c15591ab1f5080868558054691e5f72b325eb29668",
+      "source_url_sha256": "17d2d82a2d07497bcbc6852f6771027e8940bb9229dfa447b8841a34c32cbbf3",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 20090927) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel PNG without metadata",
+      "width": 213
+    },
+    {
+      "bytes": 49286,
+      "export_sha256": "9d45ca6db1e73a94a54891a5940f9a38901c25406028958afa1b5d26ccd01505",
+      "height": 465,
+      "path": "/wp-content/uploads/2009/09/recovered-widgetfx-15388.png",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 54407,
+      "source_path": "widgetfx.org/portal/image/journal/article",
+      "source_sha256": "f23a378e31ff14335141fae53e8bb09c89550c702d83e9cc52d279179b255756",
+      "source_url_sha256": "481e42fb7f7cbd4be83af1a5f2445967a8566f33f006014f1b80ea8b33e8ab39",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 20090927) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel PNG without metadata",
+      "width": 384
     },
     {
       "bytes": 287730,
@@ -2780,6 +3004,48 @@
       "width": 500
     },
     {
+      "bytes": 19190,
+      "export_sha256": "06ff3840bd71b4d063db2d684ec34bd81576a24892005736b5aac8f5b0044d9e",
+      "height": 200,
+      "path": "/wp-content/uploads/2011/07/recovered-1630108699-2.png",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 22216,
+      "source_path": "evbdn.eventbrite.com/s3-s3/eventlogos/1862435/1630108699-2.png",
+      "source_sha256": "929ccedd7b1d20bccc2849090adfdd2137361f139987cddc265e5ef44833ab4d",
+      "source_url_sha256": "fb5b2fed3f557e78b620103b1021a390c5adc058dd8f58e1b9793e52a0e985d1",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 20110707) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel PNG without metadata",
+      "width": 205
+    },
+    {
+      "bytes": 16075,
+      "export_sha256": "3a340d9e1a0a9c07dda8f4867931446003ea052beb04bc87bc635123250b8deb",
+      "height": 80,
+      "path": "/wp-content/uploads/2011/07/recovered-dv11.png",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 16204,
+      "source_path": "www.devoxx.com/download/attachments/4751369/DV11",
+      "source_sha256": "ed5e55209fc163850a883a7f80285ca2c9016678456ad490235989b10e98f3eb",
+      "source_url_sha256": "3ec9af7e6818ec23a66ecb00cba6ffae1e12a33e1fd3ea82f01f161424378dea",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 20110707) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel PNG without metadata",
+      "width": 218
+    },
+    {
+      "bytes": 11253,
+      "export_sha256": "0f1edcb6dc13928e5a7abe88143790698f84ab8ab9a3ddbe99dc6e57f1163a53",
+      "height": 218,
+      "path": "/wp-content/uploads/2011/07/recovered-java7.jpg",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 9554,
+      "source_path": "geeknizer.com/wp-content/uploads/java7.jpg",
+      "source_sha256": "ea990412edf60a3b8889e5e3be43a775f669bd487f68e00dab58744b6cf0efb7",
+      "source_url_sha256": "281a38ec03f0c7643a8df4ae5c5d904c1622cbcfe78ba5b47a8b2704ea50f5e3",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 20110707) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel JPEG without metadata",
+      "width": 230
+    },
+    {
       "bytes": 103353,
       "export_sha256": "534b8feb4629395168edbbdbfb0001a4377c1211ca61c3a936e5cb32e7e8fb1a",
       "height": 347,
@@ -3418,6 +3684,20 @@
       "source_sha256": "5d48f7b2c6bcf2c1a66e4801c392fcd2903e78507f826ee8a25d6233e5973fc9",
       "transformation": "Decode to pixels, apply orientation, fresh-pixel JPEG/PNG without metadata",
       "width": 282
+    },
+    {
+      "bytes": 15860,
+      "export_sha256": "71b3d6e9f3002065df0ae92b9f1dd904e297fa776137f46d5921cddb74e95e63",
+      "height": 300,
+      "path": "/wp-content/uploads/2014/02/recovered-nao-robot-nextgen-222x300.jpg",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 13644,
+      "source_path": "nighthacking.com/wp-content/uploads/2014/02/nao-robot-nextgen-222x300.jpg",
+      "source_sha256": "7658b79c623ed86d74052ba4ef0b60a12e2621706ad44c2384e621799836e5a1",
+      "source_url_sha256": "cf6e335936916dc175485c29bd2c5342fed26f817263d39f16a949029bc51c2b",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 20140217) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel JPEG without metadata",
+      "width": 222
     },
     {
       "bytes": 30055,
@@ -4223,6 +4503,20 @@
       "source_path": "/wp-content/uploads/2019/12/The-Definitive-Guide-to-Modern-Java-Clients-with-JavaFX-1.png",
       "source_sha256": "d1b675f6085a6e3dd9ad75435eb49d3ec1957bf3673630849deb4655caaded5d",
       "transformation": "Decode to pixels, apply orientation, fresh-pixel JPEG/PNG without metadata",
+      "width": 952
+    },
+    {
+      "bytes": 673494,
+      "export_sha256": "03ef3f4e34de8dbe0f6943a9a46f3547629c5b98bb4e6d8153b3fdd83a08c5ea",
+      "height": 1360,
+      "path": "/wp-content/uploads/2019/12/recovered-javafx-not-dead-yet.png",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 289104,
+      "source_path": "i0.wp.com/steveonjava.com/wp-content/uploads/2019/12/JavaFX-Not-Dead-Yet.png",
+      "source_sha256": "9ef85167e713b9352e64e40d6be87ffde4dbed8783126533f3997bb6489f47de",
+      "source_url_sha256": "7bedf68933c4b5945b7f46ea428c643f52ee441de6e79be7013eb577949bf423",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 20191211) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel PNG without metadata",
       "width": 952
     }
   ],
@@ -8479,7 +8773,7 @@
     {
       "id": 95,
       "json_sha256": "6ecb809c79c7b5143b02286576440fee29b5e51b73a12d3dcaced87a92b4a15a",
-      "markdown_sha256": "6a5a784d4c28060838bc2efa4fddff618291ed64cea57021e1ed8678a734a586",
+      "markdown_sha256": "530cc44d32feb581e14ec97ce6e61e8d75756f59a625f20e28bfb3b28cfb5fde",
       "route": "/widgetfx-calendar-tutorial/",
       "type": "post"
     },
@@ -8612,14 +8906,14 @@
     {
       "id": 428,
       "json_sha256": "31b0a50d5015c4190c8165e7fcee78b2d8e5a6fdb871af5275fece9efd63f11b",
-      "markdown_sha256": "d5f0aa0c24fb28cf471e8572a1f31f5f8e6e09e1741714da8f3021a65fcd3091",
+      "markdown_sha256": "8230a33201591e2374dc185f9803bce6d8cb820acbad860b52975d3c9eb73744",
       "route": "/learn-widgetfx-with-passion/",
       "type": "post"
     },
     {
       "id": 439,
       "json_sha256": "4fef1577ba8b4e2e08c713528cab5007616066ee7c2fdd730070670822967ef5",
-      "markdown_sha256": "f7d0ca7109ebd6406109c970d46fc916d3da0c2600ec6735178d709a5df70eea",
+      "markdown_sha256": "8bd8414a67ff69630887134253f1a2ff192f4abdd7e72fe0c8937417e79d65aa",
       "route": "/nabaztag-visits-the-oakland-java-sig/",
       "type": "post"
     },
@@ -8647,7 +8941,7 @@
     {
       "id": 515,
       "json_sha256": "872375c478f77f0cb34510f4db789d46f917b677b68c9a5c9196d51545e7dc65",
-      "markdown_sha256": "200db8803d937e6fd15a5e909892f2b5828321e2520d9bbd93593fca1a343bbf",
+      "markdown_sha256": "35192e0c1f35163648e702fa34ecefeb435b15163262f5cf0d7d8a20b3829f59",
       "route": "/jfxtras-test-and-fest-unite/",
       "type": "post"
     },
@@ -8661,14 +8955,14 @@
     {
       "id": 557,
       "json_sha256": "b1ee2b38c22bfd87a081dfcb90261db647ec0c3f5f6c72d41910729c6151f415",
-      "markdown_sha256": "1abda5fa799dcf9596af745d5d0155263d42129ca0717309eb57b53f347641df",
+      "markdown_sha256": "73478f51d82c5b640c71f9d7712dd5516c46854fca6bae21e858072595fb4a34",
       "route": "/jfxtras-team-grows-up/",
       "type": "post"
     },
     {
       "id": 564,
       "json_sha256": "9c3be853987de0769a142f87c321b9be2186d8fe1f96cfc6d371cd6402fe545f",
-      "markdown_sha256": "4a130c81e9f1b2905ae21103b1212b0a946a861e5e685791b8cfd5b4b6c7c9bd",
+      "markdown_sha256": "d1946e99a418078ddd3c280f010757eddbe49934a6a21adaca95008ffdab6438",
       "route": "/widgetfx-contest-heating-up/",
       "type": "post"
     },
@@ -8682,14 +8976,14 @@
     {
       "id": 579,
       "json_sha256": "20df2fc47b829a93909e42a478c972c4700e8f361ed065584c9a5d5bc30630fc",
-      "markdown_sha256": "d3eb980de1574d4ac69ac30b2b8479842b71918d80dc8fa1fd3db14c8a234fe9",
+      "markdown_sha256": "b3b91b5878f8778ae95eee9d6066e92f1b5c016a120e9553caff091e1396018a",
       "route": "/widgetfx-contest-finish-line/",
       "type": "post"
     },
     {
       "id": 608,
       "json_sha256": "0bfa90ccae0be56691a9330928a42edff9aac9a351e76dcd5af50e1b7435fb94",
-      "markdown_sha256": "3a46f7eac86cb84787f9bd638da4e62e7a26ded382594bd4e79924182ea44f66",
+      "markdown_sha256": "4ef231d0e6b3a67cc3271f4dae7f305b947242703ab07d5c4fc56d01b38fa54f",
       "route": "/widgetfx-contest-winners/",
       "type": "post"
     },
@@ -8717,7 +9011,7 @@
     {
       "id": 653,
       "json_sha256": "2c5ebf1df033f87be2fd6f1eedb39b404b871b39e07d7e39587a207ddc2759e9",
-      "markdown_sha256": "0b8c608e3ce57c3d2cbae45847b3a3e2331c1f8f9fa59fa1f9b61bf9aac2ddc2",
+      "markdown_sha256": "7cbc95229fb442425b0ae106bda75bc23b0eb02ebc86c5467bdd7bce9bef3442",
       "route": "/widgetfx-1-2-4-released-happy-halloween/",
       "type": "post"
     },
@@ -9046,7 +9340,7 @@
     {
       "id": 1844,
       "json_sha256": "9303ece33d95e4e9568252cd732ab513ba196b41eecfda60bc5d935aa5ac387b",
-      "markdown_sha256": "612d61ec6232f80b72643ed557af08f76f081eace41b86895789b0116f731c5e",
+      "markdown_sha256": "848726fc86b75bf545da0e3eb7957ab8612d94fcb1d60d592efc9e4ccd068489",
       "route": "/celebrating-java-7-with-7-reasons-to-attend-oscon-java/",
       "type": "post"
     },
@@ -9102,7 +9396,7 @@
     {
       "id": 1989,
       "json_sha256": "0d17f4b4c7b60f995de9fa1facb206f1d4d944bbbfca257c45a7bd23500723d6",
-      "markdown_sha256": "966c8540684d4d109d44d95fad765444c305e98ff4b72b492fd13b864409880b",
+      "markdown_sha256": "dc7843d75479cb5d7b3fc5af00cdf58b594af00aca669798bdb6142161916a1e",
       "route": "/oscon-java-makes-a-difference/",
       "type": "post"
     },
@@ -9382,7 +9676,7 @@
     {
       "id": 3657,
       "json_sha256": "0d223d3bd8679fc46b0f61e2a4f08b21e9a65179f58feeea787d433d4ce6a230",
-      "markdown_sha256": "7be42e4e69da30fc0179e2573dd98715194c2eaca28a356ecf297418ab74026e",
+      "markdown_sha256": "ebc994cb42c839090b8c721858c3d388dc36fd54227c9d20dc1dbf71846a288c",
       "route": "/nao-robotics-hacking/",
       "type": "post"
     },
@@ -9473,7 +9767,7 @@
     {
       "id": 6695,
       "json_sha256": "736b3b67f2533ed7f65cdb7ca6b9008c50098516ea529add9559bbad129546ec",
-      "markdown_sha256": "76561e126238d53ee127227b3c8b6ca2a1e9f1e7925923d8c76a829d8cb43403",
+      "markdown_sha256": "f2b7f39673bf0c3e0a6ff963ca6afc03a3dfc9725c0980059cf2eef87b8df12c",
       "route": "/javafx-not-dead-yet/",
       "type": "post"
     }
