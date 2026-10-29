@@ -1330,6 +1330,22 @@
     "export_sha256": "0f1edcb6dc13928e5a7abe88143790698f84ab8ab9a3ddbe99dc6e57f1163a53"
   },
   {
+    "path": "/wp-content/uploads/2011/07/recovered-oreilly-user-106308.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-28, from the Internet Archive capture of the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. A portrait of a conference speaker taken from an O\u2019Reilly OSCON speaker page; owner review is still required.",
+    "export_sha256": "c7e3e5cd4b5051d1ec8e97282d517ef069dd1a645fe694d718ec6b0647f085a0"
+  },
+  {
+    "path": "/wp-content/uploads/2011/07/recovered-oreilly-user-121468.jpg",
+    "rights_holder": "unreviewed",
+    "status": "unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-28, from the Internet Archive capture of the address the post itself cited. Not independently cleared.",
+    "note": "Freshly reencoded raster. A portrait of a conference speaker taken from an O\u2019Reilly OSCON speaker page; owner review is still required.",
+    "export_sha256": "2df2f0b47a7a218651d49e142575e1a2fcf488900d4a58b63f0153f7ba3b49ba"
+  },
+  {
     "path": "/wp-content/uploads/2011/07/threat-level.png",
     "rights_holder": "unreviewed",
     "status": "owner-asserted, unreviewed",
@@ -1650,6 +1666,14 @@
     "basis": "Referenced by selected public content in the owner's WordPress recovery set. Not independently cleared.",
     "note": "Freshly reencoded approved raster. Includes third-party photographs, cover art or marks where present. Owner review is still required.",
     "export_sha256": "5c339670eb10953eabfa83d2a447d61debe1ce88b7021f17a849e18eea3204c1"
+  },
+  {
+    "path": "/wp-content/uploads/2013/01/image-be1de9128c3f4d3c3695f9d4.jpg",
+    "rights_holder": "unreviewed",
+    "status": "owner-asserted, unreviewed",
+    "basis": "Recovered after the bulk export, with the owner's approval of 2026-10-28, from the upload the post itself used on the owner's WordPress site. Not independently cleared.",
+    "note": "Freshly reencoded raster. The post links this picture to the Wikipedia file page of the same name, so it may be a Wikimedia Commons image under a free licence that asks for attribution; owner review is still required.",
+    "export_sha256": "da8bf48f54eadee845bdf0adc072ad232c5c20614b12106fa777362371922931"
   },
   {
     "path": "/wp-content/uploads/2013/02/Scenprogram-utkast-20130130_utf.png",

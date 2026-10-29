@@ -3060,6 +3060,34 @@
       "width": 230
     },
     {
+      "bytes": 4225,
+      "export_sha256": "c7e3e5cd4b5051d1ec8e97282d517ef069dd1a645fe694d718ec6b0647f085a0",
+      "height": 100,
+      "path": "/wp-content/uploads/2011/07/recovered-oreilly-user-106308.jpg",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 4808,
+      "source_path": "assets.en.oreilly.com/1/eventprovider/1/_@user_106308.jpg",
+      "source_sha256": "3be361a851da02990d26d4d88907b18af161b101fb31b8b2774392664973b560",
+      "source_url_sha256": "c7f41bcca566da41f857109d275056f021339f1f4ca853dc4b8b99cd1f404da9",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 2011) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel JPEG without metadata",
+      "width": 75
+    },
+    {
+      "bytes": 3766,
+      "export_sha256": "2df2f0b47a7a218651d49e142575e1a2fcf488900d4a58b63f0153f7ba3b49ba",
+      "height": 100,
+      "path": "/wp-content/uploads/2011/07/recovered-oreilly-user-121468.jpg",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "fetched-decoded-and-reencoded-no-lab-screen",
+      "source_bytes": 4116,
+      "source_path": "assets.en.oreilly.com/1/eventprovider/1/_@user_121468.jpg",
+      "source_sha256": "935b1839943025a681c8ebe36e022a380fe930deba31bb7735af05d9ffe204b0",
+      "source_url_sha256": "743982de0cd53fa442336c7ae52e8e07395509927433ee8893caf312a85a316e",
+      "transformation": "Fetched once after the bulk export from the Internet Archive capture (requested at timestamp 2011) of the address cited by the post, then decode to pixels, apply orientation, fresh-pixel JPEG without metadata",
+      "width": 75
+    },
+    {
       "bytes": 103353,
       "export_sha256": "534b8feb4629395168edbbdbfb0001a4377c1211ca61c3a936e5cb32e7e8fb1a",
       "height": 347,
@@ -3567,6 +3595,20 @@
       "source_path": "/wp-content/uploads/2013/01/7996880922_0f4f81b7d7_b-300x225.jpg",
       "source_sha256": "457cddf52a80896891eb8b31efa3b015f45f0d745a55630a876078c70b60aa90",
       "transformation": "Decode to pixels, apply orientation, fresh-pixel JPEG/PNG without metadata",
+      "width": 300
+    },
+    {
+      "bytes": 23064,
+      "export_sha256": "da8bf48f54eadee845bdf0adc072ad232c5c20614b12106fa777362371922931",
+      "height": 200,
+      "path": "/wp-content/uploads/2013/01/image-be1de9128c3f4d3c3695f9d4.jpg",
+      "publication_authority": "owner-approved-post-export-recovery",
+      "screening_authority": "lab-screened-candidate-list",
+      "source_bytes": 20318,
+      "source_path": "/wp-content/uploads/2013/01/Har\u00f0fiskur-300x200.jpg",
+      "source_sha256": "047003821488fb834297cec58b75eafac229cd2e67efcae344f9581fb3e977c2",
+      "source_url_sha256": "527c36aa0b60509f89d7b8a51bbc8687d7e33b2d3ee634e976cec21e2247e92c",
+      "transformation": "Read in the lab from the owner's upload after the bulk export, found by its non-ASCII file name and hash-matched to the single row of the screened candidate list. Decode to pixels, apply orientation, fresh-pixel JPEG without metadata",
       "width": 300
     },
     {
@@ -9354,7 +9396,7 @@
     {
       "id": 1844,
       "json_sha256": "9303ece33d95e4e9568252cd732ab513ba196b41eecfda60bc5d935aa5ac387b",
-      "markdown_sha256": "848726fc86b75bf545da0e3eb7957ab8612d94fcb1d60d592efc9e4ccd068489",
+      "markdown_sha256": "099dec5ce1cfb952098987cccd87a7cbd8f453a60c53be810e5bab932142046d",
       "route": "/celebrating-java-7-with-7-reasons-to-attend-oscon-java/",
       "type": "post"
     },
@@ -9578,7 +9620,7 @@
     {
       "id": 3022,
       "json_sha256": "d0cf25337f87a639fd9bd9b17f1a114372fa870bf9fca2132c8b75d624278c10",
-      "markdown_sha256": "1aea32f9a731aa1b93e08c7fcc58889451ebc86c34bdd653d0e707a8c28f68c2",
+      "markdown_sha256": "a76af55866bfd69fd6154f709a6e2e51647e05a90294d5cb37618fba0e154375",
       "route": "/top-5-reasons-to-hack-in-iceland/",
       "type": "post"
     },
