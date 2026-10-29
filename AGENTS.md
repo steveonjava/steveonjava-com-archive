@@ -11,7 +11,7 @@ This is the SteveOnJava (steveonjava.com) archive. It is a read-only record of o
 5. **Every image needs an entry in `rights.json`.** A new asset without a rights entry is a failed review. Public availability is not permission.
 6. **Check links before rendering them.** Record each external URL as `live`, `dead` or `unverified` in `link-status.json`, with the date and method in the pull request. Dead and hijacked links render as plain text.
 7. **The build never fetches anything.** No network access during `scripts/build.py`. Provider outages must not change the output.
-8. **`noindex,nofollow` stays** until the owner approves a separate launch pull request.
+8. **Indexing follows `archive.json`.** `status: launched` makes pages indexable and publishes `robots.txt` and `sitemap.xml`; `prototype` restores `noindex,nofollow`. Do not change the status without the owner's explicit instruction. See `docs/launch.md`.
 9. **No secrets, ever.** Do not copy tokens or keys into the repository, issues or pull request text.
 10. **Say what you did not verify.** A pull request lists what was checked, how, and what remains unchecked.
 

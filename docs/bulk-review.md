@@ -26,6 +26,6 @@ One SteveOnJava source post retains its original public Stratus program contact 
 
 ## Review and publication
 
-Both existing themes, canonical domains and robots policy remain unchanged. `noindex,nofollow` stays in place, and indexing still requires a separate decision. DNS, TLS, Pages settings, branch protection and deployments were not changed by this conversion. Merging and publication require the owner's review and approval.
+Both existing themes, canonical domains and robots policy remain unchanged. `noindex,nofollow` stays in place, and indexing still requires a separate decision. DNS, TLS, Pages settings, branch protection and deployments were not changed by this conversion. Merging and publication require the owner's review and approval. The launch that superseded this is recorded in `docs/launch.md`.
 
 CI must validate every record and generated route, both desktop/mobile views, no-JavaScript browsing, local assets, legacy IDs, nested pages, encoded historical slugs and paginated collections. Build and browser reports belong in review artifacts outside the published site. The actual Actions results and screenshot review are reported in the pull request, not inferred from this document.
