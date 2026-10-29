@@ -3,7 +3,8 @@ name: Publish prototype to GitHub Pages
 # Without a CNAME file the site is served at https://<owner>.github.io/<repo>/, so the build adds the
 # repository name as a path prefix. With one, the site is bound to its own domain and is built for the root.
 # GitHub ignores the file for workflow deployments, so the domain itself is set in the Pages settings.
-# Every page keeps noindex,nofollow. Review caveats stay in Git, not rendered pages.
+# Indexing follows archive.json: a prototype build keeps noindex,nofollow, a launched build publishes robots.txt and a sitemap.
+# Review caveats stay in Git, not rendered pages.
 on:
   push:
     branches: [main]

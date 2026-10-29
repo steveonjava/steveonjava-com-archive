@@ -48,7 +48,7 @@ Home, archive, year, category, post, and static-page routes work without JavaScr
 
 The archive, videos, year, category, and static-page discovery lists are limited to **20 records per generated page**. Page one keeps its existing route. Continuations use `<collection>/page/2/`, `/page/3/`, etc. Previous/next navigation connects the complete stable sequence, with no dropped records or empty final continuation. `/archive/` retains year groupings within each bounded slice. Root/year/category route planning and collision checks happen before rendering.
 
-The browser translator uses only the validated all-record map for `?p=ID` and `?page_id=ID`, supporting nested and encoded paths. It rejects invalid, duplicate, mixed, or unknown IDs instead of navigating externally. The 404 and unknown-ID fallback provide concise navigation. Every page retains the existing strict CSP, `noindex,nofollow`, current-site footer link, and resource restrictions until a separate launch decision.
+The browser translator uses only the validated all-record map for `?p=ID` and `?page_id=ID`, supporting nested and encoded paths. It rejects invalid, duplicate, mixed, or unknown IDs instead of navigating externally. The 404 and unknown-ID fallback provide concise navigation. Every page retains the existing strict CSP, current-site footer link, and resource restrictions. The robots meta follows `archive.json` (see Launch status).
 
 ## External build-report contract
 
@@ -81,3 +81,9 @@ GitHub Pages project sites live at `https://<owner>.github.io/<repo>/`. `python 
 A `CNAME` file at the repository root switches both workflows to the domain-root build. It must contain exactly this archive's own host (`steveonjava.com` or `nighthacking.tv`), and the build rejects anything else, including a symlink. GitHub ignores `CNAME` for workflow deployments, so the file does not bind the domain. The domain is set in the repository's Pages settings by the owner. Add the file in the same change that the owner makes the setting, never earlier, because a root-path build served under `/<repo>/` has no working stylesheet or links. Without the file, the build keeps the `/<repo>/` prefix. A build with both a `CNAME` file and `--base-path` is rejected.
 
 The separate `pages.yml` runs only on `main` or explicit manual dispatch. Its build job is read-only, with `pages: write` and `id-token: write` granted only to the deploy job. Feature-branch PRs only produce review artifacts. Merge and publication require owner approval independently of branch preparation.
+
+## Launch status
+
+`archive.json` `status` is `prototype` or `launched`; anything else is rejected. A `prototype` build renders `<meta name="robots" content="noindex,nofollow">` on every page and publishes no `robots.txt` or `sitemap.xml`. A `launched` build renders `index,follow`, and writes `robots.txt` (allow everything, naming the sitemap) and `sitemap.xml` (the canonical address of every generated page except `404.html`, with no dates, because the archive does not know when a page last changed).
+
+The audit enforces the policy that matches the status: every page carries the matching robots meta, a launched build must have a `robots.txt` that is exactly the generated one and a sitemap that lists exactly the generated pages, and a prototype build must have neither file. `--check-only` reads the status from `archive.json`. The CI browser checks expect the same robots policy on every route. Links to other sites keep `rel="nofollow noopener noreferrer"` in both statuses. Changing the status needs the owner's explicit instruction; `docs/launch.md` records the launch.
