@@ -40,7 +40,7 @@ STATUSES = {"prototype", "launched"}
 ROBOTS = {"prototype": "noindex,nofollow", "launched": "index,follow"}
 SITEMAP_NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
 MAX_SITEMAP_URLS = 50000
-REL = "nofollow noopener noreferrer"
+REL = "noopener noreferrer"
 # Hosts that served each site. Links to them become local routes, because the archive replaces them.
 ALIASES = {"steveonjava": {"steveonjava.com", "www.steveonjava.com"},
            "nighthacking": {"nighthacking.tv", "www.nighthacking.tv", "nighthacking.com", "www.nighthacking.com"}}
@@ -49,6 +49,7 @@ LINK_STATES = {"live", "dead", "unverified"}
 BASE_PATH = re.compile(r"(?:/[a-z0-9]+(?:-[a-z0-9]+)*)?")
 THEME_IMAGES = {"steveonjava": "/wp-content/uploads/2010/03/racer3.1.jpg",
                 "nighthacking": "/wp-content/uploads/2013/10/NightHacking-Header.png"}
+FAVICONS = {"steveonjava": "/wp-content/uploads/2010/11/steveonjava-favicon.png"}
 # Home pages show the newest entries, as the originals did. Older material stays one click away in the archive.
 HOME_POSTS = 10
 HOME_VIDEOS = 15
@@ -545,6 +546,47 @@ def render_markdown(source, config, routes, current, photos):
     return md.renderer.render(tokens, md.options, {})
 
 
+class OpeningParagraph(HTMLParser):
+    """Collect the first nonempty rendered prose paragraph, ignoring code and images."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.in_paragraph = False
+        self.in_code = 0
+        self.parts = []
+        self.result = ""
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "p" and not self.result:
+            self.in_paragraph = True
+            self.parts = []
+        if tag in {"pre", "code"}:
+            self.in_code += 1
+        if tag == "br" and self.in_paragraph:
+            self.parts.append(" ")
+
+    def handle_endtag(self, tag):
+        if tag in {"pre", "code"} and self.in_code:
+            self.in_code -= 1
+        if tag == "p" and self.in_paragraph:
+            self.result = " ".join("".join(self.parts).split())
+            self.in_paragraph = False
+
+    def handle_data(self, data):
+        if self.in_paragraph and not self.in_code:
+            self.parts.append(data)
+
+
+def record_description(rendered, fallback, limit=160):
+    parser = OpeningParagraph()
+    parser.feed(rendered)
+    value = parser.result or fallback
+    if len(value) <= limit:
+        return value
+    prefix = value[:limit - 1]
+    cut = prefix.rfind(" ")
+    return (prefix[:cut] if cut > 0 else prefix).rstrip() + "…"
+
+
 def anchor(url, label):
     external = bool(urlsplit(url).scheme)
     return f'<a href="{escape(url, quote=True)}"' + (f' rel="{REL}"' if external else '') + f'>{escape(label)}</a>'
@@ -646,7 +688,7 @@ def rebase(html, base):
     return re.sub(r'(\b(?:href|src)=")/(?!/)', lambda match: match.group(1) + base + "/", html)
 
 
-def page(config, title, body, route, sidebar, layout="index", video="", meta=""):
+def page(config, title, body, route, sidebar, layout="index", video="", meta="", description=None):
     night = config["site"] == "nighthacking"
     nav_items = [("/", "Watch" if night else "Home"), ("/archive/", "Archive")]
     if night:
@@ -656,6 +698,7 @@ def page(config, title, body, route, sidebar, layout="index", video="", meta="")
     nav = ''.join(f'<a href="{url}"' + (' aria-current="page"' if route == url else '') + f'>{label}</a>' for url, label in nav_items)
     nav = '<nav class="site-nav" aria-label="Main navigation">' + nav + '</nav>'
     theme_image = config.get("theme_image")
+    favicon = f'<link rel="icon" type="image/png" href="{config["favicon"]}">' if config.get("favicon") else ''
     if night:
         logo = f'<img class="site-logo" src="{theme_image}" alt="NightHacking" width="230" height="28">' if theme_image else 'NightHacking'
         header = '<header class="masthead"><div class="masthead-inner"><a class="wordmark" href="/">' + logo + '</a>' + nav + '</div></header>'
@@ -679,8 +722,8 @@ def page(config, title, body, route, sidebar, layout="index", video="", meta="")
     return f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="{ROBOTS[config['status']]}"><meta http-equiv="Content-Security-Policy" content="{escape(CSP, quote=True)}">
-<meta name="description" content="{escape(title + ' | ' + config['title'], quote=True)}"><title>{escape(title)} | {escape(config['title'])}</title>
-<link rel="canonical" href="{escape(config['canonical_base'] + route, quote=True)}"><link rel="stylesheet" href="/assets/archive.css"><script src="/assets/legacy.js" defer></script></head>
+<meta name="description" content="{escape(description or (title + ' | ' + config['title']), quote=True)}"><title>{escape(title)} | {escape(config['title'])}</title>
+<link rel="canonical" href="{escape(config['canonical_base'] + route, quote=True)}">{favicon}<link rel="stylesheet" href="/assets/archive.css"><script src="/assets/legacy.js" defer></script></head>
 <body class="{config['site']}"><a class="skip-link" href="#main">Skip to content</a><div class="site-shell">
 {header}<p id="legacy-status" role="status"></p><noscript><p class="no-js">{anchor('/archive/', 'Browse all posts')}</p></noscript>
 {content}<footer><p>{anchor(config['main_site'], 'Current work at stephenchin.com')}</p></footer></div></body></html>'''
@@ -768,8 +811,10 @@ class Audit(HTMLParser):
             safe_url(url, allowed_routes=self.allowed_routes, allowed_hosts={"steveonjava.com", "nighthacking.tv"})
             external = bool(urlsplit(url).scheme)
             if tag == "a" and external:
-                require(set(REL.split()) <= set(attrs.get("rel", "").split()), "Unsafe external link")
-            if key == "src" or tag == "link" and attrs.get("rel") == "stylesheet":
+                rel = (attrs.get("rel") or "").lower().split()
+                require(set(REL.split()) <= set(rel), "Unsafe external link")
+                require("nofollow" not in rel, "Unexpected nofollow on external link")
+            if key == "src" or tag == "link" and set((attrs.get("rel") or "").lower().split()) & {"stylesheet", "icon"}:
                 require(not external, "Remote resource")
             if external or url.startswith("#"):
                 continue
@@ -920,9 +965,12 @@ def build(root, base=""):
         sidebar += '<h2>Pages</h2><ul><li>' + anchor('/pages/', 'All pages') + '</li></ul>'
     image = THEME_IMAGES[config['site']]
     config['theme_image'] = image if image in photos else None
+    icon = FAVICONS.get(config['site'])
+    config['favicon'] = icon if icon in photos else None
     gallery = 'gallery' if night else 'index'
     # Render bodies once: home repeats the same prose, never duplicate evidence.
     rendered = {record["id"]: render_markdown(record["markdown"], config, routes, record_route(record), photos) for record in records}
+    descriptions = {record_route(record): record_description(rendered[record["id"]], record["title"] + ' | ' + config['title']) for record in records}
     pages = {"/": home_page(posts, rendered, night),
              "/404.html": ("Page not found", '<p>' + anchor('/archive/', 'Browse the archive') + ' or ' + anchor('/', 'return home') + '.</p>', 'index', '', '')}
     for start, title, kind, route, subset, number, total in chunks:
@@ -963,7 +1011,7 @@ def build(root, base=""):
     for route, (title, body, layout, video, meta) in pages.items():
         target = output_path(output, route)
         target.parent.mkdir(parents=True, exist_ok=True)
-        html = apply_link_policy(page(config, title, body, route, sidebar, layout, video, meta), config, route)
+        html = apply_link_policy(page(config, title, body, route, sidebar, layout, video, meta, descriptions.get(route)), config, route)
         target.write_text(rebase(html, base), encoding="utf-8")
     if config["status"] == "launched":
         (output / "robots.txt").write_text(robots_txt(config["canonical_base"]), encoding="utf-8")

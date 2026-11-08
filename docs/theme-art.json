@@ -103,5 +103,24 @@
     "source_frames": 1,
     "transformation": "Fully decoded and encoded from fresh pixels without inherited metadata",
     "rights": "Owner-site sidebar artwork, owner-asserted. Includes third-party marks or cover art; no independent license confirmation"
+  },
+  {
+    "site": "steveonjava",
+    "path": "/wp-content/uploads/2010/11/steveonjava-favicon.png",
+    "source": "https://web.archive.org/web/20101110123917id_/http://steveonjava.com/favicon.ico",
+    "final_url": "https://web.archive.org/web/20101110123917id_/http://steveonjava.com/favicon.ico",
+    "home_reference": "https://web.archive.org/web/20101110124502id_/http://steveonjava.com/",
+    "checked_at": "2026-11-08T06:14:22Z",
+    "content_type": "image/x-icon",
+    "source_sha256": "76ad4046c87d0f19f26f7319a930583f8a6a24cc1ebdea301bbd77a84d2dd034",
+    "export_sha256": "3055d0000098cd52fdc57b757453b9021a72008e3a65dc9b925c62f2ab0f48cf",
+    "width": 16,
+    "height": 16,
+    "bytes": 605,
+    "mode": "RGBA",
+    "source_format": "ICO",
+    "source_frames": 1,
+    "transformation": "Fully decoded ICO, copied RGBA pixel bytes into a fresh image, then encoded PNG without inherited metadata. Source alpha is entirely opaque. The export path is new, not the historical URL.",
+    "rights": "Owner authorized use of the historical favicon. Authorship, ownership, attribution requirements and license not independently verified; mark may be third-party."
   }
 ]

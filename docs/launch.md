@@ -6,7 +6,7 @@ The owner directed the launch of `steveonjava.com` on 2026-10-28. The launch pul
 
 - Every page carries `<meta name="robots" content="index,follow">` instead of `noindex,nofollow`.
 - The build publishes `/robots.txt` and `/sitemap.xml`.
-- Links to other sites keep `rel="nofollow noopener noreferrer"`.
+- At launch, links to other sites used `rel="nofollow noopener noreferrer"`; the subsequent owner-approved SEO change removes `nofollow` while retaining `noopener noreferrer`.
 - Content, routes, images and theme are unchanged.
 
 ## Rights position

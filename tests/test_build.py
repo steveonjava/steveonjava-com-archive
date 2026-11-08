@@ -60,7 +60,8 @@ class ArchiveTests(unittest.TestCase):
                 self.assertIn("Watch on YouTube", page)
                 self.assertNotIn("Availability is unknown", page)
                 self.assertNotIn("<iframe", page)
-                self.assertIn('rel="nofollow noopener noreferrer"', page)
+                self.assertIn('rel="noopener noreferrer"', page)
+                self.assertNotIn('rel="nofollow', page)
                 self.assertIn("<strong>emphasis</strong>", page)
                 if site == "nighthacking":
                     self.assertTrue((self.root / "_site/videos/index.html").is_file())
@@ -76,6 +77,30 @@ class ArchiveTests(unittest.TestCase):
         self.assertIn("&lt;script&gt;", html)
         self.assertNotIn("<script>alert", html)
         self.assertNotIn("<img src=x", html)
+
+    def test_record_descriptions_use_rendered_prose_and_escape_attributes(self):
+        self.markdown = ('![Photo](/wp-content/uploads/2014/01/synthetic.jpg)\n\n'
+                         '# A heading\n\n**Opening** & "quoted" [link](https://example.com/path).\n\nLater text.')
+        self.save()
+        self.compile()
+        html = (self.root / "_site/synthetic-one/index.html").read_text()
+        self.assertIn('<meta name="description" content="Opening &amp; &quot;quoted&quot; link.">', html)
+        home = (self.root / "_site/index.html").read_text()
+        self.assertIn('content="Latest Posts | Synthetic archive test"', home)
+
+    def test_description_fallback_and_length(self):
+        self.assertEqual(build.record_description('<p><img src="x"></p><pre><code>ignored</code></pre>', 'Fallback title'), 'Fallback title')
+        self.assertEqual(build.record_description('<p><code>ignored</code></p><p>Second &amp; paragraph</p>', 'Fallback'), 'Second & paragraph')
+        value = build.record_description('<p>' + ('longword ' * 50) + '</p>', 'Fallback')
+        self.assertLessEqual(len(value), 160)
+        self.assertTrue(value.endswith('…'))
+        self.assertNotIn('<', value)
+
+    def test_external_audit_requires_security_and_rejects_nofollow(self):
+        for rel in ('noopener', 'noreferrer', 'noopener noreferrer nofollow', 'noopener noreferrer NoFoLlOw'):
+            with self.subTest(rel=rel), self.assertRaises(ValueError):
+                build.Audit(self.root, '/').feed(f'<a href="https://example.com/" rel="{rel}">Link</a>')
+        build.Audit(self.root, '/').feed('<a href="https://example.com/" rel="noopener noreferrer">Link</a>')
 
     def test_reject_dangerous_markdown_urls(self):
         for url in ["javascript:alert(1)", "data:text/html,evil", "//evil.example/a", "https://good.example/../secret", "https://user:pass@example.com/a", "%6aavascript:evil", "https://example.com/%2e%2e/secret"]:
@@ -364,6 +389,46 @@ class ArchiveTests(unittest.TestCase):
         self.assertNotIn('no-image', post + home)
         self.assertNotIn('class="video-poster"', post)
 
+    def test_favicon_is_reencoded_local_prefixed_and_site_specific(self):
+        asset = build.FAVICONS['steveonjava']
+        source = self.root / 'assets' / asset.lstrip('/')
+        source.parent.mkdir(parents=True, exist_ok=True)
+        image = Image.new('RGBA', (16, 16), (10, 20, 30, 0))
+        image.putpixel((0, 0), (10, 20, 30, 127))
+        metadata = PngImagePlugin.PngInfo()
+        metadata.add_text('comment', 'discard this')
+        image.save(source, pnginfo=metadata)
+        for base in ('', '/my-repo'):
+            with contextlib.redirect_stdout(io.StringIO()):
+                build.build(self.root, base)
+            for page in (self.root / '_site').rglob('*.html'):
+                self.assertIn(f'<link rel="icon" type="image/png" href="{base}{asset}">', page.read_text())
+            with Image.open(self.root / '_site' / asset.lstrip('/')) as result:
+                self.assertEqual(result.mode, 'RGBA')
+                self.assertEqual(result.tobytes(), image.tobytes())
+                self.assertFalse(result.info)
+                self.assertFalse(result.getexif())
+            build.check(self.root / '_site', base)
+        self.config.update(site='nighthacking', canonical_base='https://nighthacking.tv')
+        self.save()
+        self.compile()
+        self.assertNotIn('rel="icon"', (self.root / '_site/index.html').read_text())
+
+    def test_favicon_audit_rejects_remote_and_missing_resources(self):
+        for rel in ('icon', 'shortcut icon', 'ICON'):
+            with self.subTest(rel=rel), self.assertRaisesRegex(ValueError, 'Remote resource'):
+                build.Audit(self.root, '/').feed(f'<link rel="{rel}" href="https://example.com/icon.png">')
+        with self.assertRaisesRegex(ValueError, 'Broken local link'):
+            build.Audit(self.root, '/').feed('<link rel="icon" href="/wp-content/uploads/2010/11/missing.png">')
+
+    def test_historical_favicon_input_is_metadata_free_png(self):
+        path = TEMPLATE / 'assets' / build.FAVICONS['steveonjava'].lstrip('/')
+        self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), '3055d0000098cd52fdc57b757453b9021a72008e3a65dc9b925c62f2ab0f48cf')
+        with Image.open(path) as image:
+            self.assertEqual((image.format, image.mode, image.size), ('PNG', 'RGBA', (16, 16)))
+            self.assertFalse(image.info)
+            self.assertFalse(image.getexif())
+
     def test_theme_art_is_local_metadata_free_and_project_prefixed(self):
         for site, host in [('steveonjava', 'steveonjava.com'), ('nighthacking', 'nighthacking.tv')]:
             self.config.update(site=site, canonical_base='https://' + host)
@@ -504,7 +569,7 @@ class ArchiveTests(unittest.TestCase):
         self.assertNotIn("Pro Android Flash", html)
         self.assertIn("2009 JavaOne Rock Star!", html)
         self.assertNotIn("DZone", html)
-        self.assertIn('rel="nofollow noopener noreferrer"', html)
+        self.assertIn('rel="noopener noreferrer"', html)
 
     def test_nighthacking_home_has_featured_stage_without_a_player(self):
         self.config.update(site="nighthacking", canonical_base="https://nighthacking.tv")

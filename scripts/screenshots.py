@@ -247,7 +247,7 @@ def check_page(page, origin, base, robots):
     for phrase in CAVEATS:
         require(phrase not in content, 'Reader-facing caveat: ' + phrase)
     require(page.evaluate('document.documentElement.scrollWidth <= window.innerWidth'), 'Horizontal overflow')
-    resources = page.locator('img[src], script[src], link[rel="stylesheet"][href]').evaluate_all(
+    resources = page.locator('img[src], script[src], link[rel="stylesheet"][href], link[rel="icon"][href]').evaluate_all(
         "els => els.map(el => el.src || el.href)")
     for resource in resources:
         parsed = urlsplit(resource)
@@ -256,7 +256,8 @@ def check_page(page, origin, base, robots):
     for link in page.locator('a[href]').evaluate_all("els => els.map(el => ({href:el.href, rel:el.rel}))"):
         parsed = urlsplit(link['href'])
         if parsed.scheme in ('http', 'https') and f'{parsed.scheme}://{parsed.netloc}' != origin:
-            require({'nofollow', 'noopener', 'noreferrer'}.issubset(set(link['rel'].split())), 'Unsafe external link attributes')
+            rel = set(link['rel'].lower().split())
+            require({'noopener', 'noreferrer'}.issubset(rel) and 'nofollow' not in rel, 'Unsafe external link attributes')
     page.keyboard.press('Tab')
     require(page.locator('.skip-link').evaluate('el => el === document.activeElement'), 'Keyboard skip link not first')
     page.keyboard.press('Enter')
