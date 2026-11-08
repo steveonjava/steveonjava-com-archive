@@ -60,7 +60,8 @@ class ArchiveTests(unittest.TestCase):
                 self.assertIn("Watch on YouTube", page)
                 self.assertNotIn("Availability is unknown", page)
                 self.assertNotIn("<iframe", page)
-                self.assertIn('rel="nofollow noopener noreferrer"', page)
+                self.assertIn('rel="noopener noreferrer"', page)
+                self.assertNotIn('rel="nofollow', page)
                 self.assertIn("<strong>emphasis</strong>", page)
                 if site == "nighthacking":
                     self.assertTrue((self.root / "_site/videos/index.html").is_file())
@@ -76,6 +77,30 @@ class ArchiveTests(unittest.TestCase):
         self.assertIn("&lt;script&gt;", html)
         self.assertNotIn("<script>alert", html)
         self.assertNotIn("<img src=x", html)
+
+    def test_record_descriptions_use_rendered_prose_and_escape_attributes(self):
+        self.markdown = ('![Photo](/wp-content/uploads/2014/01/synthetic.jpg)\n\n'
+                         '# A heading\n\n**Opening** & "quoted" [link](https://example.com/path).\n\nLater text.')
+        self.save()
+        self.compile()
+        html = (self.root / "_site/synthetic-one/index.html").read_text()
+        self.assertIn('<meta name="description" content="Opening &amp; &quot;quoted&quot; link.">', html)
+        home = (self.root / "_site/index.html").read_text()
+        self.assertIn('content="Latest Posts | Synthetic archive test"', home)
+
+    def test_description_fallback_and_length(self):
+        self.assertEqual(build.record_description('<p><img src="x"></p><pre><code>ignored</code></pre>', 'Fallback title'), 'Fallback title')
+        self.assertEqual(build.record_description('<p><code>ignored</code></p><p>Second &amp; paragraph</p>', 'Fallback'), 'Second & paragraph')
+        value = build.record_description('<p>' + ('longword ' * 50) + '</p>', 'Fallback')
+        self.assertLessEqual(len(value), 160)
+        self.assertTrue(value.endswith('…'))
+        self.assertNotIn('<', value)
+
+    def test_external_audit_requires_security_and_rejects_nofollow(self):
+        for rel in ('noopener', 'noreferrer', 'noopener noreferrer nofollow', 'noopener noreferrer NoFoLlOw'):
+            with self.subTest(rel=rel), self.assertRaises(ValueError):
+                build.Audit(self.root, '/').feed(f'<a href="https://example.com/" rel="{rel}">Link</a>')
+        build.Audit(self.root, '/').feed('<a href="https://example.com/" rel="noopener noreferrer">Link</a>')
 
     def test_reject_dangerous_markdown_urls(self):
         for url in ["javascript:alert(1)", "data:text/html,evil", "//evil.example/a", "https://good.example/../secret", "https://user:pass@example.com/a", "%6aavascript:evil", "https://example.com/%2e%2e/secret"]:
@@ -504,7 +529,7 @@ class ArchiveTests(unittest.TestCase):
         self.assertNotIn("Pro Android Flash", html)
         self.assertIn("2009 JavaOne Rock Star!", html)
         self.assertNotIn("DZone", html)
-        self.assertIn('rel="nofollow noopener noreferrer"', html)
+        self.assertIn('rel="noopener noreferrer"', html)
 
     def test_nighthacking_home_has_featured_stage_without_a_player(self):
         self.config.update(site="nighthacking", canonical_base="https://nighthacking.tv")

@@ -256,7 +256,8 @@ def check_page(page, origin, base, robots):
     for link in page.locator('a[href]').evaluate_all("els => els.map(el => ({href:el.href, rel:el.rel}))"):
         parsed = urlsplit(link['href'])
         if parsed.scheme in ('http', 'https') and f'{parsed.scheme}://{parsed.netloc}' != origin:
-            require({'nofollow', 'noopener', 'noreferrer'}.issubset(set(link['rel'].split())), 'Unsafe external link attributes')
+            rel = set(link['rel'].lower().split())
+            require({'noopener', 'noreferrer'}.issubset(rel) and 'nofollow' not in rel, 'Unsafe external link attributes')
     page.keyboard.press('Tab')
     require(page.locator('.skip-link').evaluate('el => el === document.activeElement'), 'Keyboard skip link not first')
     page.keyboard.press('Enter')
