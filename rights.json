@@ -1096,6 +1096,16 @@
     "export_sha256": "b011f57e2a6a7de72211d8422122efb9aff1c647cd7336d84939ef3ff1bc7c40"
   },
   {
+    "path": "/wp-content/uploads/2010/11/steveonjava-favicon.png",
+    "rights_holder": "unverified",
+    "status": "owner-authorized use, ownership and license unverified",
+    "basis": "Owner specifically authorized use of the historical SteveOnJava favicon. The captured home page references the original favicon URL.",
+    "note": "Historical icon includes a Java-style mark; authorship, attribution requirements, and independent rights have not been verified.",
+    "source_url": "https://web.archive.org/web/20101110123917id_/http://steveonjava.com/favicon.ico",
+    "source_sha256": "76ad4046c87d0f19f26f7319a930583f8a6a24cc1ebdea301bbd77a84d2dd034",
+    "export_sha256": "3055d0000098cd52fdc57b757453b9021a72008e3a65dc9b925c62f2ab0f48cf"
+  },
+  {
     "path": "/wp-content/uploads/2011/01/ConnDroid-Screenshot-302x500.png",
     "rights_holder": "unreviewed",
     "status": "owner-asserted, unreviewed",

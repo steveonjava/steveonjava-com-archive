@@ -247,7 +247,7 @@ def check_page(page, origin, base, robots):
     for phrase in CAVEATS:
         require(phrase not in content, 'Reader-facing caveat: ' + phrase)
     require(page.evaluate('document.documentElement.scrollWidth <= window.innerWidth'), 'Horizontal overflow')
-    resources = page.locator('img[src], script[src], link[rel="stylesheet"][href]').evaluate_all(
+    resources = page.locator('img[src], script[src], link[rel="stylesheet"][href], link[rel="icon"][href]').evaluate_all(
         "els => els.map(el => el.src || el.href)")
     for resource in resources:
         parsed = urlsplit(resource)

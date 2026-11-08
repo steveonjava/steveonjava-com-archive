@@ -389,6 +389,46 @@ class ArchiveTests(unittest.TestCase):
         self.assertNotIn('no-image', post + home)
         self.assertNotIn('class="video-poster"', post)
 
+    def test_favicon_is_reencoded_local_prefixed_and_site_specific(self):
+        asset = build.FAVICONS['steveonjava']
+        source = self.root / 'assets' / asset.lstrip('/')
+        source.parent.mkdir(parents=True, exist_ok=True)
+        image = Image.new('RGBA', (16, 16), (10, 20, 30, 0))
+        image.putpixel((0, 0), (10, 20, 30, 127))
+        metadata = PngImagePlugin.PngInfo()
+        metadata.add_text('comment', 'discard this')
+        image.save(source, pnginfo=metadata)
+        for base in ('', '/my-repo'):
+            with contextlib.redirect_stdout(io.StringIO()):
+                build.build(self.root, base)
+            for page in (self.root / '_site').rglob('*.html'):
+                self.assertIn(f'<link rel="icon" type="image/png" href="{base}{asset}">', page.read_text())
+            with Image.open(self.root / '_site' / asset.lstrip('/')) as result:
+                self.assertEqual(result.mode, 'RGBA')
+                self.assertEqual(result.tobytes(), image.tobytes())
+                self.assertFalse(result.info)
+                self.assertFalse(result.getexif())
+            build.check(self.root / '_site', base)
+        self.config.update(site='nighthacking', canonical_base='https://nighthacking.tv')
+        self.save()
+        self.compile()
+        self.assertNotIn('rel="icon"', (self.root / '_site/index.html').read_text())
+
+    def test_favicon_audit_rejects_remote_and_missing_resources(self):
+        for rel in ('icon', 'shortcut icon', 'ICON'):
+            with self.subTest(rel=rel), self.assertRaisesRegex(ValueError, 'Remote resource'):
+                build.Audit(self.root, '/').feed(f'<link rel="{rel}" href="https://example.com/icon.png">')
+        with self.assertRaisesRegex(ValueError, 'Broken local link'):
+            build.Audit(self.root, '/').feed('<link rel="icon" href="/wp-content/uploads/2010/11/missing.png">')
+
+    def test_historical_favicon_input_is_metadata_free_png(self):
+        path = TEMPLATE / 'assets' / build.FAVICONS['steveonjava'].lstrip('/')
+        self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(), '3055d0000098cd52fdc57b757453b9021a72008e3a65dc9b925c62f2ab0f48cf')
+        with Image.open(path) as image:
+            self.assertEqual((image.format, image.mode, image.size), ('PNG', 'RGBA', (16, 16)))
+            self.assertFalse(image.info)
+            self.assertFalse(image.getexif())
+
     def test_theme_art_is_local_metadata_free_and_project_prefixed(self):
         for site, host in [('steveonjava', 'steveonjava.com'), ('nighthacking', 'nighthacking.tv')]:
             self.config.update(site=site, canonical_base='https://' + host)
